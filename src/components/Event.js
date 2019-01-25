@@ -1,11 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Events } from '../events/GermanyPrisionContextEvents';
 
-const Event = (props) => {
+const Event = ({ match }) => {
+  const eventData = Events.find(({ id }) => id === match.params.eventId)
+
   return (
-    <Link to='/'>
-      { props.name }
-    </Link>
+    <div>
+      { eventData.name }
+      { eventData.description }
+    </div>
   )
 }
 
