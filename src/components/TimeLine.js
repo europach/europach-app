@@ -1,13 +1,13 @@
 import React from 'react';
-import Event from './Event';
-import { Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { Events } from '../events/GermanyPrisionContextEvents';
 
-const TimeLine = ({match, Events: events}) => {
+const TimeLine = ({ match }) => {
   return (
     <div>
       <ul>
         {
-          events.map(({ name, id }) => (
+          Events.map(({ name, id }) => (
             <li key={id}>
               <Link to={`${match.url}/${id}`}>
                 {name}
@@ -16,8 +16,6 @@ const TimeLine = ({match, Events: events}) => {
           ))
         }
       </ul>
-
-      <Route path={`${match.path}/:eventId`} component={Event} />
     </div>
   )
 }
