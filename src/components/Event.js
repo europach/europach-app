@@ -1,8 +1,8 @@
 import React from 'react';
-import { Events } from '../events/GermanyPrisionContextEvents';
+import { GermanyPrisionContextEvents } from '../events/GermanyPrisionContextEvents';
 
 const Event = ({ match }) => {
-  const eventData = Events.find(({ id }) => id === match.params.eventId)
+  const eventData = GermanyPrisionContextEvents.find(({ id }) => id === match.params.eventId)
 
   return (
     <div>
