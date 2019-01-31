@@ -1,13 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
+import TimeLine from '../components/TimeLine';
 
-const UkStory = (props) => {
+const UkStory = ({ match }) => {
   return (
     <div>
       <Link to='/'>Back Home</Link>
       <h1>
         UkProtectiveMasksForPolice
       </h1>
+
+      <Route exact path={match.path} component={TimeLine} story={'uk'} />
     </div>
   )
 }
