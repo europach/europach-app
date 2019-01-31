@@ -1,7 +1,7 @@
-import { GermanyPrisionContextEvents } from './GermanyPrisionContextEvents';
-import { UkProtectiveMasksForPoliceEvents } from './UkProtectiveMasksForPoliceEvents';
+import { GermanyEvents } from './GermanyEvents';
+import { UkEvents } from './UkEvents';
 
 export const Events = {
-  GermanyPrisionContextEvents,
-  UkProtectiveMasksForPoliceEvents,
+  GermanyEvents,
+  UkEvents,
 }

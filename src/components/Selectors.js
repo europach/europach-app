@@ -6,15 +6,15 @@ const sortByDate = dateArray => {
   });
 }
 
-export const germanyPrisionContextSelector = state => state.GermanyPrisionContextEvents
-export const ukProtectiveMasksForPoliceSelector = state => state.UkProtectiveMasksForPoliceEvents
+export const germanySelector = state => state.GermanyEvents
+export const ukSelector = state => state.UkEvents
 
 export const routingSelector = createSelector(
-  germanyPrisionContextSelector,
-  ukProtectiveMasksForPoliceSelector,
-  (germanyPrisionContextEvents, ukProtectiveMasksForPolice) => {
-    let childItems = ukProtectiveMasksForPolice.filter(item => item.logics.includes('routing'))
-    let parentItems = [ ...germanyPrisionContextEvents, ...childItems ]
+  germanySelector,
+  ukSelector,
+  (germanyEvents, ukEvents) => {
+    let childItems = ukEvents.filter(item => item.logics.includes('routing'))
+    let parentItems = [ ...germanyEvents, ...childItems ]
     return sortByDate(parentItems);
   }
 )

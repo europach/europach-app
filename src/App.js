@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import GermanyPrisionContext from './stories/GermanyPrisionContext';
-import UkProtectiveMasksForPolice from './stories/UkProtectiveMasksForPolice';
+import GermanyStory from './stories/GermanyStory';
+import UkStory from './stories/UkStory';
 import Home from './components/pages/Home';
 import Error from './components/pages/Error';
 import Event from './components/Event';
@@ -14,10 +14,10 @@ class App extends Component {
         <div style={{width: 1000, margin: '0 auto'}}>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/germany-prision-context' component={GermanyPrisionContext} />
-            <Route path={`/germany-prision-context/:eventId`} component={Event} />
+            <Route exact path='/germany' component={GermanyStory} />
+            <Route path={`/germany/:eventId`} component={Event} />
 
-            <Route path='/uk-protective-masks-for-police' component={UkProtectiveMasksForPolice} />
+            <Route path='/uk' component={UkStory} />
             <Route component={Error} />
           </Switch>
         </div>

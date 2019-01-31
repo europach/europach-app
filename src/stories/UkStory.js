@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const UkProtectiveMasksForPolice = (props) => {
+const UkStory = (props) => {
   return (
     <div>
       <Link to='/'>Back Home</Link>
@@ -12,4 +12,4 @@ const UkProtectiveMasksForPolice = (props) => {
   )
 }
 
-export default UkProtectiveMasksForPolice;
+export default UkStory;

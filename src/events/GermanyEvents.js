@@ -1,4 +1,4 @@
-export const GermanyPrisionContextEvents = [
+export const GermanyEvents = [
   {
     name: 'React Router',
     id: 'react-router',

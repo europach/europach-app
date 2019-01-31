@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import TimeLine from '../components/TimeLine';
 
-const GermanyPrisionContext = ({ match }) => {
+const GermanyStory = ({ match }) => {
   return (
     <div>
       <Link to='/'>Back Home</Link>
@@ -15,4 +15,4 @@ const GermanyPrisionContext = ({ match }) => {
   )
 }
 
-export default GermanyPrisionContext;
+export default GermanyStory;

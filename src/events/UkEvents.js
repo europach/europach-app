@@ -1,4 +1,4 @@
-export const UkProtectiveMasksForPoliceEvents = [
+export const UkEvents = [
   {
     name: 'Ruby Routes',
     id: 'ruby-programming',

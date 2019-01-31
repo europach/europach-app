@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import LogicFilterForm from './LogicFilterForm';
-import { routingSelector, germanyPrisionContextSelector } from './Selectors'
+import { routingSelector, germanySelector } from './Selectors'
 import { Events } from '../events/Events';
 
 class TimeLine extends React.Component {
@@ -14,12 +14,12 @@ class TimeLine extends React.Component {
 
   componentWillMount() {
     this.setState({
-      selectedEvents: germanyPrisionContextSelector(Events)
+      selectedEvents: germanySelector(Events)
     })
   }
 
   filterMappings = {
-    'nothing': germanyPrisionContextSelector,
+    'nothing': germanySelector,
     'routing': routingSelector
   }
 
