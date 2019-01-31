@@ -18,13 +18,13 @@ class TimeLine extends React.Component {
     })
   }
 
-  filter = (logicFilter) => {
-    const filters = {
-      'nothing': germanyPrisionContextSelector,
-      'routing': routingSelector
-    }
+  filterMappings = {
+    'nothing': germanyPrisionContextSelector,
+    'routing': routingSelector
+  }
 
-    const selectedEvents = filters[logicFilter](Events)
+  filter = (logicFilter) => {
+    const selectedEvents = this.filterMappings[logicFilter](Events)
 
     this.setState({
       selectedEvents
