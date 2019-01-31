@@ -1,47 +1,39 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import LogicFilterForm from './LogicFilterForm';
-import { routingSelector, germanySelector, ukSelector } from './Selectors'
-import { Events } from '../events/Events';
+import { storyFilter } from './StoryFilter';
 
 class TimeLine extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedEvents: null
+      selectedEvents: null,
+      currentStory: null
     };
+
+    this.handleOnChange = this.handleOnChange.bind(this);
   }
 
   componentWillMount() {
-    let baseStoryEvents = this.storyMappings[this.props.match.url](Events)
+    const currentStory = this.props.match.url;
+    const baseStoryEvents = storyFilter(currentStory, 'base');
 
     this.setState({
-      selectedEvents: baseStoryEvents
+      selectedEvents: baseStoryEvents,
+      currentStory: currentStory
     })
   }
 
-  storyMappings = {
-    '/germany': germanySelector,
-    '/uk': ukSelector
-  }
-
-  filterMappings = {
-    'nothing': this.storyMappings[this.props.match.url],
-    'routing': routingSelector
-  }
-
-  filter = (logicFilter) => {
-    const selectedEvents = this.filterMappings[logicFilter](Events)
-
+  handleOnChange(selectedValue) {
     this.setState({
-      selectedEvents
+      selectedEvents: storyFilter(this.state.currentStory, selectedValue)
     })
   }
 
   render() {
     return (
       <div>
-        <LogicFilterForm onChange={this.filter}/>
+        <LogicFilterForm onChange={this.handleOnChange}/>
 
         <ul>
           {

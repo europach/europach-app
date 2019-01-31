@@ -18,7 +18,7 @@ class LogicFilterForm extends React.Component {
         <label>
           Filter By Logics
           <select value={this.state.value} onChange={this.handleChange}>
-            <option value="nothing">Nothing</option>
+            <option value="base">Base</option>
             <option value="routing">Routing</option>
             <option value="library">Library</option>
             <option value="programming">Programming</option>
