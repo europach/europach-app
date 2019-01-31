@@ -9,16 +9,26 @@ const sortByDate = dateArray => {
 export const germanySelector = state => state.GermanyEvents
 export const ukSelector = state => state.UkEvents
 
-export const routingSelector = createSelector(
+const ukRoutingEvents = createSelector(
+  ukSelector, (ukEvents) => { return ukEvents.filter(item => item.logics.includes('routing')) }
+)
+
+const germanyRoutingEvents = createSelector(
+  germanySelector, (germanyEvents) => { return germanyEvents.filter(item => item.logics.includes('routing')) }
+)
+
+export const germanyRoutingRelationships = createSelector(
   germanySelector,
-  ukSelector,
-  (germanyEvents, ukEvents) => {
-    let childItems = ukEvents.filter(item => item.logics.includes('routing'))
-    let parentItems = [ ...germanyEvents, ...childItems ]
-    return sortByDate(parentItems);
+  ukRoutingEvents,
+  (germanyEvents, ukRoutingEvents) => {
+    return sortByDate([ ...germanyEvents, ...ukRoutingEvents ]);
   }
 )
 
-// export const librarySelector =
-// export const programmingSelector =
-// export const everythingSelector =
+export const ukRoutingRelationships = createSelector(
+  ukSelector,
+  germanyRoutingEvents,
+  (ukEvents, germanyRoutingEvents) => {
+    return sortByDate([ ...ukEvents, ...germanyRoutingEvents ]);
+  }
+)

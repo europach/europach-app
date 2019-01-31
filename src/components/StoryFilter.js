@@ -1,4 +1,9 @@
-import { routingSelector, germanySelector, ukSelector } from './Selectors'
+import {
+  germanySelector,
+  ukSelector,
+  germanyRoutingRelationships,
+  ukRoutingRelationships,
+} from './Selectors'
 import { Events } from '../events/Events';
 
 export const storyFilter = (storyUrl, filterBy) => {
@@ -7,9 +12,14 @@ export const storyFilter = (storyUrl, filterBy) => {
     '/uk': ukSelector
   }
 
+  const routingMappings = {
+    '/germany': germanyRoutingRelationships,
+    '/uk': ukRoutingRelationships
+  }
+
   const filterMappings = {
     'base': storyMappings[storyUrl],
-    'routing': routingSelector
+    'routing': routingMappings[storyUrl]
   }
 
   const executeFilter = () => {
