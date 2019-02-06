@@ -19,5 +19,12 @@ export const UkEvents = [
     description: 'best eva, everyone should program like this!',
     startDate: '1980-01-05',
     logics: ['programming']
+  },
+  {
+    name: 'meta programming',
+    id: 'meta-programming',
+    description: 'who needs to ever code!',
+    startDate: '1981-01-07',
+    logics: ['programming', 'meta programming']
   }
 ]

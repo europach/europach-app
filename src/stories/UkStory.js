@@ -10,7 +10,7 @@ const UkStory = ({ match }) => {
         UkProtectiveMasksForPolice
       </h1>
 
-      <Route exact path={match.path} component={TimeLine} story={'uk'} />
+      <Route exact path={match.path} component={TimeLine} />
     </div>
   )
 }

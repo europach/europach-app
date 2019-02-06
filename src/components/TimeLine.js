@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import LogicFilterForm from './LogicFilterForm';
+import LogicMultiSelect from './LogicMultiSelect';
 import { storyFilter } from './StoryFilter';
 
 class TimeLine extends React.Component {
@@ -24,26 +24,28 @@ class TimeLine extends React.Component {
     })
   }
 
-  handleOnChange(selectedValue) {
+  handleOnChange(selectedValues) {
     this.setState({
-      selectedEvents: storyFilter(this.state.currentStory, selectedValue)
+      selectedEvents: {}
     })
+
+    console.log('selected', selectedValues)
   }
 
   render() {
     return (
       <div>
-        <LogicFilterForm onChange={this.handleOnChange}/>
+        <LogicMultiSelect onChange={this.handleOnChange}/>
 
         <ul>
           {
-            this.state.selectedEvents && this.state.selectedEvents.map(({ name, id }) => (
-              <li key={id}>
-                <Link to={`${this.props.match.url}/${id}`}>
-                  {name}
-                </Link>
-              </li>
-            ))
+            // this.state.selectedEvents && this.state.selectedEvents.map(({ name, id }) => (
+            //   <li key={id}>
+            //     <Link to={`${this.props.match.url}/${id}`}>
+            //       {name}
+            //     </Link>
+            //   </li>
+            // ))
           }
         </ul>
       </div>
