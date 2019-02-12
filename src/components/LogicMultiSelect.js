@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Checkbox from "./Checkbox";
 
-const OPTIONS = ["Base", "Routing", "Library", "Programming"];
+const OPTIONS = ["base", "routing", "library", "programming"];
 
 class LogicMultiSelect extends Component {
   state = {

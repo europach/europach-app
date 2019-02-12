@@ -16,7 +16,7 @@ class TimeLine extends React.Component {
 
   componentWillMount() {
     const currentStory = this.props.match.url;
-    const baseStoryEvents = storyFilter(currentStory, 'base');
+    const baseStoryEvents = storyFilter(currentStory, []);
 
     this.setState({
       selectedEvents: baseStoryEvents,
@@ -26,10 +26,8 @@ class TimeLine extends React.Component {
 
   handleOnChange(selectedValues) {
     this.setState({
-      selectedEvents: {}
+      selectedEvents: storyFilter(this.state.currentStory, selectedValues)
     })
-
-    console.log('selected', selectedValues)
   }
 
   render() {
@@ -39,13 +37,13 @@ class TimeLine extends React.Component {
 
         <ul>
           {
-            // this.state.selectedEvents && this.state.selectedEvents.map(({ name, id }) => (
-            //   <li key={id}>
-            //     <Link to={`${this.props.match.url}/${id}`}>
-            //       {name}
-            //     </Link>
-            //   </li>
-            // ))
+            this.state.selectedEvents && this.state.selectedEvents.map(({ name, id }) => (
+              <li key={id}>
+                <Link to={`${this.props.match.url}/${id}`}>
+                  {name}
+                </Link>
+              </li>
+            ))
           }
         </ul>
       </div>

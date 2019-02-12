@@ -1,30 +1,57 @@
-import {
-  germanySelector,
-  ukSelector,
-  germanyRoutingRelationships,
-  ukRoutingRelationships,
-} from './Selectors'
 import { Events } from '../events/Events';
+import { germanySelector, ukSelector, ukRoutingEvents, germanyRoutingEvents } from './Selectors';
 
-export const storyFilter = (storyUrl, filterBy) => {
+export const storyFilter = (storyUrl, filters) => {
+  const STORIES = [ '/germany', '/uk' ];
+
+  const sortByDate = dateArray => {
+    return dateArray.sort((a,b) => {
+      return new Date(a.startDate) - new Date(b.startDate);
+    });
+  }
+
   const storyMappings = {
-    '/germany': germanySelector,
-    '/uk': ukSelector
+    '/germany': {
+      base: germanySelector,
+      routing: germanyRoutingEvents
+    },
+    '/uk': {
+      base: ukSelector,
+      routing: ukRoutingEvents
+    }
   }
 
-  const routingMappings = {
-    '/germany': germanyRoutingRelationships,
-    '/uk': ukRoutingRelationships
+  // get stories that aren't the main story
+    // iterate through stories
+      // find filters that match selected values
+      // build a new object based on the filters
+      // remove duplicate values
+      // sort by date
+
+
+
+  const storiesForFilter = STORIES.filter(story => story !== storyUrl);
+  const flatten = (multiDimensionalArray) => { return [].concat(...multiDimensionalArray); }
+
+  const filterStoryEvents = (storyUrl, filters) => {
+    const filteredEvents = filters.map(filter => {
+      return storyMappings[storyUrl][filter](Events)
+    });
+
+    return flatten(filteredEvents);
   }
 
-  const filterMappings = {
-    'base': storyMappings[storyUrl],
-    'routing': routingMappings[storyUrl]
+  const filter = (storyUrl, filters) => {
+    if (filters.length < 1) { return storyMappings[storyUrl].base(Events) }
+
+    const storiesWithFilter = storiesForFilter.map(story => {
+      return filterStoryEvents(story, filters);
+    });
+
+    return flatten(storiesWithFilter);
   }
 
-  const executeFilter = () => {
-    return filterMappings[filterBy](Events);
-  }
+  const filteredStories = filter(storyUrl, filters)
 
-  return executeFilter();
+  return filteredStories;
 }
