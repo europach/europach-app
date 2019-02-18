@@ -1,7 +1,7 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import { storyFilter } from '../StoryFilter';
-import { EventList, EventItem, StyledLink } from './styles';
+import { EventList, EventItem, StyledLink, Date, Section } from './styles';
 import EventCard from '../EventCard';
 
 export class Timeline extends React.Component {
@@ -31,23 +31,64 @@ export class Timeline extends React.Component {
     })
   }
 
-  render() {
+  cleanDate(date) {
+    return date.split('-')[0];
+  }
+
+  splitByDate(items) {
+    if (items.length < 1) { return; }
+
+    let itemsByDate = {}
+
+    items.forEach(item => {
+      let itemDate = this.cleanDate(item.startDate);
+      itemsByDate[itemDate] = itemsByDate[itemDate] || [];
+      itemsByDate[itemDate].push(item);
+    });
+
+    return itemsByDate;
+  }
+
+  createEventCard = ({ name, id, baseStory }) => {
     return (
-      <div>
-        <LogicMultiSelect onChange={this.handleOnChange}/>
+      <EventItem key={id}>
+        <StyledLink to={`${baseStory}/${id}`}>
+          <EventCard name={name} />
+        </StyledLink>
+      </EventItem>
+    );
+  }
+
+  createTimelineSection = (sectionDate, sectionItems) => {
+    return (
+      <Section key={sectionDate}>
+        <Date>{ sectionDate }</Date>
 
         <EventList>
           {
-            this.state.selectedEvents && this.state.selectedEvents.map(({ name, id, baseStory }) => (
-              <EventItem key={id}>
-                <StyledLink to={`${baseStory}/${id}`}>
-                  <EventCard name={name} />
-                </StyledLink>
-              </EventItem>
+            sectionItems.map((item) => (
+              this.createEventCard(item)
             ))
           }
         </EventList>
+      </Section>
+    );
+  }
+
+  render() {
+    let itemsByDate = this.splitByDate(this.state.selectedEvents);
+    let availableDates = Object.keys(itemsByDate);
+
+    return (
+      <div>
+        <LogicMultiSelect onChange={this.handleOnChange}/>
+        {
+          itemsByDate && availableDates.map(dateKey => {
+            return ( this.createTimelineSection(dateKey, itemsByDate[dateKey]) );
+          })
+        }
       </div>
     )
   }
 }
+

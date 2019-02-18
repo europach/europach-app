@@ -11,6 +11,14 @@ export const GermanyEvents = [
     baseStory,
   },
   {
+    name: 'React Router v4',
+    id: 'react-router',
+    description: 'Declarative, component based routing for React',
+    startDate: '1955-01-05',
+    logics: ['routing'],
+    baseStory,
+  },
+  {
     name: 'React.js',
     id: 'reactjs',
     description: 'A JavaScript library for building user interfaces',
