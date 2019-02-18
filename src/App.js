@@ -17,7 +17,8 @@ class App extends Component {
             <Route exact path='/germany' component={GermanyStory} />
             <Route path={`/germany/:eventId`} component={Event} />
 
-            <Route path='/uk' component={UkStory} />
+            <Route exact path='/uk' component={UkStory} />
+            <Route path={`/uk/:eventId`} component={Event} />
             <Route component={Error} />
           </Switch>
         </div>

@@ -1,8 +1,9 @@
-import React from 'react';
-import { GermanyEvents } from '../events/GermanyEvents';
+import React from 'react'
+import { detectStory } from '../events/storyMappings';
 
 const Event = ({ match }) => {
-  const eventData = GermanyEvents.find(({ id }) => id === match.params.eventId)
+  console.log('here', match.url)
+  const eventData = detectStory(match.url, match.params.eventId);
 
   return (
     <div>

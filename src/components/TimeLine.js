@@ -37,9 +37,9 @@ class TimeLine extends React.Component {
 
         <ul>
           {
-            this.state.selectedEvents && this.state.selectedEvents.map(({ name, id }) => (
+            this.state.selectedEvents && this.state.selectedEvents.map(({ name, id, baseStory }) => (
               <li key={id}>
-                <Link to={`${this.props.match.url}/${id}`}>
+                <Link to={`${baseStory}/${id}`}>
                   {name}
                 </Link>
               </li>

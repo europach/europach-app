@@ -1,6 +1,5 @@
 import { Events } from '../events/Events';
-import {
-  germanySelector, ukSelector, turkeySelector, germanyRoutingEvents, ukRoutingEvents, turkeyRoutingEvents } from './Selectors';
+import { storyMappings } from '../events/storyMappings';
 
 const STORIES = [ '/germany', '/uk', 'turkey' ];
 
@@ -12,21 +11,6 @@ const sortByDate = dateArray => {
 
 const flatten = multiDimensionalArray => {
   return [].concat(...multiDimensionalArray);
-}
-
-const storyMappings = {
-  '/germany': {
-    base: germanySelector,
-    routing: germanyRoutingEvents
-  },
-  '/uk': {
-    base: ukSelector,
-    routing: ukRoutingEvents
-  },
-  'turkey': {
-    base: turkeySelector,
-    routing: turkeyRoutingEvents
-  }
 }
 
 const storiesForFilter = (storyUrl) => {
@@ -60,11 +44,3 @@ export const storyFilter = (storyUrl, filters) => {
   const relatedLogics = relatedLogicsForStory(storyUrl, filters);
   return sortByDate([...relatedLogics, ...baseEvents]);
 }
-
-
-  // get stories that aren't the main story
-    // iterate through stories
-      // find filters that match selected values
-      // build a new object based on the filters
-      // remove duplicate values
-      // sort by date
