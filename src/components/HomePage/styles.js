@@ -16,3 +16,7 @@ export const StyledLink = styled(Link)`
   color: palevioletred;
   text-decoration: none;
 `;
+
+export const Title = styled.div`
+  padding: 0 1em;
+`;

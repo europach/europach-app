@@ -17,6 +17,7 @@ export const AppMain = styled.div`
   flex: 1;
   flex-direction: column;
   padding: 20px;
+  padding-top: 0;
 `;
 
 export const AppFooter = styled.div`
