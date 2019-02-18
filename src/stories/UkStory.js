@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
-import TimeLine from '../components/TimeLine';
+import Timeline from '../components/Timeline';
 
 const UkStory = ({ match }) => {
   return (
@@ -10,7 +10,7 @@ const UkStory = ({ match }) => {
         UkProtectiveMasksForPolice
       </h1>
 
-      <Route exact path={match.path} component={TimeLine} />
+      <Route exact path={match.path} component={Timeline} />
     </div>
   )
 }

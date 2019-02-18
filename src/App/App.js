@@ -5,7 +5,7 @@ import UkStory from '../stories/UkStory';
 import Home from '../components/HomePage';
 import Error from '../components/pages/Error';
 import Event from '../components/Event';
-import { AppContainer, AppNav, AppTitle, AppMain, AppFooter } from './styles';
+import { AppContainer, AppNav, AppMain, AppFooter } from './styles';
 
 export class App extends Component {
   render() {

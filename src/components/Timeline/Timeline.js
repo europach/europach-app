@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import LogicMultiSelect from './LogicMultiSelect';
-import { storyFilter } from './StoryFilter';
+import LogicMultiSelect from '../LogicMultiSelect';
+import { storyFilter } from '../StoryFilter';
+import { EventList, EventItem, StyledLink } from './styles';
+import EventCard from '../EventCard';
 
-class TimeLine extends React.Component {
+export class Timeline extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -35,20 +36,18 @@ class TimeLine extends React.Component {
       <div>
         <LogicMultiSelect onChange={this.handleOnChange}/>
 
-        <ul>
+        <EventList>
           {
             this.state.selectedEvents && this.state.selectedEvents.map(({ name, id, baseStory }) => (
-              <li key={id}>
-                <Link to={`${baseStory}/${id}`}>
-                  {name}
-                </Link>
-              </li>
+              <EventItem key={id}>
+                <StyledLink to={`${baseStory}/${id}`}>
+                  <EventCard name={name} />
+                </StyledLink>
+              </EventItem>
             ))
           }
-        </ul>
+        </EventList>
       </div>
     )
   }
 }
-
-export default TimeLine;
