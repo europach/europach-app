@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import GermanyStory from './stories/GermanyStory';
-import UkStory from './stories/UkStory';
-import Home from './components/pages/Home';
-import Error from './components/pages/Error';
-import Event from './components/Event';
-import './App.css';
+import GermanyStory from '../stories/GermanyStory';
+import UkStory from '../stories/UkStory';
+import Home from '../components/pages/Home';
+import Error from '../components/pages/Error';
+import Event from '../components/Event';
+import { AppContainer } from './styles';
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <Router>
-        <div style={{width: 1000, margin: '0 auto'}}>
+        <AppContainer>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/germany' component={GermanyStory} />
@@ -21,10 +21,8 @@ class App extends Component {
             <Route path={`/uk/:eventId`} component={Event} />
             <Route component={Error} />
           </Switch>
-        </div>
+        </AppContainer>
       </Router>
     );
   }
 }
-
-export default App;
