@@ -3,13 +3,15 @@ import LogicMultiSelect from '../LogicMultiSelect';
 import { storyFilter } from '../StoryFilter';
 import { EventList, EventItem, StyledLink, Date, Section } from './styles';
 import EventCard from '../EventCard';
+import Modal from '../Modal';
 
 export class Timeline extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       selectedEvents: null,
-      currentStory: null
+      currentStory: null,
+      show: false
     };
 
     this.handleOnChange = this.handleOnChange.bind(this);
@@ -75,6 +77,14 @@ export class Timeline extends React.Component {
     );
   }
 
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+
   render() {
     let itemsByDate = this.splitByDate(this.state.selectedEvents);
     let availableDates = Object.keys(itemsByDate);
@@ -87,6 +97,13 @@ export class Timeline extends React.Component {
             return ( this.createTimelineSection(dateKey, itemsByDate[dateKey]) );
           })
         }
+        <Modal show={this.state.show} handleClose={this.hideModal}>
+          <p>Modal</p>
+          <p>Data</p>
+        </Modal>
+        <button type="button" onClick={this.showModal}>
+          open
+        </button>
       </div>
     )
   }
