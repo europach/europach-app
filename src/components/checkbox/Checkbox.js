@@ -1,23 +1,18 @@
 import React from "react";
-import { Button } from "./styles";
-
-const CheckboxButton = ({ label, isSelected }) => (
-  <Button isSelected={isSelected}>
-    { label }
-  </Button>
-);
+import { StyledCheckbox, HiddenCheckbox } from "./styles";
 
 export const Checkbox = ({ label, isSelected, onCheckboxChange }) => (
   <div>
     <label>
-      <input
-        type="checkbox"
+      <HiddenCheckbox
         name={label}
         checked={isSelected}
         onChange={onCheckboxChange}
       />
 
-      <CheckboxButton label={label} isSelected={isSelected} />
+      <StyledCheckbox isSelected={isSelected}>
+        { label }
+      </StyledCheckbox>
     </label>
   </div>
 );

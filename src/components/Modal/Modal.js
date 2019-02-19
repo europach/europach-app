@@ -1,12 +1,13 @@
 import React from 'react';
-import { ModalContainer, ModalMain } from './styles';
+import { ModalContainer, ModalMain, ModalInner } from './styles';
 
-export const Modal = ({ handleClose, show, children }) => {
+export const Modal = ({ show, children }) => {
   return (
     <ModalContainer show={show}>
       <ModalMain>
-        {children}
-        <button onClick={handleClose}>close</button>
+        <ModalInner>
+          {children}
+        </ModalInner>
       </ModalMain>
     </ModalContainer>
   );

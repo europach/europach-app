@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Checkbox from "./Checkbox";
+import { BasicCheckbox } from './Checkbox/Checkbox';
 
 const OPTIONS = ["routing"];
 
@@ -11,22 +12,9 @@ class LogicMultiSelect extends Component {
         [option]: false
       }),
       {}
-    )
+    ),
+    showEventsAcrossStories: false
   };
-
-  selectAllCheckboxes = isSelected => {
-    Object.keys(this.state.checkboxes).forEach(checkbox => {
-      this.setState(prevState => ({
-        checkboxes: {
-          ...prevState.checkboxes,
-          [checkbox]: isSelected
-        }
-      }));
-    });
-  };
-
-  selectAll = () => this.selectAllCheckboxes(true);
-  deselectAll = () => this.selectAllCheckboxes(false);
 
   handleCheckboxChange = changeEvent => {
     const { name } = changeEvent.target;
@@ -38,6 +26,12 @@ class LogicMultiSelect extends Component {
       }
     }));
   };
+
+  handleEventsAcrossStoriesChange = () => {
+    this.setState(prevState => ({
+      showEventsAcrossStories: !prevState.showEventsAcrossStories
+    }));
+  }
 
   handleFormSubmit = formSubmitEvent => {
     formSubmitEvent.preventDefault();
@@ -60,14 +54,21 @@ class LogicMultiSelect extends Component {
   createCheckboxes = () => OPTIONS.map(this.createCheckbox);
 
   render() {
+    const { children } = this.props;
+
     return (
       <div>
         <form onSubmit={this.handleFormSubmit}>
-          {this.createCheckboxes()}
+          { this.createCheckboxes() }
 
+          <BasicCheckbox
+            label={'Show events from other stories'}
+            isSelected={this.state.showEventsAcrossStories}
+            onCheckboxChange={this.handleEventsAcrossStoriesChange}
+          />
+
+          { children }
           <div>
-            <button type="button" onClick={this.selectAll}>Check All</button>
-            <button type="button" onClick={this.deselectAll}>Check None</button>
             <button type="submit">Save</button>
           </div>
         </form>
