@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Checkbox from "./checkbox";
+import Checkbox from "./Checkbox";
 
 const OPTIONS = ["routing"];
 

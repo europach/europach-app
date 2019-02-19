@@ -29,3 +29,15 @@ export const Date = styled.div`
   text-orientation: sideways;
   display: inline-block;
 `;
+
+export const Circle = styled.div`
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: red;
+  position: fixed;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+`

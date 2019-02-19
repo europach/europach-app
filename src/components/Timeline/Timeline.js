@@ -1,9 +1,10 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import { storyFilter } from '../StoryFilter';
-import { EventList, EventItem, StyledLink, Date, Section } from './styles';
+import { EventList, EventItem, StyledLink, Date, Section, Circle } from './styles';
 import EventCard from '../EventCard';
 import Modal from '../Modal';
+import { BasicCheckbox } from '../Checkbox/Checkbox';
 
 export class Timeline extends React.Component {
   constructor(props) {
@@ -11,10 +12,9 @@ export class Timeline extends React.Component {
     this.state = {
       selectedEvents: null,
       currentStory: null,
-      show: false
+      showModal: false,
+      showEventsAcrossStories: false,
     };
-
-    this.handleOnChange = this.handleOnChange.bind(this);
   }
 
   componentWillMount() {
@@ -27,7 +27,7 @@ export class Timeline extends React.Component {
     })
   }
 
-  handleOnChange(selectedValues) {
+  handleOnChange = (selectedValues) => {
     this.setState({
       selectedEvents: storyFilter(this.state.currentStory, selectedValues)
     })
@@ -77,13 +77,19 @@ export class Timeline extends React.Component {
     );
   }
 
-  showModal = () => {
-    this.setState({ show: true });
+  displayModal = () => {
+    this.setState({ showModal: true });
   };
 
   hideModal = () => {
-    this.setState({ show: false });
+    this.setState({ showModal: false });
   };
+
+  handleCheckboxChange = () => {
+    this.setState(prevState => ({
+      showEventsAcrossStories: !prevState.showEventsAcrossStories
+    }));
+  }
 
   render() {
     let itemsByDate = this.splitByDate(this.state.selectedEvents);
@@ -91,19 +97,31 @@ export class Timeline extends React.Component {
 
     return (
       <div>
-        <LogicMultiSelect onChange={this.handleOnChange}/>
         {
           itemsByDate && availableDates.map(dateKey => {
             return ( this.createTimelineSection(dateKey, itemsByDate[dateKey]) );
           })
         }
-        <Modal show={this.state.show} handleClose={this.hideModal}>
-          <p>Modal</p>
-          <p>Data</p>
+
+        <Modal show={this.state.showModal} handleClose={this.hideModal}>
+          <h1>Explore Themes</h1>
+
+          <p>
+            See how events connect across borders and topics
+            for a better understanding of how the past has
+            influenced the present
+          </p>
+
+          <LogicMultiSelect onChange={this.handleOnChange}/>
+
+          <BasicCheckbox
+            label={'Show events from other stories'}
+            isSelected={this.state.showEventsAcrossStories}
+            onCheckboxChange={this.handleCheckboxChange}
+          />
         </Modal>
-        <button type="button" onClick={this.showModal}>
-          open
-        </button>
+
+        <Circle onClick={this.displayModal} />
       </div>
     )
   }
