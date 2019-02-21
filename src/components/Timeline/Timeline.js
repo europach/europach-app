@@ -49,11 +49,11 @@ export class Timeline extends React.Component {
     return itemsByDate;
   }
 
-  createEventCard = ({ name, id, baseStory }) => {
+  createEventCard = ({ url, baseStory }, item) => {
     return (
-      <EventItem key={id}>
-        <StyledLink to={`${baseStory}/${id}`}>
-          <EventCard name={name} />
+      <EventItem key={url}>
+        <StyledLink to={`${baseStory}/${url}`}>
+          <EventCard eventData={item} />
         </StyledLink>
       </EventItem>
     );

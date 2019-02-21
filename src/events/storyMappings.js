@@ -24,11 +24,11 @@ export const storyMappings = {
   }
 }
 
-export const detectStory = (storyUrl, eventId) => {
+export const detectStory = (storyUrl, eventUrl) => {
   const currentStory = storyUrl.split('/')[1];
   const storyEvents = storyMappings[`/${currentStory}`].base(Events);
 
-  const story = storyEvents.find(({ id }) => id === eventId)
+  const story = storyEvents.find(({ url }) => url === eventUrl)
 
   return story;
 }

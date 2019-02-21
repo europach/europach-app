@@ -1,10 +1,10 @@
 import React from 'react';
 import { SmallCard } from './styles';
 
-export const EventCard = (props) => {
+export const EventCard = ({ eventData }) => {
   return (
     <SmallCard>
-      { props.name }
+      { eventData.name }
     </SmallCard>
   )
 }
