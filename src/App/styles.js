@@ -5,24 +5,34 @@ export const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const AppNav = styled.header`
-  background: palevioletred;
-  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+`;
+
+export const AppNavInner = styled.div`
+  max-width: 348px;
+  width: 100%;
 `;
 
 export const AppMain = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 20px;
   padding-top: 0;
+  max-width: 348px;
 `;
 
 export const AppFooter = styled.div`
-  background: palevioletred;
   height: 10vh;
   padding: 1em;
+  width: 100%;
 `;
 

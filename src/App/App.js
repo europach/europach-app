@@ -5,14 +5,19 @@ import UkStory from '../stories/UkStory';
 import Home from '../components/HomePage';
 import Error from '../components/pages/Error';
 import Event from '../components/Event';
-import { AppContainer, AppNav, AppMain, AppFooter } from './styles';
+import { AppContainer, AppNav, AppNavInner, AppMain, AppFooter } from './styles';
+import logo from '../assets/images/logo.svg';
 
 export class App extends Component {
   render() {
     return (
       <Router>
         <AppContainer>
-          <AppNav>Europach</AppNav>
+          <AppNav>
+            <AppNavInner>
+              <img src={logo} alt="Logo" />
+            </AppNavInner>
+          </AppNav>
 
           <AppMain>
             <Switch>

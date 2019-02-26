@@ -1,18 +1,19 @@
 import React from 'react';
 import { StoryList, StoryItem, StyledLink, Title } from './styles';
+import { TitleText, BodyText } from '../../assets/styles/common';
 import StoryCard from '../StoryCard';
 
 export const HomePage = (props) => {
   return (
     <div>
       <Title>
-      <h1 style={{margin: 0}}>
-        "Disentangling European HIV/AIDS Policies: Activism, Citizenship and Health"
-      </h1>
+        <TitleText>
+          "Disentangling European HIV/AIDS Policies: Activism, Citizenship and Health"
+        </TitleText>
 
-      <p>
-        how the history of HIV policy making in Europe has shaped the way we engage with the epidemic today
-      </p>
+        <BodyText>
+          how the history of HIV policy making in Europe has shaped the way we engage with the epidemic today
+        </BodyText>
       </Title>
       <StoryList>
         <StoryItem>
