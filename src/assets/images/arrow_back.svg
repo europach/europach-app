@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Icon / Keyboard Arrow - Left / Filled Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="11.41 7.41 10 6 4 12 10 18 11.41 16.59 6.83 12"></polygon>
+    </defs>
+    <g id="Europac-v5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05Story01Browse-Copy" transform="translate(-18.000000, -56.000000)">
+            <g id="Icon-/-Keyboard-Arrow---Left-/-Filled" transform="translate(14.000000, 50.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="icon/navigation/chevron_left_24px" fill-rule="nonzero"></g>
+                <g id="✱-/-Color-/-Icons-/-Selected-/-On-Surface-/-Inactive" mask="url(#mask-2)" fill="#4A4A4A" fill-rule="evenodd">
+                    <g transform="translate(4.000000, 0.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+                <rect id="Rectangle-2" stroke="#4A4A4A" stroke-width="1" fill="#4A4A4A" fill-rule="nonzero" x="6.5" y="11.5" width="13" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
