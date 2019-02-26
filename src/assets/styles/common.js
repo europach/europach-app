@@ -35,3 +35,8 @@ export const BodyText = styled.p`
   font-size: 16px;
   color: rgb(0,0,0, 0.75);
 `;
+
+export const Img = styled.img`
+  src: url(${props => props.src});
+  max-width: 100%;
+`
