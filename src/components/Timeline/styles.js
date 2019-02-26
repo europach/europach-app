@@ -5,7 +5,7 @@ export const Section = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  border-top: solid 1px black;
+  border-top: solid 1px #eed5ca;
 `;
 
 export const EventList = styled.ul`

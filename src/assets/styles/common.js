@@ -27,16 +27,28 @@ export const ByLine = styled.div`
 export const SubHeadText = styled.p`
   font-family: 'Lekton', sans-serif;
   font-size: 14px;
-  color: rgb(0,0,0, 0.75);
+  color: rgba(0,0,0,0.75);
 `;
 
 export const BodyText = styled.p`
   font-family: 'Lekton', sans-serif;
   font-size: 16px;
-  color: rgb(0,0,0, 0.75);
+  color: rgba(0,0,0,0.75);
 `;
 
 export const Img = styled.img`
   src: url(${props => props.src});
   max-width: 100%;
+`
+
+export const DateRedThin = styled.span`
+  font-family: 'Lekton', sans-serif;
+  font-size: 13px;
+  color: #de0512;
+`
+
+export const EventBody = styled.p`
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0,0,0,0.70);
 `
