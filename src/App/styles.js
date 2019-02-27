@@ -18,8 +18,12 @@ export const AppNav = styled.header`
 `;
 
 export const AppNavInner = styled.div`
-  max-width: 348px;
+  max-width: 660px;
   width: 100%;
+
+  @media (max-width: 468px) {
+    max-width: 348px;
+  }
 `;
 
 export const AppMain = styled.div`
@@ -27,7 +31,11 @@ export const AppMain = styled.div`
   flex: 1;
   flex-direction: column;
   padding-top: 0;
-  max-width: 348px;
+  max-width: 660px;
+
+  @media (max-width: 468px) {
+    max-width: 348px;
+  }
 `;
 
 export const AppFooter = styled.div`
