@@ -54,3 +54,20 @@ export const detectPreviousEvent = (storyUrl, eventUrl) => {
     return events[storyIndex - 1];
   }
 }
+
+export const detectNextEvent = (storyUrl, eventUrl) => {
+  const events =
+    storyEvents(
+      currentStory(storyUrl)
+    );
+
+  const storyIndex = events.findIndex(({ url }) => url === eventUrl)
+
+  if (storyIndex === events.length) {
+    return undefined; // last item
+  } else if (storyIndex === -1) {
+    return undefined; // not found
+  } else if (storyIndex < events.length) {
+    return events[storyIndex + 1];
+  }
+}

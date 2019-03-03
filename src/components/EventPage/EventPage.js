@@ -41,10 +41,12 @@ const PreviousEvent = ({ startDate, name }) => {
   )
 }
 
-const NextEvent = () => {
+const NextEvent = ({ startDate, name }) => {
   return (
     <div>
       Next
+      { startDate }
+      { name }
     </div>
   )
 }
@@ -55,6 +57,7 @@ export const EventPage = ({ match }) => {
   const eventUrl= match.params.eventId;
   const currentEvent = detectEvent(storyUrl, eventUrl);
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
+  const nextEvent = detectNextEvent(storyUrl, eventUrl);
 
   const elementMapping = {
     'paragraph': Paragraph,
@@ -81,8 +84,11 @@ export const EventPage = ({ match }) => {
         <PreviousEvent startDate={previousEvent.startDate} name={previousEvent.name} /> :
         <div>no previous events</div>
       }
-
-      <NextEvent />
+      {
+        nextEvent ?
+        <NextEvent startDate={nextEvent.startDate} name={nextEvent.name} /> :
+        <div>no next event</div>
+      }
 
       In Context
       { LinkedEvents(currentEvent.linksWith, match.url) }
