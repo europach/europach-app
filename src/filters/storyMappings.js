@@ -24,11 +24,33 @@ export const storyMappings = {
   }
 }
 
-export const detectStory = (storyUrl, eventUrl) => {
-  const currentStory = storyUrl.split('/')[1];
-  const storyEvents = storyMappings[`/${currentStory}`].base(Events);
+const currentStory = (storyUrl) => storyUrl.split('/')[1];
+const storyEvents = (currentStory) => storyMappings[`/${currentStory}`].base(Events);
 
-  const story = storyEvents.find(({ url }) => url === eventUrl)
+export const detectEvent = (storyUrl, eventUrl) => {
+  const events =
+    storyEvents(
+      currentStory(storyUrl)
+    );
+
+  const story = events.find(({ url }) => url === eventUrl)
 
   return story;
+}
+
+export const detectPreviousEvent = (storyUrl, eventUrl) => {
+  const events =
+    storyEvents(
+      currentStory(storyUrl)
+    );
+
+  const storyIndex = events.findIndex(({ url }) => url === eventUrl)
+
+  if (storyIndex === 0) {
+    return undefined; // first item
+  } else if (storyIndex === -1) {
+    return undefined; // not found
+  } else if (storyIndex > 0) {
+    return events[storyIndex - 1];
+  }
 }

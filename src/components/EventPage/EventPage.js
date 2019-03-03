@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
-import { detectStory } from '../../filters/storyMappings';
+import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import EventCard from '../EventCard';
 
 const Image = (content) => (
@@ -14,27 +14,47 @@ const Paragraph = (content) => (
 const Audio = (content) => (
   <ReactAudioPlayer
     src={content}
-    autoPlay
+    autoPlay={false}
     controls
   />
 );
 
-const LinkedEvents = (eventUrls, currentUrl) => {
+const LinkedEvents = (eventsInContext, storyUrl) => {
   return (
     <div>
-      { eventUrls.map(url => {
-          const eventData = detectStory(currentUrl, url);
-          return <EventCard eventData={eventData} />
+      { eventsInContext.map(eventUrl => {
+          const eventInContext = detectEvent(storyUrl, eventUrl);
+          return <EventCard eventData={eventInContext} />
         })
       }
     </div>
   );
 }
 
+const PreviousEvent = ({ startDate, name }) => {
+  return (
+    <div>
+      Previous
+      { startDate }
+      { name }
+    </div>
+  )
+}
+
+const NextEvent = () => {
+  return (
+    <div>
+      Next
+    </div>
+  )
+}
+
 export const EventPage = ({ match }) => {
   // eventId should be eventUrl
-  console.log(match.url)
-  const eventData = detectStory(match.url, match.params.eventId);
+  const storyUrl= match.url;
+  const eventUrl= match.params.eventId;
+  const currentEvent = detectEvent(storyUrl, eventUrl);
+  const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
 
   const elementMapping = {
     'paragraph': Paragraph,
@@ -44,7 +64,7 @@ export const EventPage = ({ match }) => {
 
   const buildJsxElements = () => {
     return(
-      eventData.body.map(({type, content}) => {
+      currentEvent.body.map(({type, content}) => {
         return elementMapping[type](content);
       })
     );
@@ -52,9 +72,22 @@ export const EventPage = ({ match }) => {
 
   return (
     <div>
-      { eventData.name }
+      { currentEvent.name }
       { buildJsxElements() }
-      { LinkedEvents(eventData.linksWith, match.url) }
+
+      Timeline
+      {
+        previousEvent ?
+        <PreviousEvent startDate={previousEvent.startDate} name={previousEvent.name} /> :
+        <div>no previous events</div>
+      }
+
+      <NextEvent />
+
+      In Context
+      { LinkedEvents(currentEvent.linksWith, match.url) }
+
+      Explore Logics
     </div>
   )
 }
