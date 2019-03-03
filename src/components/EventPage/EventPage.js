@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
-import { detectStory } from '../events/storyMappings';
-import EventCard from './EventCard';
+import { detectStory } from '../../events/storyMappings';
+import EventCard from '../EventCard';
 
 const Image = (content) => (
   <img src={content} alt={''} />
@@ -31,7 +31,7 @@ const LinkedEvents = (eventUrls, currentUrl) => {
   );
 }
 
-const Event = ({ match }) => {
+export const EventPage = ({ match }) => {
   // eventId should be eventUrl
   console.log(match.url)
   const eventData = detectStory(match.url, match.params.eventId);
@@ -58,5 +58,3 @@ const Event = ({ match }) => {
     </div>
   )
 }
-
-export default Event;

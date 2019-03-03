@@ -31,6 +31,7 @@ export const AppMain = styled.div`
   flex: 1;
   flex-direction: column;
   padding-top: 0;
+  width: 100%;
   max-width: 660px;
 
   @media (max-width: 468px) {
@@ -42,5 +43,18 @@ export const AppFooter = styled.div`
   height: 10vh;
   padding: 1em;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 `;
 
+export const AppFooterInner = styled.div`
+  max-width: 660px;
+  width: 100%;
+
+  @media (max-width: 468px) {
+    max-width: 348px;
+  }
+`;
