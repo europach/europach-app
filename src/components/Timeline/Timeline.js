@@ -1,7 +1,8 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import { storyFilter } from '../StoryFilter';
-import { EventList, EventItem, StyledLink, Date, Section, Circle } from './styles';
+import { EventList, EventItem, Date, Section, Circle } from './styles';
+import { StyledLink } from '../../assets/styles/common';
 import EventCard from '../EventCard';
 import Modal from '../Modal';
 
@@ -50,7 +51,7 @@ export class Timeline extends React.Component {
   }
 
   createEventCard = (item) => {
-    const { url, baseStory} = item;
+    const { url, baseStory } = item;
 
     return (
       <EventItem key={url}>
@@ -106,7 +107,7 @@ export class Timeline extends React.Component {
             influenced the present
           </p>
 
-          <LogicMultiSelect onChange={this.handleOnChange} onClose={this.hideModal}/>
+          <LogicMultiSelect onChange={this.handleOnChange} onClose={this.hideModal} />
         </Modal>
 
         <Circle onClick={this.displayModal} />

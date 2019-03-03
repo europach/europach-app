@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import GermanyStory from '../stories/GermanyStory';
-import UkStory from '../stories/UkStory';
+import StoryPage from '../components/StoryPage';
 import Home from '../components/HomePage';
 import Error from '../components/pages/Error';
 import EventPage from '../components/EventPage';
@@ -22,10 +21,10 @@ export class App extends Component {
           <AppMain>
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route exact path='/germany' component={GermanyStory} />
+              <Route exact path='/germany' component={StoryPage} />
               <Route path={`/germany/:eventId`} component={EventPage} />
 
-              <Route exact path='/uk' component={UkStory} />
+              <Route exact path='/uk' component={StoryPage} />
               <Route path={`/uk/:eventId`} component={EventPage} />
               <Route component={Error} />
             </Switch>

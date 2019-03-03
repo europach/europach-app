@@ -1,6 +1,6 @@
 import React from 'react';
-import { SmallCard } from './styles';
-import { Img, DateRedThin, EventBody } from '../../assets/styles/common';
+import { Card, Header } from './styles';
+import { ResponsiveImg, DateRedThin, EventBody } from '../../assets/styles/common';
 import storyImage from '../../assets/images/iconBerlin.svg';
 
 export const EventCard = (props) => {
@@ -8,14 +8,15 @@ export const EventCard = (props) => {
   const { eventData } = props;
 
   return (
-    <SmallCard>
-      <div>
-        <Img src={storyImage} />
+    <Card>
+      <Header>
+        <ResponsiveImg src={storyImage} width={'24px'} />
+        &nbsp;
         <DateRedThin>1st Jan 1955 - 6th Aug 2018</DateRedThin>
-      </div>
+      </Header>
       <EventBody>
-        { props.eventData.name }
+        { eventData.name }
       </EventBody>
-    </SmallCard>
+    </Card>
   )
 }

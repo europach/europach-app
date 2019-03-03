@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const SmallCard = styled.div`
+export const Card = styled.div`
   padding: 12px 12px 24px;
   display: flex;
   flex-direction: column;
@@ -21,3 +21,8 @@ export const SmallCard = styled.div`
     transform: scale(1.01);
   }
 `;
+
+export const Header = styled.div`
+  display: flex;
+  align-items: center;
+`

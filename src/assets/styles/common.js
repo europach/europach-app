@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 export const TitleText = styled.h1`
@@ -36,11 +37,6 @@ export const BodyText = styled.p`
   color: rgba(0,0,0,0.75);
 `;
 
-export const Img = styled.img`
-  src: url(${props => props.src});
-  max-width: 100%;
-`
-
 export const DateRedThin = styled.span`
   font-family: 'Lekton', sans-serif;
   font-size: 13px;
@@ -69,3 +65,24 @@ export const Button = styled.button`
       background: #c90000;
     }
 `
+
+export const ImageWrapper = styled.div`
+  margin: 16px 0 32px;
+`
+
+export const ResponsiveImg = styled.img`
+  src: url(${props => props.src});
+  max-width: 100%;
+  width: ${props => props.width};
+  height: auto;
+`
+
+export const Img = styled.img`
+  src: url(${props => props.src});
+  max-width: 100%;
+`
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: rgba(0,0,0,0.75);
+`;
