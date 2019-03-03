@@ -8,7 +8,7 @@ export const ModalContainer = styled.div`
   height: 100%;
   background: #fbe9e7;
   display: none;
-  z-index: 2;
+  z-index: 3;
 
   ${props => props.show && css`
     display: block;

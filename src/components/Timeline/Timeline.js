@@ -1,7 +1,7 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import { storyFilter } from '../StoryFilter';
-import { EventList, EventItem, Date, Section, Circle } from './styles';
+import { EventList, EventItem, Date, Section, Circle, FilterContainer, FilterContainerInner } from './styles';
 import { StyledLink } from '../../assets/styles/common';
 import EventCard from '../EventCard';
 import Modal from '../Modal';
@@ -110,7 +110,12 @@ export class Timeline extends React.Component {
           <LogicMultiSelect onChange={this.handleOnChange} onClose={this.hideModal} />
         </Modal>
 
-        <Circle onClick={this.displayModal} />
+        <FilterContainer>
+          <FilterContainerInner>
+            <Circle onClick={this.displayModal} />
+            EXPLORE
+          </FilterContainerInner>
+        </FilterContainer>
       </div>
     )
   }

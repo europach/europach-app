@@ -33,9 +33,23 @@ export const Circle = styled.div`
   height: 50px;
   border-radius: 25px;
   background: red;
-  position: fixed;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   cursor: pointer;
+  margin: 0 auto 8px;
+`
+
+export const FilterContainer = styled.div`
+  position: fixed;
+  top: 91%;
+  left: 0;
+  background: white;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+`
+
+export const FilterContainerInner = styled.div`
+  position: fixed;
+  left: 50%;
+  top: 93%;
+  transform: translate(-50%,-50%);
 `
