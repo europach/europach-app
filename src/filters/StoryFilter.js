@@ -17,10 +17,14 @@ const storiesForFilter = (storyUrl) => {
   return STORIES.filter(story => story !== storyUrl);
 };
 
-const storyEventsForLogic = (storyUrl, filters) => {
-  const filteredEvents = filters.map(filter => {
-    return storyMappings[storyUrl][filter](Events)
-  });
+const filteredLogicsForStory = (storyUrl, filters) => {
+  let logicFilter;
+
+  const filteredEvents = filters.reduce(function(result, filter) {
+    logicFilter = storyMappings[storyUrl][filter];
+    logicFilter && result.push(logicFilter(Events));
+    return result;
+  }, []);
 
   return flatten(filteredEvents);
 }
@@ -29,18 +33,27 @@ const baseStoryEvents = (storyUrl) => {
   return storyMappings[storyUrl].base(Events)
 }
 
-const relatedLogicsForStory = (storyUrl, filters) => {
+// this will return selected logics for other stories
+const filteredLogicsForOtherStories = (storyUrl, filters) => {
   const storiesWithFilter = storiesForFilter(storyUrl).map(story => {
-    return storyEventsForLogic(story, filters);
+    return filteredLogicsForStory(story, filters);
   });
 
   return flatten(storiesWithFilter);
 }
 
-export const storyFilter = (storyUrl, filters) => {
+export const storyFilter = (storyUrl, filters, showOtherStories) => {
+  let relatedLogics;
   const baseEvents = baseStoryEvents(storyUrl);
-  if (filters.length < 1) { return baseEvents };
+  const zeroFilters = filters.length < 1
 
-  const relatedLogics = relatedLogicsForStory(storyUrl, filters);
-  return sortByDate([...relatedLogics, ...baseEvents]);
+  if (zeroFilters) { return baseEvents }; // nothing selected
+
+  if (showOtherStories) {
+    relatedLogics = filteredLogicsForOtherStories(storyUrl, filters); //  show other story logics
+    return sortByDate([...relatedLogics, ...baseEvents]);
+  } else {
+    relatedLogics = filteredLogicsForStory(storyUrl, filters);
+    return sortByDate([...relatedLogics]);
+  }
 }

@@ -26,9 +26,13 @@ export class Timeline extends React.Component {
     })
   }
 
-  handleOnChange = (selectedValues) => {
+  handleOnSubmit = (selectedValues, showOtherStories) => {
     this.setState({
-      selectedEvents: storyFilter(this.state.currentStory, selectedValues)
+      selectedEvents: storyFilter(
+        this.state.currentStory,
+        selectedValues,
+        showOtherStories
+      )
     })
   }
 
@@ -107,7 +111,7 @@ export class Timeline extends React.Component {
             influenced the present
           </p>
 
-          <LogicMultiSelect onChange={this.handleOnChange} onClose={this.hideModal} />
+          <LogicMultiSelect onSubmit={this.handleOnSubmit} onClose={this.hideModal} />
         </Modal>
 
         <FilterContainer>

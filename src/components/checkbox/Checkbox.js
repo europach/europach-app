@@ -17,11 +17,11 @@ export const Checkbox = ({ label, isSelected, onCheckboxChange }) => (
   </div>
 );
 
-export const BasicCheckbox = ({ label, isSelected, onCheckboxChange }) => (
+export const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
   <label>
     <input
       type="checkbox"
-      name={label}
+      name={name}
       checked={isSelected}
       onChange={onCheckboxChange}
     />

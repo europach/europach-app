@@ -51,9 +51,9 @@ export class LogicMultiSelect extends Component {
   handleFormSubmit = formSubmitEvent => {
     formSubmitEvent.preventDefault();
 
-    this.props.onChange(
-      Object.keys(this.state.checkboxes)
-      .filter(checkbox => this.state.checkboxes[checkbox])
+    this.props.onSubmit(
+      Object.keys(this.state.checkboxes).filter(checkbox => this.state.checkboxes[checkbox]),
+      this.state.showEventsAcrossStories
     )
 
     this.props.onClose();
@@ -66,6 +66,7 @@ export class LogicMultiSelect extends Component {
         isSelected={this.state.checkboxes[option]}
         onCheckboxChange={this.handleCheckboxChange}
         key={option}
+        name={option}
       />
     </CheckboxItem>
   );
@@ -89,6 +90,7 @@ export class LogicMultiSelect extends Component {
               label={'Show events from other stories'}
               isSelected={this.state.showEventsAcrossStories}
               onCheckboxChange={this.handleEventsAcrossStoriesChange}
+              name={'show-other-events'}
             />
           </div>
 
