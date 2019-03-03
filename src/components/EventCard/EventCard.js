@@ -1,12 +1,18 @@
 import React from 'react';
 import { Card, Header, Logics, Logic, LogicText } from './styles';
 import { ResponsiveImg, DateRedThin, EventBody } from '../../assets/styles/common';
-import storyImage from '../../assets/images/iconBerlin.svg';
+import BerlinImage from '../../assets/images/iconBerlin.svg';
+import UKImage from '../../assets/images/iconUK.svg';
 import Moment from 'react-moment';
 
+const ImageIconMapping = {
+  'germany': BerlinImage,
+  'uk': UKImage
+}
+
 export const EventCard = (props) => {
-  console.log('props', props)
   const { eventData } = props;
+  const storyImage = ImageIconMapping[eventData.baseStory];
 
   return (
     <Card>
@@ -26,7 +32,7 @@ export const EventCard = (props) => {
         </DateRedThin>
       </Header>
       <EventBody>
-        { eventData.name }
+        { eventData.name.toUpperCase() }
       </EventBody>
       <Logics>
         {

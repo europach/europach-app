@@ -1,4 +1,4 @@
-const baseStory = '/uk';
+const baseStory = 'uk';
 
 export const UkEvents = [
   {
