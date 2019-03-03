@@ -5,9 +5,9 @@ import {
   germanyRoutingEvents,
   ukRoutingEvents,
   turkeyRoutingEvents
-} from './Selectors';
+} from '../selectors/Selectors';
 
-import { Events } from './Events';
+import { Events } from '../events/Events';
 
 export const storyMappings = {
   '/germany': {

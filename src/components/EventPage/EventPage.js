@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
-import { detectStory } from '../../events/storyMappings';
+import { detectStory } from '../../filters/storyMappings';
 import EventCard from '../EventCard';
 
 const Image = (content) => (

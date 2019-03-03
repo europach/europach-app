@@ -1,5 +1,5 @@
 import { Events } from '../events/Events';
-import { storyMappings } from '../events/storyMappings';
+import { storyMappings } from './storyMappings';
 
 const STORIES = [ '/germany', '/uk', 'turkey' ];
 
