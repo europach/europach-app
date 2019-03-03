@@ -26,7 +26,7 @@ export const GermanyEvents = [
     sources: ['source', 'source'],
     startDate: '1955-01-05',
     endDate: '1960-01-05',
-    logics: ['routing'],
+    logics: ['routing', 'programming', 'libary'],
     linksWith: ['reactjs', 'functional-programming'],
     baseStory
   },

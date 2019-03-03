@@ -26,3 +26,22 @@ export const Header = styled.div`
   display: flex;
   align-items: center;
 `
+
+export const Logics = styled.ul`
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+`
+
+export const Logic = styled.li`
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 32px 0 0;
+`
+
+export const LogicText = styled.span`
+  font-family: 'Lekton', sans-serif;
+  color: #6f6f6f;
+  font-weight: 400;
+  font-size: 12px;
+`;

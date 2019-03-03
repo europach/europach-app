@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Header } from './styles';
+import { Card, Header, Logics, Logic, LogicText } from './styles';
 import { ResponsiveImg, DateRedThin, EventBody } from '../../assets/styles/common';
 import storyImage from '../../assets/images/iconBerlin.svg';
 
@@ -17,6 +17,15 @@ export const EventCard = (props) => {
       <EventBody>
         { eventData.name }
       </EventBody>
+      <Logics>
+        {
+          eventData.logics.map((logicName) => (
+            <Logic>
+              <LogicText>{ logicName }</LogicText>
+            </Logic>
+          ))
+        }
+      </Logics>
     </Card>
   )
 }
