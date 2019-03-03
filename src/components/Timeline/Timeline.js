@@ -106,9 +106,7 @@ export class Timeline extends React.Component {
             influenced the present
           </p>
 
-          <LogicMultiSelect onChange={this.handleOnChange}>
-            <button onClick={this.hideModal}>cancel</button>
-          </LogicMultiSelect>
+          <LogicMultiSelect onChange={this.handleOnChange} onClose={this.hideModal}/>
         </Modal>
 
         <Circle onClick={this.displayModal} />

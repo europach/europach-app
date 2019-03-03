@@ -52,3 +52,20 @@ export const EventBody = styled.p`
   font-family: 'Montserrat', sans-serif;
   color: rgba(0,0,0,0.70);
 `
+
+export const Button = styled.button`
+    padding: 16px;
+    border: 1px solid #e30613;
+    border-radius: 3px;
+    background-color: #e30613;
+    color: white;
+    min-width: 158px;
+    font-family: 'Lekton', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+
+    &:hover {
+      background: #c90000;
+    }
+`
