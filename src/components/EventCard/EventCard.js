@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Header, Logics, Logic, LogicText } from './styles';
 import { ResponsiveImg, DateRedThin, EventBody } from '../../assets/styles/common';
 import storyImage from '../../assets/images/iconBerlin.svg';
+import Moment from 'react-moment';
 
 export const EventCard = (props) => {
   console.log('props', props)
@@ -12,7 +13,17 @@ export const EventCard = (props) => {
       <Header>
         <ResponsiveImg src={storyImage} width={'24px'} />
         &nbsp;
-        <DateRedThin>1st Jan 1955 - 6th Aug 2018</DateRedThin>
+        <DateRedThin>
+          <Moment format="D MMM YYYY" withTitle>
+            { eventData.startDate }
+          </Moment>
+          &nbsp;
+          -
+          &nbsp;
+          <Moment format="D MMM YYYY" withTitle>
+            { eventData.endDate }
+          </Moment>
+        </DateRedThin>
       </Header>
       <EventBody>
         { eventData.name }
