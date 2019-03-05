@@ -1,7 +1,19 @@
 import React, { Component } from "react";
-import BasicCheckbox from '../Checkbox';
 import { Button } from '../../assets/styles/common';
 import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper } from './styles';
+
+const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
+  <label>
+    <input
+      type="checkbox"
+      name={name}
+      checked={isSelected}
+      onChange={onCheckboxChange}
+    />
+
+    { label }
+  </label>
+)
 
 const OPTIONS = [
   "Best Practice",

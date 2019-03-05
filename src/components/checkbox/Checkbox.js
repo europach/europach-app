@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledCheckbox, HiddenCheckbox } from "./styles";
 
-export const Checkbox = ({ label, isSelected, onCheckboxChange }) => (
+export const FakeCheckbox = ({ label, isSelected, onCheckboxChange }) => (
   <div>
     <label>
       <HiddenCheckbox
