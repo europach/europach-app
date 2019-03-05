@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BasicCheckbox } from '../Checkbox/Checkbox';
+import BasicCheckbox from '../Checkbox';
 import { Button } from '../../assets/styles/common';
 import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper } from './styles';
 

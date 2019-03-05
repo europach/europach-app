@@ -8,7 +8,7 @@ const Image = (content) => (
 );
 
 const Paragraph = (content) => (
-  <p>{ content }</p>
+  <p>{content}</p>
 );
 
 const Audio = (content) => (
