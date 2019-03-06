@@ -1,10 +1,9 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import { storyFilter } from '../../filters/StoryFilter';
-import { EventList, EventItem, Date, Section, Circle, FilterContainer, FilterContainerInner } from './styles';
-import { StyledLink } from '../../assets/styles/common';
-import EventCard from '../EventCard';
+import { Date, Section, Circle, FilterContainer, FilterContainerInner } from './styles';
 import Modal from '../Modal';
+import CardList from '../CardList';
 
 export class Timeline extends React.Component {
   constructor(props) {
@@ -54,30 +53,12 @@ export class Timeline extends React.Component {
     return itemsByDate;
   }
 
-  createEventCard = (item) => {
-    const { url, baseStory } = item;
-
-    return (
-      <EventItem key={url}>
-        <StyledLink to={`${baseStory}/${url}`}>
-          <EventCard eventData={item} />
-        </StyledLink>
-      </EventItem>
-    );
-  }
-
   createTimelineSection = (sectionDate, sectionItems) => {
     return (
       <Section key={sectionDate}>
         <Date>{ sectionDate }</Date>
 
-        <EventList>
-          {
-            sectionItems.map((item) => (
-              this.createEventCard(item)
-            ))
-          }
-        </EventList>
+        <CardList items={sectionItems} />
       </Section>
     );
   }
