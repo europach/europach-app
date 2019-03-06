@@ -4,6 +4,7 @@ import { storyFilter } from '../../filters/StoryFilter';
 import { Date, Section, Circle, FilterContainer, FilterContainerInner } from './styles';
 import Modal from '../Modal';
 import CardList from '../CardList';
+import EventCard from '../EventCard';
 
 export class Timeline extends React.Component {
   constructor(props) {
@@ -58,7 +59,7 @@ export class Timeline extends React.Component {
       <Section key={sectionDate}>
         <Date>{ sectionDate }</Date>
 
-        <CardList items={sectionItems} />
+        <CardList items={sectionItems} cardType={EventCard}/>
       </Section>
     );
   }
