@@ -1,14 +1,8 @@
 import React from 'react';
 import { Card, Header, Logics, Logic, LogicText } from './styles';
 import { ResponsiveImg, DateRedThin, EventBody } from '../../assets/styles/common';
-import BerlinImage from '../../assets/images/iconBerlin.svg';
-import UKImage from '../../assets/images/iconUK.svg';
 import Moment from 'react-moment';
-
-const ImageIconMapping = {
-  'germany': BerlinImage,
-  'uk': UKImage
-}
+import { ImageIconMapping } from '../../filters/eventMappings';
 
 export const EventCard = (props) => {
   const { eventData } = props;

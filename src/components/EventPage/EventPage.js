@@ -2,8 +2,10 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import EventCard from '../EventCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Img } from '../../assets/styles/common';
+import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, TitleText, DateRedThin } from '../../assets/styles/common';
 import ArrowBack from '../../assets/images/arrow_back.svg';
+import Moment from 'react-moment';
+import { ImageIconMapping } from '../../filters/eventMappings';
 
 
 const Image = (content) => (
@@ -64,6 +66,7 @@ export const EventPage = ({ match }) => {
   const currentEvent = detectEvent(storyUrl, eventUrl);
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
   const nextEvent = detectNextEvent(storyUrl, eventUrl);
+  const storyImage = ImageIconMapping[currentEvent.baseStory];
 
   const elementMapping = {
     'paragraph': Paragraph,
@@ -89,8 +92,27 @@ export const EventPage = ({ match }) => {
         </StyledLink>
       </div>
 
-      { currentEvent.name }
-      { buildJsxElements() }
+      <ResponsiveImg src={storyImage} width={'24px'} />
+        &nbsp;
+      <DateRedThin>
+        <Moment format="D MMM YYYY" withTitle>
+          { currentEvent.startDate }
+        </Moment>
+        &nbsp;
+        -
+        &nbsp;
+        <Moment format="D MMM YYYY" withTitle>
+          { currentEvent.endDate }
+        </Moment>
+      </DateRedThin>
+
+      <TitleText>
+        { currentEvent.name }
+      </TitleText>
+
+      <Section>
+        { buildJsxElements() }
+      </Section>
 
       Timeline
       {
