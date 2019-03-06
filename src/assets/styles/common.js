@@ -49,6 +49,12 @@ export const EventBody = styled.p`
   color: rgba(0,0,0,0.70);
 `
 
+export const EventSpan = styled.span`
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0,0,0,0.70);
+`
+
 export const Button = styled.button`
     padding: 16px;
     border: 1px solid #e30613;

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
-import EventCard from '../EventCard';
+import BasicCard from '../BasicCard';
 import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, TitleText, DateRedThin } from '../../assets/styles/common';
 import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer } from './styles';
 import ArrowBack from '../../assets/images/arrow_back.svg';
@@ -47,7 +47,7 @@ const LinkedEvents = (eventsInContext, storyUrl) => {
     <div>
       { eventsInContext.map(eventUrl => {
           const eventInContext = detectEvent(storyUrl, eventUrl);
-          return <EventCard eventData={eventInContext} />
+          return <BasicCard eventData={eventInContext} />
         })
       }
     </div>
