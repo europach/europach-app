@@ -86,3 +86,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   color: rgba(0,0,0,0.75);
 `;
+
+export const Section = styled.img`
+  padding: 16px 0;
+`;
