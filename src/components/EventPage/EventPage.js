@@ -2,9 +2,14 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import EventCard from '../EventCard';
+import { ResponsiveImg, ImageWrapper, StyledLink, Img } from '../../assets/styles/common';
+import ArrowBack from '../../assets/images/arrow_back.svg';
+
 
 const Image = (content) => (
-  <img src={content} alt={''} />
+  <ImageWrapper>
+      <ResponsiveImg width={'100%'} src={content} alt={''} />
+  </ImageWrapper>
 );
 
 const Paragraph = (content) => (
@@ -54,6 +59,7 @@ const NextEvent = ({ startDate, name }) => {
 export const EventPage = ({ match }) => {
   // eventId should be eventUrl
   const storyUrl= match.url;
+  const storyName = storyUrl.split('/')[1]
   const eventUrl= match.params.eventId;
   const currentEvent = detectEvent(storyUrl, eventUrl);
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
@@ -75,6 +81,14 @@ export const EventPage = ({ match }) => {
 
   return (
     <div>
+      <div>
+        <StyledLink to={`/${storyName}`}>
+          <Img src={ArrowBack} />
+          &nbsp;
+          Back
+        </StyledLink>
+      </div>
+
       { currentEvent.name }
       { buildJsxElements() }
 
