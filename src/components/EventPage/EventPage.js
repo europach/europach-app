@@ -8,6 +8,7 @@ import ArrowBack from '../../assets/images/arrow_back.svg';
 import Moment from 'react-moment';
 import { ImageIconMapping } from '../../filters/eventMappings';
 import CardList from '../CardList';
+import LogicToggle from '../LogicToggle';
 
 const NavCard = ({title, event}) => {
   const { startDate, name, url } = event;
@@ -143,6 +144,8 @@ export const EventPage = ({ match }) => {
 
       <Section>
         Explore Logics
+
+        <LogicToggle event={currentEvent} storyName={storyName} />
       </Section>
     </div>
   )
