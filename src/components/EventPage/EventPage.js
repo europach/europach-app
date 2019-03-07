@@ -7,6 +7,7 @@ import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer } fr
 import ArrowBack from '../../assets/images/arrow_back.svg';
 import Moment from 'react-moment';
 import { ImageIconMapping } from '../../filters/eventMappings';
+import CardList from '../CardList';
 
 const NavCard = ({title, event}) => {
   const { startDate, name, url } = event;
@@ -42,16 +43,8 @@ const Audio = (content) => (
   />
 );
 
-const LinkedEvents = (eventsInContext, storyUrl) => {
-  return (
-    <div>
-      { eventsInContext.map(eventUrl => {
-          const eventInContext = detectEvent(storyUrl, eventUrl);
-          return <BasicCard eventData={eventInContext} />
-        })
-      }
-    </div>
-  );
+const getLinkedEvents = (eventsInContext, storyUrl) => {
+  return eventsInContext.map(eventUrl => detectEvent(storyUrl, eventUrl))
 }
 
 const getIcon = (event) => {
@@ -68,6 +61,7 @@ export const EventPage = ({ match }) => {
   const currentEvent = detectEvent(storyUrl, eventUrl);
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
   const nextEvent = detectNextEvent(storyUrl, eventUrl);
+  const LinkedEvents = getLinkedEvents(currentEvent.linksWith, match.url);
 
   const elementMapping = {
     'paragraph': Paragraph,
@@ -144,7 +138,7 @@ export const EventPage = ({ match }) => {
 
       <Section>
         In Context
-        { LinkedEvents(currentEvent.linksWith, match.url) }
+        <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} />
       </Section>
 
       <Section>

@@ -9,7 +9,7 @@ export class CardList extends React.Component {
 
     return (
       <EventItem key={url}>
-        <StyledLink to={`${baseStory}/${url}`}>
+        <StyledLink to={`/${baseStory}/${url}`}>
           <Card eventData={item} />
         </StyledLink>
       </EventItem>

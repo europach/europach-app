@@ -59,7 +59,7 @@ export class Timeline extends React.Component {
       <Section key={sectionDate}>
         <Date>{ sectionDate }</Date>
 
-        <CardList items={sectionItems} cardType={EventCard}/>
+        <CardList items={sectionItems} cardType={EventCard} width={'100%'} />
       </Section>
     );
   }
