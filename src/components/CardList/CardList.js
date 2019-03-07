@@ -16,7 +16,7 @@ export class CardList extends React.Component {
     );
   }
 
-  render() {
+  createEventList() {
     const { items, width } = this.props;
 
     return (
@@ -27,6 +27,19 @@ export class CardList extends React.Component {
           ))
         }
       </EventList>
+    );
+  }
+
+  determineWrapper() {
+    const hasWrapper = this.props.wrapper;
+    const Wrapper = this.props.wrapper;
+
+    return hasWrapper ? <Wrapper>{this.createEventList()}</Wrapper> : this.createEventList();
+  }
+
+  render() {
+    return (
+      this.determineWrapper()
     )
   }
 }

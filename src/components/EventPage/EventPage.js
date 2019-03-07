@@ -2,7 +2,7 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, TitleText, DateRedThin } from '../../assets/styles/common';
+import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, TitleText, DateRedThin, SubHeadText } from '../../assets/styles/common';
 import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer } from './styles';
 import ArrowBack from '../../assets/images/arrow_back.svg';
 import Moment from 'react-moment';
@@ -114,7 +114,7 @@ export const EventPage = ({ match }) => {
       </Section>
 
       <Section>
-        Timeline
+        <SubHeadText>Timeline</SubHeadText>
 
         <EventWrapper>
           {
@@ -139,13 +139,12 @@ export const EventPage = ({ match }) => {
       </Section>
 
       <Section>
-        In Context
+        <SubHeadText>In Context</SubHeadText>
         <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} />
       </Section>
 
       <Section>
-        Explore Logics
-
+        <SubHeadText>Explore Logics</SubHeadText>
         <LogicToggle event={currentEvent} storyName={storyName} />
       </Section>
     </div>

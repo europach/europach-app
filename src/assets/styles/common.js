@@ -96,3 +96,7 @@ export const StyledLink = styled(Link)`
 export const Section = styled.div`
   padding: 16px 0;
 `;
+
+export const RedLineWrapper = styled.div`
+  border-left: 1px solid #de0512;;
+`

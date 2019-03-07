@@ -3,6 +3,7 @@ import { FilterGroup } from './styles';
 import { storyFilter } from '../../filters/StoryFilter';
 import CardList from '../CardList';
 import EventCard from '../EventCard';
+import { RedLineWrapper } from '../../assets/styles/common';
 
 const Filter = (props) => {
   return (
@@ -58,7 +59,7 @@ export class LogicToggle extends React.Component {
         <FilterGroup>
           { logics.map((name, index) => <Filter name={name} onFilter={this.onFilter} key={index} />) }
 
-          <CardList items={selectedEvents} cardType={EventCard} width={'100%'} />
+          <CardList items={selectedEvents} cardType={EventCard} width={'100%'} wrapper={RedLineWrapper} />
         </FilterGroup>
       </div>
     )
