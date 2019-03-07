@@ -17,10 +17,10 @@ export class CardList extends React.Component {
   }
 
   render() {
-    const { items } = this.props;
+    const { items, width } = this.props;
 
     return (
-      <EventList>
+      <EventList width={width}>
         {
           items.map((item) => (
             this.createEventCard(item)

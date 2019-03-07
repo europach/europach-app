@@ -6,7 +6,7 @@ import EventCard from '../EventCard';
 
 const Filter = (props) => {
   return (
-    <span onClick={props.onFilter} filterName={props.name}>{ props.name }</span>
+    <span onClick={props.onFilter} filter-name={props.name}>{ props.name }</span>
   )
 };
 
@@ -37,7 +37,7 @@ export class LogicToggle extends React.Component {
   }
 
   onFilter = (event) => {
-    const filterEventsBy = event.target.getAttribute('filterName');
+    const filterEventsBy = event.target.getAttribute('filter-name');
 
     this.setState({
       selectedEvents: storyFilter(
@@ -56,7 +56,7 @@ export class LogicToggle extends React.Component {
     return (
       <div>
         <FilterGroup>
-          { logics.map(name => <Filter name={name} onFilter={this.onFilter} />) }
+          { logics.map((name, index) => <Filter name={name} onFilter={this.onFilter} key={index} />) }
 
           <CardList items={selectedEvents} cardType={EventCard} width={'100%'} />
         </FilterGroup>

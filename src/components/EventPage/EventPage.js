@@ -26,21 +26,22 @@ const NavCard = ({title, event}) => {
   );
 };
 
-const Image = (content) => (
-  <ImageWrapper>
+const Image = (content, key) => (
+  <ImageWrapper key={key}>
       <ResponsiveImg width={'100%'} src={content} alt={''} />
   </ImageWrapper>
 );
 
-const Paragraph = (content) => (
-  <p>{content}</p>
+const Paragraph = (content, key) => (
+  <p key={key}>{content}</p>
 );
 
-const Audio = (content) => (
+const Audio = (content, key) => (
   <ReactAudioPlayer
     src={content}
     autoPlay={false}
     controls
+    key={key}
   />
 );
 
@@ -72,8 +73,8 @@ export const EventPage = ({ match }) => {
 
   const buildJsxElements = () => {
     return(
-      currentEvent.body.map(({type, content}) => {
-        return elementMapping[type](content);
+      currentEvent.body.map(({type, content}, index) => {
+        return elementMapping[type](content, index);
       })
     );
   };

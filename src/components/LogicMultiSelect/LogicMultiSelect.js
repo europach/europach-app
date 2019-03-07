@@ -71,8 +71,8 @@ export class LogicMultiSelect extends Component {
     this.props.onClose();
   };
 
-  createCheckbox = option => (
-    <CheckboxItem>
+  createCheckbox = (option, key) => (
+    <CheckboxItem key={key}>
       <BasicCheckbox
         label={option}
         isSelected={this.state.checkboxes[option]}
@@ -83,7 +83,7 @@ export class LogicMultiSelect extends Component {
     </CheckboxItem>
   );
 
-  createCheckboxes = () => OPTIONS.map(this.createCheckbox);
+  createCheckboxes = () => OPTIONS.map((option, index) => this.createCheckbox(option, index));
 
   render() {
     const { onClose } = this.props;
