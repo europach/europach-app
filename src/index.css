@@ -8,4 +8,6 @@ html, body {
   color: rgb(0,0,0, 0.75);
   font-weight: 400;
   background-color: #fafafa;
+  width: 100%;
+  overflow-x: hidden;
 }
