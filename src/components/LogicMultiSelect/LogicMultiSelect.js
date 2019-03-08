@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Button } from '../../assets/styles/common';
 import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper } from './styles';
+import { LOGICS } from '../../logics/logics';
 
 const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
   <label>
@@ -15,28 +16,12 @@ const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
   </label>
 )
 
-const OPTIONS = [
-  "Best Practice",
-  "Citizenship",
-  "Collaborative Governance",
-  "De/Criminalisation",
-  "Dissent",
-  "Evidence",
-  "Humanitarianism",
-  "Human Rights",
-  "Moralizing",
-  "Mutual Help",
-  "Public Health",
-  "Security",
-  "routing"
-];
-
 export class LogicMultiSelect extends Component {
   state = {
-    checkboxes: OPTIONS.reduce(
-      (options, option) => ({
-        ...options,
-        [option]: false
+    checkboxes: LOGICS.reduce(
+      (logics, {filter}) => ({
+        ...logics,
+        [filter]: false
       }),
       {}
     ),
@@ -71,19 +56,19 @@ export class LogicMultiSelect extends Component {
     this.props.onClose();
   };
 
-  createCheckbox = (option, key) => (
+  createCheckbox = ({title, filter}, key) => (
     <CheckboxItem key={key}>
       <BasicCheckbox
-        label={option}
-        isSelected={this.state.checkboxes[option]}
+        label={title}
+        isSelected={this.state.checkboxes[filter]}
         onCheckboxChange={this.handleCheckboxChange}
-        key={option}
-        name={option}
+        key={filter}
+        name={filter}
       />
     </CheckboxItem>
   );
 
-  createCheckboxes = () => OPTIONS.map((option, index) => this.createCheckbox(option, index));
+  createCheckboxes = () => LOGICS.map((logic, index) => this.createCheckbox(logic, index));
 
   render() {
     const { onClose } = this.props;
