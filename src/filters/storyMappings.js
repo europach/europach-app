@@ -11,6 +11,8 @@ import {
 
 import { Events } from '../events/Events';
 
+import { GermanyStoryDetails, UkStoryDetails, PolandStoryDetails } from './storyDetails';
+
 export const STORIES = [ '/germany', '/uk', 'turkey', '/poland' ];
 
 export const storyMappings = {
@@ -78,4 +80,10 @@ export const detectNextEvent = (storyUrl, eventUrl) => {
   } else if (storyIndex < events.length) {
     return events[storyIndex + 1];
   }
+}
+
+export const StoryDetailMapping = {
+  '/germany': GermanyStoryDetails,
+  '/uk': UkStoryDetails,
+  '/poland': PolandStoryDetails
 }
