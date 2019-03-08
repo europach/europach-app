@@ -5,9 +5,25 @@ import {
   germanyRoutingEvents,
   ukRoutingEvents,
   turkeyRoutingEvents,
-  polandSelector,
-  polandRoutingEvents
 } from '../selectors/Selectors';
+
+import {
+  polandSelector,
+  polandBestPracticeEvents,
+  polandCitizenshipEvents,
+  polandCollaborativeGovernanceEvents,
+  polandCriminalisationEvents,
+  polandDeCriminalisationEvents,
+  polandDissentEvents,
+  polandEvidenceEvents,
+  polandHumanitarianismEvents,
+  polandHumanRightsEvents,
+  polandMoralizingEvents,
+  polandMutualHelpEvents,
+  polandPublicHealthEvents,
+  polandSecurityEvents,
+  polandSecuritizationEvents
+} from '../selectors/polandSelectors'
 
 import { Events } from '../events/Events';
 
@@ -30,7 +46,20 @@ export const storyMappings = {
   },
   '/poland': {
     base: polandSelector,
-    routing: polandRoutingEvents
+    bestPractice: polandBestPracticeEvents,
+    citizenship: polandCitizenshipEvents,
+    collaborativeGovernance: polandCollaborativeGovernanceEvents,
+    criminalisation: polandCriminalisationEvents,
+    deCriminalisation: polandDeCriminalisationEvents,
+    dissent: polandDissentEvents,
+    evidence: polandEvidenceEvents,
+    humanitarianism: polandHumanitarianismEvents,
+    humanRights: polandHumanRightsEvents,
+    moralizing: polandMoralizingEvents,
+    mutualHelp: polandMutualHelpEvents,
+    publicHealth: polandPublicHealthEvents,
+    security: polandSecurityEvents,
+    securitization: polandSecuritizationEvents
   }
 }
 

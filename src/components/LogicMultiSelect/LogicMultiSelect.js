@@ -18,7 +18,7 @@ const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
 
 export class LogicMultiSelect extends Component {
   state = {
-    checkboxes: LOGICS.reduce(
+    checkboxes: Object.keys(LOGICS).reduce(
       (logics, {filter}) => ({
         ...logics,
         [filter]: false
@@ -68,7 +68,7 @@ export class LogicMultiSelect extends Component {
     </CheckboxItem>
   );
 
-  createCheckboxes = () => LOGICS.map((logic, index) => this.createCheckbox(logic, index));
+  createCheckboxes = () => Object.keys(LOGICS).map((logicKey, index) => this.createCheckbox(LOGICS[logicKey], index));
 
   render() {
     const { onClose } = this.props;

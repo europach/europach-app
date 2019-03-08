@@ -7,7 +7,7 @@ import { RedLineWrapper } from '../../assets/styles/common';
 
 const Filter = (props) => {
   return (
-    <span onClick={props.onFilter} filter-name={props.name}>{ props.name }</span>
+    <span onClick={props.onFilter} filter-name={props.filter}>{ props.name }</span>
   )
 };
 
@@ -26,7 +26,7 @@ export class LogicToggle extends React.Component {
   defaultLogics = () => {
     const logics = this.props.event.logics;
     const eventHasLogics = logics.length > 0;
-    return eventHasLogics ? [logics[0]] : ['fake-logic'];
+    return eventHasLogics ? [logics[0].filter] : ['fake-logic'];
   }
 
   componentWillMount() {
@@ -57,7 +57,7 @@ export class LogicToggle extends React.Component {
     return (
       <div>
         <FilterGroup>
-          { logics.map((name, index) => <Filter name={name} onFilter={this.onFilter} key={index} />) }
+          { logics.map((logic, index) => <Filter name={logic.title} filter={logic.filter} onFilter={this.onFilter} key={index} />) }
 
           <CardList items={selectedEvents} cardType={EventCard} width={'100%'} wrapper={RedLineWrapper} />
         </FilterGroup>

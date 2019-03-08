@@ -30,9 +30,9 @@ export const EventCard = (props) => {
       </EventBody>
       <Logics>
         {
-          eventData.logics.map((logicName, index) => (
+          eventData.logics.map((logic, index) => (
             <Logic key={index}>
-              <LogicText>{ logicName }</LogicText>
+              <LogicText>{ logic.title }</LogicText>
             </Logic>
           ))
         }
