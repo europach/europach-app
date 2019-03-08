@@ -54,6 +54,12 @@ export class Timeline extends React.Component {
     return itemsByDate;
   }
 
+  availableDates(dates) {
+    if (!dates) { return }
+
+    return Object.keys(dates);
+  }
+
   createTimelineSection = (sectionDate, sectionItems) => {
     return (
       <Section key={sectionDate}>
@@ -74,7 +80,7 @@ export class Timeline extends React.Component {
 
   render() {
     let itemsByDate = this.splitByDate(this.state.selectedEvents);
-    let availableDates = Object.keys(itemsByDate);
+    let availableDates = this.availableDates(itemsByDate);
 
     return (
       <div>
