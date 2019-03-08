@@ -4,10 +4,14 @@ import {
   turkeySelector,
   germanyRoutingEvents,
   ukRoutingEvents,
-  turkeyRoutingEvents
+  turkeyRoutingEvents,
+  polandSelector,
+  polandRoutingEvents
 } from '../selectors/Selectors';
 
 import { Events } from '../events/Events';
+
+export const STORIES = [ '/germany', '/uk', 'turkey', '/poland' ];
 
 export const storyMappings = {
   '/germany': {
@@ -18,9 +22,13 @@ export const storyMappings = {
     base: ukSelector,
     routing: ukRoutingEvents
   },
-  'turkey': {
+  '/turkey': {
     base: turkeySelector,
     routing: turkeyRoutingEvents
+  },
+  '/poland': {
+    base: polandSelector,
+    routing: polandRoutingEvents
   }
 }
 

@@ -29,6 +29,9 @@ export class App extends Component {
 
               <Route exact path='/uk' component={StoryPage} />
               <Route path={`/uk/:eventId`} component={EventPage} />
+
+              <Route exact path='/poland' component={StoryPage} />
+              <Route path={`/poland/:eventId`} component={EventPage} />
               <Route component={Error} />
             </Switch>
 

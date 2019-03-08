@@ -1,7 +1,5 @@
 import { Events } from '../events/Events';
-import { storyMappings } from './storyMappings';
-
-const STORIES = [ '/germany', '/uk', 'turkey' ];
+import { storyMappings, STORIES } from './storyMappings';
 
 const sortByDate = dateArray => {
   return dateArray.sort((a,b) => {

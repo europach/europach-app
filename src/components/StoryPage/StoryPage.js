@@ -19,9 +19,17 @@ const UkStoryDetails = {
   image: MockImage
 }
 
+const PolandStoryDetails = {
+  title: 'poland',
+  subHead: 'prisoners are among those groups mostly affected by the HIV/AIDS epidemic.',
+  body: 'This timeline shows the main policy interventions by administrations, international governing bodies as well as civil society into the field of HIV/Aids related prision health.',
+  image: MockImage
+}
+
 const StoryDetailMapping = {
   '/germany': GermanyStoryDetails,
-  '/uk': UkStoryDetails
+  '/uk': UkStoryDetails,
+  '/poland': PolandStoryDetails
 }
 
 export const Story = ({ match }) => {

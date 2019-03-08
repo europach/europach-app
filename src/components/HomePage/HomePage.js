@@ -27,6 +27,12 @@ export const HomePage = (props) => {
             <StoryCard name="Uk: Protective Masks for Police"/>
           </StyledLink>
         </StoryItem>
+
+        <StoryItem>
+          <StyledLink to='/poland'>
+            <StoryCard name="Poland"/>
+          </StyledLink>
+        </StoryItem>
       </StoryList>
     </div>
   )
