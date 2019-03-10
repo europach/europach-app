@@ -16,7 +16,7 @@ export const PolandEvents = [
     startDate: '1966',
     endDate: '',
     logics: [],
-    linksWith: ['polish_chemistry_students_discovering'],
+    linksWith: ['polish_chemistry_students_discovered'],
     baseStory: baseStory,
   },
 
@@ -39,7 +39,7 @@ export const PolandEvents = [
   },
 
 
-    {
+  {
     name: 'Setting up MONAR',
     url: 'setting_up_monar',
     body: [
@@ -57,7 +57,7 @@ export const PolandEvents = [
     startDate: 'August 1981',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.security],
-    linksWith: ['polish_chemistry_students_discovering', '1988_first_syringe_exchange', '1995_monar_in_kraków'],
+    linksWith: ['polish_chemistry_students_discovered', 'first_syringe_exchange_programs', 'monar_in_krakow_introduces'],
     baseStory: baseStory,
   },
 
@@ -178,7 +178,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'Beginning of the political and economic transformation in Poland',
     url: 'beginning_of_the_political',
@@ -202,10 +201,9 @@ export const PolandEvents = [
     startDate: '4 July 1989',
     endDate: '',
     logics: [],
-    linksWith: ['establishing_national_bureau_for'],
+    linksWith: [], // FIX 'establishing_national_bureau_for'
     baseStory: baseStory,
   },
-
 
   {
     name: 'First methadone program in Poland',
@@ -225,7 +223,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'A conference "Program metadonowy na tle innych programów rehabilitacyjnych osób uzależnionych w profilaktyce HIV/AIDS" (Methadone program in the context of other rehabilitation programs for addicts in HIV/AIDS prevention)',
     url: 'a_conference_program_metadonowy',
@@ -244,7 +241,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'International Harm Reduction Development Program (IHRD) for the Central and Eastern Europe',
     url: 'international_harm_reduction_development',
@@ -259,10 +255,9 @@ export const PolandEvents = [
     startDate: '1995',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanRights, LOGICS.bestPractice],
-    linksWith: ['monar_in_krakow_introduces', 'meeting_in_warsaw_to', 'UNDP projects for Poland'],
+    linksWith: ['monar_in_krakow_introduces', 'meeting_warsaw_to_found', 'undp_projects_for_poland'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'MONAR in Kraków introduced harm reduction programs',
@@ -329,7 +324,7 @@ export const PolandEvents = [
     startDate: '27 April 1997',
     endDate: '',
     logics: [LOGICS.security, LOGICS.criminalisation],
-    linksWith: ['the_1985_drug_law', 'the_1988_un_convention', 'parliamentary_discussion_over_a', 'the_2001_amendment_to', 'the_2005_act_on'],
+    linksWith: ['the_1985_drug_law', 'the_1988_un_convention', 'parliamentary_discussion_over_a', 'the_2000_amendment_to', 'the_2005_act_on'],
     baseStory: baseStory,
   },
 
@@ -347,7 +342,7 @@ export const PolandEvents = [
     startDate: 'June 1997',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth],
-    linksWith: ['international_harm_reduction_development', 'undp_projects_for_Poland', 'social_and_public_health'],
+    linksWith: ['international_harm_reduction_development', 'undp_projects_for_poland'], // FIX 'social_and_public_health'
     baseStory: baseStory,
   },
 
@@ -378,7 +373,7 @@ export const PolandEvents = [
     startDate: '4 December 1998',
     endDate: '',
     logics: [LOGICS.security, LOGICS.criminalisation, LOGICS.humanitarianism, LOGICS.deCriminalisation],
-    linksWith: ['the_1997_drug_abuse', 'the_2000_amendment_to', 'social_and_public_health'],
+    linksWith: ['the_1997_drug_abuse', 'the_2000_amendment_to'], // FIX 'social_and_public_health'
     baseStory: baseStory,
   },
 
@@ -401,7 +396,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-  // check
   {
     name: 'The 2000 amendment to the drug law',
     url: 'the_2000_amendment_to',
@@ -420,7 +414,7 @@ export const PolandEvents = [
     startDate: '26 October 2000',
     endDate: '',
     logics: [LOGICS.criminalisation, LOGICS.security],
-    linksWith: ['1997_drug_abuse_prevention', 'parliamentary_discussion_over_a', 'consequences_of_the_2000', 'a_conference_on_people', 'the_2005_act_on'],
+    linksWith: ['the_1997_drug_abuse', 'parliamentary_discussion_over_a', 'consequences_of_the_2000', 'a_conference_on_people', 'the_2005_act_on'],
     baseStory: baseStory,
   },
 
@@ -477,10 +471,9 @@ export const PolandEvents = [
     startDate: '29 July 2005',
     endDate: '',
     logics: [LOGICS.criminalisation, LOGICS.securitization],
-    linksWith: ['the_1997_drug_abuse', 'the_2000_amendment_to', 'the_2016-2010_national'],
+    linksWith: ['the_1997_drug_abuse', 'the_2000_amendment_to', 'the_2016_2010_national'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'Self-organizing for methadone therapy in Gdańsk',
@@ -499,7 +492,6 @@ export const PolandEvents = [
     linksWith: ['the_special_rapporteur_on'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'Setting up Polish Network of Drug Policy',
@@ -676,13 +668,12 @@ export const PolandEvents = [
     ],
     externalLinks: [],
     sources: ["The amended Act of 20 March 2009 on counteracting drug addiction [Dz.U. ‘Journal of Laws’ of 2009 No. 63 item 520]", "The amended Act of 10 June 2010 on counteracting drug addiction [Dz.U. ‘Journal of Laws’ of 2010 No. 143 item 962]"],
-    startDate: '2009',
+    startDate: '2009', // FIX 2009/2010
     endDate: '',
     logics: [LOGICS.securitization],
     linksWith: ['the_2005_act_on', 'the_polish_government_announces', 'npss_dopalacze_treated_as'],
     baseStory: baseStory,
   },
-  // 2009/2010
 
   {
     name: 'The Act counteracting drug addiction changed',
@@ -755,7 +746,7 @@ export const PolandEvents = [
     startDate: '17 February 2016',
     endDate: '',
     logics: [LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['setting_up_Polish_Network', 'the_prague_declaration'],
+    linksWith: ['setting_up_polish_network', 'the_prague_declaration'],
     baseStory: baseStory,
   },
 
