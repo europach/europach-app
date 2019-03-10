@@ -1,5 +1,6 @@
 import { Events } from '../events/Events';
 import { storyMappings, STORIES } from './storyMappings';
+import uniqBy from 'lodash.uniqby';
 
 const sortByDate = dateArray => {
   return dateArray.sort((a,b) => {
@@ -49,9 +50,13 @@ export const storyFilter = (storyUrl, filters, showOtherStories) => {
 
   if (showOtherStories) {
     relatedLogics = filteredLogicsForOtherStories(storyUrl, filters); //  show other story logics
-    return sortByDate([...relatedLogics, ...baseEvents]);
+    return sortByDate(
+      uniqBy([...relatedLogics, ...baseEvents], 'url')
+    );
   } else {
     relatedLogics = filteredLogicsForStory(storyUrl, filters);
-    return sortByDate([...relatedLogics]);
+    return sortByDate(
+      uniqBy([...relatedLogics], 'url')
+    );
   }
 }
