@@ -5,6 +5,7 @@ import { Date, Section, Circle, FilterContainer, FilterContainerInner } from './
 import Modal from '../Modal';
 import CardList from '../CardList';
 import EventCard from '../EventCard';
+import moment from 'moment';
 
 export class Timeline extends React.Component {
   constructor(props) {
@@ -46,7 +47,8 @@ export class Timeline extends React.Component {
     let itemsByDate = {}
 
     items.forEach(item => {
-      let itemDate = this.cleanDate(item.startDate);
+      let itemDate = moment(item.startDate).format('YYYY');
+      // this.cleanDate(item.startDate);
       itemsByDate[itemDate] = itemsByDate[itemDate] || [];
       itemsByDate[itemDate].push(item);
     });
