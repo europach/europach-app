@@ -1,5 +1,6 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
+import LogicDefinitions from '../LogicDefinitions';
 import { storyFilter } from '../../filters/StoryFilter';
 import { Date, Section, Circle, FilterContainer, FilterContainerInner } from './styles';
 import Modal from '../Modal';
@@ -48,7 +49,6 @@ export class Timeline extends React.Component {
 
     items.forEach(item => {
       let itemDate = moment(item.startDate).format('YYYY');
-      // this.cleanDate(item.startDate);
       itemsByDate[itemDate] = itemsByDate[itemDate] || [];
       itemsByDate[itemDate].push(item);
     });
@@ -101,6 +101,7 @@ export class Timeline extends React.Component {
             influenced the present
           </p>
 
+          <LogicDefinitions />
           <LogicMultiSelect onSubmit={this.handleOnSubmit} onClose={this.hideModal} />
         </Modal>
 
