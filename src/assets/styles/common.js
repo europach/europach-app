@@ -43,15 +43,31 @@ export const DateRedThin = styled.span`
   color: #de0512;
 `
 
+export const EventTitle = styled.h1`
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  color: rgba(0,0,0,0.70);
+  margin: 0;
+`
+export const EventSubhead = styled.h2`
+  font-size: 20px;
+  font-family: 'Lekton', sans-serif;
+  font-weight: bold;
+  color: rgba(0,0,0,0.75);
+  margin: 0;
+`
+
 export const EventBody = styled.p`
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: rgba(0,0,0,0.70);
 `
 
 export const EventSpan = styled.span`
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: rgba(0,0,0,0.70);
 `
 

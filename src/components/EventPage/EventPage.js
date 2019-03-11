@@ -2,8 +2,8 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, TitleText, DateRedThin, SubHeadText } from '../../assets/styles/common';
-import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer } from './styles';
+import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, EventTitle, EventSubhead, DateRedThin } from '../../assets/styles/common';
+import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer, EventNavTitle } from './styles';
 import ArrowBack from '../../assets/images/arrow_back.svg';
 import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
@@ -17,11 +17,21 @@ const NavCard = ({title, event}) => {
     <EventNav>
       <StyledLink to={url}>
         <EventContainer>
-          { title }
+          <EventNavTitle>{ title }</EventNavTitle>
           <DateRedThin>{ startDate }</DateRedThin>
           { name }
         </EventContainer>
       </StyledLink>
+    </EventNav>
+  );
+};
+
+const NavBlank = () => {
+  return (
+    <EventNav>
+      <EventContainer>
+        &nbsp;
+      </EventContainer>
     </EventNav>
   );
 };
@@ -89,52 +99,39 @@ export const EventPage = ({ match }) => {
         </StyledLink>
       </BackArrow>
 
-      <CenteredWrapper>
-        <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} />
-        &nbsp;
-        <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
-      </CenteredWrapper>
+      <Section>
+        <CenteredWrapper>
+          <ResponsiveImg src={getIcon(currentEvent)} width={'32px'} />
+          &nbsp;
+          <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
+        </CenteredWrapper>
+      </Section>
 
-      <TitleText>
-        { currentEvent.name }
-      </TitleText>
+      <Section>
+        <EventTitle>
+          { currentEvent.name }
+        </EventTitle>
+      </Section>
 
       <Section>
         { buildJsxElements() }
       </Section>
 
       <Section>
-        <SubHeadText>Timeline</SubHeadText>
-
+        <EventSubhead>Timeline</EventSubhead>
         <EventWrapper>
-          {
-            previousEvent ?
-            <NavCard title='Previous' event={previousEvent} /> :
-            <EventNav>
-              <EventContainer>
-                no previous
-              </EventContainer>
-            </EventNav>
-          }
-          {
-            nextEvent ?
-            <NavCard title='Next' event={nextEvent} /> :
-            <EventNav>
-              <EventContainer>
-                no next
-              </EventContainer>
-            </EventNav>
-          }
+          { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank /> }
+          { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank /> }
         </EventWrapper>
       </Section>
 
       <Section>
-        <SubHeadText>In Context</SubHeadText>
+        <EventSubhead>In Context</EventSubhead>
         <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} />
       </Section>
 
       <Section>
-        <SubHeadText>Explore Logics</SubHeadText>
+        <EventSubhead>Explore Logics</EventSubhead>
         <LogicToggle event={currentEvent} storyName={storyName} />
       </Section>
     </div>
