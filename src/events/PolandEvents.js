@@ -103,26 +103,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
-    {
-    name: 'The first HIV diagnosis among people who inject drugs',
-    url: 'the_first_hiv_diagnosis',
-    body: [
-      {
-        type: 'paragraph',
-        content: 'The first diagnosis of HIV in Poland was made in 1985 while the first person to be diagnosed with AIDS occurred one year later. Through the 1990s, the highest number of infections was reported among people who inject drugs – they constituted 65% of all diagnosed infections until 1997 (between 1985 and 1992, this group made up 77,3% of all diagnosed infections, see Juszczyk, Gładysz, 1993). The first case of HIV infection among people who inject drugs was discovered in September 1988 (three years after the very first diagnosis). This could be related to the fact that the socialist state officially denied the existence of people who use drugs in Poland, or with the exclusion of this group from social and health services.'
-      },
-    ],
-    externalLinks: [],
-    sources: ["Juszczyk, J. and Gładysz, A. (1993). AIDS: epidemiologia, patogeneza, klinika, leczenie, zapobieganie, poradnictwo. Wrocław: Volumed."],
-    startDate: '1988',
-    endDate: '',
-    logics: [],
-    linksWith: ['first_syringe_exchange_programs'],
-    baseStory: baseStory,
-  },
-
-
   {
     name: 'The 1988 UN Convention Against Illicit Traffic in Narcotic Drugs and Psychotropic Substances',
     url: 'the_1988_un_convention',
@@ -533,26 +513,6 @@ export const PolandEvents = [
     linksWith: ['the_2000_amendment_to', 'the_2005_act_on', 'consequences_of_the_2000'],
     baseStory: baseStory,
   },
-
-
-  {
-    name: 'Debate "Methadone in Gdańsk"',
-    url: 'debate_methadone_in_gdansk',
-    body: [
-      {
-        type: 'paragraph',
-        content: 'In response to voices demanding access to substitution treatment in the Pomeranian region, different organizations: Klub Krytyki Politycznej w Gdańsku (Gdańsk Club of the Political Critique), Open Society Institute, Polska Sieć ds. Polityki Narkotykowej (Polish Network of Drug Policy), Stowarzyszenie Jump 93 (Jump 93 Association) organized a debate on a right to substitution treatment, access to health and human rights of people who use drugs. They invited harm reduction activists, medical doctors, and people who use drugs.'
-      },
-    ],
-    externalLinks: [],
-    sources: ["http://krytykapolityczna.pl/narkopolityka/polskienarko/metadon-w-gdansku-relacja/ [access: 4.07.2018]"],
-    startDate: '2 April 2009',
-    endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.mutualHelp],
-    linksWith: ['self_organizing_for_methadone', 'the_special_rapporteur_on'],
-    baseStory: baseStory,
-  },
-
 
   {
     name: 'The Special Rapporteur on the right of everyone to the enjoyment of the highest attainable standard of physical and mental health visited Poland',
