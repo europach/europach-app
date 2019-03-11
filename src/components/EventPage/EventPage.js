@@ -5,7 +5,7 @@ import BasicCard from '../BasicCard';
 import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, TitleText, DateRedThin, SubHeadText } from '../../assets/styles/common';
 import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer } from './styles';
 import ArrowBack from '../../assets/images/arrow_back.svg';
-import Moment from 'react-moment';
+import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
 import CardList from '../CardList';
 import LogicToggle from '../LogicToggle';
@@ -91,18 +91,8 @@ export const EventPage = ({ match }) => {
 
       <CenteredWrapper>
         <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} />
-          &nbsp;
-        <DateRedThin>
-          <Moment format="D MMM YYYY" withTitle>
-            { currentEvent.startDate }
-          </Moment>
-          &nbsp;
-          -
-          &nbsp;
-          <Moment format="D MMM YYYY" withTitle>
-            { currentEvent.endDate }
-          </Moment>
-        </DateRedThin>
+        &nbsp;
+        <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
       </CenteredWrapper>
 
       <TitleText>
