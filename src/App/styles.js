@@ -40,7 +40,6 @@ export const AppMain = styled.div`
 `;
 
 export const AppFooter = styled.div`
-  height: 10vh;
   padding: 1em;
   width: 100%;
   display: flex;
@@ -53,8 +52,16 @@ export const AppFooter = styled.div`
 export const AppFooterInner = styled.div`
   max-width: 660px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 468px) {
     max-width: 348px;
   }
+`;
+
+export const FooterItem = styled.div`
+  padding-top: 20px
 `;
