@@ -89,7 +89,7 @@ export const EventPage = ({ match }) => {
     );
   };
 
-  const buildExternalLinks = () => (
+  const externalLinks = () => (
     <TextItems>
       {
         currentEvent.externalLinks.map(link => (
@@ -103,7 +103,7 @@ export const EventPage = ({ match }) => {
     </TextItems>
   )
 
-  const buildExternalSources = () => (
+  const externalSources = () => (
     <TextItems>
       {
         currentEvent.sources.map(source => (
@@ -117,16 +117,41 @@ export const EventPage = ({ match }) => {
     </TextItems>
   )
 
-  return (
-    <div>
-      <Section>
-        <CenteredWrapper>
-          <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 16px 0 0'} />
-          <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
-        </CenteredWrapper>
-      </Section>
+  const inContext = () => (
+    <Section padding={'48px 0 12px 0'}>
+      <EventSubhead>In Context</EventSubhead>
 
-      <Section padding={'12px 0 24px 0'}>
+      <Section padding={'32px 0 12px 0'}>
+        <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} padding={'none'} wrapper={RedLineWrapper} />
+      </Section>
+    </Section>
+  )
+
+  const exploreLogics = () => (
+    <Section padding={'48px 0 12px 0'}>
+      <EventSubhead>Explore Logics</EventSubhead>
+
+      <Section padding={'24px 0 0 0'}>
+        <LogicToggle event={currentEvent} storyName={storyName} />
+      </Section>
+    </Section>
+  )
+
+  const notEmpty = (element) => element.length > 0;
+
+  const buildExternalSources = () => (notEmpty(currentEvent.sources) && externalSources());
+  const buildExternalLinks = () => (notEmpty(currentEvent.externalLinks) && externalLinks());
+  const buildInContext = () => (notEmpty(currentEvent.linksWith) && inContext());
+  const buildExploreLogics = () => (notEmpty(currentEvent.logics) && exploreLogics());
+
+  return (
+    <Section>
+      <CenteredWrapper>
+        <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 16px 0 0'} />
+        <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
+      </CenteredWrapper>
+
+      <Section padding={'24px 0 24px 0'}>
         <EventTitle>
           { currentEvent.name }
         </EventTitle>
@@ -134,14 +159,8 @@ export const EventPage = ({ match }) => {
 
       <Section padding={'0 0 0 0'}>
         { buildJsxElements() }
-
-        <Section>
-          { buildExternalLinks() }
-        </Section>
-
-        <Section>
-          { buildExternalSources() }
-        </Section>
+        { buildExternalLinks() }
+        { buildExternalSources() }
       </Section>
 
       <Break />
@@ -154,21 +173,8 @@ export const EventPage = ({ match }) => {
         </EventWrapper>
       </Section>
 
-      <Section padding={'48px 0 12px 0'}>
-        <EventSubhead>In Context</EventSubhead>
-
-        <Section padding={'32px 0 12px 0'}>
-          <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} padding={'none'} wrapper={RedLineWrapper} />
-        </Section>
-      </Section>
-
-      <Section padding={'48px 0 12px 0'}>
-        <EventSubhead>Explore Logics</EventSubhead>
-
-        <Section padding={'24px 0 12px 0'}>
-          <LogicToggle event={currentEvent} storyName={storyName} />
-        </Section>
-      </Section>
-    </div>
+      { buildInContext() }
+      { buildExploreLogics() }
+    </Section>
   )
 }
