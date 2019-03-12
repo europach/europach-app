@@ -1,13 +1,4 @@
 import {
-  germanySelector,
-  ukSelector,
-  turkeySelector,
-  germanyRoutingEvents,
-  ukRoutingEvents,
-  turkeyRoutingEvents,
-} from '../selectors/Selectors';
-
-import {
   polandSelector,
   polandBestPracticeEvents,
   polandCitizenshipEvents,
@@ -25,24 +16,135 @@ import {
   polandSecuritizationEvents
 } from '../selectors/polandSelectors'
 
+import {
+  germanySelector,
+  germanyBestPracticeEvents,
+  germanyCitizenshipEvents,
+  germanyCollaborativeGovernanceEvents,
+  germanyCriminalisationEvents,
+  germanyDeCriminalisationEvents,
+  germanyDissentEvents,
+  germanyEvidenceEvents,
+  germanyHumanitarianismEvents,
+  germanyHumanRightsEvents,
+  germanyMoralizingEvents,
+  germanyMutualHelpEvents,
+  germanyPublicHealthEvents,
+  germanySecurityEvents,
+  germanySecuritizationEvents
+} from '../selectors/germanySelectors'
+
+import {
+  ukSelector,
+  ukBestPracticeEvents,
+  ukCitizenshipEvents,
+  ukCollaborativeGovernanceEvents,
+  ukCriminalisationEvents,
+  ukDeCriminalisationEvents,
+  ukDissentEvents,
+  ukEvidenceEvents,
+  ukHumanitarianismEvents,
+  ukHumanRightsEvents,
+  ukMoralizingEvents,
+  ukMutualHelpEvents,
+  ukPublicHealthEvents,
+  ukSecurityEvents,
+  ukSecuritizationEvents
+} from '../selectors/ukSelectors'
+
+import {
+  turkeySelector,
+  turkeyBestPracticeEvents,
+  turkeyCitizenshipEvents,
+  turkeyCollaborativeGovernanceEvents,
+  turkeyCriminalisationEvents,
+  turkeyDeCriminalisationEvents,
+  turkeyDissentEvents,
+  turkeyEvidenceEvents,
+  turkeyHumanitarianismEvents,
+  turkeyHumanRightsEvents,
+  turkeyMoralizingEvents,
+  turkeyMutualHelpEvents,
+  turkeyPublicHealthEvents,
+  turkeySecurityEvents,
+  turkeySecuritizationEvents
+} from '../selectors/turkeySelectors'
+
+import {
+  euSelector,
+  euBestPracticeEvents,
+  euCitizenshipEvents,
+  euCollaborativeGovernanceEvents,
+  euCriminalisationEvents,
+  euDeCriminalisationEvents,
+  euDissentEvents,
+  euEvidenceEvents,
+  euHumanitarianismEvents,
+  euHumanRightsEvents,
+  euMoralizingEvents,
+  euMutualHelpEvents,
+  euPublicHealthEvents,
+  euSecurityEvents,
+  euSecuritizationEvents
+} from '../selectors/euSelectors'
+
 import { Events } from '../events/Events';
 
-import { GermanyStoryDetails, UkStoryDetails, PolandStoryDetails } from './storyDetails';
+import { GermanyStoryDetails, UkStoryDetails, PolandStoryDetails, EUStoryDetails, TurkeyStoryDetails } from './storyDetails';
 
-export const STORIES = [ '/germany', '/uk', 'turkey', '/poland' ];
+export const STORIES = [ '/germany', '/uk', 'turkey', '/poland', '/eu' ];
 
 export const storyMappings = {
   '/germany': {
     base: germanySelector,
-    routing: germanyRoutingEvents
+    bestPractice: germanyBestPracticeEvents,
+    citizenship: germanyCitizenshipEvents,
+    collaborativeGovernance: germanyCollaborativeGovernanceEvents,
+    criminalisation: germanyCriminalisationEvents,
+    deCriminalisation: germanyDeCriminalisationEvents,
+    dissent: germanyDissentEvents,
+    evidence: germanyEvidenceEvents,
+    humanitarianism: germanyHumanitarianismEvents,
+    humanRights: germanyHumanRightsEvents,
+    moralizing: germanyMoralizingEvents,
+    mutualHelp: germanyMutualHelpEvents,
+    publicHealth: germanyPublicHealthEvents,
+    security: germanySecurityEvents,
+    securitization: germanySecuritizationEvents
   },
   '/uk': {
     base: ukSelector,
-    routing: ukRoutingEvents
+    bestPractice: ukBestPracticeEvents,
+    citizenship: ukCitizenshipEvents,
+    collaborativeGovernance: ukCollaborativeGovernanceEvents,
+    criminalisation: ukCriminalisationEvents,
+    deCriminalisation: ukDeCriminalisationEvents,
+    dissent: ukDissentEvents,
+    evidence: ukEvidenceEvents,
+    humanitarianism: ukHumanitarianismEvents,
+    humanRights: ukHumanRightsEvents,
+    moralizing: ukMoralizingEvents,
+    mutualHelp: ukMutualHelpEvents,
+    publicHealth: ukPublicHealthEvents,
+    security: ukSecurityEvents,
+    securitization: ukSecuritizationEvents
   },
   '/turkey': {
     base: turkeySelector,
-    routing: turkeyRoutingEvents
+    bestPractice: turkeyBestPracticeEvents,
+    citizenship: turkeyCitizenshipEvents,
+    collaborativeGovernance: turkeyCollaborativeGovernanceEvents,
+    criminalisation: turkeyCriminalisationEvents,
+    deCriminalisation: turkeyDeCriminalisationEvents,
+    dissent: turkeyDissentEvents,
+    evidence: turkeyEvidenceEvents,
+    humanitarianism: turkeyHumanitarianismEvents,
+    humanRights: turkeyHumanRightsEvents,
+    moralizing: turkeyMoralizingEvents,
+    mutualHelp: turkeyMutualHelpEvents,
+    publicHealth: turkeyPublicHealthEvents,
+    security: turkeySecurityEvents,
+    securitization: turkeySecuritizationEvents
   },
   '/poland': {
     base: polandSelector,
@@ -60,7 +162,24 @@ export const storyMappings = {
     publicHealth: polandPublicHealthEvents,
     security: polandSecurityEvents,
     securitization: polandSecuritizationEvents
-  }
+  },
+  '/eu': {
+    base: euSelector,
+    bestPractice: euBestPracticeEvents,
+    citizenship: euCitizenshipEvents,
+    collaborativeGovernance: euCollaborativeGovernanceEvents,
+    criminalisation: euCriminalisationEvents,
+    deCriminalisation: euDeCriminalisationEvents,
+    dissent: euDissentEvents,
+    evidence: euEvidenceEvents,
+    humanitarianism: euHumanitarianismEvents,
+    humanRights: euHumanRightsEvents,
+    moralizing: euMoralizingEvents,
+    mutualHelp: euMutualHelpEvents,
+    publicHealth: euPublicHealthEvents,
+    security: euSecurityEvents,
+    securitization: euSecuritizationEvents
+  },
 }
 
 const currentStory = (storyUrl) => storyUrl.split('/')[1];
@@ -114,5 +233,7 @@ export const detectNextEvent = (storyUrl, eventUrl) => {
 export const StoryDetailMapping = {
   '/germany': GermanyStoryDetails,
   '/uk': UkStoryDetails,
-  '/poland': PolandStoryDetails
+  '/poland': PolandStoryDetails,
+  '/eu': EUStoryDetails,
+  '/turkey': TurkeyStoryDetails,
 }

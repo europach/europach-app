@@ -1,6 +1,6 @@
-const baseStory = 'germany';
+const baseStory = 'eu';
 
-export const GermanyEvents = [
+export const EUEvents = [
   {
     name: 'fake event',
     url: 'un_single_convention_on',

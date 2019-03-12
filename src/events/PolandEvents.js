@@ -84,7 +84,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'MONAR accept drug users living with HIV in all of their centers',
     url: 'monar_accept_drug_users',

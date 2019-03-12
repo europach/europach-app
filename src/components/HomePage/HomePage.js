@@ -33,6 +33,18 @@ export const HomePage = (props) => {
             <StoryCard name="Poland"/>
           </StyledLink>
         </StoryItem>
+
+        <StoryItem>
+          <StyledLink to='/turkey'>
+            <StoryCard name="Turkey"/>
+          </StyledLink>
+        </StoryItem>
+
+        <StoryItem>
+          <StyledLink to='/eu'>
+            <StoryCard name="EU"/>
+          </StyledLink>
+        </StoryItem>
       </StoryList>
     </div>
   )
