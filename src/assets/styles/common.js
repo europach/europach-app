@@ -69,7 +69,7 @@ export const EventBody = styled.p`
   margin-bottom: 32px;
 `
 
-export const Text = styled.p`
+export const Paragraph = styled.p`
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   color: rgba(0,0,0,0.70);

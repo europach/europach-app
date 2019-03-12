@@ -2,8 +2,8 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin } from '../../assets/styles/common';
-import { CenteredWrapper, EventNav, EventWrapper, EventContainer, EventNavTitle, Break, EventNavName } from './styles';
+import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventSpan } from '../../assets/styles/common';
+import { CenteredWrapper, EventNav, EventWrapper, EventContainer, EventNavTitle, Break, EventNavName, TextItems, TextListItem } from './styles';
 import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
 import CardList from '../CardList';
@@ -89,6 +89,34 @@ export const EventPage = ({ match }) => {
     );
   };
 
+  const buildExternalLinks = () => (
+    <TextItems>
+      {
+        currentEvent.externalLinks.map(link => (
+          <TextListItem>
+            <EventSpan>
+              <a href={link}>{link}</a>
+            </EventSpan>
+          </TextListItem>
+        ))
+      }
+    </TextItems>
+  )
+
+  const buildExternalSources = () => (
+    <TextItems>
+      {
+        currentEvent.sources.map(source => (
+          <TextListItem>
+            <EventSpan>
+              {source}
+            </EventSpan>
+          </TextListItem>
+        ))
+      }
+    </TextItems>
+  )
+
   return (
     <div>
       <Section>
@@ -106,6 +134,14 @@ export const EventPage = ({ match }) => {
 
       <Section padding={'0 0 0 0'}>
         { buildJsxElements() }
+
+        <Section>
+          { buildExternalLinks() }
+        </Section>
+
+        <Section>
+          { buildExternalSources() }
+        </Section>
       </Section>
 
       <Break />

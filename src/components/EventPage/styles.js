@@ -44,3 +44,13 @@ export const Break = styled.hr`
   margin: 1em 0;
   padding: 0;
 `
+
+export const TextItems = styled.ul`
+  padding: 0;
+  margin: 0;
+  list-style: none;
+`
+
+export const TextListItem = styled.li`
+  margin-bottom: 8px;
+`

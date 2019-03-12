@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Timeline from '../Timeline';
-import { ResponsiveImg, EventTitle, SubHeadText, Text, ImageWrapper, Section } from '../../assets/styles/common';
+import { ResponsiveImg, EventTitle, SubHeadText, Paragraph, ImageWrapper, Section } from '../../assets/styles/common';
 import { StoryDetailMapping } from '../../filters/storyMappings';
 
 export const Story = ({ match }) => {
@@ -22,9 +22,9 @@ export const Story = ({ match }) => {
       </SubHeadText>
 
       <Section padding={'24px 0 24px 0'}>
-        <Text>
+        <Paragraph>
           { currentStory.body }
-        </Text>
+        </Paragraph>
       </Section>
 
       <Route exact path={match.path} component={Timeline} />
