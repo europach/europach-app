@@ -9,7 +9,7 @@ export const StoryList = styled.ul`
 
 export const StoryItem = styled.li`
   list-style-type: none;
-  padding-bottom: 20px;
+  padding-bottom: 32px;
 `;
 
 export const StyledLink = styled(Link)`

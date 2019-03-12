@@ -22,7 +22,7 @@ export const AppNavInner = styled.div`
   width: 100%;
 
   @media (max-width: 468px) {
-    max-width: 320px;
+    max-width: 85%;
   }
 `;
 
@@ -35,7 +35,7 @@ export const AppMain = styled.div`
   max-width: 660px;
 
   @media (max-width: 468px) {
-    max-width: 320px;
+    max-width: 85%;
   }
 `;
 
@@ -58,7 +58,7 @@ export const AppFooterInner = styled.div`
   align-items: center;
 
   @media (max-width: 468px) {
-    max-width: 320px;
+    max-width: 85%;
   }
 `;
 

@@ -10,14 +10,22 @@ export const CheckboxList = styled.ul`
 // check f1916e
 
 export const CheckboxListTitle = styled.div`
-  padding-bottom: 8px;
+  padding-bottom: 24px;
+  font-weight: bold;
 `;
 
 export const CheckboxItem = styled.li`
   list-style-type: none;
-  width: 50%;
+  width: 40%;
+  margin-right: 10%;
   display: inline-block;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
+
+  @media (max-width: 468px) {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 8px;
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -36,4 +44,9 @@ export const ButtonWrapper = styled.div`
 export const CancelButton = styled.span`
   cursor: pointer;
   color: #f1916e;
+`;
+
+export const CheckboxText = styled.div`
+  padding-left: 16px;
+  display: inline-block;
 `;

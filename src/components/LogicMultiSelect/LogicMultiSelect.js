@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button } from '../../assets/styles/common';
-import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper } from './styles';
+import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper, CheckboxText } from './styles';
 import { LOGICS } from '../../logics/logics';
 
 const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
@@ -12,7 +12,7 @@ const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
       onChange={onCheckboxChange}
     />
 
-    { label }
+    <CheckboxText>{ label }</CheckboxText>
   </label>
 )
 

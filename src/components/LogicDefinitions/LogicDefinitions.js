@@ -1,5 +1,6 @@
 import React from 'react';
 import { logicDefinitions } from '../../logics/definitions';
+import { Definitions } from './styles';
 
 const InfoTile = (props) => (
   <div>
@@ -59,9 +60,9 @@ export class LogicDefinitions extends React.Component {
   render() {
     return (
       <div>
-       <div onClick={this.toggle}>
+       <Definitions onClick={this.toggle}>
         + view definitions
-       </div>
+       </Definitions>
 
         { this.state.open && this.renderContent() }
       </div>

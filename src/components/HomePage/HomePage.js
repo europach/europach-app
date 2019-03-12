@@ -8,7 +8,7 @@ export const HomePage = (props) => {
     <div>
       <Title>
         <TitleText>
-          "Disentangling European HIV/AIDS Policies: Activism, Citizenship and Health"
+          Disentangling European HIV/AIDS Policies: Activism, Citizenship and Health
         </TitleText>
 
         <BodyText>

@@ -18,7 +18,7 @@ export const ModalContainer = styled.div`
 
 export const ModalMain = styled.section`
   background: #fbe9e7;
-  margin: 0 auto;
+  margin: 72px auto;
   max-width: 660px;
   width: 100%;
   overflow-y: scroll;

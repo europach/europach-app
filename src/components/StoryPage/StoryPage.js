@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Timeline from '../Timeline';
-import { ResponsiveImg, Img, TitleText, SubHeadText, BodyText, ImageWrapper, StyledLink } from '../../assets/styles/common';
-import ArrowBack from '../../assets/images/arrow_back.svg';
+import { ResponsiveImg, EventTitle, SubHeadText, Text, ImageWrapper, Section } from '../../assets/styles/common';
 import { StoryDetailMapping } from '../../filters/storyMappings';
 
 export const Story = ({ match }) => {
@@ -10,29 +9,23 @@ export const Story = ({ match }) => {
 
   return (
     <div>
-      <div>
-        <StyledLink to='/'>
-          <Img src={ArrowBack} />
-          &nbsp;
-          Back
-        </StyledLink>
-      </div>
-
       <ImageWrapper>
         <ResponsiveImg width={'100%'} src={currentStory.image}/>
       </ImageWrapper>
 
-      <TitleText>
+      <EventTitle>
         { currentStory.title }
-      </TitleText>
+      </EventTitle>
 
       <SubHeadText>
         { currentStory.subHead }
       </SubHeadText>
 
-      <BodyText>
-        { currentStory.body }
-      </BodyText>
+      <Section padding={'24px 0 24px 0'}>
+        <Text>
+          { currentStory.body }
+        </Text>
+      </Section>
 
       <Route exact path={match.path} component={Timeline} />
     </div>

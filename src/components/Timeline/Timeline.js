@@ -2,7 +2,8 @@ import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import LogicDefinitions from '../LogicDefinitions';
 import { storyFilter } from '../../filters/StoryFilter';
-import { Date, Section, Circle, FilterContainer, FilterContainerInner } from './styles';
+import { Date, TimelineSection, Circle, FilterContainer, FilterContainerInner } from './styles';
+import { Section, ModalTitle } from '../../assets/styles/common';
 import Modal from '../Modal';
 import CardList from '../CardList';
 import EventCard from '../EventCard';
@@ -64,11 +65,11 @@ export class Timeline extends React.Component {
 
   createTimelineSection = (sectionDate, sectionItems) => {
     return (
-      <Section key={sectionDate}>
+      <TimelineSection key={sectionDate}>
         <Date>{ sectionDate }</Date>
 
         <CardList items={sectionItems} cardType={EventCard} width={'100%'} />
-      </Section>
+      </TimelineSection>
     );
   }
 
@@ -93,7 +94,7 @@ export class Timeline extends React.Component {
         }
 
         <Modal show={this.state.showModal}>
-          <h1>Explore Themes</h1>
+          <ModalTitle>Explore</ModalTitle>
 
           <p>
             See how events connect across borders and topics
@@ -101,7 +102,9 @@ export class Timeline extends React.Component {
             influenced the present
           </p>
 
-          <LogicDefinitions />
+          <Section padding={'0 0 40px 0'}>
+            <LogicDefinitions />
+          </Section>
           <LogicMultiSelect onSubmit={this.handleOnSubmit} onClose={this.hideModal} />
         </Modal>
 

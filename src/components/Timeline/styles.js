@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Section = styled.div`
+export const TimelineSection = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
@@ -18,7 +18,7 @@ export const Circle = styled.div`
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  background: red;
+  background: #fbe9e7;
   cursor: pointer;
   margin: 0 auto 8px;
 `

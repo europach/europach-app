@@ -44,7 +44,7 @@ export const DateRedThin = styled.span`
 `
 
 export const EventTitle = styled.h1`
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   line-height: 1.2;
@@ -111,11 +111,13 @@ export const ResponsiveImg = styled.img`
   width: ${props => props.width};
   height: auto;
   padding ${props => props.padding || 0};
+  border: none;
 `
 
 export const Img = styled.img`
   src: url(${props => props.src});
   max-width: 100%;
+  border: none;
 `
 
 export const StyledLink = styled(Link)`
@@ -130,4 +132,11 @@ export const Section = styled.div`
 export const RedLineWrapper = styled.div`
   border-left: 1px solid #eed5ca;
   margin-left: 16px;
+`
+
+export const ModalTitle = styled.h1`
+  font-size: 36px;
+  font-family: 'Lekton', sans-serif;
+  color: rgba(0,0,0,0.75);
+  margin: 0;
 `
