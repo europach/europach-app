@@ -4,7 +4,7 @@ export const FilterBtn = styled.div`
   display: inline-block;
   margin-right: 32px;
   font-size: 16px;
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   color: #555657;
   cursor: pointer;
 

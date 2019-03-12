@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 export const TitleText = styled.h1`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   color: rgb(0,0,0, 0.75);
   margin: 0;
   font-weight: 400;
@@ -10,7 +10,7 @@ export const TitleText = styled.h1`
 `;
 
 export const H2 = styled.h2`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   color: rgb(0,0,0, 0.80);
   font-weight: 400;
   font-size: 24px;
@@ -18,7 +18,7 @@ export const H2 = styled.h2`
 `;
 
 export const ByLine = styled.div`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   color: #6f6f6f;
   font-weight: 400;
   font-size: 16px;
@@ -26,19 +26,19 @@ export const ByLine = styled.div`
 `;
 
 export const SubHeadText = styled.p`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   font-size: 14px;
   color: rgba(0,0,0,0.75);
 `;
 
 export const BodyText = styled.p`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   font-size: 16px;
   color: rgba(0,0,0,0.75);
 `;
 
 export const DateRedThin = styled.span`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   font-size: 13px;
   color: #de0512;
 `
@@ -54,7 +54,7 @@ export const EventTitle = styled.h1`
 
 export const EventSubhead = styled.h2`
   font-size: 20px;
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   font-weight: bold;
   color: rgba(0,0,0,0.75);
   margin: 0;
@@ -91,7 +91,7 @@ export const Button = styled.button`
     background-color: #e30613;
     color: white;
     min-width: 158px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Lekton', serif;
     font-size: 18px;
     font-weight: 900;
     cursor: pointer;
@@ -136,7 +136,7 @@ export const RedLineWrapper = styled.div`
 
 export const ModalTitle = styled.h1`
   font-size: 36px;
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   color: rgba(0,0,0,0.75);
   margin: 0;
 `

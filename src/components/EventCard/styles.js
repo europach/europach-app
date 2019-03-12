@@ -42,7 +42,7 @@ export const Logic = styled.li`
 `
 
 export const LogicText = styled.span`
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
   color: #4a4a4a;
   font-weight: 400;
   font-size: 12px;

@@ -27,7 +27,7 @@ export const EventContainer = styled.div`
 export const EventNavTitle = styled.div`
   font-size: 16px;
   padding-bottom: 16px;
-  font-family: 'Lekton', sans-serif;
+  font-family: 'Lekton', serif;
 `
 
 export const EventNavName = styled.div`
