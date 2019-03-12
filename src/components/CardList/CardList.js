@@ -3,12 +3,12 @@ import { StyledLink } from '../../assets/styles/common';
 import { EventItem, EventList } from './styles';
 
 export class CardList extends React.Component {
-  createEventCard = (item) => {
+  createEventCard = (item, lastItem) => {
     const { cardType: Card } = this.props;
     const { url, baseStory } = item;
 
     return (
-      <EventItem key={url}>
+      <EventItem key={url} lastItem={lastItem}>
         <StyledLink to={`/${baseStory}/${url}`}>
           <Card eventData={item} />
         </StyledLink>
@@ -18,13 +18,15 @@ export class CardList extends React.Component {
 
   createEventList() {
     const { items, width, mobileMaxWidth, padding } = this.props;
+    const itemsCount = items.length;
 
     return (
       <EventList width={width} mobileMaxWidth={mobileMaxWidth} padding={padding}>
         {
-          items.map((item) => (
-            this.createEventCard(item)
-          ))
+          items.map((item, index) => {
+            const isLastItem = itemsCount === (index + 1);
+            return this.createEventCard(item, isLastItem)
+          })
         }
       </EventList>
     );

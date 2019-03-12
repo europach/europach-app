@@ -17,4 +17,8 @@ export const EventItem = styled.li`
   list-style-type: none;
   padding-bottom: 16px;
   width: 100%;
+
+  ${({ lastItem }) => lastItem && `
+    padding-bottom: 0px;
+  `}
 `;
