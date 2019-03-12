@@ -1,13 +1,13 @@
 import React from 'react';
-import { FilterGroup } from './styles';
 import { storyFilter } from '../../filters/StoryFilter';
 import CardList from '../CardList';
 import EventCard from '../EventCard';
-import { RedLineWrapper } from '../../assets/styles/common';
+import { RedLineWrapper, Section } from '../../assets/styles/common';
+import { FilterBtn } from './styles';
 
 const Filter = (props) => {
   return (
-    <span onClick={props.onFilter} filter-name={props.filter}>{ props.name }</span>
+    <FilterBtn onClick={props.onFilter} filter-name={props.filter}>{ props.name }</FilterBtn>
   )
 };
 
@@ -56,11 +56,13 @@ export class LogicToggle extends React.Component {
 
     return (
       <div>
-        <FilterGroup>
-          { logics.map((logic, index) => <Filter name={logic.title} filter={logic.filter} onFilter={this.onFilter} key={index} />) }
+        <div>
+          <Section padding={'0 0 32px 0'}>
+            { logics.map((logic, index) => <Filter name={logic.title} filter={logic.filter} onFilter={this.onFilter} key={index} />) }
+          </Section>
 
-          <CardList items={selectedEvents} cardType={EventCard} width={'100%'} wrapper={RedLineWrapper} />
-        </FilterGroup>
+          <CardList items={selectedEvents} cardType={EventCard} padding={'none'} width={'100%'} mobileMaxWidth={'320px'} wrapper={RedLineWrapper} />
+        </div>
       </div>
     )
   }

@@ -2,13 +2,13 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Img, Section, EventTitle, EventSubhead, DateRedThin } from '../../assets/styles/common';
-import { CenteredWrapper, BackArrow, EventNav, EventWrapper, EventContainer, EventNavTitle } from './styles';
-import ArrowBack from '../../assets/images/arrow_back.svg';
+import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin } from '../../assets/styles/common';
+import { CenteredWrapper, EventNav, EventWrapper, EventContainer, EventNavTitle, Break, EventNavName } from './styles';
 import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
 import CardList from '../CardList';
 import LogicToggle from '../LogicToggle';
+import { RedLineWrapper } from '../../assets/styles/common';
 
 const NavCard = ({title, event}) => {
   const { startDate, name, url } = event;
@@ -19,7 +19,7 @@ const NavCard = ({title, event}) => {
         <EventContainer>
           <EventNavTitle>{ title }</EventNavTitle>
           <DateRedThin>{ startDate }</DateRedThin>
-          { name }
+          <EventNavName>{ name }</EventNavName>
         </EventContainer>
       </StyledLink>
     </EventNav>
@@ -38,12 +38,12 @@ const NavBlank = () => {
 
 const Image = (content, key) => (
   <ImageWrapper key={key}>
-      <ResponsiveImg width={'100%'} src={content} alt={''} />
+    <ResponsiveImg width={'100%'} src={content} alt={''} />
   </ImageWrapper>
 );
 
 const Paragraph = (content, key) => (
-  <p key={key}>{content}</p>
+  <EventBody key={key}>{content}</EventBody>
 );
 
 const Audio = (content, key) => (
@@ -91,33 +91,26 @@ export const EventPage = ({ match }) => {
 
   return (
     <div>
-      <BackArrow>
-        <StyledLink to={`/${storyName}`}>
-          <Img src={ArrowBack} />
-          &nbsp;
-          Back
-        </StyledLink>
-      </BackArrow>
-
       <Section>
         <CenteredWrapper>
-          <ResponsiveImg src={getIcon(currentEvent)} width={'32px'} />
-          &nbsp;
+          <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 16px 0 0'} />
           <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
         </CenteredWrapper>
       </Section>
 
-      <Section>
+      <Section padding={'12px 0 24px 0'}>
         <EventTitle>
           { currentEvent.name }
         </EventTitle>
       </Section>
 
-      <Section>
+      <Section padding={'0 0 0 0'}>
         { buildJsxElements() }
       </Section>
 
-      <Section>
+      <Break />
+
+      <Section padding={'24px 0 12px 0'}>
         <EventSubhead>Timeline</EventSubhead>
         <EventWrapper>
           { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank /> }
@@ -125,14 +118,20 @@ export const EventPage = ({ match }) => {
         </EventWrapper>
       </Section>
 
-      <Section>
+      <Section padding={'48px 0 12px 0'}>
         <EventSubhead>In Context</EventSubhead>
-        <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} />
+
+        <Section padding={'32px 0 12px 0'}>
+          <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} padding={'none'} wrapper={RedLineWrapper} />
+        </Section>
       </Section>
 
-      <Section>
+      <Section padding={'48px 0 12px 0'}>
         <EventSubhead>Explore Logics</EventSubhead>
-        <LogicToggle event={currentEvent} storyName={storyName} />
+
+        <Section padding={'24px 0 12px 0'}>
+          <LogicToggle event={currentEvent} storyName={storyName} />
+        </Section>
       </Section>
     </div>
   )

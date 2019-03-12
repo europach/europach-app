@@ -24,7 +24,7 @@ export const Card = styled.div`
 
 export const Header = styled.div`
   display: flex;
-  align-items: center;
+  align-items: baseline;
 `
 
 export const Logics = styled.ul`
@@ -36,12 +36,14 @@ export const Logics = styled.ul`
 export const Logic = styled.li`
   list-style-type: none;
   display: inline-block;
-  padding: 8px 32px 0 0;
+  padding: 8px;
+  margin: 8px 8px 0 0;
+  background: rgba(216,216,216,0.3);
 `
 
 export const LogicText = styled.span`
   font-family: 'Lekton', sans-serif;
-  color: #6f6f6f;
+  color: #4a4a4a;
   font-weight: 400;
   font-size: 12px;
 `;

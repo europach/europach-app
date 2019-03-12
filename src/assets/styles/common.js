@@ -51,6 +51,7 @@ export const EventTitle = styled.h1`
   color: rgba(0,0,0,0.70);
   margin: 0;
 `
+
 export const EventSubhead = styled.h2`
   font-size: 20px;
   font-family: 'Lekton', sans-serif;
@@ -63,12 +64,24 @@ export const EventBody = styled.p`
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   color: rgba(0,0,0,0.70);
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 32px;
+`
+
+export const Text = styled.p`
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0,0,0,0.70);
+  line-height: 24px;
+  margin-top: 0;
 `
 
 export const EventSpan = styled.span`
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   color: rgba(0,0,0,0.70);
+  line-height: 1.4;
 `
 
 export const Button = styled.button`
@@ -97,6 +110,7 @@ export const ResponsiveImg = styled.img`
   max-width: 100%;
   width: ${props => props.width};
   height: auto;
+  padding ${props => props.padding || 0};
 `
 
 export const Img = styled.img`
@@ -110,9 +124,10 @@ export const StyledLink = styled(Link)`
 `;
 
 export const Section = styled.div`
-  padding: 16px 0;
+  padding: ${props => props.padding || '12px 0'};
 `;
 
 export const RedLineWrapper = styled.div`
-  border-left: 1px solid #de0512;;
+  border-left: 1px solid #eed5ca;
+  margin-left: 16px;
 `

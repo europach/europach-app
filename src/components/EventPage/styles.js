@@ -6,17 +6,17 @@ export const BackArrow = styled.div`
 
 export const CenteredWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: baseline;
 `;
 
 export const EventWrapper = styled.div`
   display: flex;
-
 `
 
 export const EventNav = styled.div`
-  width: 50%;
-  padding: 16px 0;
+  width: 40%;
+  margin-right: 10%;
+  padding: 24px 0 12px 0;
 `
 
 export const EventContainer = styled.div`
@@ -27,4 +27,20 @@ export const EventContainer = styled.div`
 export const EventNavTitle = styled.div`
   font-size: 16px;
   padding-bottom: 16px;
+  font-family: 'Lekton', sans-serif;
+`
+
+export const EventNavName = styled.div`
+  font-size: 14px;
+  padding-top: 2px;
+  font-family: 'Open Sans',sans-serif;
+`
+
+export const Break = styled.hr`
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #eed5ca;
+  margin: 1em 0;
+  padding: 0;
 `
