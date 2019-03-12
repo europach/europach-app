@@ -1,33 +1,23 @@
 import React from 'react';
 import { DateRedThin } from '../../assets/styles/common';
-import Moment from 'react-moment';
+import { DateContainer } from './styles';
 
 export const DateRange = (props) => {
   const { startDate, endDate } = props;
 
   const buildStartDate = () => (
-    <Moment format="D MMM YYYY" withTitle>
-      { startDate }
-    </Moment>
+    <DateContainer start={true}>{startDate}</DateContainer>
   )
 
   const buildEndDate = () => (
-    <Moment format="D MMM YYYY" withTitle>
-      { endDate }
-    </Moment>
-  )
-
-  const buildSeperator = () => (
-    <span>
-      &nbsp;
-      -
-      &nbsp;
-    </span>
+    <DateContainer end={true}>{endDate}</DateContainer>
   )
 
   const dateDefined = date => (
     date === "" || !date ? false : true
   )
+
+  const buildSeperator = () => '-'
 
   return (
     <DateRedThin>
