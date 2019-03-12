@@ -5,10 +5,18 @@ import EventCard from '../EventCard';
 import { RedLineWrapper, Section } from '../../assets/styles/common';
 import { FilterBtn } from './styles';
 
-const Filter = (props) => {
-  return (
-    <FilterBtn onClick={props.onFilter} filter-name={props.filter}>{ props.name }</FilterBtn>
-  )
+class Filter extends React.Component {
+  isSelected = () => {
+    return this.props.selectedFilter === this.props.filter;
+  }
+
+  render() {
+    const { onFilter, filter, name } = this.props;
+
+    return (
+      <FilterBtn onClick={onFilter} value={filter} active={this.isSelected()}>{ name }</FilterBtn>
+    )
+  }
 };
 
 export class LogicToggle extends React.Component {
@@ -16,7 +24,8 @@ export class LogicToggle extends React.Component {
     super(props);
 
     this.state = {
-      selectedEvents: null
+      selectedEvents: null,
+      selectedFilter: null
     };
   }
 
@@ -38,27 +47,28 @@ export class LogicToggle extends React.Component {
   }
 
   onFilter = (event) => {
-    const filterEventsBy = event.target.getAttribute('filter-name');
+    const filterEventsBy = event.target.getAttribute('value');
 
     this.setState({
       selectedEvents: storyFilter(
         this.currentStory,
         [filterEventsBy],
         this.filterOtherStories
-      )
+      ),
+      selectedFilter: filterEventsBy
     })
   }
 
   render() {
     const { event } = this.props;
     const { logics } = event;
-    const selectedEvents = this.state.selectedEvents;
+    const { selectedEvents, selectedFilter } = this.state;
 
     return (
       <div>
         <div>
           <Section padding={'0 0 32px 0'}>
-            { logics.map((logic, index) => <Filter name={logic.title} filter={logic.filter} onFilter={this.onFilter} key={index} />) }
+            { logics.map((logic, index) => <Filter name={logic.title} filter={logic.filter} onFilter={this.onFilter} key={index} selectedFilter={selectedFilter} />) }
           </Section>
 
           <CardList items={selectedEvents} cardType={EventCard} padding={'none'} width={'100%'} mobileMaxWidth={'320px'} wrapper={RedLineWrapper} />
