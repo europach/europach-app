@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import ScrollToTop from '../ScrollToTop';
 import StoryPage from '../components/StoryPage';
 import Home from '../components/HomePage';
 import Error from '../components/pages/Error';
@@ -18,43 +19,44 @@ export class App extends Component {
   render() {
     return (
       <Router>
-        <AppContainer>
-          <AppNav>
-            <AppNavInner>
-              <StyledLink to='/'>
-                <img src={logo} alt="Logo" />
-              </StyledLink>
-            </AppNavInner>
-          </AppNav>
+        <ScrollToTop>
+          <AppContainer>
+            <AppNav>
+              <AppNavInner>
+                <StyledLink to='/'>
+                  <img src={logo} alt="Logo" />
+                </StyledLink>
+              </AppNavInner>
+            </AppNav>
 
-          <AppMain>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route exact path='/germany' component={StoryPage} />
-              <Route path={`/germany/:eventId`} component={EventPage} />
+            <AppMain>
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/germany' component={StoryPage} />
+                <Route path={`/germany/:eventId`} component={EventPage} />
 
-              <Route exact path='/uk' component={StoryPage} />
-              <Route path={`/uk/:eventId`} component={EventPage} />
+                <Route exact path='/uk' component={StoryPage} />
+                <Route path={`/uk/:eventId`} component={EventPage} />
 
-              <Route exact path='/poland' component={StoryPage} />
-              <Route path={`/poland/:eventId`} component={EventPage} />
-              <Route component={Error} />
-            </Switch>
+                <Route exact path='/poland' component={StoryPage} />
+                <Route path={`/poland/:eventId`} component={EventPage} />
+                <Route component={Error} />
+              </Switch>
+            </AppMain>
 
-          </AppMain>
-
-          <AppFooter>
-            <AppFooterInner>
-              <DateRedThin>copyright 2019 Europach</DateRedThin>
-              <FooterItem><ResponsiveImg width='100px' src={husiegelImg} /></FooterItem>
-              <FooterItem><ResponsiveImg width='200px' src={goldsmithsImg} /></FooterItem>
-              <FooterItem><ResponsiveImg width='200px' src={basImg} /></FooterItem>
-              <FooterItem><ResponsiveImg width='200px' src={krakowImg} /></FooterItem>
-              <FooterItem><ResponsiveImg width='200px' src={heraImg} /></FooterItem>
-              <FooterItem><ResponsiveImg width='200px' src={horizonImg} /></FooterItem>
-            </AppFooterInner>
-          </AppFooter>
-        </AppContainer>
+            <AppFooter>
+              <AppFooterInner>
+                <DateRedThin>copyright 2019 Europach</DateRedThin>
+                <FooterItem><ResponsiveImg width='100px' src={husiegelImg} /></FooterItem>
+                <FooterItem><ResponsiveImg width='200px' src={goldsmithsImg} /></FooterItem>
+                <FooterItem><ResponsiveImg width='200px' src={basImg} /></FooterItem>
+                <FooterItem><ResponsiveImg width='200px' src={krakowImg} /></FooterItem>
+                <FooterItem><ResponsiveImg width='200px' src={heraImg} /></FooterItem>
+                <FooterItem><ResponsiveImg width='200px' src={horizonImg} /></FooterItem>
+              </AppFooterInner>
+            </AppFooter>
+          </AppContainer>
+        </ScrollToTop>
       </Router>
     );
   }
