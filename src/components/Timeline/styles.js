@@ -7,7 +7,7 @@ export const TimelineSection = styled.div`
   border-top: solid 1px #eed5ca;
 `;
 
-export const Date = styled.div`
+export const DateWrapper = styled.div`
   writing-mode: vertical-lr;
   text-orientation: sideways;
   display: inline-block;

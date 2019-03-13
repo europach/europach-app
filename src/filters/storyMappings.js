@@ -92,7 +92,7 @@ import { Events } from '../events/Events';
 
 import { GermanyStoryDetails, UkStoryDetails, PolandStoryDetails, EUStoryDetails, TurkeyStoryDetails } from './storyDetails';
 
-export const STORIES = [ '/germany', '/uk', 'turkey', '/poland', '/eu' ];
+export const STORIES = [ '/uk', '/poland' ];
 
 export const storyMappings = {
   '/germany': {

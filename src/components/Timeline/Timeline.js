@@ -2,7 +2,7 @@ import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
 import LogicDefinitions from '../LogicDefinitions';
 import { storyFilter } from '../../filters/StoryFilter';
-import { Date, TimelineSection, Circle, FilterContainer, FilterContainerInner } from './styles';
+import { DateWrapper, TimelineSection, Circle, FilterContainer, FilterContainerInner } from './styles';
 import { Section, ModalTitle } from '../../assets/styles/common';
 import Modal from '../Modal';
 import CardList from '../CardList';
@@ -49,7 +49,8 @@ export class Timeline extends React.Component {
     let itemsByDate = {}
 
     items.forEach(item => {
-      let itemDate = moment(item.startDate).format('YYYY');
+      let itemDate = new Date(item.startDate).getFullYear();
+
       itemsByDate[itemDate] = itemsByDate[itemDate] || [];
       itemsByDate[itemDate].push(item);
     });
@@ -66,7 +67,7 @@ export class Timeline extends React.Component {
   createTimelineSection = (sectionDate, sectionItems) => {
     return (
       <TimelineSection key={sectionDate}>
-        <Date>{ sectionDate }</Date>
+        <DateWrapper>{ sectionDate }</DateWrapper>
 
         <CardList items={sectionItems} cardType={EventCard} width={'100%'} />
       </TimelineSection>
