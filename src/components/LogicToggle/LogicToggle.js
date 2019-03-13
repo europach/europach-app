@@ -39,10 +39,13 @@ export class LogicToggle extends React.Component {
   }
 
   componentWillMount() {
-    const baseStoryEvents = storyFilter(this.currentStory, this.defaultLogics(), this.filterOtherStories);
+    const defaultFilters = this.defaultLogics();
+    const defaultFilter = defaultFilters[0];
+    const baseStoryEvents = storyFilter(this.currentStory, defaultFilters, this.filterOtherStories);
 
     this.setState({
       selectedEvents: baseStoryEvents,
+      selectedFilter: defaultFilter,
     })
   }
 
