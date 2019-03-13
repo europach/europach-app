@@ -55,6 +55,10 @@ const Audio = (content, key) => (
   />
 );
 
+const Quote = (content, key) => (
+  <EventBody key={key}>{content}</EventBody>
+);
+
 const getLinkedEvents = (eventsInContext, storyUrl) => {
   return eventsInContext.map(eventUrl => detectEvent(storyUrl, eventUrl))
 }
@@ -78,7 +82,8 @@ export const EventPage = ({ match }) => {
   const elementMapping = {
     'paragraph': Paragraph,
     'image': Image,
-    'audio': Audio
+    'audio': Audio,
+    'quote': Quote
   }
 
   const buildJsxElements = () => {
@@ -92,10 +97,10 @@ export const EventPage = ({ match }) => {
   const externalLinks = () => (
     <TextItems>
       {
-        currentEvent.externalLinks.map(link => (
+        currentEvent.externalLinks.map(({url, text}) => (
           <TextListItem>
             <EventSpan>
-              <a href={link}>{link}</a>
+              <a href={url}>{text}</a>
             </EventSpan>
           </TextListItem>
         ))
@@ -103,13 +108,17 @@ export const EventPage = ({ match }) => {
     </TextItems>
   )
 
-  const externalSources = () => (
+  const sources = () => (
     <TextItems>
       {
-        currentEvent.sources.map(source => (
+        currentEvent.sources.map(({type, url, content}) => (
           <TextListItem>
             <EventSpan>
-              {source}
+              {
+                type === 'link' ?
+                  <a href={url}>{content}</a> :
+                  content
+              }
             </EventSpan>
           </TextListItem>
         ))
@@ -139,7 +148,7 @@ export const EventPage = ({ match }) => {
 
   const notEmpty = (element) => element.length > 0;
 
-  const buildExternalSources = () => (notEmpty(currentEvent.sources) && externalSources());
+  const buildSources = () => (notEmpty(currentEvent.sources) && sources());
   const buildExternalLinks = () => (notEmpty(currentEvent.externalLinks) && externalLinks());
   const buildInContext = () => (notEmpty(currentEvent.linksWith) && inContext());
   const buildExploreLogics = () => (notEmpty(currentEvent.logics) && exploreLogics());
@@ -160,7 +169,7 @@ export const EventPage = ({ match }) => {
       <Section padding={'0 0 0 0'}>
         { buildJsxElements() }
         { buildExternalLinks() }
-        { buildExternalSources() }
+        { buildSources() }
       </Section>
 
       <Break />
