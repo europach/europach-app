@@ -12,7 +12,16 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["European Monitoring Centre for Drugs and Drug Addiction (2014)", "Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."],
+    sources: [
+      {
+        type: 'text',
+        content: 'European Monitoring Centre for Drugs and Drug Addiction (2014)'
+      },
+      {
+        type: 'text',
+        content: 'Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg.'
+      },
+    ],
     startDate: '1966',
     endDate: '',
     logics: [],
@@ -30,14 +39,22 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg.", "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."],
+    sources: [
+      {
+        type: 'text',
+        content: 'European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg.'
+      },
+      {
+        type: 'text',
+        content: "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."
+      }
+    ],
     startDate: '1976',
     endDate: '',
     logics: [],
     linksWith: ['un_single_convention_on', 'setting_up_monar'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'Setting up MONAR',
@@ -53,7 +70,17 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["interviews conducted under the framework of EUROPACH project; Kotański, M. (1984). Ty zaraziłeś ich narkomanią. Warszawa: Państwowy Zakład Wydawnictw Lekarskich.", "Maresz, M. (2012). Przemoc w terapii.  http://jump93.pl/portal/download/file_id/112/pid/30.html Accessed 2 February, 2019."],
+    sources: [
+      {
+        type: 'text',
+        content: "interviews conducted under the framework of EUROPACH project; Kotański, M. (1984). Ty zaraziłeś ich narkomanią. Warszawa: Państwowy Zakład Wydawnictw Lekarskich."
+      },
+      {
+        type: 'link',
+        content: "Maresz, M. (2012). Przemoc w terapii, Accessed 2 February, 2019.",
+        url: "http://jump93.pl/portal/download/file_id/112/pid/30.html"
+      }
+    ],
     startDate: 'August 1981',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.security],
@@ -76,7 +103,16 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Ustawa o zapobieganiu narkomanii z 31 stycznia 1985 roku (Dziennik Ustaw 1985 nr 4, poz. 15, art. 1", "European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."],
+    sources: [
+      {
+        type: 'text',
+        content: "Ustawa o zapobieganiu narkomanii z 31 stycznia 1985 roku (Dziennik Ustaw 1985 nr 4, poz. 15, art. 1"
+      },
+      {
+        type: 'text',
+        content: "European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."
+      },
+    ],
     startDate: '31 January 1985',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.security],
@@ -112,7 +148,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."],
+    sources: [
+      {
+        type: 'text',
+        content: "European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."
+      }
+    ],
     startDate: '1988',
     endDate: '',
     logics: [LOGICS.criminalisation],
@@ -130,7 +171,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Juszczyk, J. and Gładysz, A. (1993). AIDS: epidemiologia, patogeneza, klinika, leczenie, zapobieganie, poradnictwo. Wrocław: Volumed."],
+    sources: [
+      {
+        type: 'text',
+        content: "Juszczyk, J. and Gładysz, A. (1993). AIDS: epidemiologia, patogeneza, klinika, leczenie, zapobieganie, poradnictwo. Wrocław: Volumed."
+      }
+    ],
     startDate: '1988',
     endDate: '',
     logics: [],
@@ -176,7 +222,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."],
+    sources: [
+      {
+        type: 'text',
+        content: "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."
+      }
+    ],
     startDate: '4 July 1989',
     endDate: '',
     logics: [],
@@ -194,7 +245,16 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Baran-Furga H., Chmielewska K. (1994). Terapia Metadonem,  Alkoholizm i Narkomania, 1(15), 25-45", "K, Steinbarth-Chmielewska, H. Baran-Furga. (1995). Pilotażowy program metadonowy. Zasady organizacyjne i cele. In: Program Metadonowy na tle innych programów rehabilitacyjnych osób uzależnionych w profilaktyce HIV/AIDS/ Konferencja Międzynarodowa. Jadwisin 12-14 września 1994. Warszawa: Biuro ds. Narkomanii, pp. 75-83"],
+    sources: [
+      {
+        type: 'text',
+        content: "Baran-Furga H., Chmielewska K. (1994). Terapia Metadonem,  Alkoholizm i Narkomania, 1(15), 25-45"
+      },
+      {
+        type: 'text',
+        content: "K, Steinbarth-Chmielewska, H. Baran-Furga. (1995). Pilotażowy program metadonowy. Zasady organizacyjne i cele. In: Program Metadonowy na tle innych programów rehabilitacyjnych osób uzależnionych w profilaktyce HIV/AIDS/ Konferencja Międzynarodowa. Jadwisin 12-14 września 1994. Warszawa: Biuro ds. Narkomanii, pp. 75-83"
+      }
+    ],
     startDate: '20 July 1992',
     endDate: '27 May 1993',
     logics: [LOGICS.bestPractice],
@@ -212,7 +272,12 @@ export const PolandEvents = [
       }
     ],
     externalLinks: [],
-    sources: ["K, Steinbarth-Chmielewska, H. Baran-Furga. (1995). Pilotażowy program metadonowy. Zasady organizacyjne i cele. In: Program Metadonowy na tle innych programów rehabilitacyjnych osób uzależnionych w profilaktyce HIV/AIDS/ Konferencja Międzynarodowa. Jadwisin 12-14 września 1994. Warszawa: Biuro ds. Narkomanii, pp. 75-83"],
+    sources: [
+      {
+        type: 'text',
+        content: "K, Steinbarth-Chmielewska, H. Baran-Furga. (1995). Pilotażowy program metadonowy. Zasady organizacyjne i cele. In: Program Metadonowy na tle innych programów rehabilitacyjnych osób uzależnionych w profilaktyce HIV/AIDS/ Konferencja Międzynarodowa. Jadwisin 12-14 września 1994. Warszawa: Biuro ds. Narkomanii, pp. 75-83"
+      }
+    ],
     startDate: '12-14 August 1994',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism, LOGICS.evidence],
@@ -230,7 +295,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Coffin, P. O. (2002). Marketing harm reduction: a historical narrative of the International Harm Reduction Development Program. International Journal of Drug Policy, 13, 213-224."],
+    sources: [
+      {
+        type: 'text',
+        content: "Coffin, P. O. (2002). Marketing harm reduction: a historical narrative of the International Harm Reduction Development Program. International Journal of Drug Policy, 13, 213-224."
+      }
+    ],
     startDate: '1995',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanRights, LOGICS.bestPractice],
@@ -248,7 +318,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Coffin, P. O. (2002). Marketing harm reduction: a historical narrative of the International Harm Reduction Development Program. International Journal of Drug Policy, 13, 213-224."],
+    sources: [
+      {
+        type: 'text',
+        content: "Coffin, P. O. (2002). Marketing harm reduction: a historical narrative of the International Harm Reduction Development Program. International Journal of Drug Policy, 13, 213-224."
+      }
+    ],
     startDate: '1995',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanRights],
@@ -267,7 +342,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["CDuda, A. & Stroes, E.J. (2001). Terminal Evaluation Report UNDP Poland: AIDS and HIV Project. P0L1961003 Support to Civil Society Organisations, POL/97/003 Managing the Social and Public Health Consequences of HIV and AIDS. Warsaw."],
+    sources: [
+      {
+        type: 'text',
+        content: "CDuda, A. & Stroes, E.J. (2001). Terminal Evaluation Report UNDP Poland: AIDS and HIV Project. P0L1961003 Support to Civil Society Organisations, POL/97/003 Managing the Social and Public Health Consequences of HIV and AIDS. Warsaw."
+      }
+    ],
     startDate: '1996',
     endDate: '2000',
     logics: [LOGICS.publicHealth, LOGICS.humanRights, LOGICS.bestPractice],
@@ -299,7 +379,24 @@ export const PolandEvents = [
 
     ],
     externalLinks: [],
-    sources: ["Ustawa z dnia 24 kwietnia 1997 roku o przeciwdziałaniu narkomanii (Dziennik Ustaw 1997 nr 75, poz. 468)", "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University.", "Stasiowski, J. (2009).  Geneza obecnej ustawy o przeciwdziałaniu narkomanii, IN Karanie za posiadanie. Artykuł 62 ustawy o przeciwdziałaniu narkomanii – koszty, czas, opinie, Kuźmicz, Mielecka-Kubień, Wiszejko-Wierzbicka (eds.), Warszawa: Instytut Spraw Publicznych,  pp.13-18", "Kuźmicz, E., Mielecka-Kubień, Z., Stasiowski, J. and Wiszejko-Wierzbicka, D. (2009).Penalizacja Posiadania Narkotyków - Działania Instytucjonalne I Koszty. Warszawa: Instytut Spraw Publicznych."],
+    sources: [
+      {
+        type: 'text',
+        content: "Ustawa z dnia 24 kwietnia 1997 roku o przeciwdziałaniu narkomanii (Dziennik Ustaw 1997 nr 75, poz. 468)"
+      },
+      {
+        type: 'text',
+        content: "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."
+      },
+      {
+        type: 'text',
+        content: "Stasiowski, J. (2009).  Geneza obecnej ustawy o przeciwdziałaniu narkomanii, IN Karanie za posiadanie. Artykuł 62 ustawy o przeciwdziałaniu narkomanii – koszty, czas, opinie, Kuźmicz, Mielecka-Kubień, Wiszejko-Wierzbicka (eds.), Warszawa: Instytut Spraw Publicznych,  pp.13-18"
+      },
+      {
+        type: 'text',
+        content: "Kuźmicz, E., Mielecka-Kubień, Z., Stasiowski, J. and Wiszejko-Wierzbicka, D. (2009).Penalizacja Posiadania Narkotyków - Działania Instytucjonalne I Koszty. Warszawa: Instytut Spraw Publicznych."
+      }
+    ],
     startDate: '27 April 1997',
     endDate: '',
     logics: [LOGICS.security, LOGICS.criminalisation],
@@ -367,7 +464,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Rozporządzenie Ministra Zdrowia i Opieki Społecznej z dnia 6 września 1999 r. w sprawie leczenia substytucyjnego (Dz.U. nr 77, poz. 873)"],
+    sources: [
+      {
+        type: 'text',
+        content: "Rozporządzenie Ministra Zdrowia i Opieki Społecznej z dnia 6 września 1999 r. w sprawie leczenia substytucyjnego (Dz.U. nr 77, poz. 873)"
+      }
+    ],
     startDate: '6 September 1999',
     endDate: '',
     logics: [LOGICS.criminalisation],
@@ -389,14 +491,22 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Prawa człowieka – osób zażywających narkotyki i osób zakażonych HIV. (2003) Konferencje i Seminaria 10(53)03,  Biuletyn Biura  Studiów i Ekspertyz Kancelarii Sejmu,  Warszawa: Kancelaria Sejmu.", "Stasiowski, J. (2009).  Geneza obecnej ustawy o przeciwdziałaniu narkomanii, IN Karanie za posiadanie. Artykuł 62 ustawy o przeciwdziałaniu narkomanii – koszty, czas, opinie, Kuźmicz, Mielecka-Kubień, Wiszejko-Wierzbicka (eds.), Warszawa: Instytut Spraw Publicznych,  pp.13-18"],
+    sources: [
+      {
+        type: 'text',
+        content: "Prawa człowieka – osób zażywających narkotyki i osób zakażonych HIV. (2003) Konferencje i Seminaria 10(53)03,  Biuletyn Biura  Studiów i Ekspertyz Kancelarii Sejmu,  Warszawa: Kancelaria Sejmu."
+      },
+      {
+        type: 'text',
+        content: "Stasiowski, J. (2009).  Geneza obecnej ustawy o przeciwdziałaniu narkomanii, IN Karanie za posiadanie. Artykuł 62 ustawy o przeciwdziałaniu narkomanii – koszty, czas, opinie, Kuźmicz, Mielecka-Kubień, Wiszejko-Wierzbicka (eds.), Warszawa: Instytut Spraw Publicznych,  pp.13-18"
+      },
+    ],
     startDate: '26 October 2000',
     endDate: '',
     logics: [LOGICS.criminalisation, LOGICS.security],
     linksWith: ['the_1997_drug_abuse', 'parliamentary_discussion_over_a', 'consequences_of_the_2000', 'a_conference_on_people', 'the_2005_act_on'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'Consequences of the 2000 drug law for harm reduction programs',
@@ -408,14 +518,18 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: [" Prawa człowieka – osób zażywających narkotyki i osób zakażonych HIV. (2003) Konferencje i Seminaria 10(53)03,  Biuletyn Biura  Studiów i Ekspertyz Kancelarii Sejmu,  Warszawa: Kancelaria Sejmu."],
+    sources: [
+      {
+        type: 'text',
+        content: " Prawa człowieka – osób zażywających narkotyki i osób zakażonych HIV. (2003) Konferencje i Seminaria 10(53)03,  Biuletyn Biura  Studiów i Ekspertyz Kancelarii Sejmu,  Warszawa: Kancelaria Sejmu."
+      }
+    ],
     startDate: '26 October 2000',
     endDate: '',
     logics: [LOGICS.criminalisation, LOGICS.security],
     linksWith: ['studies_showing_social_consequences'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'A conference on people who use drugs and HIV in the Polish parliament',
@@ -427,14 +541,18 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Prawa człowieka – osób zażywających narkotyki i osób zakażonych HIV. (2003) Konferencje i Seminaria 10(53)03,  Biuletyn Biura  Studiów i Ekspertyz Kancelarii Sejmu,  Warszawa: Kancelaria Sejmu."],
+    sources: [
+      {
+        type: 'text',
+        content: "Prawa człowieka – osób zażywających narkotyki i osób zakażonych HIV. (2003) Konferencje i Seminaria 10(53)03,  Biuletyn Biura  Studiów i Ekspertyz Kancelarii Sejmu,  Warszawa: Kancelaria Sejmu."
+      }
+    ],
     startDate: '17 November 2003',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.humanRights, LOGICS.criminalisation, LOGICS.deCriminalisation],
     linksWith: ['the_2000_amendment_to'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'The 2005 Act on Counteracting Drug Addiction',
@@ -446,7 +564,12 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Ustawa z dnia 29 lipca 2005 r. o przeciwdziałaniu narkomanii (Dz.U. 2005 nr 179 poz. 1485) European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."],
+    sources: [
+      {
+        type: 'text',
+        content: "Ustawa z dnia 29 lipca 2005 r. o przeciwdziałaniu narkomanii (Dz.U. 2005 nr 179 poz. 1485) European Monitoring Centre for Drugs and Drug Addiction. (2014). Drug policy profile: Poland, EMCDDA Papers, Publications Office of the European Union, Luxembourg."
+      }
+    ],
     startDate: '29 July 2005',
     endDate: '',
     logics: [LOGICS.criminalisation, LOGICS.securitization],
@@ -464,7 +587,23 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["A story of criminalization of methadone has been described e.g. in the following article: https://www.polityka.pl/tygodnikpolityka/spoleczenstwo/286523,1,metadon-zakazany-w-trojmiescie.read [access: 4.07.2018]", "More information available at: http://gdansk.naszemiasto.pl/artykul/relacja-ze-spotkania-metadon-w-gdansku,3002618,art,t,id,tm.html [access: 4.07.2018]", "http://wyborcza.pl/duzyformat/1,127290,9394026,Cud_metadonowy.html  [access: 4.07.2018]"],
+    sources: [
+      {
+        type: 'link',
+        content: 'A story of criminalization of methadone has been described e.g. in the following article, [access: 4.07.2018]',
+        url: "https://www.polityka.pl/tygodnikpolityka/spoleczenstwo/286523,1,metadon-zakazany-w-trojmiescie.read"
+      },
+      {
+        type: 'link',
+        content: 'More information available, [access: 4.07.2018]',
+        url: "http://gdansk.naszemiasto.pl/artykul/relacja-ze-spotkania-metadon-w-gdansku,3002618,art,t,id,tm.html [access: 4.07.2018]"
+      },
+      {
+        type: 'link',
+        content: 'More information available, [access: 4.07.2018]',
+        url: "http://wyborcza.pl/duzyformat/1,127290,9394026,Cud_metadonowy.html"
+      },
+    ],
     startDate: '2007',
     endDate: '2009',
     logics: [LOGICS.mutualHelp, LOGICS.humanRights, LOGICS.citizenship],
@@ -490,7 +629,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'Studies showing social consequences of criminalization of drug use',
     url: 'studies_showing_social_consequences',
@@ -505,7 +643,20 @@ export const PolandEvents = [
       }
     ],
     externalLinks: [],
-    sources: ["Krajewski, K. (2008), Sprawy o posiadanie narkotyków w praktyce sadów krakowskich, raport z badań, Jagiellonian University, Kraków", "Kuźmicz, E., Mielecka-Kubień, Z., Stasiowski, J. and Wiszejko-Wierzbicka, D. (2009).Penalizacja Posiadania Narkotyków - Działania Instytucjonalne I Koszty. Warszawa: Instytut Spraw Publicznych.", "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."],
+    sources: [
+      {
+        type: 'text',
+        content: "Krajewski, K. (2008), Sprawy o posiadanie narkotyków w praktyce sadów krakowskich, raport z badań, Jagiellonian University, Kraków"
+      },
+      {
+        type: 'text',
+        content: "Kuźmicz, E., Mielecka-Kubień, Z., Stasiowski, J. and Wiszejko-Wierzbicka, D. (2009).Penalizacja Posiadania Narkotyków - Działania Instytucjonalne I Koszty. Warszawa: Instytut Spraw Publicznych."
+      },
+      {
+        type: 'text',
+        content: "Malinowska-Sempruch, K. (2013). HIV among Drug Users in Poland: The Paradoxes of an Epidemic, Columbia University."
+      }
+    ],
     startDate: '2008',
     endDate: '2009',
     logics: [LOGICS.criminalisation, LOGICS.humanRights],
@@ -551,7 +702,18 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["https://documents-dds-ny.un.org/doc/UNDOC/GEN/G10/134/03/PDF/G1013403.pdf?OpenElement; Accessed 2 February, 2019.", "http://fileserver.idpc.net/alerts/E-C12-POL-CO-5.pdf Accessed 2 February, 2019."],
+    sources: [
+      {
+        type: 'link',
+        content: 'Accessed 2 February, 2019.',
+        url: "https://documents-dds-ny.un.org/doc/UNDOC/GEN/G10/134/03/PDF/G1013403.pdf?OpenElement"
+      },
+      {
+        type: 'link',
+        content: 'Accessed 2 February, 2019.',
+        url: "http://fileserver.idpc.net/alerts/E-C12-POL-CO-5.pdf"
+      }
+    ],
     startDate: '05/05/2009',
     endDate: '05/11/2009',
     logics: [LOGICS.humanRights, LOGICS.criminalisation],
@@ -569,14 +731,19 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["http://krytykapolityczna.pl/narkopolityka/polskienarko/metadon-w-gdansku-relacja/ [access: 4.07.2018]"],
+    sources: [
+      {
+        type: 'link',
+        content: "[access: 4.07.2018]",
+        url: "http://krytykapolityczna.pl/narkopolityka/polskienarko/metadon-w-gdansku-relacja/"
+      }
+    ],
     startDate: '2 April 2009',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.mutualHelp],
     linksWith: ['self_organizing_for_methadone', 'the_special_rapporteur_on'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'The Prague Declaration',
@@ -588,14 +755,19 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["http://www.praguedeclaration.com/en/ [access : 5.02.2019]"],
+    sources: [
+      {
+        type: 'link',
+        content: "[access : 5.02.2019]",
+        url: "http://www.praguedeclaration.com/en/"
+      }
+    ],
     startDate: '29 September 2009',
     endDate: '2 October 2009',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.humanRights],
     linksWith: ['setting_up_polish_network', 'warsaw_declaration'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'The Polish government announces war against NPS',
@@ -615,7 +787,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'Introducing NPS (‘dopalacze’) to the Polish drug law',
     url: 'introducing_npss_dopalacze_to',
@@ -626,7 +797,16 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["The amended Act of 20 March 2009 on counteracting drug addiction [Dz.U. ‘Journal of Laws’ of 2009 No. 63 item 520]", "The amended Act of 10 June 2010 on counteracting drug addiction [Dz.U. ‘Journal of Laws’ of 2010 No. 143 item 962]"],
+    sources: [
+      {
+        type: 'text',
+        content: "The amended Act of 20 March 2009 on counteracting drug addiction [Dz.U. ‘Journal of Laws’ of 2009 No. 63 item 520]"
+      },
+      {
+        type: 'text',
+        content: "The amended Act of 10 June 2010 on counteracting drug addiction [Dz.U. ‘Journal of Laws’ of 2010 No. 143 item 962]"
+      }
+    ],
     startDate: '2009', // FIX 2009/2010
     endDate: '',
     logics: [LOGICS.securitization],
@@ -652,7 +832,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: '"Saying No to Costly Drug Laws" Article in New York Times',
     url: 'introducing_npss_dopalacze_to',
@@ -663,14 +842,19 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["https://www.nytimes.com/2012/05/11/opinion/saying-no-to-costly-drug-laws.html"],
+    sources: [
+      {
+        type: 'link',
+        content: 'https://www.nytimes.com/2012/05/11/opinion/saying-no-to-costly-drug-laws.html',
+        url: "https://www.nytimes.com/2012/05/11/opinion/saying-no-to-costly-drug-laws.html"
+      }
+    ],
     startDate: '10 May 2012',
     endDate: '',
     logics: [LOGICS.criminalisation, LOGICS.deCriminalisation],
     linksWith: ['studies_showing_social_consequences'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'The 2016-2010 National Health Program introduces harm reduction',
@@ -682,14 +866,19 @@ export const PolandEvents = [
       },
     ],
     externalLinks: [],
-    sources: ["Source: Rozporządzenie Rady Ministrów z dnia 4 sierpnia 2016 w sprawie Narodowego Programu Zdrowia na lata 2016-2016; http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20160001492/O/D20161492.pdf Accessed 2 February, 2019."],
+    sources: [
+      {
+        type: 'link',
+        content: "Source: Rozporządzenie Rady Ministrów z dnia 4 sierpnia 2016 w sprawie Narodowego Programu Zdrowia na lata 2016-2016, Accessed 2 February, 2019.",
+        url: 'http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20160001492/O/D20161492.pdf'
+      },
+    ],
     startDate: '2016',
     endDate: '2020',
     logics: [LOGICS.publicHealth],
     linksWith: ['the_2005_act_on'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'Warsaw Declaration',
@@ -709,7 +898,6 @@ export const PolandEvents = [
     baseStory: baseStory,
   },
 
-
   {
     name: 'NPSs (‘dopalacze’) treated as drugs in the Polish drug law',
     url: 'npss_dopalacze_treated_as',
@@ -727,5 +915,4 @@ export const PolandEvents = [
     linksWith: ['the_polish_government_announces', 'introducing_npss_dopalacze_to'],
     baseStory: baseStory,
   },
-
 ]
