@@ -2,7 +2,7 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventSpan } from '../../assets/styles/common';
+import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventSpan, EventQuote } from '../../assets/styles/common';
 import { CenteredWrapper, EventNav, EventWrapper, EventContainer, EventNavTitle, Break, EventNavName, TextItems, TextListItem } from './styles';
 import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
@@ -56,7 +56,7 @@ const Audio = (content, key) => (
 );
 
 const Quote = (content, key) => (
-  <EventBody key={key}>{content}</EventBody>
+  <EventQuote key={key}>{content}</EventQuote>
 );
 
 const getLinkedEvents = (eventsInContext, storyUrl) => {
@@ -94,37 +94,53 @@ export const EventPage = ({ match }) => {
     );
   };
 
-  const externalLinks = () => (
-    <TextItems>
-      {
-        currentEvent.externalLinks.map(({url, text}) => (
-          <TextListItem>
-            <EventSpan>
-              <a href={url}>{text}</a>
-            </EventSpan>
-          </TextListItem>
-        ))
-      }
-    </TextItems>
-  )
+  const externalLinks = () => {
+    const externalLinksCount = currentEvent.externalLinks.length;
 
-  const sources = () => (
-    <TextItems>
-      {
-        currentEvent.sources.map(({type, url, content}) => (
-          <TextListItem>
-            <EventSpan>
-              {
-                type === 'link' ?
-                  <a href={url}>{content}</a> :
-                  content
-              }
-            </EventSpan>
-          </TextListItem>
-        ))
-      }
-    </TextItems>
-  )
+    return (
+      <TextItems>
+        {
+          currentEvent.externalLinks.map(({url, text}, index) => {
+            const isLastItem = externalLinksCount === (index + 1);
+
+            return (
+              <TextListItem lastItem={isLastItem}>
+                <EventSpan>
+                  <a href={url}>{text}</a>
+                </EventSpan>
+              </TextListItem>
+            )
+          })
+        }
+      </TextItems>
+    )
+  }
+
+  const sources = () => {
+    const sourcesCount = currentEvent.sources.length;
+
+    return (
+      <TextItems>
+        {
+          currentEvent.sources.map(({type, url, content}, index) => {
+            const isLastItem = sourcesCount === (index + 1);
+
+            return (
+              <TextListItem lastItem={isLastItem}>
+                <EventSpan>
+                  {
+                    type === 'link' ?
+                      <a href={url}>{content}</a> :
+                      content
+                  }
+                </EventSpan>
+              </TextListItem>
+            )
+          })
+        }
+      </TextItems>
+    )
+  }
 
   const inContext = () => (
     <Section padding={'48px 0 12px 0'}>
@@ -166,7 +182,7 @@ export const EventPage = ({ match }) => {
         </EventTitle>
       </Section>
 
-      <Section padding={'0 0 0 0'}>
+      <Section padding={'0 0 24px 0'}>
         { buildJsxElements() }
         { buildExternalLinks() }
         { buildSources() }

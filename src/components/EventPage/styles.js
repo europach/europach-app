@@ -53,4 +53,8 @@ export const TextItems = styled.ul`
 
 export const TextListItem = styled.li`
   margin-bottom: 8px;
+
+  ${({ lastItem }) => lastItem && `
+    margin-bottom: 0px;
+  `}
 `

@@ -37,6 +37,16 @@ export const BodyText = styled.p`
   color: rgba(0,0,0,0.75);
 `;
 
+export const EventQuote = styled.div`
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italics;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+`;
+
 export const DateRedThin = styled.span`
   font-family: 'Lekton', serif;
   font-size: 13px;
@@ -50,6 +60,15 @@ export const EventTitle = styled.h1`
   line-height: 1.2;
   color: rgba(0,0,0,0.70);
   margin: 0;
+`
+
+export const EventCardTitle = styled.p`
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0,0,0,0.70);
+  line-height: 24px;
+  margin-top: 0;
+  font-weight: bold;
 `
 
 export const EventSubhead = styled.h2`
