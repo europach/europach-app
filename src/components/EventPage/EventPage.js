@@ -2,7 +2,7 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventSpan, EventQuote } from '../../assets/styles/common';
+import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventSpan, EventQuote, EventSources } from '../../assets/styles/common';
 import { CenteredWrapper, EventNav, EventWrapper, EventContainer, EventNavTitle, Break, EventNavName, TextItems, TextListItem } from './styles';
 import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
@@ -105,9 +105,9 @@ export const EventPage = ({ match }) => {
 
             return (
               <TextListItem lastItem={isLastItem}>
-                <EventSpan>
+                <EventSources>
                   <a href={url}>{text}</a>
-                </EventSpan>
+                </EventSources>
               </TextListItem>
             )
           })
@@ -127,13 +127,13 @@ export const EventPage = ({ match }) => {
 
             return (
               <TextListItem lastItem={isLastItem}>
-                <EventSpan>
+                <EventSources>
                   {
                     type === 'link' ?
                       <a href={url}>{content}</a> :
                       content
                   }
-                </EventSpan>
+                </EventSources>
               </TextListItem>
             )
           })
@@ -184,13 +184,19 @@ export const EventPage = ({ match }) => {
 
       <Section padding={'0 0 24px 0'}>
         { buildJsxElements() }
-        { buildExternalLinks() }
-        { buildSources() }
+
+        <Section padding={'0 0 12px 0'}>
+          { buildExternalLinks() }
+        </Section>
+
+        <Section>
+          { buildSources() }
+        </Section>
       </Section>
 
       <Break />
 
-      <Section padding={'24px 0 12px 0'}>
+      <Section padding={'32px 0 12px 0'}>
         <EventSubhead>Timeline</EventSubhead>
         <EventWrapper>
           { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank /> }

@@ -103,6 +103,13 @@ export const EventSpan = styled.span`
   line-height: 1.4;
 `
 
+export const EventSources = styled.div`
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: semi-bold;
+  color: rgba(0,0,0,0.70);
+`
+
 export const Button = styled.button`
     padding: 16px;
     border: 1px solid #e30613;
