@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from '../../assets/styles/common';
+import { Button, Section } from '../../assets/styles/common';
 import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper, CheckboxText } from './styles';
 import { LOGICS } from '../../logics/logics';
 
@@ -91,14 +91,16 @@ export class LogicMultiSelect extends Component {
             />
           </div>
 
-          <ButtonContainer>
-            <ButtonWrapper>
-              <CancelButton onClick={onClose}>Cancel</CancelButton>
-            </ButtonWrapper>
-            <ButtonWrapper>
-              <Button type="submit">Save</Button>
-            </ButtonWrapper>
-          </ButtonContainer>
+          <Section padding={'64px 0 12px 0'}>
+            <ButtonContainer>
+              <ButtonWrapper>
+                <CancelButton onClick={onClose}>Cancel</CancelButton>
+              </ButtonWrapper>
+              <ButtonWrapper>
+                <Button type="submit">Save</Button>
+              </ButtonWrapper>
+            </ButtonContainer>
+          </Section>
         </form>
       </div>
     );

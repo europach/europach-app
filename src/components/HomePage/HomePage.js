@@ -14,6 +14,7 @@ export const HomePage = (props) => {
         <BodyText>
           how the history of HIV policy making in Europe has shaped the way we engage with the epidemic today
         </BodyText>
+
       </Title>
       <StoryList>
         <StoryItem>
@@ -46,6 +47,10 @@ export const HomePage = (props) => {
           </StyledLink>
         </StoryItem>
       </StoryList>
+
+      <BodyText>
+        Disclaimer: Please note that the reading and interpretation of legislative instruments for the purposes of this map is necessarily partial and may not be up to date or accurate for the purposes of legal action or defence.
+      </BodyText>
     </div>
   )
 }

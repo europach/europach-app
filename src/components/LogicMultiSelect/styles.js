@@ -32,18 +32,27 @@ export const ButtonContainer = styled.div`
   padding: 24px 0;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 `;
 
 export const ButtonWrapper = styled.div`
   width: 50%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-export const CancelButton = styled.span`
+export const CancelButton = styled.div`
+  padding: 16px;
+  border: none;
+  min-width: 158px;
+  font-family: 'Lekton', serif;
+  font-size: 18px;
+  font-weight: 900;
   cursor: pointer;
   color: #f1916e;
+  text-align: center;
 `;
 
 export const CheckboxText = styled.div`

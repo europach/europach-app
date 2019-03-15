@@ -24,7 +24,7 @@ export const Card = styled.div`
 
 export const Header = styled.div`
   display: flex;
-  align-items: baseline;
+  align-items: center;
 `
 
 export const Logics = styled.ul`

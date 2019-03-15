@@ -26,11 +26,11 @@ const NavCard = ({title, event}) => {
   );
 };
 
-const NavBlank = () => {
+const NavBlank = (props) => {
   return (
     <EventNav>
       <EventContainer>
-        &nbsp;
+        { props.text }
       </EventContainer>
     </EventNav>
   );
@@ -98,21 +98,23 @@ export const EventPage = ({ match }) => {
     const externalLinksCount = currentEvent.externalLinks.length;
 
     return (
-      <TextItems>
-        {
-          currentEvent.externalLinks.map(({url, text}, index) => {
-            const isLastItem = externalLinksCount === (index + 1);
+      <Section padding={'0 0 12px 0'}>
+        <TextItems>
+          {
+            currentEvent.externalLinks.map(({url, text}, index) => {
+              const isLastItem = externalLinksCount === (index + 1);
 
-            return (
-              <TextListItem lastItem={isLastItem}>
-                <EventSources>
-                  <a href={url}>{text}</a>
-                </EventSources>
-              </TextListItem>
-            )
-          })
-        }
-      </TextItems>
+              return (
+                <TextListItem lastItem={isLastItem}>
+                  <EventSources>
+                    <a href={url}>{text}</a>
+                  </EventSources>
+                </TextListItem>
+              )
+            })
+          }
+        </TextItems>
+      </Section>
     )
   }
 
@@ -120,25 +122,27 @@ export const EventPage = ({ match }) => {
     const sourcesCount = currentEvent.sources.length;
 
     return (
-      <TextItems>
-        {
-          currentEvent.sources.map(({type, url, content}, index) => {
-            const isLastItem = sourcesCount === (index + 1);
+      <Section>
+        <TextItems>
+          {
+            currentEvent.sources.map(({type, url, content}, index) => {
+              const isLastItem = sourcesCount === (index + 1);
 
-            return (
-              <TextListItem lastItem={isLastItem}>
-                <EventSources>
-                  {
-                    type === 'link' ?
-                      <a href={url}>{content}</a> :
-                      content
-                  }
-                </EventSources>
-              </TextListItem>
-            )
-          })
-        }
-      </TextItems>
+              return (
+                <TextListItem lastItem={isLastItem}>
+                  <EventSources>
+                    {
+                      type === 'link' ?
+                        <a href={url}>{content}</a> :
+                        content
+                    }
+                  </EventSources>
+                </TextListItem>
+              )
+            })
+          }
+        </TextItems>
+      </Section>
     )
   }
 
@@ -176,7 +180,7 @@ export const EventPage = ({ match }) => {
         <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
       </CenteredWrapper>
 
-      <Section padding={'24px 0 24px 0'}>
+      <Section padding={'24px 0 56px 0'}>
         <EventTitle>
           { currentEvent.name }
         </EventTitle>
@@ -184,14 +188,8 @@ export const EventPage = ({ match }) => {
 
       <Section padding={'0 0 24px 0'}>
         { buildJsxElements() }
-
-        <Section padding={'0 0 12px 0'}>
-          { buildExternalLinks() }
-        </Section>
-
-        <Section>
-          { buildSources() }
-        </Section>
+        { buildExternalLinks() }
+        { buildSources() }
       </Section>
 
       <Break />
@@ -199,8 +197,8 @@ export const EventPage = ({ match }) => {
       <Section padding={'32px 0 12px 0'}>
         <EventSubhead>Timeline</EventSubhead>
         <EventWrapper>
-          { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank /> }
-          { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank /> }
+          { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank text='no previous' /> }
+          { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank text='no next' /> }
         </EventWrapper>
       </Section>
 

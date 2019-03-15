@@ -6,7 +6,7 @@ export const BackArrow = styled.div`
 
 export const CenteredWrapper = styled.div`
   display: flex;
-  align-items: baseline;
+  align-items: center;
 `;
 
 export const EventWrapper = styled.div`
