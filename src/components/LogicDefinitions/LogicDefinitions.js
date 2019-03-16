@@ -1,14 +1,15 @@
 import React from 'react';
 import { logicDefinitions } from '../../logics/definitions';
+import { Section } from '../../assets/styles/common';
 import { Definitions } from './styles';
 
 const InfoTile = (props) => (
-  <div>
+  <Section padding={'0 0 12px 0'}>
     <p>
       <strong>{ props.title }</strong>
       &nbsp;-&nbsp;{ props.content }
     </p>
-  </div>
+  </Section>
 )
 
 export class LogicDefinitions extends React.Component {
@@ -24,15 +25,17 @@ export class LogicDefinitions extends React.Component {
   }
 
   intro = () => (
-    <p>
-      To help the user best navigate and benefit from this interactive map, we have developed
-      these concise definitions to describe the terms that structure it. Please contact us here
-      if you would like more information or to discuss them further.
-    </p>
+    <Section padding={'0 0 12px 0'}>
+      <p>
+        To help the user best navigate and benefit from this interactive map, we have developed
+        these concise definitions to describe the terms that structure it. Please contact us here
+        if you would like more information or to discuss them further.
+      </p>
+    </Section>
   )
 
   logics = () => (
-    <div>
+    <Section padding={'0 0 12px 0'}>
       <hr />
         <p>
           <strong>Logics</strong>
@@ -41,7 +44,7 @@ export class LogicDefinitions extends React.Component {
           given situation. They influence how we understand and value ourselves and others.
         </p>
       <hr />
-    </div>
+    </Section>
   )
 
   renderContent = () => (

@@ -7,7 +7,6 @@ import { Section, ModalTitle } from '../../assets/styles/common';
 import Modal from '../Modal';
 import CardList from '../CardList';
 import EventCard from '../EventCard';
-import moment from 'moment';
 
 export class Timeline extends React.Component {
   constructor(props) {
