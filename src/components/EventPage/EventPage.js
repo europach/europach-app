@@ -201,8 +201,8 @@ export const EventPage = ({ match }) => {
           <Section padding={'32px 0 12px 0'}>
             <EventSubhead>Timeline</EventSubhead>
             <EventWrapper>
-              { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank text='none to display' /> }
-              { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank text='none to display' /> }
+              { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank text='This the first event for this story' /> }
+              { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank text='This is the last event for this story' /> }
             </EventWrapper>
           </Section>
         </PannelInner>
