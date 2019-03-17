@@ -3,7 +3,7 @@ const baseStory = 'germany';
 
 export const GermanyEvents = [
   {
-    name: `UN Standard Minimum Rules for the Treatment of Prisoners `,
+    name: `UN Standard Minimum Rules for the Treatment of Prisoners`,
     url: `1955_un_standard_minimum`,
     body: [
       {
@@ -33,22 +33,17 @@ export const GermanyEvents = [
         text: `https://www.unodc.org/pdf/criminal_justice/UN_Standard_Minimum_Rules_for_the_Treatment_of_Prisoners.pdf`
       },
     ],
-    sources: [
-          {
-        type: '',
-        content: ''
-      },
-    ],
+    sources: [],
     startDate: '1955',
     endDate: '',
-    logics: [LOGICS.humanRights,],
-    linksWith: ['1973-coe_european_prison', '1982_un_principles_of', '1990_un_basic_principles', '1989_reform_of_german', '1993_who_guidelines_on'],
+    logics: [LOGICS.humanRights],
+    linksWith: ['1973_coe_european_prison', '1982_un_principles_of', '1990_un_basic_principles', '1989_reform_of_german', '1993_who_guidelines_on'],
     baseStory: baseStory,
   },
 
   {
     name: `COE European Prison Rules`,
-    url: `1973-coe_european_prison`,
+    url: `1973_coe_european_prison`,
     body: [
       {
         type: 'paragraph',
@@ -65,16 +60,11 @@ export const GermanyEvents = [
         text: `https://rm.coe.int/european-prison-rules-978-92-871-5982-3/16806ab9ae`
       },
     ],
-    sources: [
-          {
-        type: '',
-        content: ''
-      },
-    ],
+    sources: [],
     startDate: '1973',
     endDate: '',
-    logics: [LOGICS.humanRights,],
-    linksWith: ['1955_un_standard_minimum', '1987_coe_update_of', '1989_coe_european_convention',],
+    logics: [LOGICS.humanRights],
+    linksWith: ['1955_un_standard_minimum', '1987_coe_update_of', '1989_coe_european_convention'],
     baseStory: baseStory,
   },
 
@@ -110,8 +100,8 @@ export const GermanyEvents = [
     ],
     startDate: '1977',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.security,],
-    linksWith: ['1992_berlin_parliamentary_request', '1994_berlin_parliamentary_debate',],
+    logics: [LOGICS.humanRights, LOGICS.security],
+    linksWith: ['1992_berlin_parliamentary_request', '1994_berlin_parliamentary_debate'],
     baseStory: baseStory,
   },
 
@@ -138,7 +128,7 @@ export const GermanyEvents = [
     ],
     startDate: '1982',
     endDate: '',
-    logics: [LOGICS.humanRights,],
+    logics: [LOGICS.humanRights],
     linksWith: ['1955_un_standard_minimum', '1987_who_statement_from', '1988_prisoners_complaint_for', '1989_coe_european_convention', '1989_reform_of_german', '1990_un_basic_principles', '1993_who_guidelines_on'],
     baseStory: baseStory,
   },
@@ -172,12 +162,7 @@ export const GermanyEvents = [
         content: `In these first years, mainly small local initiatives for acceptance-based drug help and AIDS service organisations implement harm reduction projects. With their actions they oppose the established drug help organisations which are aiming for total abstinence. Often they face a lot of critique from established addiction medicine, drug help organisations, legal experts, and politicians. However, due to their demonstrable success in reducing needle sharing, step by step syringe exchange programmes get officially tolerated as an effective public health measure. And gradually, more and more drug help organisations start to offer syringe distribution. So it is through actions of civil disobedience and subsequent negotiations on the local level that new and successful social realities are created, and a more liberal approach to drug used becomes imaginable.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -190,8 +175,8 @@ export const GermanyEvents = [
     ],
     startDate: '1984',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.Dissent, LOGICS.Criminalisation, LOGICS.publicHealth],
-    linksWith: ['1988_public_throw_in', '1988_prisoners_complaint_for', '1989_jes_is_founded', '1990_1st_international_harm', '1992_amendment_of_narcotics ', '1996_berlin_yes_to'],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.criminalisation, LOGICS.publicHealth],
+    linksWith: ['1988_public_throw_in', '1988_prisoners_complaint_for', '1989_jes_is_founded', '1990_1st_international_harm', '1992_amendment_of_narcotics', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
 
@@ -208,12 +193,7 @@ export const GermanyEvents = [
         content: `This is the first request by the Green Party on this issue. There is a close link between the oppositional Green Party, the AIDS movement and liberal drug activists. Through the party members, activists and advocates bring their claims into parliament. Thus, many requests for harm reduction follow – until in 1995, one finally passes the parliament and enables the start of two syringe exchange programmes.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -226,8 +206,8 @@ export const GermanyEvents = [
     ],
     startDate: '1985/09/19',
     endDate: '',
-    logics: [LOGICS.collaborativeGovernance, LOGICS.Dissent,],
-    linksWith: ['1992_berlin_plenary_debate', '1994_berlin_parliamentary_debate', '1995_berlin_ministry_of', '1996_berlin_yes_to',],
+    logics: [LOGICS.collaborativeGovernance, LOGICS.dissent],
+    linksWith: ['1992_berlin_plenary_debates', '1994_berlin_parliamentary_debate', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
 
@@ -246,22 +226,17 @@ export const GermanyEvents = [
         text: `https://www.ohchr.org/en/professionalinterest/pages/cat.aspx`
       },
     ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    sources: [],
     startDate: '1987',
     endDate: '',
-    logics: [LOGICS.humanRights,],
-    linksWith: ['1989_coe_european_convention',],
+    logics: [LOGICS.humanRights],
+    linksWith: ['1989_coe_european_convention'],
     baseStory: baseStory,
   },
 
   {
     name: `1987 WHO Statement from the Consultation on Prevention and Control of AIDS in Prisons`,
-    url: `1987_who_statement_from`,
+    url: '1987_who_statement_from',
     body: [
       {
         type: 'paragraph',
@@ -294,14 +269,14 @@ export const GermanyEvents = [
     ],
     startDate: '1987',
     endDate: '',
-    logics: [LOGICS.humanRights,],
-    linksWith: ['1982_un_principles_of', '1988_prisoners_complaint_for', '1989_reform_of_german', '1990_un_basic_principles', '1993_who_guidelines_on',],
+    logics: [LOGICS.humanRights],
+    linksWith: ['1982_un_principles_of', '1988_prisoners_complaint_for', '1989_reform_of_german', '1990_un_basic_principles', '1993_who_guidelines_on'],
     baseStory: baseStory,
   },
 
   {
     name: `COE Update of European Prison Rules`,
-    url: `1987C_coe_update_of`,
+    url: `1987_coe_update_of`,
     body: [
       {
         type: 'paragraph',
@@ -312,22 +287,12 @@ export const GermanyEvents = [
         content: `Although this policy consists of non-binding recommendations for the member states, the Committee for the Prevention of Torture (CPT) will gradually start to base its decisions on the EPR, so that the European Human Rights Court uses the EPR as standards for their rulings. Thus, the possibility is created to successfully take legal actions for harm reduction with reference to the EPR.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '1987',
     endDate: '',
-    logics: [LOGICS.humanRights,],
-    linksWith: ['1973_coe_european_prison', '1989_coe_european_convention',],
+    logics: [LOGICS.humanRights],
+    linksWith: ['1973_coe_european_prison', '1989_coe_european_convention'],
     baseStory: baseStory,
   },
 
@@ -371,7 +336,7 @@ export const GermanyEvents = [
     startDate: '1990',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.collaborativeGovernance],
-    linksWith: ['1992_berlin_parliamentary_request', '1992_berlin_plenary_debate', '1994_berlin_parliamentary_debate'],
+    linksWith: ['1992_berlin_parliamentary_request', '1992_berlin_plenary_debates', '1994_berlin_parliamentary_debate'],
     baseStory: baseStory,
   },
 
@@ -388,12 +353,7 @@ export const GermanyEvents = [
         content: `By referring to his physical and mental fragility, the prisoner further stresses his own vulnerability. He goes on to accuse the attorney general of ignoring his health concerns and his physical integrity and thus demanding the state to enact its duty to care and secure the well being of all citizens. The senior public prosecutor allows the complaint, and the prison authority has to hand the injection equipment back to the prisoner.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -402,8 +362,8 @@ export const GermanyEvents = [
     ],
     startDate: '1988',
     endDate: '',
-    logics: [LOGICS.citizenship, LOGICS.decriminalization, LOGICS.humanitarianism],
-    linksWith: ['1984_first_syringe_exchanges', '1982_un_principles_of', '1987_who_statement_from', '1989_reform_of_health'],
+    logics: [LOGICS.citizenship, LOGICS.deCriminalisation, LOGICS.humanitarianism],
+    linksWith: ['1984_first_syringe_exchanges', '1982_un_principles_of', '1987_who_statement_from', '1989_reform_of_german'],
     baseStory: baseStory,
   },
 
@@ -446,8 +406,8 @@ export const GermanyEvents = [
     ],
     startDate: '1988',
     endDate: '',
-    logics: [LOGICS.dissent, LOGICS.decriminalization, LOGICS.humanRights],
-    linksWith: ['1984_first_syringe_exchanges', '1991_akzept_ev_is',],
+    logics: [LOGICS.dissent, LOGICS.deCriminalisation, LOGICS.humanRights],
+    linksWith: ['1984_first_syringe_exchanges', '1991_akzept_ev_is'],
     baseStory: baseStory,
   },
 
@@ -466,16 +426,11 @@ export const GermanyEvents = [
         text: `http://semantic-pace.net/tools/pdf.aspx?doc=aHR0cDovL2Fzc2VtYmx5LmNvZS5pbnQvbncveG1sL1hSZWYvWDJILURXLWV4dHIuYXNwP2ZpbGVpZD0xNTExNCZsYW5nPUVO&xsl=aHR0cDovL3NlbWFudGljcGFjZS5uZXQvWHNsdC9QZGYvWFJlZi1XRC1BVC1YTUwyUERGLnhzbA==&xsltparams=ZmlsZWlkPTE1MTE0`
       },
     ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    sources: [],
     startDate: '1988',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanRights],
-    linksWith: ['',],
+    linksWith: [],
     baseStory: baseStory,
   },
 
@@ -492,21 +447,11 @@ export const GermanyEvents = [
         content: `The principle of equivalence serves as a strong argument for advocates of prison health to demand harm reduction programs inside prisons. In an interview, a social worker of a local AIDS service organisation explains how she argues for syringe exchanges in prisons: "They [prison authorities] know we are advocating for an acceptance-based approach to drug use. But we also know that drug use is part of a criminal offense. And it is a paradox for many. So they say: 'How can we have a syringe exchange machine here, when it is at the same time prohibited to consume drugs?' And then we say: 'Well, have a look at health care. We do this as a matter of health promotion and prevention. It is also not allowed outside of prisons, but we also find exchange machines outside. Therefore, we aim for the principle of equivalence: same standards inside as outside!'"`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '1989',
     endDate: '',
-    logics: [LOGICS.publicHealth,],
+    logics: [LOGICS.publicHealth],
     linksWith: ['1955_un_standard_minimum', '1982_un_principles_of', '1987_who_statement_from', '1988_prisoners_complaint_for', '1990_un_basic_principles'],
     baseStory: baseStory,
   },
@@ -530,15 +475,10 @@ export const GermanyEvents = [
         text: `https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/126`
       },
     ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    sources: [],
     startDate: '1989',
     endDate: '',
-    logics: [LOGICS.humanRights,],
+    logics: [LOGICS.humanRights],
     linksWith: ['1973_coe_european_prison', '1982_un_principles_of', '1987_un_convention_against', '1987_coe_update_of', '1990_un_basic_principles'],
     baseStory: baseStory,
   },
@@ -560,12 +500,7 @@ export const GermanyEvents = [
         content: `Since many of its members have spent some time in prison, JES also advocates and protest for harm reduction inside prisons. In some prisons, local JES groups initiate counselling sessions. But after security in prison is going to tighten up during the 90s, many JES members will be denied access to the prison setting.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -574,8 +509,8 @@ export const GermanyEvents = [
     ],
     startDate: '1989',
     endDate: '',
-    logics: [LOGICS.dissent, LOGICS.mutualHelp,],
-    linksWith: ['1984_first_syringe_exchanges', '1991_akzept_ev_is', '1995_action_week_syringes', '1996_lower_saxony_and',],
+    logics: [LOGICS.dissent, LOGICS.mutualHelp],
+    linksWith: ['1984_first_syringe_exchanges', '1991_akzept_ev_is', '1995_action_week_syringes', '1996_lower_saxony_and'],
     baseStory: baseStory,
   },
 
@@ -592,28 +527,18 @@ export const GermanyEvents = [
         content: `German civil society organisations such as the Deutsche AIDS-Hilfe and AK Kommunale Drogenpolitik travel to the conference in order to network and share best practice. `
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '1990',
     endDate: '',
-    logics: [LOGICS.bestPractice,],
-    linksWith: ['1984_first_syringe_exchanges',],
+    logics: [LOGICS.bestPractice],
+    linksWith: ['1984_first_syringe_exchanges'],
     baseStory: baseStory,
   },
 
   {
     name: `1st Münchner AIDS-Tage`,
-    url: `1990 1st Münchner AIDS-Tage`,
+    url: `1990_1st_münchner_aids`,
     body: [
       {
         type: 'paragraph',
@@ -628,12 +553,7 @@ export const GermanyEvents = [
         content: `During the emergence of HIV/AIDS, many civil society initiatives mobilised to fight the state´s initial repressive approach to the epidemic. All over Germany, local AIDS service organisations were established, mostly ran by volunteers, and organised under the umbrella of the national association Deutsche AIDS-Hilfe. Successful organising and advocacy helped change the government response to HIV/AIDS, which now builds on a strong partnership between state and civil society organisations. As part of this shift from dissent and opposition to cooperation, governments are starting to support the local and national organisations financially.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -650,8 +570,8 @@ export const GermanyEvents = [
     ],
     startDate: '1990',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.mutualHelp, LOGICS.dissent, LOGICS.collaborativeGovernance,],
-    linksWith: ['1996 Lower Saxony and', '1996_berlin_yes_to', '2004_berlin_end_of',],
+    logics: [LOGICS.humanRights, LOGICS.mutualHelp, LOGICS.dissent, LOGICS.collaborativeGovernance],
+    linksWith: ['1996_lower_saxony_and', '6_jun_1996_berlin', 'berlin_end_of_one'],
     baseStory: baseStory,
   },
 
@@ -670,16 +590,11 @@ export const GermanyEvents = [
         text: `https://www.ohchr.org/en/professionalinterest/pages/basicprinciplestreatmentofprisoners.aspx`
       },
     ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    sources: [],
     startDate: '1990',
     endDate: '',
-    logics: [LOGICS.humanRights,],
-    linksWith: ['1955_un_standard_minimum', '1982_un_principles_of', '1987_who_statement_from', '1989 COE European Convention', '1989 Reform of German', '1993_who_guidelines_on'],
+    logics: [LOGICS.humanRights],
+    linksWith: ['1955_un_standard_minimum', '1982_un_principles_of', '1987_who_statement_from', '1989_coe_european_convention', '1977_reform_of_german', '1993_who_guidelines_on'],
     baseStory: baseStory,
   },
 
@@ -715,7 +630,7 @@ export const GermanyEvents = [
     startDate: '1991',
     endDate: '',
     logics: [LOGICS.dissent, LOGICS.bestPractice, LOGICS.humanRights],
-    linksWith: ['1988_public_throw_in', '1989_jes_is_founded', '1992_berlin_parliamentary_request',],
+    linksWith: ['1988_public_throw_in', '1989_jes_is_founded', '1992_berlin_parliamentary_request'],
     baseStory: baseStory,
   },
 
@@ -750,8 +665,8 @@ export const GermanyEvents = [
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.dissent, LOGICS.humanitarianism, LOGICS.bestPractice, LOGICS.security,],
-    linksWith: [''],
+    logics: [LOGICS.dissent, LOGICS.humanitarianism, LOGICS.bestPractice, LOGICS.security],
+    linksWith: [],
     baseStory: baseStory,
   },
 
@@ -780,12 +695,7 @@ export const GermanyEvents = [
         content: `(3) Allowing needles while at the same time prosecuting drug use inside prisons would create a moral dilemma for the employees who are otherwise instructed to prohibit drug trafficking and use.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -794,13 +704,12 @@ export const GermanyEvents = [
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.citizenship, LOGICS.criminalisation, LOGICS.evidence, LOGICS.publicHealth, LOGICS.security,],
-    linksWith: ['1977_reform_of_german', '1985_berlin_parliament_against', '1991_akzept_ev_is', '1987_aids_enquetekommission', '1992_amendment_of_narcotics', '1992_berlin_plenary_debates',],
+    logics: [LOGICS.citizenship, LOGICS.criminalisation, LOGICS.evidence, LOGICS.publicHealth, LOGICS.security],
+    linksWith: ['1977_reform_of_german', '19_sep_1985_berlin', '1991_akzept_ev_is', '1990_aids_enquetekommission', '1992_amendment_of_narcotics', '1992_berlin_plenary_debates'],
     baseStory: baseStory,
   },
 
-
-    {
+  {
     name: `Amendment of Narcotics Law`,
     url: `1992_amendment_of_narcotics`,
     body: [
@@ -823,8 +732,8 @@ export const GermanyEvents = [
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.bestPractice, LOGICS.decriminalisation, LOGICS.evidence, LOGICS.publicHealth,],
-    linksWith: ['1984_first_syringe_exchanges', '1992_berlin_parliamentary_request', '1992_berlin_plenary_debates', '1993_who_guidelines_on', '1994_berlin_plenary_debate', '1996_berlin_yes_to'],
+    logics: [LOGICS.bestPractice, LOGICS.deCriminalisation, LOGICS.evidence, LOGICS.publicHealth],
+    linksWith: ['1984_first_syringe_exchanges', '1992_berlin_parliamentary_request', '1992_berlin_plenary_debates', '1993_who_guidelines_on', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
 
@@ -841,12 +750,7 @@ export const GermanyEvents = [
         content: `In October, The Green Party makes an oral question to the Parliament of Berlin, asking why prisoners are not provided with sterile syringes since this measure has been officially recommended and decriminalised. The Senator of Justice justifies his rejection decision referring to the obstacles mentioned in the course of an earlier debate. A Green Party member challenges this by arguing that the state's duty to care does also encompass the drug using prisoner; and since an HIV infection can actually be considered a death sentence, ethical reasons require the state to care for prisoner who inject drugs. The Senator explains that although an internal group of experts has recommended syringe exchange programmes, the government had decided otherwise. Among other reasons, to meet the concerns raised by wardens who fear that infected needles might be used as weapons against them.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -859,8 +763,8 @@ export const GermanyEvents = [
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.citizenship, LOGICS.dissent, LOGICS.humanitarianism, LOGICS.security,],
-    linksWith: ['1985_berlin_parliamentary_against', '1987_aids_enquetekommission', '1992_amendment_of_narcotics', '4_mar_1992_berlin',],
+    logics: [LOGICS.citizenship, LOGICS.dissent, LOGICS.humanitarianism, LOGICS.security],
+    linksWith: ['19_sep_1985_berlin', '1990_aids_enquetekommission', '1992_amendment_of_narcotics'],
     baseStory: baseStory,
   },
 
@@ -911,8 +815,8 @@ export const GermanyEvents = [
     ],
     startDate: '1993',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.publicHealth,],
-    linksWith: ['1955_un_standard_minimum', '1982_un_principles_of', '1987_who_statement_from', '1990_un_basic_principles', '1992_amendment_of_narcotics', '1995_berlin_ministry_of'],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth],
+    linksWith: ['1955_un_standard_minimum', '1982_un_principles_of', '1987_who_statement_from', '1990_un_basic_principles', '1992_amendment_of_narcotics'],
     baseStory: baseStory,
   },
 
@@ -925,12 +829,7 @@ export const GermanyEvents = [
         content: `In January, members of the Anti-AIDS movement ACT UP stage a protest in front of a women's prison. The activists protest in front of a prison in Preungesheim in the state of Hessen for the provision of sterile syringes to the imprisoned women. The Ministry of Justice of the state of Hessen calls explains their rejection with reference to the legal grey area, and the paradox of providing syringes to prisoners who are sentenced for violating the Narcotics Substances Act.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -939,8 +838,8 @@ export const GermanyEvents = [
     ],
     startDate: '1994',
     endDate: '',
-    logics: [LOGICS.dissent, LOGICS.mutualHelp,],
-    linksWith: [''],
+    logics: [LOGICS.dissent, LOGICS.mutualHelp],
+    linksWith: [],
     baseStory: baseStory,
   },
 
@@ -957,22 +856,12 @@ export const GermanyEvents = [
         content: `In the following debate, a member of the Social Democratic Party acknowledges the state´s duty to provide prevention to drug using prisoners, based on the argument that drug use should be considered a pathology. In this sense, the medicalisation of drug use allows applying the right to equivalent health care to the drug using prisoner and make prevention measures available. Other parliamentarians argue that the provision of syringes would create a moral dilemma, since the state and the penitentiary are obliged to prosecute drug possession, and to work toward a drug-free prison, as well as to enable abstinence among drug users. Finally, the Senator of Justice declares her willingness to consult further evidence and expertise. Afterwards she would be willing to consider a small-scale pilot project.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '1994',
     endDate: '',
-    logics: [LOGICS.citizenship, LOGICS.criminalisation, LOGICS.decriminalisation, LOGICS.dissent, LOGICS.evidence, LOGICS.publicHealth,],
-    linksWith: ['1977_reform_of_german', '1985_berlin_parliament_against', '1987_aids_enquetekommission', '1992_amendment_of_narcotics', '1994_ex_prisoner_sues', '1995 Positive evaluation of'],
+    logics: [LOGICS.citizenship, LOGICS.criminalisation, LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.evidence, LOGICS.publicHealth],
+    linksWith: ['1977_reform_of_german', '19_sep_1985_berlin', '1990_aids_enquetekommission', '1992_amendment_of_narcotics', '1994_ex_prisoner_sues', '1995_positive_evaluation_of'],
     baseStory: baseStory,
   },
 
@@ -985,22 +874,12 @@ export const GermanyEvents = [
         content: `In September, Andreas Backes, a former Berlin prisoner and drug user, files a lawsuit against the state of Berlin. He claims for damage after he was infected with HIV through injecting drugs with used syringes. In an open letter, Backes explains that since he had regularly been tested and never had any homosexual contacts, his infection could only result from needle sharing during his time of imprisonment. He refers to the statement of the federal Minister of Justice, Sabine Leutheusser-Schnarrenberger, in which she argued that there has been no evidential proof of an increased risk of HIV transmission within the prison setting. Backes now claims that his case can provide clear evidence. Therefore, in order to fulfil the minister's promise to undertake all steps necessary to prevent transmission she would now have to allow needle exchange programmes inside prisons.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '1994',
     endDate: '',
-    logics: [LOGICS.citizenship, LOGICS.evidence,],
-    linksWith: ['1994_berlin_parliamentary_debate',],
+    logics: [LOGICS.citizenship, LOGICS.evidence],
+    linksWith: ['1994_berlin_parliamentary_debate'],
     baseStory: baseStory,
   },
 
@@ -1025,12 +904,7 @@ export const GermanyEvents = [
         content: `Two years ago, the Medical Association had already expressed their stance: From a medical standpoint, syringe distribution in prisons is necessary. This view is shared by Berlin's Senator of Health, as well as by the federal Minister of Health, resulting in a conflict between the federal and the local Ministries of Health and Ministries of Justice.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1047,11 +921,10 @@ export const GermanyEvents = [
     ],
     startDate: '1994',
     endDate: '',
-    logics: [LOGICS.citizenship, LOGICS.evidence, LOGICS.security,],
-    linksWith: ['1994_survey_among_prison', '1995_positive_evaluation_of',],
+    logics: [LOGICS.citizenship, LOGICS.evidence, LOGICS.security],
+    linksWith: ['1994_survey_among_prison', '1995_positive_evaluation_of'],
     baseStory: baseStory,
   },
-
 
   {
     name: `Survey among prison employees`,
@@ -1062,22 +935,12 @@ export const GermanyEvents = [
         content: `In December, the Senator of Justice of Berlin initiates a survey among prison employees to find out about their attitude towards syringe distribution in prisons. The results of the survey show a clear opposition against syringe distribution. The answers express the moral dilemma faced by wardens, as well as the security concerns that arise. 81,4 % of the employees reject this measure of harm reduction. 75 % consider syringe distribution to be a sign of tolerating drug use. More than three quarters see it as a risk and as a threat to their health, and 75 % fear that they might get attacked by a prisoner using a needle as weapon. More than 60 % are explicitly against a needle exchange pilot project.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '1994',
     endDate: '',
-    logics: [LOGICS.security,],
-    linksWith: ['1994_medical_association_pro', '1995_berlin_ministry_of', '2004_berlin_end_of',],
+    logics: [LOGICS.security],
+    linksWith: ['1994_medical_association_pro', 'berlin_end_of_one'],
     baseStory: baseStory,
   },
 
@@ -1098,12 +961,7 @@ export const GermanyEvents = [
         content: `During the different stages of the pilot project, delegations from Germany and other European countries visit the programme. Heino Stöver, part of one of these delegations, explains the objective in an interview: "We tried to reduce fears through making those projects more familiar."  Also in September 1994, Chaim Jellinek, member of the Medical Association of Berlin (Ärztekammer Berlin), Doctor and volunteering member of Berliner Justizvollzugsbeirat (a civil society council to control the penitentiary) travels to Hindelbank to meet with the prison's doctor. Back from his visit, he reports about the effectiveness of the programme and issues a proposal for a syringe exchange project in a Berlin prison.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1117,7 +975,7 @@ export const GermanyEvents = [
     startDate: '1995',
     endDate: '',
     logics: [LOGICS.bestPractice, LOGICS.evidence, LOGICS.security],
-    linksWith: ['1994_berlin_parliamentary_debate', '1994_medical_association_pro', '1995_berlin_ministry_of', '1995_scientific_study_shows', '1996_berlin_yes_to',],
+    linksWith: ['1994_berlin_parliamentary_debate', '1994_medical_association_pro', '1995_scientific_study_shows', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
 
@@ -1138,12 +996,7 @@ export const GermanyEvents = [
         content: `In the course of reminding the Berlin government of the international policies, the Senator of Justice reiterates her oppositional stance. She argues that providing needles could seduce other prisoners to intravenous drug use and that the syringes might be used as weapons against wardens. She claims that there is still no substantial evidence: neither is there proof for the causality between imprisonment and infection, nor is there any clear evidence for the harm reducing effects of needle exchanges. Therefore, she awaits the results of the current pilot project in Switzerland with great interest.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1160,8 +1013,8 @@ export const GermanyEvents = [
     ],
     startDate: '1995',
     endDate: '',
-    logics: [LOGICS.dissent, LOGICS.evidence, LOGICS.collaborativeGovernance, LOGICS.security,],
-    linksWith: ['1985_berlin_parliament_against', '1993_who_guidelines_on', '1994_survey_among_prison', '1995_positive_evaluation_of',],
+    logics: [LOGICS.dissent, LOGICS.evidence, LOGICS.collaborativeGovernance, LOGICS.security],
+    linksWith: ['19_sep_1985_berlin', '1993_who_guidelines_on', '1994_survey_among_prison', '1995_positive_evaluation_of'],
     baseStory: baseStory,
   },
 
@@ -1174,12 +1027,7 @@ export const GermanyEvents = [
         content: `From June 9 to 16, a nation-wide action week takes place. Organised by the AIDS service organisations, activists claim: “Syringes into prisons!” Nation-wide local AIDS service organisations and other local groups participate in the action week and demand to make syringes available in prisons. In Oldenburg for example, the local AIDS service organisation and JES Oldenburg demonstrate in front of the prison and the district court. They show a banner and distribute leaflets, leading the head of the prison to release a statement to the press. `
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1188,8 +1036,8 @@ export const GermanyEvents = [
     ],
     startDate: '1995/06/09',
     endDate: '1995/06/16',
-    logics: [LOGICS.dissent, LOGICS.mutualHelp,],
-    linksWith: ['1989_jes_is_founded',],
+    logics: [LOGICS.dissent, LOGICS.mutualHelp],
+    linksWith: ['1989_jes_is_founded'],
     baseStory: baseStory,
   },
 
@@ -1210,12 +1058,7 @@ export const GermanyEvents = [
         content: `Conducting this research project became possible because at the beginning of the 90s and due to the emergence has of HIV/AIDS, public health emerged as an important issue of public interest, and funding was made available.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1224,11 +1067,10 @@ export const GermanyEvents = [
     ],
     startDate: '1995',
     endDate: '',
-    logics: [LOGICS.evidence, LOGICS.publicHealth,],
-    linksWith: ['1995_positive_evaluation_of', '1996_berlin_yes_to'],
+    logics: [LOGICS.evidence, LOGICS.publicHealth],
+    linksWith: ['1995_positive_evaluation_of', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
-
 
   {
     name: `Lower Saxony and Hamburg: Yes to syringe exchanges`,
@@ -1247,12 +1089,7 @@ export const GermanyEvents = [
         content: `At around the same time, the state of Hamburg also starts a syringe exchange pilot project. In the prison Vierlande, a prison with mostly man on day-release, automatic exchange machines are installed. All pilot projects are scheduled for two years, and prolonged after successful evaluation.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1266,11 +1103,10 @@ export const GermanyEvents = [
     ],
     startDate: '1996',
     endDate: '',
-    logics: [LOGICS.bestPractice, LOGICS.collaborativeGovernance, LOGICS.evidence,],
+    logics: [LOGICS.bestPractice, LOGICS.collaborativeGovernance, LOGICS.evidence],
     linksWith: ['1989_jes_is_founded', '1990_1st_münchner_aids', '2001_hamburg_right_wing', '2003_lower_saxony_conservative'],
     baseStory: baseStory,
   },
-
 
   {
     name: `Berlin: Yes to syringe exchange in 2 prisons`,
@@ -1289,12 +1125,7 @@ export const GermanyEvents = [
         content: `In 1998, a pilot project starts in the women´s prison JVA Lichtenberg. Here, a small automatic machine gives out a sterile syringe after a used one has been insert. The other pilot project is implemented in a men's prison where employees of Berliner AIDS-Hilfe give away syringes in exchange for used ones three times a week. Both are accompanied by a scientific evaluation. Additionally, Berliner AIDS-Hilfe and Fixpunk offer educational seminars to prison employees as well as inmates about drug use, emergency rescue, and infection protection.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1303,8 +1134,8 @@ export const GermanyEvents = [
     ],
     startDate: '1996/06/06',
     endDate: '',
-    logics: [LOGICS.bestPractice, LOGICS.decriminalisation, LOGICS.evidence,],
-    linksWith: ['1984_first_syringe_exchanges', '1985_berlin_parliament_against', '1990_1st_münchner_aids', '1992_amendment_of_narcotics', '1995_positive_evaluation_of', '1995_scientific_study_shows', '2004_berlin_end_of',],
+    logics: [LOGICS.bestPractice, LOGICS.deCriminalisation, LOGICS.evidence],
+    linksWith: ['1984_first_syringe_exchanges', '19_sep_1985_berlin', '1990_1st_münchner_aids', '1992_amendment_of_narcotics', '1995_positive_evaluation_of', '1995_scientific_study_shows', 'berlin_end_of_one'],
     baseStory: baseStory,
   },
 
@@ -1317,12 +1148,7 @@ export const GermanyEvents = [
         content: `After the elections in the state of Hamburg, the new right wing populist party decides to stop the syringe exchange in Hamburg's prison Vierlande on October 19. The new government consists out of a coalition between the Christ Conservative Party (CDU) and a small right wing populist party. The conservatives and populists enforce the abolition of Hamburg's only intramural syringe exchange project. This political decision is part of a broader repressive strategy against drugs that focuses on criminalisation and abstinence as main tools. `
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1336,8 +1162,8 @@ export const GermanyEvents = [
     ],
     startDate: '2001',
     endDate: '',
-    logics: [LOGICS.decriminalisation, LOGICS.security,],
-    linksWith: ['1996_lower_saxony_and',],
+    logics: [LOGICS.deCriminalisation, LOGICS.security],
+    linksWith: ['1996_lower_saxony_and'],
     baseStory: baseStory,
   },
 
@@ -1350,12 +1176,7 @@ export const GermanyEvents = [
         content: `On June 1st, the new Minister of Justice (Christ Democratic Party) stops the running syringe exchange programmes in a women's and a men's prison. She bases her decision on legal uncertainties, security risks and ineffectiveness of the programmes to stop needle sharing entirely. Advocates for prison health and harm reduction point to the positive evaluations of both programmes, and criticise that there is neither proof for the concerns raised nor any technical need to end the programmes. Instead, they attribute the decision to political will ignoring scientific reasoning. Heino Stöver, who together with colleagues conducted the scientific evaluation of the project (Meyenberg 1998), concludes that a particular political ideology mobilises prison and prison health as a popular domain for punishment, prosecution and penitentiary. Social exclusion needs to be publicly exercised in order to avoid any sign of well-being, benefits or even hedonism for prisoners.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
+    externalLinks: [],
     sources: [
       {
         type: 'text',
@@ -1368,14 +1189,14 @@ export const GermanyEvents = [
     ],
     startDate: '2003/06/01',
     endDate: '',
-    logics: [LOGICS.security,],
-    linksWith: ['1996_lower_saxony_and',],
+    logics: [LOGICS.security],
+    linksWith: ['1996_lower_saxony_and'],
     baseStory: baseStory,
   },
 
   {
     name: `Berlin: End of one syringe programme`,
-    url: `2004_Berlin_end_of`,
+    url: 'berlin_end_of_one',
     body: [
       {
         type: 'paragraph',
@@ -1394,22 +1215,12 @@ export const GermanyEvents = [
         content: `The programme in the women's prison is carried on, and still exists today as the only syringe exchange programme in Germany.`
       },
     ],
-    externalLinks: [
-      {
-        url: ``,
-        text: ``
-      },
-    ],
-    sources: [
-      {
-        type: '',
-        content: ''
-      },
-    ],
+    externalLinks: [],
+    sources: [],
     startDate: '2004/02/28',
     endDate: '',
-    logics: [LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS. publicHealth, LOGICS.publicHealth, LOGICS.security,],
-    linksWith: ['1994_survey_among_prison', '1990_1st_münchner_aids', '1996_berlin_yes_to'],
+    logics: [LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.publicHealth, LOGICS.security],
+    linksWith: ['1994_survey_among_prison', '1990_1st_münchner_aids', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
 ]

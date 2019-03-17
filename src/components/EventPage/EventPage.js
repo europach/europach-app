@@ -78,6 +78,7 @@ export const EventPage = ({ match }) => {
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
   const nextEvent = detectNextEvent(storyUrl, eventUrl);
   const LinkedEvents = getLinkedEvents(currentEvent.linksWith, match.url);
+  console.log('linked events', currentEvent.linksWith);
 
   const elementMapping = {
     'paragraph': Paragraph,

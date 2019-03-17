@@ -23,7 +23,7 @@ export const EventCard = (props) => {
         {
           eventData.logics.map((logic, index) => (
             <Logic key={index}>
-              <LogicText>{ logic.title }</LogicText>
+              <LogicText>{ logic && logic.title || logic }</LogicText>
             </Logic>
           ))
         }

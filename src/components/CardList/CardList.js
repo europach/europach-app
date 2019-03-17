@@ -5,7 +5,10 @@ import { EventItem, EventList } from './styles';
 export class CardList extends React.Component {
   createEventCard = (item, lastItem) => {
     const { cardType: Card } = this.props;
-    const { url, baseStory } = item;
+    // const { url, baseStory } = item;
+
+    const url = item && item.url || 'fake!!!';
+    const baseStory = item && item.baseStory || 'fake!!!';
 
     return (
       <EventItem key={url} lastItem={lastItem}>
