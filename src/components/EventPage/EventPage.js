@@ -176,11 +176,11 @@ export const EventPage = ({ match }) => {
 
   return (
     <Pannel>
-      <Pannel background='white' padding='12px 0 0'>
+      <Pannel background='white'>
         <AppNav background='white' />
-        <PannelInner>
+        <PannelInner padding='12px 0 0'>
           <CenteredWrapper>
-            <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 16px 0 0'} />
+            <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 8px 0 0'} opacity='.4' />
             <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
           </CenteredWrapper>
 

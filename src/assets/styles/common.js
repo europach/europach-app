@@ -139,6 +139,7 @@ export const ResponsiveImg = styled.img`
   height: auto;
   padding ${props => props.padding || 0};
   border: none;
+  opacity ${props => props.opacity || 1};
 `
 
 export const Img = styled.img`
@@ -183,6 +184,7 @@ export const Pannel = styled.div`
 export const PannelInner = styled.div`
   max-width: 660px;
   width: 100%;
+  padding: ${props => props.padding || "0"};
 
   @media (max-width: 468px) {
     max-width: 85%;

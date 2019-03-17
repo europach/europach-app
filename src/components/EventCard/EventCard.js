@@ -11,7 +11,7 @@ export const EventCard = (props) => {
   return (
     <Card>
       <Header>
-        <ResponsiveImg src={storyImage} width={'24px'} padding={'0 16px 0 0'} />
+        <ResponsiveImg src={storyImage} width={'24px'} padding={'0 8px 0 0'} opacity='.4' />
         <DateRange startDate={eventData.startDate} endDate={eventData.endDate} />
       </Header>
       <Section padding={'16px 0 0 0'}>
