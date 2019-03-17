@@ -49,6 +49,7 @@ export const TextItems = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
+  word-wrap: break-word;
 `
 
 export const TextListItem = styled.li`
