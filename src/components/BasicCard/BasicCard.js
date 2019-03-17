@@ -9,12 +9,12 @@ export const BasicCard = (props) => {
     <Card>
       <Header>
         <DateRedThin>
-          { eventData && eventData.startDate || 'fake!' }
+          { eventData.startDate }
         </DateRedThin>
       </Header>
       <Section padding={'16px 0 0 0'}>
         <EventSpan>
-          { eventData && eventData.name || 'fake!' }
+          { eventData.name }
         </EventSpan>
       </Section>
     </Card>
