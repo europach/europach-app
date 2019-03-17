@@ -184,7 +184,7 @@ export const EventPage = ({ match }) => {
             <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
           </CenteredWrapper>
 
-          <Section padding={'24px 0 56px 0'}>
+          <Section padding={'24px 0 32px 0'}>
             <EventTitle>
               { currentEvent.name }
             </EventTitle>
