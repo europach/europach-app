@@ -3,6 +3,7 @@ import { StoryList, StoryItem, StyledLink, Title } from './styles';
 import { TitleText, BodyText, Pannel, PannelInner } from '../../assets/styles/common';
 import StoryCard from '../StoryCard';
 import AppNav from '../AppNav';
+import AppFooter from '../AppFooter';
 
 export const HomePage = (props) => {
   return (
@@ -49,6 +50,7 @@ export const HomePage = (props) => {
           Disclaimer: Please note that the reading and interpretation of legislative instruments for the purposes of this map is necessarily partial and may not be up to date or accurate for the purposes of legal action or defence.
         </BodyText>
       </PannelInner>
+      <AppFooter />
     </Pannel>
   )
 }

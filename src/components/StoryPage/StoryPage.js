@@ -4,6 +4,7 @@ import Timeline from '../Timeline';
 import { ResponsiveImg, EventTitle, SubHeadText, Paragraph, ImageWrapper, Section, Pannel, PannelInner } from '../../assets/styles/common';
 import { StoryDetailMapping } from '../../filters/storyMappings';
 import AppNav from '../AppNav';
+import AppFooter from '../AppFooter';
 
 export const Story = ({ match }) => {
   const currentStory = StoryDetailMapping[match.url];
@@ -32,6 +33,8 @@ export const Story = ({ match }) => {
 
         <Route exact path={match.path} component={Timeline} />
       </PannelInner>
+
+      <AppFooter />
     </Pannel>
   )
 }
