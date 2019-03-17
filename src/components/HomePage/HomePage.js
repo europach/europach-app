@@ -12,13 +12,9 @@ export const HomePage = (props) => {
         </TitleText>
 
         <BodyText>
-          how the history of HIV policy making in Europe has shaped the way we engage with the epidemic today
+          This interactive policy map has been developed as part of the “Disentangling European HIV/AIDS Policies: Activism Citizenship and Health” (EUROPACH) research project for researchers, activists and advocates engaging in the entangled policy fields of HIV/AIDS, drug use, sex work, migration and prisons. It presents events from “stories” of criminalisation in relation to HIV/AIDS in Europe that took place in Germany, Poland, Turkey and the UK. Users are invited to select a story from the options below, and to explore the events that make up each story. You can do this chronologically by moving from one event to the next based on the timeline of each story, or you can follow the implicated policies and other actors that introduce “links” between events across time and place. Connecting all five stories are the cultural “logics” that we have analysed to underlie the events. Users are thus able to navigate through these narratives by disentangling their actors and arguments, and exploring the conflicting and complimentary logics that they enact or upon which they are based.
         </BodyText>
       </Title>
-
-      <BodyText>
-        This interactive policy map has been developed as part of the “Disentangling European HIV/AIDS Policies: Activism Citizenship and Health” (EUROPACH) research project for researchers, activists and advocates engaging in the entangled policy fields of HIV/AIDS, drug use, sex work, migration and prisons. It presents events from “stories” of criminalisation in relation to HIV/AIDS in Europe that took place in Germany, Poland, Turkey and the UK. Users are invited to select a story from the options below, and to explore the events that make up each story. You can do this chronologically by moving from one event to the next based on the timeline of each story, or you can follow the implicated policies and other actors that introduce “links” between events across time and place. Connecting all five stories are the cultural “logics” that we have analysed to underlie the events. Users are thus able to navigate through these narratives by disentangling their actors and arguments, and exploring the conflicting and complimentary logics that they enact or upon which they are based.
-      </BodyText>
 
       <StoryList>
         <StoryItem>

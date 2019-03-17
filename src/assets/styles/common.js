@@ -35,6 +35,7 @@ export const BodyText = styled.p`
   font-family: 'Lekton', serif;
   font-size: 16px;
   color: rgba(0,0,0,0.75);
+  line-height: 1.3;
 `;
 
 export const EventQuote = styled.div`
