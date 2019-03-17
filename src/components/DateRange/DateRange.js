@@ -6,11 +6,11 @@ export const DateRange = (props) => {
   const { startDate, endDate } = props;
 
   const buildStartDate = () => (
-    <DateContainer start={true}>{startDate}</DateContainer>
+    <DateContainer margin='0 0 8px 0'>{startDate}</DateContainer>
   )
 
   const buildEndDate = () => (
-    <DateContainer end={true}>{endDate}</DateContainer>
+    <DateContainer margin='0 0 0 8px'>{endDate}</DateContainer>
   )
 
   const dateDefined = date => (
