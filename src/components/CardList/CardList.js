@@ -5,10 +5,7 @@ import { EventItem, EventList } from './styles';
 export class CardList extends React.Component {
   createEventCard = (item, lastItem) => {
     const { cardType: Card } = this.props;
-    // const { url, baseStory } = item;
-
-    const url = item && item.url || 'fake!!!';
-    const baseStory = item && item.baseStory || 'fake!!!';
+    const { url, baseStory } = item;
 
     return (
       <EventItem key={url} lastItem={lastItem}>
@@ -21,12 +18,14 @@ export class CardList extends React.Component {
 
   createEventList() {
     const { items, width, mobileMaxWidth, padding } = this.props;
+    // issues with linksWith, things aren't all truthy - this is defensive
+    const compactItems = items.filter(Boolean)
     const itemsCount = items.length;
 
     return (
       <EventList width={width} mobileMaxWidth={mobileMaxWidth} padding={padding}>
         {
-          items.map((item, index) => {
+          compactItems.map((item, index) => {
             const isLastItem = itemsCount === (index + 1);
             return this.createEventCard(item, isLastItem)
           })
