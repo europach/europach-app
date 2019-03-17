@@ -186,7 +186,16 @@ export const UkEvents = [
         content: '‘the law should not seem to discriminate against those who are HIV positive, have AIDS or viral hepatitis or who carry any kind of disease. Nor do we want to discourage people from coming forward for diagnostic tests and treatment, in the interests of their own health and that of others, because of an unfounded fear of criminal prosecution.’'
       },
     ],
-    externalLinks: ['https://webarchive.nationalarchives.gov.uk/20100303144945/', 'http://www.homeoffice.gov.uk/documents/cons-1998-violence-reforming-law/index.html'],
+    externalLinks: [
+      {
+        url: `https://webarchive.nationalarchives.gov.uk/20100303144945/`,
+        text: `https://webarchive.nationalarchives.gov.uk/20100303144945/`
+      },
+      {
+        url: `http://www.homeoffice.gov.uk/documents/cons-1998-violence-reforming-law/index.html`,
+        text: `http://www.homeoffice.gov.uk/documents/cons-1998-violence-reforming-law/index.html`
+      },
+    ],
     sources: [],
     startDate: '1998',
     endDate: '',
@@ -194,7 +203,6 @@ export const UkEvents = [
     linksWith: ['r_v_clarence', 'law_commission_proposal', 'criminal_prosecution_of_HIV', 'law_commission_reform_of', 'policing_transmission'],
     baseStory: baseStory,
   },
-
 
   {
     name: 'Stephen Kelly',
@@ -361,10 +369,14 @@ export const UkEvents = [
         type: 'paragraph',
         content: 'The Use of Phylogenetic Analysis as Evidence in Criminal Investigation of HIV Transmission, a briefing paper published by National AIDS Trust and NAM presents advice on the use of phylogenetic testing in criminal cases and argues that transmission cannot be proven on the basis of scientific evidence alone.'
       },
-
     ],
     externalLinks: [],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    sources: [
+      {
+        type: 'http://www.aidsmap.com/files/file1001199.pdf',
+        content: 'http://www.aidsmap.com/files/file1001199.pdf'
+      },
+    ],
     startDate: '2007',
     endDate: '',
     logics: [LOGICS.evidence],
@@ -380,10 +392,9 @@ export const UkEvents = [
         type: 'paragraph',
         content: 'After some delay, Prosecutorial Guidance is published by the Crown Prosecution Service (CPS).'
       },
-
     ],
     externalLinks: [],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    sources: [],
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance],
@@ -402,7 +413,7 @@ export const UkEvents = [
 
     ],
     externalLinks: [],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    sources: [],
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanRights],
@@ -433,7 +444,7 @@ export const UkEvents = [
 
     ],
     externalLinks: [],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    sources: [],
     startDate: '2009',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance],
@@ -450,8 +461,13 @@ export const UkEvents = [
         content: 'A document produced by NAT and THT which explains the law and how it operates in cases of HIV transmission in straightforward language aimed at people living with HIV. It includes advice on what to do if you are accused of transmitting HIV, and what to do if you want to make a complaint about someone transmitting HIV to you. (url: https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf)' //fix
       },
     ],
-    externalLinks: [],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    externalLinks: [
+      {
+        url: `https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf)`,
+        text: `https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf)`
+      },
+    ],
+    sources: [],
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.citizenship],
@@ -469,7 +485,7 @@ export const UkEvents = [
       },
     ],
     externalLinks: [],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    sources: [],
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.deCriminalisation],
@@ -486,8 +502,17 @@ export const UkEvents = [
         content: 'Representatives from international civil society come together to prepare a declaration on HIV criminalisation. The Declaration argues that there is growing evidence that the criminalisation of HIV exposure, non-disclosure and non-intentional transmission is harmful to public health and human rights. In addition, HIV-specific criminal laws should be repealed and prosecutions should be limited only to rare cases where the transmission of HIV is intentional.'
       },
     ],
-    externalLinks: ['HIV Justice Network video on the Oslo Declaration: https://vimeo.com/37232529)', 'Oslo Declaration: http://www.hivjustice.net/oslo/oslo-declaration/'],
-    sources: ['http://www.aidsmap.com/files/file1001199.pdf'],
+    externalLinks: [
+      {
+        url: `https://vimeo.com/37232529`,
+        text: `HIV Justice Network video on the Oslo Declaration: https://vimeo.com/37232529`
+      },
+      {
+        url: `http://www.hivjustice.net/oslo/oslo-declaration/`,
+        text: `Oslo Declaration: http://www.hivjustice.net/oslo/oslo-declaration/`
+      },
+    ],
+    sources: [],
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth],
@@ -508,7 +533,12 @@ export const UkEvents = [
         content: '"From 1 October 2012, an amendment to the Charging Regulations means that HIV treatment is no longer chargeable to any overseas visitors and is provided in the same way as treatment for other sexually transmitted infections for which NHS treatment is free to all. This amendment responds to the significant evidence on the benefits to public health of providing HIV treatment to all in clinical need. Left untreated, HIV presents a significant risk of transmission to people in the UK." (DoH 2012, pg. 1)'
       },
     ],
-    externalLinks: ['https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/212952/DH-Guidance-HIV-and-NHS-Charging-fORMATED.pdf'],
+    externalLinks: [
+      {
+        url: `https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/212952/DH-Guidance-HIV-and-NHS-Charging-fORMATED.pdf`,
+        text: `https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/212952/DH-Guidance-HIV-and-NHS-Charging-fORMATED.pdf`
+      },
+    ],
     sources: [],
     startDate: '2012',
     endDate: '',
@@ -538,7 +568,12 @@ export const UkEvents = [
         content: '*And later, it would become clear that those with an undetectable viral load are unable to transmit the virus (Undetectable equals Untransmittable, or ‘U=U’).'
       },
     ],
-    externalLinks: ['https://journals.sagepub.com/doi/full/10.1177/0956462413498338'],
+    externalLinks: [
+      {
+        url: `https://journals.sagepub.com/doi/full/10.1177/0956462413498338`,
+        text: `https://journals.sagepub.com/doi/full/10.1177/0956462413498338`
+      },
+    ],
     sources: [],
     startDate: '2013',
     endDate: '',
@@ -596,7 +631,12 @@ export const UkEvents = [
         content: `National AIDS Trust (NAT) publish a briefing in response to new regulations addressing charges for medical care for those not entitled to free treatment.  The new regulations extend these charges to community healthcare services and place a requirement that NHS trusts ascertain a patient's eligibility for free care by checking passports or other documents and charging up front where applicable. The briefing suggests that these checks on eligibility may also be applicable where care is not chargeable (e.g. HIV), and whether or not this is revealed to be the case, it may act as a deterrent for undocumented migrants to access healthcare. In addition, the extension of charges to drug and alcohol services is likely to reduce access to harm reduction strategies.`
       },
     ],
-    externalLinks: ['https://www.nat.org.uk/sites/default/files/publications/new_regulations_on_charging_migrants_2017.pdf'],
+    externalLinks: [
+      {
+        url: `https://www.nat.org.uk/sites/default/files/publications/new_regulations_on_charging_migrants_2017.pdf`,
+        text: `https://www.nat.org.uk/sites/default/files/publications/new_regulations_on_charging_migrants_2017.pdf`
+      },
+    ],
     sources: [],
     startDate: '2017',
     endDate: '',
@@ -632,7 +672,16 @@ export const UkEvents = [
         content: 'Terrence Higgins Trust (THT) and National AIDS Trust (NAT) and the Hepatitis C Trust put forward statements urging police forces to stop linking spitting with the transmission of HIV and, in the latter, Hepatitis C.'
       },
     ],
-    externalLinks: ['THT: https://www.tht.org.uk/news/terrence-higgins-trust-statement-spit-hoods)', 'National AIDS Trust and Hepatitis C Trust https://www.nat.org.uk/press-release/hepatitis-c-trust-and-nat-respond-police-spit-hoods-debate'],
+    externalLinks: [
+      {
+        url: `https://www.tht.org.uk/news/terrence-higgins-trust-statement-spit-hoods`,
+        text: `THT: https://www.tht.org.uk/news/terrence-higgins-trust-statement-spit-hoods`
+      },
+        {
+        url: `https://www.nat.org.uk/press-release/hepatitis-c-trust-and-nat-respond-police-spit-hoods-debate`,
+        text: `National AIDS Trust and Hepatitis C Trust https://www.nat.org.uk/press-release/hepatitis-c-trust-and-nat-respond-police-spit-hoods-debate`
+      },
+    ],
     sources: [],
     startDate: '2017',
     endDate: '',
@@ -654,7 +703,7 @@ export const UkEvents = [
         content: 'At the Committee Stage, the author of the Bill, Chris Bryant – in response to concerns raised by HIV civil society organisations – acknowledges that the Bill could contribute to the stigmatisation of people living with HIV. He suggests that although he would like to keep these clauses in the Bill, he is open to finding ways to navigate the issue, by introducing provisions for the actual risk of particular communicable diseases to be made clear. Following the Committee sitting, Bryant tables amendments to the Bill which would remove the clauses regarding bodily samples due to the practical difficulties these clauses would raise.'
       },
     ],
-    externalLinks: ['THT: https://www.tht.org.uk/news/terrence-higgins-trust-statement-spit-hoods)', 'National AIDS Trust and Hepatitis C Trust https://www.nat.org.uk/press-release/hepatitis-c-trust-and-nat-respond-police-spit-hoods-debate'],
+    externalLinks: [],
     sources: [],
     startDate: '2017',
     endDate: '',
