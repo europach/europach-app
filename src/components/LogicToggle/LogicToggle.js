@@ -35,7 +35,8 @@ export class LogicToggle extends React.Component {
   defaultLogics = () => {
     const logics = this.props.event.logics;
     const eventHasLogics = logics.length > 0;
-    return eventHasLogics ? [logics[0].filter] : ['fake-logic'];
+    const defaultFilter = [logics[0].filter]
+    return eventHasLogics && defaultFilter;
   }
 
   componentWillMount() {
@@ -47,6 +48,19 @@ export class LogicToggle extends React.Component {
       selectedEvents: baseStoryEvents,
       selectedFilter: defaultFilter,
     })
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.event !== prevProps.event) {
+      const defaultFilters = this.defaultLogics();
+      const defaultFilter = defaultFilters[0];
+      const baseStoryEvents = storyFilter(this.currentStory, defaultFilters, this.filterOtherStories);
+
+      this.setState({
+        selectedEvents: baseStoryEvents,
+        selectedFilter: defaultFilter,
+      })
+    }
   }
 
   onFilter = (event) => {

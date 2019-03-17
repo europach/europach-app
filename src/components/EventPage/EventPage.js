@@ -106,7 +106,7 @@ export const EventPage = ({ match }) => {
               const isLastItem = externalLinksCount === (index + 1);
 
               return (
-                <TextListItem lastItem={isLastItem}>
+                <TextListItem lastItem={isLastItem} key={index}>
                   <EventSources>
                     <a href={url}>{text}</a>
                   </EventSources>
@@ -130,7 +130,7 @@ export const EventPage = ({ match }) => {
               const isLastItem = sourcesCount === (index + 1);
 
               return (
-                <TextListItem lastItem={isLastItem}>
+                <TextListItem lastItem={isLastItem} key={index}>
                   <EventSources>
                     {
                       type === 'link' ?
