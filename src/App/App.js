@@ -42,7 +42,7 @@ export class App extends Component {
               </Switch>
             </Pannel>
 
-            <Pannel padding='1em' background='white'>
+            <Pannel padding='48px 0 16px' background='white'>
               <AppFooterInner>
                 <DateRedThin>copyright 2019 Europach</DateRedThin>
                 <FooterItem><ResponsiveImg width='100px' src={husiegelImg} /></FooterItem>

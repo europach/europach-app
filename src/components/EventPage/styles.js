@@ -34,6 +34,7 @@ export const EventNavName = styled.div`
   font-size: 14px;
   padding-top: 2px;
   font-family: 'Open Sans',sans-serif;
+  font-weight: bold;
 `
 
 export const Break = styled.hr`
