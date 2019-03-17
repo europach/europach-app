@@ -16,7 +16,7 @@ export const UkEvents = [
     startDate: '1888',
     endDate: '',
     logics: [LOGICS.deCriminalisation],
-    linksWith: ['law_commission_consultation_paper', 'roy_cornes', 'law_commission_proposal', 'violence_reforming_the_offences'],
+    linksWith: ['legislating_the_criminal_code', 'roy_cornes', 'violence_reforming_the_offences'],
     baseStory: baseStory,
   },
 
@@ -107,7 +107,7 @@ export const UkEvents = [
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.deCriminalisation],
-    linksWith: ['r_v_clarence', 'legislating_the_criminal_code', 'violence_reforming_the_offences', 'law_commission_reform_of'],
+    linksWith: ['r_v_clarence', 'legislating_the_criminal_code', 'violence_reforming_the_offences', 'reform_of_offences_against'],
     baseStory: baseStory,
   },
 
@@ -200,7 +200,7 @@ export const UkEvents = [
     startDate: '1998',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.deCriminalisation],
-    linksWith: ['r_v_clarence', 'law_commission_proposal', 'criminal_prosecution_of_HIV', 'law_commission_reform_of', 'policing_transmission'],
+    linksWith: ['r_v_clarence', 'criminal_prosecution_of_hiv', 'reform_of_offences_against', 'policing_transmission'],   // FIX law_commission_proposal
     baseStory: baseStory,
   },
 
@@ -240,7 +240,7 @@ export const UkEvents = [
     startDate: '2003',
     endDate: '',
     logics: [LOGICS.deCriminalisation],
-    linksWith: ['stephen_kelly', 'roy_cornes', 'prosecutorial_guidance_launched', 'law_commission_reform_of'],
+    linksWith: ['stephen_kelly', 'roy_cornes', 'prosecutorial_guidance_launched', 'reform_of_offences_against'],
     baseStory: baseStory,
   },
 
@@ -380,7 +380,7 @@ export const UkEvents = [
     startDate: '2007',
     endDate: '',
     logics: [LOGICS.evidence],
-    linksWith: ['nexpert_witness_testimony_on'],
+    linksWith: ['expert_witness_testimony_on'],
     baseStory: baseStory,
   },
 
@@ -398,13 +398,13 @@ export const UkEvents = [
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance],
-    linksWith: ['nexpert_witness_testimony_on'],
+    linksWith: ['expert_witness_testimony_on'],
     baseStory: baseStory,
   },
 
   {
     name: 'UNAIDS Policy Brief',
-    url: 'Uunaids_policy_brief',
+    url: 'unaids_policy_brief',
     body: [
       {
         type: 'paragraph',
@@ -417,7 +417,7 @@ export const UkEvents = [
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanRights],
-    linksWith: ['bhiva_hiv_transmission'],
+    linksWith: ['bhiva_hiv_transmission_the'],
     baseStory: baseStory,
   },
 
@@ -543,7 +543,7 @@ export const UkEvents = [
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.publicHealth],
-    linksWith: ['new_regulations_on_charging', 'bhiva_hiv_transmission_the', 'availability_of_effective_treatments'],
+    linksWith: ['new_regulations_on_charging', 'bhiva_hiv_transmission_the', 'introduction_of_effective_treatments'],
     baseStory: baseStory,
   },
 
@@ -578,7 +578,7 @@ export const UkEvents = [
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.publicHealth],
-    linksWith: ['oslo_declaration', 'unaids_policy_briefing', 'introduction_of_effective_treatments', 'amendment_to_the_nhs'],
+    linksWith: ['oslo_declaration', 'unaids_policy_brief', 'introduction_of_effective_treatments', 'amendment_to_the_nhs'],
     baseStory: baseStory,
   },
 
@@ -606,7 +606,7 @@ export const UkEvents = [
 
   {
     name: 'Daryll Rowe',
-    url: 'reform_of_offences_against',
+    url: 'daryll_rowe',
     body: [
       {
         type: 'paragraph',
