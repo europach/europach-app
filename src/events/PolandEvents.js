@@ -816,7 +816,7 @@ export const PolandEvents = [
 
   {
     name: 'The Act counteracting drug addiction changed',
-    url: 'introducing_npss_dopalacze_to',
+    url: 'the_act_counteracting_drug',
     body: [
       {
         type: 'paragraph',
@@ -834,7 +834,7 @@ export const PolandEvents = [
 
   {
     name: '"Saying No to Costly Drug Laws" Article in New York Times',
-    url: 'introducing_npss_dopalacze_to',
+    url: 'saying_no_to_costly',
     body: [
       {
         type: 'paragraph',
