@@ -10,7 +10,7 @@ export const StoryCard = (props) => {
       <Img src={storyImage} alt="storyImage" />
       <CardTextWrapper>
         <H2>{ props.name }</H2>
-        <ByLine>By Will</ByLine>
+        <ByLine>{ `Researched by: ${props.researcher}` }</ByLine>
       </CardTextWrapper>
     </Card>
   )
