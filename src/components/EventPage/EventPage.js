@@ -2,13 +2,14 @@ import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import { detectEvent, detectPreviousEvent, detectNextEvent } from '../../filters/storyMappings';
 import BasicCard from '../BasicCard';
-import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventQuote, EventSources } from '../../assets/styles/common';
+import { ResponsiveImg, ImageWrapper, StyledLink, Section, EventTitle, EventBody, EventSubhead, DateRedThin, EventQuote, EventSources, Pannel, PannelInner } from '../../assets/styles/common';
 import { CenteredWrapper, EventNav, EventWrapper, EventContainer, EventNavTitle, Break, EventNavName, TextItems, TextListItem } from './styles';
 import DateRange from '../DateRange';
 import { ImageIconMapping } from '../../filters/eventMappings';
 import CardList from '../CardList';
 import LogicToggle from '../LogicToggle';
 import { RedLineWrapper } from '../../assets/styles/common';
+import AppNav from '../AppNav';
 
 const NavCard = ({title, event}) => {
   const { startDate, name, url } = event;
@@ -78,7 +79,6 @@ export const EventPage = ({ match }) => {
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl);
   const nextEvent = detectNextEvent(storyUrl, eventUrl);
   const LinkedEvents = getLinkedEvents(currentEvent.linksWith, match.url);
-  console.log('linked events', currentEvent.linksWith);
 
   const elementMapping = {
     'paragraph': Paragraph,
@@ -175,36 +175,45 @@ export const EventPage = ({ match }) => {
   const buildExploreLogics = () => (notEmpty(currentEvent.logics) && exploreLogics());
 
   return (
-    <Section>
-      <CenteredWrapper>
-        <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 16px 0 0'} />
-        <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
-      </CenteredWrapper>
+    <Pannel>
+      <Pannel background='white' padding='12px 0 0'>
+        <AppNav background='white' />
+        <PannelInner>
+          <CenteredWrapper>
+            <ResponsiveImg src={getIcon(currentEvent)} width={'24px'} padding={'0 16px 0 0'} />
+            <DateRange startDate={currentEvent.startDate} endDate={currentEvent.endDate} />
+          </CenteredWrapper>
 
-      <Section padding={'24px 0 56px 0'}>
-        <EventTitle>
-          { currentEvent.name }
-        </EventTitle>
-      </Section>
+          <Section padding={'24px 0 56px 0'}>
+            <EventTitle>
+              { currentEvent.name }
+            </EventTitle>
+          </Section>
 
-      <Section padding={'0 0 24px 0'}>
-        { buildJsxElements() }
-        { buildExternalLinks() }
-        { buildSources() }
-      </Section>
+          <Section padding={'0 0 24px 0'}>
+            { buildJsxElements() }
+            { buildExternalLinks() }
+            { buildSources() }
+          </Section>
 
-      <Break />
+          <Break />
 
-      <Section padding={'32px 0 12px 0'}>
-        <EventSubhead>Timeline</EventSubhead>
-        <EventWrapper>
-          { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank text='no previous' /> }
-          { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank text='no next' /> }
-        </EventWrapper>
-      </Section>
+          <Section padding={'32px 0 12px 0'}>
+            <EventSubhead>Timeline</EventSubhead>
+            <EventWrapper>
+              { previousEvent ? <NavCard title='Previous' event={previousEvent} /> : <NavBlank text='no previous' /> }
+              { nextEvent ? <NavCard title='Next' event={nextEvent} /> : <NavBlank text='no next' /> }
+            </EventWrapper>
+          </Section>
+        </PannelInner>
+      </Pannel>
 
-      { buildInContext() }
-      { buildExploreLogics() }
-    </Section>
+      <Pannel padding='0 0 12px'>
+        <PannelInner>
+          { buildInContext() }
+          { buildExploreLogics() }
+        </PannelInner>
+      </Pannel>
+    </Pannel>
   )
 }

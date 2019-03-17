@@ -167,3 +167,24 @@ export const ModalTitle = styled.h1`
   color: rgba(0,0,0,0.75);
   margin: 0;
 `
+
+export const Pannel = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  padding: ${props => props.padding || "0"};
+  margin: 0;
+  background: ${props => props.background || "#fafafa"};
+`;
+
+export const PannelInner = styled.div`
+  max-width: 660px;
+  width: 100%;
+
+  @media (max-width: 468px) {
+    max-width: 85%;
+  }
+`;

@@ -5,9 +5,8 @@ import StoryPage from '../components/StoryPage';
 import Home from '../components/HomePage';
 import Error from '../components/pages/Error';
 import EventPage from '../components/EventPage';
-import { AppContainer, AppNav, AppNavInner, AppMain, AppFooter, AppFooterInner, FooterItem } from './styles';
-import { StyledLink, ResponsiveImg, DateRedThin } from '../assets/styles/common';
-import logo from '../assets/images/logo.svg';
+import { AppContainer, AppFooterInner, FooterItem } from './styles';
+import { ResponsiveImg, DateRedThin, Pannel } from '../assets/styles/common';
 import husiegelImg from '../assets/images/footer_husiegel.jpg'
 import goldsmithsImg from '../assets/images/footer_goldsmiths.png';
 import basImg from '../assets/images/footer_uni_bas.jpg';
@@ -17,19 +16,12 @@ import horizonImg from '../assets/images/footer_horizon.jpg';
 
 export class App extends Component {
   render() {
+
     return (
       <Router>
         <ScrollToTop>
           <AppContainer>
-            <AppNav>
-              <AppNavInner>
-                <StyledLink to='/'>
-                  <img src={logo} alt="Logo" />
-                </StyledLink>
-              </AppNavInner>
-            </AppNav>
-
-            <AppMain>
+            <Pannel>
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/germany' component={StoryPage} />
@@ -48,9 +40,9 @@ export class App extends Component {
                 <Route path={`/eu/:eventId`} component={EventPage} />
                 <Route component={Error} />
               </Switch>
-            </AppMain>
+            </Pannel>
 
-            <AppFooter>
+            <Pannel padding='1em' background='white'>
               <AppFooterInner>
                 <DateRedThin>copyright 2019 Europach</DateRedThin>
                 <FooterItem><ResponsiveImg width='100px' src={husiegelImg} /></FooterItem>
@@ -60,7 +52,7 @@ export class App extends Component {
                 <FooterItem><ResponsiveImg width='200px' src={heraImg} /></FooterItem>
                 <FooterItem><ResponsiveImg width='200px' src={horizonImg} /></FooterItem>
               </AppFooterInner>
-            </AppFooter>
+            </Pannel>
           </AppContainer>
         </ScrollToTop>
       </Router>
