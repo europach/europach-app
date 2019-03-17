@@ -1,8 +1,8 @@
-import BerlinImage from '../assets/images/iconBerlin.svg';
-import UKImage from '../assets/images/iconUK.svg';
-import PolandImage from '../assets/images/iconPoland.svg';
-import EUImage from '../assets/images/iconEU.svg';
-import TurkeyImage from '../assets/images/iconTurkey.svg';
+import BerlinImage from '../assets/images/icons_final_iconGerman.svg';
+import UKImage from '../assets/images/icons_final_iconUK.svg';
+import PolandImage from '../assets/images/icons_final_iconPoland.svg';
+import EUImage from '../assets/images/icons_final_iconEU.svg';
+import TurkeyImage from '../assets/images/icons_final_iconTurkey.svg';
 
 export const ImageIconMapping = {
   'germany': BerlinImage,
