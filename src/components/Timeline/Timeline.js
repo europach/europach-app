@@ -3,10 +3,11 @@ import LogicMultiSelect from '../LogicMultiSelect';
 import LogicDefinitions from '../LogicDefinitions';
 import { storyFilter } from '../../filters/StoryFilter';
 import { DateWrapper, TimelineSection, Circle, FilterContainer, FilterContainerInner } from './styles';
-import { Section, ModalTitle } from '../../assets/styles/common';
+import { Section, ModalTitle, ResponsiveImg } from '../../assets/styles/common';
 import Modal from '../Modal';
 import CardList from '../CardList';
 import EventCard from '../EventCard';
+import rhizomeIcon from '../../assets/images/rhizome_icon_Rhizome_icon.svg';
 
 export class Timeline extends React.Component {
   constructor(props) {
@@ -110,7 +111,9 @@ export class Timeline extends React.Component {
 
         <FilterContainer>
           <FilterContainerInner>
-            <Circle onClick={this.displayModal} />
+            <Circle onClick={this.displayModal}>
+              <ResponsiveImg src={rhizomeIcon} width={'35px'} />
+            </Circle>
             EXPLORE
           </FilterContainerInner>
         </FilterContainer>

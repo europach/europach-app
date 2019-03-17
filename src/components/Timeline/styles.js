@@ -21,6 +21,17 @@ export const Circle = styled.div`
   background: #fbe9e7;
   cursor: pointer;
   margin: 0 auto 8px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 3px 10px 61px -8px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 3px 10px 61px -8px rgba(0,0,0,0.44);
+  -moz-box-shadow: 3px 10px 61px -8px rgba(0,0,0,0.44);
+  transition: transform 0.2s ease-in-out, margin 0.2s linear, box-shadow 0.2s linear;
+
+  &:hover {
+    box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+  }
 `
 
 export const FilterContainer = styled.div`
