@@ -176,7 +176,7 @@ export const EventPage = ({ match }) => {
 
   return (
     <Pannel>
-      <Pannel background='white'>
+      <Pannel background='white' padding='0 0 32px'>
         <AppNav background='white' />
         <PannelInner padding='12px 0 0'>
           <CenteredWrapper>
@@ -208,7 +208,7 @@ export const EventPage = ({ match }) => {
         </PannelInner>
       </Pannel>
 
-      <Pannel padding='0 0 12px'>
+      <Pannel padding='0 0 48px'>
         <PannelInner>
           { buildInContext() }
           { buildExploreLogics() }
