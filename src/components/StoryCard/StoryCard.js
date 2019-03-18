@@ -7,7 +7,6 @@ import { CardTextWrapper } from './styles';
 export const StoryCard = (props) => {
   return (
     <Card>
-      <Img src={storyImage} alt="storyImage" />
       <CardTextWrapper>
         <H2>{ props.name }</H2>
         <ByLine>{ `Researched by: ${props.researcher}` }</ByLine>
@@ -15,3 +14,5 @@ export const StoryCard = (props) => {
     </Card>
   )
 }
+
+{/* <Img src={storyImage} alt="storyImage" /> */}
