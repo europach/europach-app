@@ -49,7 +49,10 @@ export class Timeline extends React.Component {
     let itemsByDate = {}
 
     items.forEach(item => {
-      let itemDate = new Date(item.startDate).getFullYear();
+      let itemDate =
+        new Date(item.startDate).getFullYear() ||
+        item.startDate.includes('/') && item.startDate.split('/')[0] ||
+        item.startDate.split(' ')[1];
 
       itemsByDate[itemDate] = itemsByDate[itemDate] || [];
       itemsByDate[itemDate].push(item);
