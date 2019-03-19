@@ -13,3 +13,7 @@
 [[redirects]]
   from = "https://www.europach.eu/*"
   to = "europach.phils.uj.edu.pl"
+
+[[redirects]]
+  from = "https://europach-app.netlify.com/*"
+  to = "https://map.europach.eu"
