@@ -1,5 +1,15 @@
 [[redirects]]
-  from = "europach.eu/*"
+  from = "http://europach.eu/*"
   to = "europach.phils.uj.edu.pl"
-  from = "www.europach.eu/*"
+
+[[redirects]]
+  from = "https://europach.eu/*"
+  to = "europach.phils.uj.edu.pl"
+
+[[redirects]]
+  from = "http://www.europach.eu/*"
+  to = "europach.phils.uj.edu.pl"
+
+[[redirects]]
+  from = "https://www.europach.eu/*"
   to = "europach.phils.uj.edu.pl"
