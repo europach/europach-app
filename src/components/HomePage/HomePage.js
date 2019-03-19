@@ -28,12 +28,6 @@ export const HomePage = (props) => {
           </StoryItem>
 
           <StoryItem>
-            <StyledLink to='/uk'>
-              <StoryCard name="UK: Police Safety, Spit Hoods and HIV Criminalisation in England and Wales" researcher="Emily Nicholls" />
-            </StyledLink>
-          </StoryItem>
-
-          <StoryItem>
             <StyledLink to='/poland'>
               <StoryCard name="Poland: Harm Reduction and the Criminalisation of Drug Use" researcher="Justyna Struzik" />
             </StyledLink>
@@ -42,6 +36,12 @@ export const HomePage = (props) => {
           <StoryItem>
             <StyledLink to='/turkey'>
               <StoryCard name="Turkey: Marriage, the State and the Criminalisation of HIV Transmission" researcher="Zülfukar Çetin" />
+            </StyledLink>
+          </StoryItem>
+
+          <StoryItem>
+            <StyledLink to='/uk'>
+              <StoryCard name="UK: Police Safety, Spit Hoods and HIV Criminalisation in England and Wales" researcher="Emily Nicholls" />
             </StyledLink>
           </StoryItem>
         </StoryList>
