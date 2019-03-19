@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "www.europach.eu/*"
+  to = "europach.phils.uj.edu.pl"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "europach.eu/*"
+  to = "europach.phils.uj.edu.pl"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "europach-app.netlify.com/*"
+  to = "map.europach.eu"
+  status = 301
+  force = false
