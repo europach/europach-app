@@ -293,7 +293,7 @@ export const UkEvents = [
     sources: [],
     startDate: '2006',
     endDate: '',
-    logics: [LOGICS.collaborativeGuidance, LOGICS.deCriminalisation],
+    logics: [LOGICS.collaborativeGovernance, LOGICS.deCriminalisation],
     linksWith: ['prosecutorial_guidance_launched', 'crown_prosecution_service_agree', 'bhiva_respond_to_prosecutorial'],
     baseStory: baseStory,
   },

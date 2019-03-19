@@ -2,7 +2,6 @@ export const LOGICS = {
   bestPractice: { title: "Best Practice", filter: "bestPractice"},
   citizenship: { title: "Citizenship", filter: "citizenship"},
   collaborativeGovernance: { title: "Collaborative Governance", filter: "collaborativeGovernance"},
-  collaborativeGuidance: { title: "Collaborative Guidance", filter: "collaborativeGuidance"},
   criminalisation: { title: "Criminalisation", filter: "criminalisation"},
   deCriminalisation: { title: "De/Criminalisation", filter: "deCriminalisation"},
   dissent: { title: "Dissent", filter: "dissent"},
