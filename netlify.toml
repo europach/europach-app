@@ -6,19 +6,19 @@
 
 [[redirects]]
   from = "http://www.europach.eu/*"
-  to = "europach.phils.uj.edu.pl"
+  to = "http://europach.phils.uj.edu.pl"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://europach.eu/*"
-  to = "europach.phils.uj.edu.pl"
+  to = "http://europach.phils.uj.edu.pl"
   status = 301
   force = true
 
 [[redirects]]
   from = "http://europach.eu/*"
-  to = "europach.phils.uj.edu.pl"
+  to = "http://europach.phils.uj.edu.pl"
   status = 301
   force = true
 
@@ -30,6 +30,6 @@
 
 [[redirects]]
   from = "http://europach-app.netlify.com/*"
-  to = "map.europach.eu"
+  to = "https://map.europach.eu"
   status = 301
   force = true
