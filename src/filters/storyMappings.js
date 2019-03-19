@@ -3,7 +3,6 @@ import {
   polandBestPracticeEvents,
   polandCitizenshipEvents,
   polandCollaborativeGovernanceEvents,
-  polandCriminalisationEvents,
   polandDeCriminalisationEvents,
   polandDissentEvents,
   polandEvidenceEvents,
@@ -12,8 +11,7 @@ import {
   polandMoralizingEvents,
   polandMutualHelpEvents,
   polandPublicHealthEvents,
-  polandSecurityEvents,
-  polandSecuritizationEvents
+  polandSecuritisationEvents
 } from '../selectors/polandSelectors'
 
 import {
@@ -21,7 +19,6 @@ import {
   germanyBestPracticeEvents,
   germanyCitizenshipEvents,
   germanyCollaborativeGovernanceEvents,
-  germanyCriminalisationEvents,
   germanyDeCriminalisationEvents,
   germanyDissentEvents,
   germanyEvidenceEvents,
@@ -30,8 +27,7 @@ import {
   germanyMoralizingEvents,
   germanyMutualHelpEvents,
   germanyPublicHealthEvents,
-  germanySecurityEvents,
-  germanySecuritizationEvents
+  germanySecuritisationEvents
 } from '../selectors/germanySelectors'
 
 import {
@@ -39,7 +35,6 @@ import {
   ukBestPracticeEvents,
   ukCitizenshipEvents,
   ukCollaborativeGovernanceEvents,
-  ukCriminalisationEvents,
   ukDeCriminalisationEvents,
   ukDissentEvents,
   ukEvidenceEvents,
@@ -48,8 +43,7 @@ import {
   ukMoralizingEvents,
   ukMutualHelpEvents,
   ukPublicHealthEvents,
-  ukSecurityEvents,
-  ukSecuritizationEvents
+  ukSecuritisationEvents
 } from '../selectors/ukSelectors'
 
 import {
@@ -57,7 +51,6 @@ import {
   turkeyBestPracticeEvents,
   turkeyCitizenshipEvents,
   turkeyCollaborativeGovernanceEvents,
-  turkeyCriminalisationEvents,
   turkeyDeCriminalisationEvents,
   turkeyDissentEvents,
   turkeyEvidenceEvents,
@@ -66,8 +59,7 @@ import {
   turkeyMoralizingEvents,
   turkeyMutualHelpEvents,
   turkeyPublicHealthEvents,
-  turkeySecurityEvents,
-  turkeySecuritizationEvents
+  turkeySecuritisationEvents
 } from '../selectors/turkeySelectors'
 
 import {
@@ -75,7 +67,6 @@ import {
   euBestPracticeEvents,
   euCitizenshipEvents,
   euCollaborativeGovernanceEvents,
-  euCriminalisationEvents,
   euDeCriminalisationEvents,
   euDissentEvents,
   euEvidenceEvents,
@@ -84,8 +75,7 @@ import {
   euMoralizingEvents,
   euMutualHelpEvents,
   euPublicHealthEvents,
-  euSecurityEvents,
-  euSecuritizationEvents
+  euSecuritisationEvents
 } from '../selectors/euSelectors'
 
 import { Events } from '../events/Events';
@@ -108,8 +98,7 @@ export const storyMappings = {
     moralizing: germanyMoralizingEvents,
     mutualHelp: germanyMutualHelpEvents,
     publicHealth: germanyPublicHealthEvents,
-    security: germanySecurityEvents,
-    securitization: germanySecuritizationEvents
+    securitisation: germanySecuritisationEvents
   },
   '/uk': {
     base: ukSelector,
@@ -124,8 +113,7 @@ export const storyMappings = {
     moralizing: ukMoralizingEvents,
     mutualHelp: ukMutualHelpEvents,
     publicHealth: ukPublicHealthEvents,
-    security: ukSecurityEvents,
-    securitization: ukSecuritizationEvents
+    securitisation: ukSecuritisationEvents
   },
   '/turkey': {
     base: turkeySelector,
@@ -140,8 +128,7 @@ export const storyMappings = {
     moralizing: turkeyMoralizingEvents,
     mutualHelp: turkeyMutualHelpEvents,
     publicHealth: turkeyPublicHealthEvents,
-    security: turkeySecurityEvents,
-    securitization: turkeySecuritizationEvents
+    securitisation: turkeySecuritisationEvents
   },
   '/poland': {
     base: polandSelector,
@@ -156,8 +143,7 @@ export const storyMappings = {
     moralizing: polandMoralizingEvents,
     mutualHelp: polandMutualHelpEvents,
     publicHealth: polandPublicHealthEvents,
-    security: polandSecurityEvents,
-    securitization: polandSecuritizationEvents
+    securitisation: polandSecuritisationEvents
   },
   '/eu': {
     base: euSelector,
@@ -172,8 +158,7 @@ export const storyMappings = {
     moralizing: euMoralizingEvents,
     mutualHelp: euMutualHelpEvents,
     publicHealth: euPublicHealthEvents,
-    security: euSecurityEvents,
-    securitization: euSecuritizationEvents
+    securitisation: euSecuritisationEvents
   },
 }
 

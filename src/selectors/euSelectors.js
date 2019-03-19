@@ -48,10 +48,6 @@ export const euPublicHealthEvents = createSelector(
   euSelector, (events) => { return events.filter(item => getFilters(item.logics).includes('publicHealth')) }
 )
 
-export const euSecurityEvents = createSelector(
-  euSelector, (events) => { return events.filter(item => getFilters(item.logics).includes('security')) }
-)
-
-export const euSecuritizationEvents = createSelector(
-  euSelector, (events) => { return events.filter(item => getFilters(item.logics).includes('securitization')) }
+export const euSecuritisationEvents = createSelector(
+  euSelector, (events) => { return events.filter(item => getFilters(item.logics).includes('securitisation')) }
 )

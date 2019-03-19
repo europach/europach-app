@@ -10,6 +10,5 @@ export const LOGICS = {
   moralizing: { title: "Moralizing", filter: "moralizing"},
   mutualHelp: { title: "Mutual Help", filter: "mutualHelp"},
   publicHealth: { title: "Public Health", filter: "publicHealth"},
-  security: { title: "Security", filter: "security"},
-  securitization: { title: "Securitization", filter: "securitization"},
+  securitisation: { title: "Securitisation", filter: "securitisation"},
 };
