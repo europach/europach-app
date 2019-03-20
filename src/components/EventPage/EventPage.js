@@ -10,6 +10,7 @@ import CardList from '../CardList';
 import LogicToggle from '../LogicToggle';
 import { RedLineWrapper } from '../../assets/styles/common';
 import AppNav from '../AppNav';
+import { Player } from 'video-react';
 
 const NavCard = ({title, event}) => {
   const { startDate, name, url } = event;
@@ -56,6 +57,12 @@ const Audio = (content, key) => (
   />
 );
 
+const Video = (content, key) => (
+  <Player key={key}>
+    <source src={content} />
+  </Player>
+)
+
 const Quote = (content, key) => (
   <EventQuote key={key}>{content}</EventQuote>
 );
@@ -84,7 +91,8 @@ export const EventPage = ({ match }) => {
     'paragraph': Paragraph,
     'image': Image,
     'audio': Audio,
-    'quote': Quote
+    'quote': Quote,
+    'video': Video
   }
 
   const buildJsxElements = () => {
@@ -176,6 +184,7 @@ export const EventPage = ({ match }) => {
 
   return (
     <Pannel>
+      <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
       <Pannel background='white' padding='0 0 32px'>
         <AppNav background='white' />
         <PannelInner padding='12px 0 0'>
