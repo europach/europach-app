@@ -1,6 +1,6 @@
 [[redirects]]
   from = "https://www.europach.eu/*"
-  to = "europach.phils.uj.edu.pl"
+  to = "http://europach.phils.uj.edu.pl"
   status = 301
   force = true
 
@@ -23,13 +23,13 @@
   force = true
 
 [[redirects]]
-  from = "https://europach-app.netlify.com/*"
-  to = "map.europach.eu"
+  from = "https://elastic-ardinghelli-f29b5c.netlify.com/*"
+  to = "https://map.europach.eu"
   status = 301
   force = true
 
 [[redirects]]
-  from = "http://europach-app.netlify.com/*"
+  from = "http://elastic-ardinghelli-f29b5c.netlify.com/*"
   to = "https://map.europach.eu"
   status = 301
   force = true
