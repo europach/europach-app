@@ -11,7 +11,8 @@ import {
   polandMoralizingEvents,
   polandMutualHelpEvents,
   polandPublicHealthEvents,
-  polandSecuritisationEvents
+  polandSecuritisationEvents,
+  polandSocialJusticeEvents
 } from '../selectors/polandSelectors'
 
 import {
@@ -27,7 +28,8 @@ import {
   germanyMoralizingEvents,
   germanyMutualHelpEvents,
   germanyPublicHealthEvents,
-  germanySecuritisationEvents
+  germanySecuritisationEvents,
+  germanySocialJusticeEvents
 } from '../selectors/germanySelectors'
 
 import {
@@ -43,7 +45,8 @@ import {
   ukMoralizingEvents,
   ukMutualHelpEvents,
   ukPublicHealthEvents,
-  ukSecuritisationEvents
+  ukSecuritisationEvents,
+  ukSocialJusticeEvents
 } from '../selectors/ukSelectors'
 
 import {
@@ -59,7 +62,8 @@ import {
   turkeyMoralizingEvents,
   turkeyMutualHelpEvents,
   turkeyPublicHealthEvents,
-  turkeySecuritisationEvents
+  turkeySecuritisationEvents,
+  turkeySocialJusticeEvents
 } from '../selectors/turkeySelectors'
 
 import {
@@ -98,7 +102,8 @@ export const storyMappings = {
     moralizing: germanyMoralizingEvents,
     mutualHelp: germanyMutualHelpEvents,
     publicHealth: germanyPublicHealthEvents,
-    securitisation: germanySecuritisationEvents
+    securitisation: germanySecuritisationEvents,
+    socialJustice: germanySocialJusticeEvents
   },
   '/uk': {
     base: ukSelector,
@@ -113,7 +118,8 @@ export const storyMappings = {
     moralizing: ukMoralizingEvents,
     mutualHelp: ukMutualHelpEvents,
     publicHealth: ukPublicHealthEvents,
-    securitisation: ukSecuritisationEvents
+    securitisation: ukSecuritisationEvents,
+    socialJustice: ukSocialJusticeEvents
   },
   '/turkey': {
     base: turkeySelector,
@@ -128,7 +134,8 @@ export const storyMappings = {
     moralizing: turkeyMoralizingEvents,
     mutualHelp: turkeyMutualHelpEvents,
     publicHealth: turkeyPublicHealthEvents,
-    securitisation: turkeySecuritisationEvents
+    securitisation: turkeySecuritisationEvents,
+    socialJustice: turkeySocialJusticeEvents
   },
   '/poland': {
     base: polandSelector,
@@ -143,7 +150,8 @@ export const storyMappings = {
     moralizing: polandMoralizingEvents,
     mutualHelp: polandMutualHelpEvents,
     publicHealth: polandPublicHealthEvents,
-    securitisation: polandSecuritisationEvents
+    securitisation: polandSecuritisationEvents,
+    socialJustice: polandSocialJusticeEvents
   },
   '/eu': {
     base: euSelector,
@@ -158,7 +166,8 @@ export const storyMappings = {
     moralizing: euMoralizingEvents,
     mutualHelp: euMutualHelpEvents,
     publicHealth: euPublicHealthEvents,
-    securitisation: euSecuritisationEvents
+    securitisation: euSecuritisationEvents,
+    socialJustice: euSocialJusticeEvents
   },
 }
 

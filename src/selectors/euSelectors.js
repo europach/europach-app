@@ -51,3 +51,7 @@ export const euPublicHealthEvents = createSelector(
 export const euSecuritisationEvents = createSelector(
   euSelector, (events) => { return events.filter(item => getFilters(item.logics).includes('securitisation')) }
 )
+
+export const euSocialJusticeEvents = createSelector(
+  euSelector, (events) => { return events.filter(item => getFilters(item.logics).includes('socialJustice')) }
+)

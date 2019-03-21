@@ -51,3 +51,7 @@ export const turkeyPublicHealthEvents = createSelector(
 export const turkeySecuritisationEvents = createSelector(
   turkeySelector, (events) => { return events.filter(item => getFilters(item.logics).includes('securitisation')) }
 )
+
+export const turkeySocialJusticeEvents = createSelector(
+  turkeySelector, (events) => { return events.filter(item => getFilters(item.logics).includes('socialJustice')) }
+)

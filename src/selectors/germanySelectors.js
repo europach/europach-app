@@ -51,3 +51,7 @@ export const germanyPublicHealthEvents = createSelector(
 export const germanySecuritisationEvents = createSelector(
   germanySelector, (events) => { return events.filter(item => getFilters(item.logics).includes('securitisation')) }
 )
+
+export const germanySocialJusticeEvents = createSelector(
+  germanySelector, (events) => { return events.filter(item => getFilters(item.logics).includes('socialJustice')) }
+)
