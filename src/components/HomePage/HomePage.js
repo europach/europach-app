@@ -23,7 +23,7 @@ export const HomePage = (props) => {
         <StoryList>
           <StoryItem>
             <StyledLink to='/eu'>
-              <StoryCard name="EU" researcher="?"/>
+              <StoryCard name="Europe: The Intersecting Criminalisation of HIV, Sex Work, Migration and Drug Use" researcher="Agata Dziuban and Todd Sekuler"/>
             </StyledLink>
           </StoryItem>
 
