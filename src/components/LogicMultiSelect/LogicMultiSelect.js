@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, Section } from '../../assets/styles/common';
 import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper, CheckboxText } from './styles';
 import { LOGICS } from '../../logics/logics';
+import LogicDefinitions from '../LogicDefinitions';
 
 const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
   <label>
@@ -90,6 +91,10 @@ export class LogicMultiSelect extends Component {
               name={'show-other-events'}
             />
           </div>
+
+          <Section padding={'40px 0 0 0'}>
+            <LogicDefinitions />
+          </Section>
 
           <Section padding={'64px 0 12px 0'}>
             <ButtonContainer>

@@ -1,6 +1,5 @@
 import React from 'react';
 import LogicMultiSelect from '../LogicMultiSelect';
-import LogicDefinitions from '../LogicDefinitions';
 import { storyFilter } from '../../filters/StoryFilter';
 import { DateWrapper, TimelineSection, Circle, FilterContainer, FilterContainerInner } from './styles';
 import { Section, ModalTitle, ResponsiveImg } from '../../assets/styles/common';
@@ -105,10 +104,6 @@ export class Timeline extends React.Component {
             for a better understanding of how the past has
             influenced the present
           </p>
-
-          <Section padding={'0 0 40px 0'}>
-            <LogicDefinitions />
-          </Section>
           <LogicMultiSelect onSubmit={this.handleOnSubmit} onClose={this.hideModal} />
         </Modal>
 
