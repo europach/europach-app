@@ -157,7 +157,7 @@ export const EventPage = ({ match }) => {
 
   const inContext = () => (
     <Section padding={'48px 0 12px 0'}>
-      <EventSubhead>In Context</EventSubhead>
+      <EventSubhead>Links to other events in the story</EventSubhead>
 
       <Section padding={'32px 0 12px 0'}>
         <CardList items={LinkedEvents} cardType={BasicCard} width={'auto'} padding={'none'} wrapper={RedLineWrapper} />
