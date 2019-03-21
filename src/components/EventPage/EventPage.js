@@ -175,12 +175,12 @@ export const EventPage = ({ match }) => {
     </Section>
   )
 
-  const notEmpty = (element) => element.length > 0;
+  const empty = (element) => element == null || element.length === 0;
 
-  const buildSources = () => (notEmpty(currentEvent.sources) && sources());
-  const buildExternalLinks = () => (notEmpty(currentEvent.externalLinks) && externalLinks());
-  const buildInContext = () => (notEmpty(currentEvent.linksWith) && inContext());
-  const buildExploreLogics = () => (notEmpty(currentEvent.logics) && exploreLogics());
+  const buildSources = () => (!empty(currentEvent.sources) && sources());
+  const buildExternalLinks = () => (!empty(currentEvent.externalLinks) && externalLinks());
+  const buildInContext = () => (!empty(currentEvent.linksWith) && inContext());
+  const buildExploreLogics = () => (!empty(currentEvent.logics) && exploreLogics());
 
   return (
     <Pannel>

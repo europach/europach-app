@@ -864,12 +864,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `As reported by interviewees from the Group of Lawyers for the Rights of Migrants and Refugees who reviewed the case, “there were witnesses, there was a real criminal proceedings where the rights of the defendant were respected” - unlike in the 2012 case at the heart of this story. In their legal arguments, the group of lawyers relied on this case and differentiated it from the cases involving the women presented here.`
       },
     ],
-       sources: [
-          {
+    sources: [
+      {
         type: 'text',
         content: 'Local/National Governing Bodies'
       },
     ],
+    externalLinks: [],
     startDate: '2007',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.citizenship, LOGICS.publicHealth, LOGICS.securitisation, LOGICS.evidence],
@@ -960,6 +961,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: 'Local/National Governing Bodies'
       },
     ],
+    externalLinks: [],
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.collaborativeGovernance],
@@ -1051,6 +1053,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: 'Broader Context'
       },
     ],
+    externalLinks: [],
     startDate: '2009/08/01',
     endDate: '2018/08/20',
     logics: [],
@@ -1068,12 +1071,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `With the Greek financial crisis intensifying, the election of October 2009 resulted in a coalition of three parties, each of whom took hold of a different ministry. George Papandreou of the PASOK became the Prime Minister of Greece and had liberal views on sex work and drugs but he made little headway in both realms of policy and was forced to resign in 2011. Andreas Loverdos became the Minister of Health and Social Security - the position in which he made the UNGASS speech and subsequent Ministerial Decree that sparked this case.`
       },
       ],
-      sources: [
+    sources: [
           {
         type: 'text',
         content: 'Broader Context'
       },
     ],
+    externalLinks: [],
     startDate: '2009/10/04',
     endDate: '',
     logics: [],
@@ -1100,6 +1104,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: 'Local/National Governing Bodies'
       },
     ],
+    externalLinks: [],
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.deCriminalisation],

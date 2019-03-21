@@ -79,14 +79,15 @@ import {
   euMoralizingEvents,
   euMutualHelpEvents,
   euPublicHealthEvents,
-  euSecuritisationEvents
+  euSecuritisationEvents,
+  euSocialJusticeEvents
 } from '../selectors/euSelectors'
 
 import { Events } from '../events/Events';
 
 import { GermanyStoryDetails, UkStoryDetails, PolandStoryDetails, EUStoryDetails, TurkeyStoryDetails } from './storyDetails';
 
-export const STORIES = [ '/uk', '/poland', '/germany', '/turkey' ];
+export const STORIES = [ '/uk', '/poland', '/germany', '/turkey', '/eu' ];
 
 export const storyMappings = {
   '/germany': {
