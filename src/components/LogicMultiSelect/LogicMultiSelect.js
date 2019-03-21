@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Section } from '../../assets/styles/common';
+import { Button, Section, BodySubHead } from '../../assets/styles/common';
 import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper, CheckboxText } from './styles';
 import { LOGICS } from '../../logics/logics';
 import LogicDefinitions from '../LogicDefinitions';
@@ -76,6 +76,12 @@ export class LogicMultiSelect extends Component {
 
     return (
       <div>
+        <BodySubHead>
+          See how events connect across borders and topics
+          for a better understanding of how the past has
+          influenced the present
+        </BodySubHead>
+
         <form onSubmit={this.handleFormSubmit}>
 
           <CheckboxList>

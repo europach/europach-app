@@ -31,6 +31,13 @@ export const SubHeadText = styled.p`
   color: rgba(0,0,0,0.75);
 `;
 
+export const BodySubHead = styled.p`
+  font-family: 'Lekton', serif;
+  font-size: 20px;
+  color: rgba(0,0,0,0.75);
+  line-height: 1.3;
+`;
+
 export const BodyText = styled.p`
   font-family: 'Lekton', serif;
   font-size: 16px;

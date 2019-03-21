@@ -98,12 +98,6 @@ export class Timeline extends React.Component {
 
         <Modal show={this.state.showModal}>
           <ModalTitle>Explore</ModalTitle>
-
-          <p>
-            See how events connect across borders and topics
-            for a better understanding of how the past has
-            influenced the present
-          </p>
           <LogicMultiSelect onSubmit={this.handleOnSubmit} onClose={this.hideModal} />
         </Modal>
 
