@@ -1,6 +1,6 @@
 import React from 'react';
 import { logicDefinitions } from '../../logics/definitions';
-import { Section, BodyText } from '../../assets/styles/common';
+import { Section, BodyText, BodySubHead } from '../../assets/styles/common';
 import { Definitions } from './styles';
 
 const InfoTile = (props) => (
@@ -26,12 +26,12 @@ export class LogicDefinitions extends React.Component {
   }
 
   intro = () => (
-    <Section padding={'0 0 12px 0'}>
-      <BodyText>
+    <Section padding={'24px 0 12px 0'}>
+      <BodySubHead>
         To help the user best navigate and benefit from this interactive map, we have developed
         these concise definitions to describe the terms that structure it. Please contact us here
         if you would like more information or to discuss them further.
-      </BodyText>
+      </BodySubHead>
     </Section>
   )
 

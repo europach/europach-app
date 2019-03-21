@@ -33,7 +33,7 @@ export const SubHeadText = styled.p`
 
 export const BodySubHead = styled.p`
   font-family: 'Lekton', serif;
-  font-size: 20px;
+  font-size: 18px;
   color: rgba(0,0,0,0.75);
   line-height: 1.3;
 `;
