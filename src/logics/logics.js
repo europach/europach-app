@@ -11,4 +11,5 @@ export const LOGICS = {
   mutualHelp: { title: "Mutual Help", filter: "mutualHelp"},
   publicHealth: { title: "Public Health", filter: "publicHealth"},
   securitisation: { title: "Securitisation", filter: "securitisation"},
+  socialJustice: { title: "Social Justice", filter: "socialJustice"},
 };

@@ -30,7 +30,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: `1949/01/01`,
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['joint_ECDC', 'FRA', 'EMCDDA', 'WHO_Europe_Report_Urging', 'ECDC_Created', 'EMCDDA Created', 'First_Forced_Testing', 'Arrest_in_Illegal_Brothel', 'Ongoing_Forced_HIV_Testing', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on_HIV', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
@@ -62,7 +62,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1950/11/05',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Citizenship, LOGICS.Security],
+    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.securitisation],
     linksWith: ['Group_of_Lawyers_for', '3_Cases_Submitted_to'],
     baseStory: baseStory,
   },
@@ -98,7 +98,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1978',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.SocialJustice, LOGICS.Evidence, LOGICS.Humanitarianism, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.socialJustice, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent],
     linksWith: ['Joint_Letter_to_UN', 'Operation_Xenios_Zeus', 'Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
@@ -135,7 +135,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1983',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Humanitarianism],
+    logics: [LOGICS.publicHealth, LOGICS.humanitarianism],
     linksWith: ['Coalition_Members_Visit_Arrested', 'Inter-Ministerial_National_Plan'],
     baseStory: baseStory,
   },
@@ -167,7 +167,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1986',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.MutualHelp, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.dissent],
     linksWith: ['Transnational_NGOs_or_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIV/AIDS'],
     baseStory: baseStory,
   },
@@ -199,7 +199,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1987',
     endDate: '',
-    logics: [LOGICS.Humanitarianism, LOGICS.PublicHealth],
+    logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
     linksWith: ['Inter-Organisational_Coalition_and', 'Inter-Ministerial National Plan', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
@@ -231,7 +231,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1988',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['Transnational_NGOs_and_Activist ', 'Reinstatement_of_Provision_39a',],
     baseStory: baseStory,
   },
@@ -267,7 +267,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1991',
     endDate: '',
-    logics: [LOGICS.Humanitarianism, LOGICS.PublicHealth],
+    logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
     linksWith: ['Demonstrations_against_Provision_39a', 'Protests_in_Front_of', 'Inter-Organisational_Coalition_with', 'Inter-Ministerial_National_Plan'],
     baseStory: baseStory,
   },
@@ -299,7 +299,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.Mutualhelp, LOGICS.CollaborativeGovernance, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.PublicHealth, LOGICS.SocialJustice],
+    logics: [LOGICS.mutualHelp, LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.socialJustice],
     linksWith: ['Positive_Voice_Created', 'Transnational_NGOs_and_Activist', 'Joint_Letter_to_UN', 'CSF_on_HIV_Created', 'Situation_in_Greece_Discussed'],
     baseStory: baseStory,
   },
@@ -331,7 +331,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.Security, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['New_KEELPNO_President_Formally', 'Research_on_Public_Response','Lawsuit_Filed_Against_Public', 'KEELPNO_Internal_Letter_of', 'UNGASS_Statement_by_Greek', 'Documented_HIV_Outbreak_Among', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan', 'European_and_Greek_Governmental'],
     baseStory: baseStory,
   },
@@ -363,7 +363,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1992',
     endDate: '',
-    logics: [LOGICS.DeCriminalisation, LOGICS.Dissent, LOGICS.Humanrights, LOGICS.SocialJustice, LOGICS.CollaborativeGovernance, LOGICS.MutualHelp, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.socialJustice, LOGICS.collaborativeGovernance, LOGICS.mutualHelp, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['Transnational_NGOs_or_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist', 'UNAIDS_Guidance_Note_on'],
     baseStory: baseStory,
   },
@@ -394,7 +394,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1993',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Humanitarianism, LOGICS.SocialJustice, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.dissent],
     linksWith: ['Inter-Organisational_Coalition_with', 'Protests_in_Front_of','Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', 'Demonstration_against_Provision_39a', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
@@ -427,7 +427,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1993',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.Securitisation, LOGICS.DeCriminalisation],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation, LOGICS.deCriminalisation],
     linksWith: ['Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe', ],
     baseStory: baseStory,
   },
@@ -459,7 +459,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1993',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Humanitarianism, LOGICS.HumanRights],
+    logics: [LOGICS.publicHealth, LOGICS.humanitarianism, LOGICS.humanRights],
     linksWith: ['EMCDDA_Created', 'Inter-Organisational_Coalition_with', 'Inter-Ministerial_National_Plan'],
     baseStory: baseStory,
   },
@@ -491,7 +491,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1993/09/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.Dissent, LOGICS.Citizenship],
+    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent, LOGICS.citizenship],
     linksWith: ['Transnational_NGOs_and_Activist', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
@@ -528,7 +528,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1996/01/01',
     endDate: '',
-    logics: [LOGICS.BestPractice, LOGICS.Evidence, LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.DeCriminalisation],
+    logics: [LOGICS.bestPractice, LOGICS.evidence, LOGICS.humanRights, LOGICS.publicHealth, LOGICS.deCriminalisation],
     linksWith: ['UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on', 'Joint_Guide_on_HIV', 'Global_Commission_on_HIV', 'UNAIDS_Guidance_Note_on', 'UNAIDS_Press_Statement_on', 'Global_Commission_on_HIV', 'UNAIDS_Calls_for_Repeal', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
     baseStory: baseStory,
   },
@@ -556,7 +556,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1999',
     endDate: '',
-    logics: [LOGICS.Securitisation, LOGICS.PublicHealth, LOGICS.DeCriminalisation],
+    logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.deCriminalisation],
     linksWith: ['Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on', '2009_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', ' First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
@@ -584,7 +584,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2002',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth],
     linksWith: ['Introduction_of_the_Law', 'European_and_Greek_Government', 'Ministerial_Decree_39a2012_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus'],
     baseStory: baseStory,
   },
@@ -616,7 +616,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2004',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.SocialJustice],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.socialJustice],
     linksWith: ['CSF_on_HIV_Created', 'Situation_in_Greece_Discussed', '2_ECDC_Visits_to','28_May_2012-29'],
     baseStory: baseStory,
   },
@@ -648,7 +648,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2004',
     endDate: '',
-    logics: [LOGICS.Dissent, LOGICS.Citizenship, LOGICS.HumanRights, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.DeCriminalisation],
+    logics: [LOGICS.dissent, LOGICS.citizenship, LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.deCriminalisation],
     linksWith: ['Transnational_NGOs_and_Activist', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
@@ -682,7 +682,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2004/07/23',
     endDate: '',
-    logics: [LOGICS.Humanitarianism, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.Dissent, LOGICS.PublicHealth, LOGICS.MutualHelp],
+    logics: [LOGICS.humanitarianism, LOGICS.bestPractice, LOGICS.evidence, LOGICS.dissent, LOGICS.publicHealth, LOGICS.mutualHelp],
     linksWith: ['Inter-Organisational_Coalition_with', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan_for', 'Forced_Testing_and_Arrest', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision_39a', 'Ruins_Premiere'],
     baseStory: baseStory,
   },
@@ -715,7 +715,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2005',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.Securitisation],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
     linksWith: ['ECDC_Guidance_on_HIV', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', 'European_Commission_Requests_Risk', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe', 'ECDC_Mission_in_Athens'],
     baseStory: baseStory,
   },
@@ -747,7 +747,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2005',
     endDate: '',
-    logics: [LOGICS.Dissent, LOGICS.SocialJustice, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.HumanRights, LOGICS.DeCriminalisation],
+    logics: [LOGICS.dissent, LOGICS.socialJustice, LOGICS.evidence, LOGICS.bestPractice, LOGICS.humanRights, LOGICS.deCriminalisation],
     linksWith: ['Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
@@ -780,7 +780,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2005/09/05',
     endDate: '',
-    logics: [LOGICS.CollaborativeGovernance, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.Dissent],
+    logics: [LOGICS.collaborativeGovernance, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent],
     linksWith: ['EATG_Created', 'AIDS_Action_Europe', 'European_Commission_Requests_Risk', 'Situation_in_Greece_Discussed', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
@@ -812,7 +812,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2006',
     endDate: '',
-    logics: [LOGICS.Humanitarianism, LOGICS.PublicHealth, LOGICS.HumanRights, LOGICS.Citizenship, LOGICS.Evidence, LOGICS.SocialJustice, LOGICS.BestPractice, LOGICS.Dissent],
+    logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.humanRights, LOGICS.citizenship, LOGICS.evidence, LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.dissent],
     linksWith: ['Inter-Organisational_Coalition_with', 'Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstration_against_Provision_39a', 'Ruins_Premiere', 'Lawyers_Secure_Acquittals_and', '“Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
@@ -846,7 +846,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2006',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.DeCriminalisation],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation],
     linksWith: ['Transnational_NGOs_and_Activist', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
@@ -872,7 +872,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2007',
     endDate: '',
-    logics: [LOGICS.DeCriminalisation, LOGICS.Citizenship, LOGICS.PublicHealth, LOGICS.Securitisation, LOGICS.Evidence],
+    logics: [LOGICS.deCriminalisation, LOGICS.citizenship, LOGICS.publicHealth, LOGICS.securitisation, LOGICS.evidence],
     linksWith: ['Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to','Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -904,7 +904,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2007/02/15',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Evidence],
+    logics: [LOGICS.humanRights, LOGICS.evidence],
     linksWith: ['2_ECDC_visits_to', 'European_Commission_Requests_Risk', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe'],
     baseStory: baseStory,
   },
@@ -936,7 +936,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2008',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.DeCriminalisation, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on', 'UNAIDS_Guidance_Note_on', 'Lawsuit_Filed_Against_Public', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
     baseStory: baseStory,
   },
@@ -962,7 +962,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2008',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Securitisation, LOGICS.CollaborativeGovernance],
+    logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.collaborativeGovernance],
     linksWith: ['Documented_HIV_Outbreak_Among', 'Inter-Ministerial_National_Plan',],
     baseStory: baseStory,
   },
@@ -994,7 +994,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2009',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Bestpractice, LOGICS.PublicHealth, LOGICS.Evidence],
+    logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.evidence],
     linksWith: ['Documented_HIV_Outbreak_Among'],
     baseStory: baseStory,
   },
@@ -1026,7 +1026,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2009',
     endDate: '',
-    logics: [LOGICS.Humanitarianism, LOGICS.PublicHealth, LOGICS.CollaborativeGovernance, LOGICS.MutualHelp],
+    logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.collaborativeGovernance, LOGICS.mutualHelp],
     linksWith: ['EATG_Created', 'CSF_Created', ' Inter-Organisational_Coalition_with', 'Protests_in_Front_of', 'Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstration_against_Provision_39a', 'Transnational_NGOs_or_Activist', 'Ruins_Premiere', 'Conference_on_Greek_Sex', 'Red_Umbrella_Athens_Created'],
     baseStory: baseStory,
   },
@@ -1102,7 +1102,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2010',
     endDate: '',
-    logics: [LOGICS.Securitisation, LOGICS.Criminalisation],
+    logics: [LOGICS.securitisation, LOGICS.deCriminalisation],
     linksWith: ['First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Research_on_Public_Response', 'Three_More_Women_Acquitted'],
     baseStory: baseStory,
   },
@@ -1124,7 +1124,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2010',
     endDate: '',
-    logics: [LOGICS.DeCriminalisation, LOGICS.Humanitarianism],
+    logics: [LOGICS.deCriminalisation, LOGICS.humanitarianism],
     linksWith: ['Law_Passed_Legalising_Sex', 'Conference_on_Greek_Sex', 'Ministerial_Decree_39a_Published'],
     baseStory: baseStory,
   },
@@ -1156,7 +1156,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2010/06/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.DeCriminalisation ],
+    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation ],
     linksWith: ['Global_Commission_on_HIV', 'UNAIDS_Press_Statement_on',],
     baseStory: baseStory,
   },
@@ -1187,7 +1187,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2010/07/18',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.SocialJustice, LOGICS.Dissent, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.DeCriminalisation],
+    logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.dissent, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation],
     linksWith: ['Case_Study_on_Greece',],
     baseStory: baseStory,
   },
@@ -1219,7 +1219,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2010/11/30',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
     linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Transnational_NGOs_and_Activist', 'UNAIDS_Press_Statement_on'],
     baseStory: baseStory,
   },
@@ -1259,7 +1259,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2011/03/01',
     endDate: '2011/07/31',
-    logics: [LOGICS.PublicHealth, LOGICS.Security, LOGICS.BestPractice, LOGICS.Evidence],
+    logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.evidence],
     linksWith: ['WHO_Europe_Created', 'KEELPNO_Created', 'ECDC_Created', '2012_Greek_Legislative_Election', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration'],
     baseStory: baseStory,
   },
@@ -1292,7 +1292,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2011/06/01',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.Securitisation],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.securitisation],
     linksWith: ['KEELPN_Created', 'OKANA_Created', 'Positive_Voice_Created', 'RAKSIS_Created', 'Centre_for_Life_Created', 'Greek_Economic_Crisis', 'Strategic_Plan_on_Drugs', 'Joint_Guide_on_HIV', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to_Greece', '2nd_ECDC_and_EMCDDA_Joint', 'ECDC_Mission_in_Athens', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'ARISTOTLE_Commenced', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Ruin_ Premiere', 'PeNUPS_Created'],
     baseStory: baseStory,
   },
@@ -1331,7 +1331,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2011/06/08',
     endDate: '201/06/10',
-    logics: [LOGICS.Securitisation, LOGICS.PublicHealth, LOGICS.Humanitarianism],
+    logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.humanitarianism],
     linksWith: ['KEELPNO_Created', 'European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing', 'Ongoing_Forced_HIV_Testing', 'Greek_Ministerial_Elections', 'Operation_Xenios_Zeus'],
     baseStory: baseStory,
   },
@@ -1359,7 +1359,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2011/11/29',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice, LOGICS.Securitisation],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
     linksWith: ['EMCDDA_Created;', 'ECDC_Created', 'WHO_Europe_Created', 'Documented_HIV_Outbreak', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
@@ -1391,7 +1391,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2011/12/01',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.Evidence],
+    logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence],
     linksWith: ['PRAKSIS_Created', 'KEELPNO_Created', 'OKANA_Created', 'Centre_for_Life_Created', 'Positive_Voice_Created', 'KETHEA_created', '18_ANO_Created', 'Rapid_Risk_Assessment on', 'Ongoing_Forced_Testing_in'],
     baseStory: baseStory,
   },
@@ -1428,7 +1428,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/03/29',
     endDate: '2012/03/30',
-    logics: [LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.Security, LOGICS.Evidence],
+    logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.securitisation, LOGICS.evidence],
     linksWith: ['Documented_HIV_Outbreak_Among', 'ARISTOTLE_Commenced', '2nd_ECDC_and_EMCDDA'],
     baseStory: baseStory,
   },
@@ -1456,7 +1456,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/04/02',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.DeCriminalisation, LOGICS.HumanRights, LOGICS.Evidence],
+    logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.deCriminalisation, LOGICS.humanRights, LOGICS.evidence],
     linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on'],
     baseStory: baseStory,
   },
@@ -1484,7 +1484,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1949/01/01',
     endDate: '',
-    logics: [LOGICS.Securitisation, LOGICS.PublicHealth],
+    logics: [LOGICS.securitisation, LOGICS.publicHealth],
     linksWith: ['Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Operation_Xenios_Zeus', ' Joint_Letter_to_UN'],
     baseStory: baseStory,
   },
@@ -1512,7 +1512,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/04/11',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Criminalisation, LOGICS.Security],
+    logics: [LOGICS.publicHealth, LOGICS.deCriminalisation, LOGICS.securitisation],
     linksWith: ['European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Joint_Letter_to_UN', 'Operation_Xenios_Zeus', 'UN_Letter_to_Greek'],
     baseStory: baseStory,
   },
@@ -1534,7 +1534,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/04/20',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Security,  LOGICS.Evidence,  LOGICS.BestPractice],
+    logics: [LOGICS.publicHealth, LOGICS.securitisation,  LOGICS.evidence,  LOGICS.bestPractice],
     linksWith: ['ECDC_Created', 'AIDS_Action_Europe_Created', 'CSF_Created', 'Documented_HIV_Outbreak_Among', 'Positive_Voice_Created', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA'],
     baseStory: baseStory,
   },
@@ -1557,7 +1557,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/04/28',
     endDate: '2012/07/31',
-    logics: [LOGICS.Criminalisation, LOGICS.PublicHealth, LOGICS.Securitisation],
+    logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
     linksWith: ['Law_Passed_Legalising_Sex', 'Greek_HIV_Testing_Guidelines', 'Publication_of_Photos_of', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and', 'Forced_Testing_and_Arrest', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -1579,7 +1579,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/04/30',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.Humanitarianism, LOGICS.SocialJustice, LOGICS.MutualSupport, LOGICS.Citizenship],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.mutualHelp, LOGICS.citizenship],
     linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing', 'Ongoing_Forced_HIV_Testing', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '3_Cases_Submitted_to', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -1601,7 +1601,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/04/30',
     endDate: '',
-    logics: [LOGICS.Dissent, LOGICS.Humanitarianism, LOGICS.SocialJustice, LOGICS.Citizenship],
+    logics: [LOGICS.dissent, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.citizenship],
     linksWith: ['KETHEA_Created', 'PRAKSIS_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to', '5_Women_Win_Compensation' ],
     baseStory: baseStory,
   },
@@ -1629,7 +1629,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/05/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.Citizenship, LOGICS.Humanitarianism],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.citizenship, LOGICS.humanitarianism],
     linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -1669,79 +1669,53 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         type: 'paragraph',
         content: `The first networks to respond, on 07 May 2012, were from the international sex worker rights community with a joint letter that was signed by the International Committee on the Rights of Sex Workers in Europe (ICRSE), the European Network for HIV/STI Prevention and Health Promotion among Migrant Sex Workers (TAMPEP International Foundation), the Sex Worker’s Rights Advocacy Network of Central and Eastern Europe and Central Asia (SWAN), and the Global Network of Sex Work Project (NSWP).  The letter read: “Forcible testing is a violation of bodily integrity and autonomy. The UN’s expert health agencies have affirmed that HIV testing should only be done with informed consent, meaning testing must be both informed and voluntary; furthermore, testing should be accompanied by pre- and post-test counselling and the confidentiality of test results should be guaranteed…The European Court of Human Rights Judgment (18 October 2011, nr. 16188/07) in the case of a French woman classified as a “prostitute” for five years in Geneva police database, has sentenced that it was a violation of article 8, the right to respect for private life.“ the Court concluded that the storage in the police records of allegedly false data concerning her private life had breached Ms Khelili’s right to respect for her private life and considered that the retention of the word “prostitute” for years was neither justified nor necessary in a democratic society.”`
       },
+      {
+        type: 'paragraph',
+        content: `Simultaneously, the international sex workers’ rights community developed an online petition to denounce the rights violations faced by sex workers in Greece. The petition, which was tited “Stop the forced testing and outing of sex workers”, read: “These practices are a violation of sex workers’ human rights, their right of freedom, privacy, and the confidentiality on their health condition. They are discriminatory and in complete contradiction with all international and EU treaties that Greece has ratified. They are archaic since they are only a new version of the Contagious Diseases Acts implemented during Victorian Britain. They are also completely counterproductive in terms of HIV prevention and the opposite of all recommendations made in the fight against HIV. The scapegoating of sex workers is not going to stop new infections, but only worsen the stigma and discriminations against sex workers and people living with HIV. The mandatory testing and the outing of sex workers living with HIV is only contributing to more distrust with medical institutions and sex workers avoiding access to medical care, when they should instead feel encouraged and respected. If sex workers ignore their status and avoid medical care, they won’t be able to access treatments which can improve their health and reduce the risk of new infection. The new climate of paranoia and fear will only discourage people to get tested and to disclose their status. It will force sex workers living with HIV to hide and to accept unsafe sex to avoid suspicion, and it will encourage clients to ask for unprotected sex thinking that sex workers are tested for their own safety.”`
+      },
+      {
+        type: 'paragraph',
+        content: `Additionally. the European Network for HIV/STI Prevention and Health Promotion among Migrant Sex Workers (TAMPEP International Foundation) issued a statement that pointed ut to the “[v]iolation of human rights and breaches of medical confidentiality by the Greek Police, Health Authorities and Media. Human and Civil Rights of Sex Workers in Greece are being ignored and violated. As part of a Government authorised crackdown on hundreds of unlicensed brothels around Greece, sex workers are being arrested, submitted to compulsory HIV testing, facing criminal charges without recourse to due process, and being publically identified in the media.” `
+      },
+      {
+        type: 'paragraph',
+        content: `On 11 May 2012, Transgender Europe (TGEU) published a press statement with the title “End Human Rights Violations Against Sex Workers in Greece”. It read: “Transgender Europe (TGEU) is highly worried about the recent systematic human rights violations against sex workers in Greece…Many trans women are sex workers and TGEU has been informed that trans sex workers have also been subjected to the screening and exposure. Further similar screenings are announced for the next couple of weeks…Forcefully subjecting a person to HIV testing, violates their bodily integrity, autonomy and free choice of health care. We strongly condemn the intentional violation of privacy by the police in its intend to “punish” those living with HIV by publishing their identities. This is not only contradictory to any public health standards but poses a direct threat to the individuals’ safety and security. Greek authorities have violated European and international human rights standards they have signed up to, including ICCPR (Article 17), ICESCR (Article 12) and ECHR (Article 8) which all guarantee respect for private life, prohibit arbitrary interference to a person’s privacy and obliges states to respect human dignity. Moreover, Greece signed up to the Council of Europe’s Committee of Ministers LGBT recommendation (2010(5)) to promote equality and non-discrimination of all transgender persons in Greece.”  `
+      },
+      {
+        type: 'paragraph',
+        content: `Four days later, on May 17th 2012, a joint press statement by the Global Network of People living with HIV (GNP+) and the Global Network of Sex Work Projects (NSWP) was published to denounce the violation of human rights and breaches of medical confidentiality by the Greek police and health authorities. Signatories of the press release stated: “As part of a Government authorised crackdown on hundreds of unlicensed brothels around Greece, sex workers are being arrested, submitted to forced HIV testing and facing criminal charges without recourse to due process, as well as being publically identified in the media. As a result of these actions women are to face prosecution on charges of intentionally causing grievous bodily harm merely because they are HIV positive. There is no proof of exposure or transmission to others nor is it clear that any of these women knew their HIV status prior to this test. They are facing further charges for misdemeanours related to alleged illegal prostitution. These actions of the Greek Police and the Ministry of Health and KEELPNO violate fundamental human rights. They also contravene fundamental public health principles of informed consent and voluntary access to services.”`
+      },
+      {
+        type: 'paragraph',
+        content: `Also on 17 May 2012, Amnesty International issued a press release entitled “Greece Must Stop the Criminalization and Stigmatisation of Alleged Sex Workers Found to be HIV Positive”. The document read: “Amnesty International believes that the measures adopted by the Greek authorities are completely misguided and ineffective in terms of the stated policy goals, and that they will result in the further stigmatization of individuals who engage in sex work and of persons living with HIV. Punitive approaches to regulating sex work have proven ineffective in reducing HIV transmission among people who provide sexual services and their clients. Further, publication of names, photographs and positive HIV status is a fundamental breach of confidentiality and exposes sex workers to stigma and violence. Such measures are likely to result in further discrimination and could lead to reduced access to the health services they need.”`
+      },
     ],
     externalLinks: [
       {
         url: `https://tampep.eu/violation-of-human-rights-and-breaches-of-medical-confidentiality-by-the-greek-p/`,
         text: `https://tampep.eu/violation-of-human-rights-and-breaches-of-medical-confidentiality-by-the-greek-p/`
       },
-    ],
-    body: [
-      {
-        type: 'paragraph',
-        content: `Simultaneously, the international sex workers’ rights community developed an online petition to denounce the rights violations faced by sex workers in Greece. The petition, which was tited “Stop the forced testing and outing of sex workers”, read: “These practices are a violation of sex workers’ human rights, their right of freedom, privacy, and the confidentiality on their health condition. They are discriminatory and in complete contradiction with all international and EU treaties that Greece has ratified. They are archaic since they are only a new version of the Contagious Diseases Acts implemented during Victorian Britain. They are also completely counterproductive in terms of HIV prevention and the opposite of all recommendations made in the fight against HIV. The scapegoating of sex workers is not going to stop new infections, but only worsen the stigma and discriminations against sex workers and people living with HIV. The mandatory testing and the outing of sex workers living with HIV is only contributing to more distrust with medical institutions and sex workers avoiding access to medical care, when they should instead feel encouraged and respected. If sex workers ignore their status and avoid medical care, they won’t be able to access treatments which can improve their health and reduce the risk of new infection. The new climate of paranoia and fear will only discourage people to get tested and to disclose their status. It will force sex workers living with HIV to hide and to accept unsafe sex to avoid suspicion, and it will encourage clients to ask for unprotected sex thinking that sex workers are tested for their own safety.”`
-      },
-      ],
-      externalLinks: [
       {
         url: `http://www.change.org/petitions/to-mr-lucas-papademos-prime-minister-of-greece-stop-the-forced-testing-and-outing-of-sex-workers`,
         text: `http://www.change.org/petitions/to-mr-lucas-papademos-prime-minister-of-greece-stop-the-forced-testing-and-outing-of-sex-workers`
       },
-      ],
-       body: [
-      {
-        type: 'paragraph',
-        content: `Additionally. the European Network for HIV/STI Prevention and Health Promotion among Migrant Sex Workers (TAMPEP International Foundation) issued a statement that pointed ut to the “[v]iolation of human rights and breaches of medical confidentiality by the Greek Police, Health Authorities and Media. Human and Civil Rights of Sex Workers in Greece are being ignored and violated. As part of a Government authorised crackdown on hundreds of unlicensed brothels around Greece, sex workers are being arrested, submitted to compulsory HIV testing, facing criminal charges without recourse to due process, and being publically identified in the media.” `
-      },
-      ],
-      externalLinks: [
       {
         url: `www.tampep.eu/human-rights-and-compulsory-testing-disclosure-of-a-persons-health-statusfor/`,
         text: `www.tampep.eu/human-rights-and-compulsory-testing-disclosure-of-a-persons-health-statusfor/`
       },
-      ],
-       body: [
-      {
-        type: 'paragraph',
-        content: `On 11 May 2012, Transgender Europe (TGEU) published a press statement with the title “End Human Rights Violations Against Sex Workers in Greece”. It read: “Transgender Europe (TGEU) is highly worried about the recent systematic human rights violations against sex workers in Greece…Many trans women are sex workers and TGEU has been informed that trans sex workers have also been subjected to the screening and exposure. Further similar screenings are announced for the next couple of weeks…Forcefully subjecting a person to HIV testing, violates their bodily integrity, autonomy and free choice of health care. We strongly condemn the intentional violation of privacy by the police in its intend to “punish” those living with HIV by publishing their identities. This is not only contradictory to any public health standards but poses a direct threat to the individuals’ safety and security. Greek authorities have violated European and international human rights standards they have signed up to, including ICCPR (Article 17), ICESCR (Article 12) and ECHR (Article 8) which all guarantee respect for private life, prohibit arbitrary interference to a person’s privacy and obliges states to respect human dignity. Moreover, Greece signed up to the Council of Europe’s Committee of Ministers LGBT recommendation (2010(5)) to promote equality and non-discrimination of all transgender persons in Greece.”  `
-      },
-      ],
-      externalLinks: [
       {
         url: `www.tgeu.org/tgeu-demands-end-human-rights-violations-against-sex-workers-in-greece/`,
         text: `www.tgeu.org/tgeu-demands-end-human-rights-violations-against-sex-workers-in-greece/`
       },
-      ],
-       body: [
-      {
-        type: 'paragraph',
-        content: `Four days later, on May 17th 2012, a joint press statement by the Global Network of People living with HIV (GNP+) and the Global Network of Sex Work Projects (NSWP) was published to denounce the violation of human rights and breaches of medical confidentiality by the Greek police and health authorities. Signatories of the press release stated: “As part of a Government authorised crackdown on hundreds of unlicensed brothels around Greece, sex workers are being arrested, submitted to forced HIV testing and facing criminal charges without recourse to due process, as well as being publically identified in the media. As a result of these actions women are to face prosecution on charges of intentionally causing grievous bodily harm merely because they are HIV positive. There is no proof of exposure or transmission to others nor is it clear that any of these women knew their HIV status prior to this test. They are facing further charges for misdemeanours related to alleged illegal prostitution. These actions of the Greek Police and the Ministry of Health and KEELPNO violate fundamental human rights. They also contravene fundamental public health principles of informed consent and voluntary access to services.”`
-      },
-      ],
-      externalLinks: [
       {
         url: `www.old.nswp.org/news-story/press-statement-greece-nswp-gnp/`,
         text: `www.old.nswp.org/news-story/press-statement-greece-nswp-gnp`
       },
-      ],
-        body: [
-      {
-        type: 'paragraph',
-        content: `Also on 17 May 2012, Amnesty International issued a press release entitled “Greece Must Stop the Criminalization and Stigmatisation of Alleged Sex Workers Found to be HIV Positive”. The document read: “Amnesty International believes that the measures adopted by the Greek authorities are completely misguided and ineffective in terms of the stated policy goals, and that they will result in the further stigmatization of individuals who engage in sex work and of persons living with HIV. Punitive approaches to regulating sex work have proven ineffective in reducing HIV transmission among people who provide sexual services and their clients. Further, publication of names, photographs and positive HIV status is a fundamental breach of confidentiality and exposes sex workers to stigma and violence. Such measures are likely to result in further discrimination and could lead to reduced access to the health services they need.”`
-      },
-      ],
-      externalLinks: [
-      {
-        url: `www.amnesty.org/download/Documents/20000/eur250042012en.pdf`,
-        text: `www.amnesty.org/download/Documents/20000/eur250042012en.pdf`
-      },
-      ],
-      externalLinks: [
       {
         url: `www.change.org/petitions/to-mr-lucas-papademos-prime-minister-of-greece-stop-the-forced-testing-and-outing-of-sex-workers`,
         text: `www.change.org/petitions/to-mr-lucas-papademos-prime-minister-of-greece-stop-the-forced-testing-and-outing-of-sex-workers`
       },
-      ],
+    ],
     sources: [
           {
         type: 'text',
@@ -1750,7 +1724,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/05/05',
     endDate: '2012/05/17',
-    logics: [LOGICS.HumanRights, LOGICS.SocialJustice, LOGICS.Dissent, LOGICS.BestPractice],
+    logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.dissent, LOGICS.bestPractice],
     linksWith: ['ICRSE_Created', 'SWAN_Created', 'TAMPEP_Created', 'EATG_Created', 'NSWP_Created', 'TGEU_Created', 'GNP+_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', ''],
     baseStory: baseStory,
   },
@@ -1777,7 +1751,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1949/01/01',
     endDate: '',
-    logics: [LOGICS.MutualHelp, LOGICS.SocialJustice, LOGICS.Humanitarianism],
+    logics: [LOGICS.mutualHelp, LOGICS.socialJustice, LOGICS.humanitarianism],
     linksWith: ['First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', ' Inter-Organisational_Coalition_with'],
     baseStory: baseStory,
   },
@@ -1804,7 +1778,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/05/09',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.SocialJustice],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
     linksWith: ['Positive_Voice_Created', 'EATG_Created', 'HRW_Created', 'UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with'],
     baseStory: baseStory,
   },
@@ -1831,7 +1805,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1949/01/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.SocialJustice],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
     linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
@@ -1857,7 +1831,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.BestPractice],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.bestPractice],
     linksWith: ['KEELPNO_Created', 'First_Forced_Testing_and','Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -1889,10 +1863,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
     ],
     startDate: '2012/05/28',
-    endDate: '2012/05/28',
-    startDate: '2012/09/10',
     endDate: '2012/09/12 ',
-    logics: [LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.Securitisation, LOGICS.BestPractice, LOGICS.Dissent],
+    logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.dissent],
     linksWith: ['KEELPNO_Created', 'OKANA_Created', 'ECDC_Created', 'WHO_Europe_Created', 'EMCDDA_Created', 'CSF_Created', 'PRAKSIS_Created', 'FRA_Created', 'TAMPEP_Created', 'Positive_Voice_Created', 'ECDC_Guidance_on_HIV', 'Documented_HIV_Outbreak_Among', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2nd_ECDC_Visit_to', '2nd_ECDC_and_EMCDDA', 'FRA', 'EMCDDA_and_WHO_Europe', 'ECDC_Mission_in_Athens'],
     baseStory: baseStory,
   },
@@ -1920,7 +1892,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/06/04',
     endDate: '2012/06/05',
-    logics: [LOGICS.HumanRights, LOGICS.CollaborativeGovernance, LOGICS.Dissent, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.collaborativeGovernance, LOGICS.dissent, LOGICS.publicHealth],
     linksWith: ['CSF_on_HIV_Created', 'WHO_Europe_Created', 'EATG_Created', 'AIDS_Action_Europe', 'ECDC_Created', 'Positive_Voice_Created', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe'],
     baseStory: baseStory,
   },
@@ -1942,7 +1914,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012',
     endDate: '',
-    logics: [LOGICS.Criminalisation, LOGICS.PublicHealth, LOGICS.Securitisation],
+    logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
     linksWith: ['Law_Passed_Legalising_Sex', 'Ministerial_Decree_39a_Published', 'KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -1965,7 +1937,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012',
     endDate: '',
-    logics: [LOGICS.Dissent],
+    logics: [LOGICS.dissent],
     linksWith: ['Ongoing_Forced_HIV_Testing', 'Ministerial_Decree_39a_Published', 'Weekly_Prison_Visits_by'],
     baseStory: baseStory,
   },
@@ -1993,7 +1965,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1949/01/01',
     endDate: '',
-    logics: [LOGICS.Criminalisation, LOGICS.Dissent, LOGICS.HumanRights, LOGICS.Evidence, LOGICS.Citizenship, LOGICS.SocialJustice],
+    logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice],
     linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', ' Weekly_Prison_Visits_Begin', '3_Cases_Brought_to_', 'New_KEELPNO_President_Formally'],
     baseStory: baseStory,
   },
@@ -2022,7 +1994,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/07/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.Decriminalisation],
+    logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.deCriminalisation],
     linksWith: ['UNAIDS_Comes_into_Operation', 'Law_Passed_Legalising_Sex', 'Global_Commission_on_HIV', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -2038,31 +2010,25 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         type: 'paragraph',
         content: `As per a report published on the events by Human Rights Watch: “Announcing the operation, Minister of Public Order Nikos Dendias said that: ‘[W]hole areas of Athens have become inaccessible and in these areas … delinquent behavior is booming. Drug trafficking, prostitution, trafficking of illegal goods, thefts, robberies, serious injuries, murders, and even crimes for low-value goods.… I want to clarify that victims of this unacceptable situation are first the immigrants themselves, who live in tragic conditions and are forced… to become drug traffickers, pimps, forgers, thieves … to survive. Dendias stressed that ‘We do not care about the color, ethnicity, religion of the illegals. The only criterion is the compliance with legality, with full respect for human rights....’A key tactic of Operation Xenios Zeus is the use of existing general police powers to conduct identity checks to verify the legal status of individuals presumed to be irregular migrants. While such police stops were frequent before the launch of the operation, official statistics indicate a significant intensification since the onset of the operation.” (HRW 2013: 13)`
       },
+      {
+        type: 'paragraph',
+        content: `“The Migration and Detention Assessment Project (MIDAS) reported in 2014 that “[a] total of 65,000 were stopped from the beginning of the operation in August until 24 December 2012, out of whom only 4,128 were arrested for illegally staying in the country” (MIDAS Report 2014)`
+      },
+      {
+        type: 'paragraph',
+        content: `As suggested by one of the lawyers defending the women in court, the Operation ‘Xenious Zeus’ was the context in which two of the women facing criminal charges for intentional grievous bodily harm were tested and arrested.`
+      },
     ],
     externalLinks: [
       {
         url: `www.hrw.org/report/2013/06/12/unwelcome-guests/greek-police-abuses-migrants-athens`,
         text: `www.hrw.org/report/2013/06/12/unwelcome-guests/greek-police-abuses-migrants-athens`
       },
-    ],
-    body: [
-      {
-        type: 'paragraph',
-        content: `“The Migration and Detention Assessment Project (MIDAS) reported in 2014 that “[a] total of 65,000 were stopped from the beginning of the operation in August until 24 December 2012, out of whom only 4,128 were arrested for illegally staying in the country” (MIDAS Report 2014)`
-      },
-      ],
-       externalLinks: [
       {
         url: `http://diana-n.iue.it:8080/bitstream/handle/1814/33431/MIDAS_REPORT_2014_10.pdf?sequence=1&isAllowed=y`,
         text: `http://diana-n.iue.it:8080/bitstream/handle/1814/33431/MIDAS_REPORT_2014_10.pdf?sequence=1&isAllowed=y`
       },
-      ],
-    body: [
-      {
-        type: 'paragraph',
-        content: `As suggested by one of the lawyers defending the women in court, the Operation ‘Xenious Zeus’ was the context in which two of the women facing criminal charges for intentional grievous bodily harm were tested and arrested.`
-      },
-      ],
+    ],
     sources: [
           {
         type: 'text',
@@ -2071,7 +2037,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012',
     endDate: '',
-    logics: [LOGICS.Securitisation, LOGICS.DeCriminalisation, LOGICS.Humanitarianism],
+    logics: [LOGICS.securitisation, LOGICS.deCriminalisation, LOGICS.humanitarianism],
     linksWith: ['HRW_created', 'European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'UN_Letter_to_Greek', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -2099,7 +2065,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012',
     endDate: '',
-    logics: [LOGICS.Evidence, LOGICS.PublicHealth],
+    logics: [LOGICS.evidence, LOGICS.publicHealth],
     linksWith: ['OKANA_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Documented_HIV_Outbreak_Among', 'Greek_Economic_Crisis'],
     baseStory: baseStory,
   },
@@ -2128,7 +2094,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/08/21',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.SocialJustice, LOGICS.Criminalisation],
+    logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.deCriminalisation],
     linksWith: ['Joint_Letter_to_UN', 'Amendment_to_Greek_Immigration', 'European_and_Greek_Governmental', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -2156,7 +2122,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/11/12',
     endDate: '',
-    logics: [LOGICS.PublicHealth, LOGICS.Securitisation, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['ECDC_Created', 'EMCDDA_Created', 'CSF_on_HIV_Created', 'OKANA_Created', 'KEELPNO_Created', 'Documented_HIV_Outbreak_Among', '1st_ECDC_and_EMCDDA', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
@@ -2178,7 +2144,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/11/01',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.Evidence, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.publicHealth],
     linksWith: ['Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'FRA_Acknowledges_Rights_Violation'],
     baseStory: baseStory,
   },
@@ -2222,7 +2188,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/11/01',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.Evidence, LOGICS.Securitisation, LOGICS.BestPractice, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.publicHealth],
     linksWith: ['group_of_lawyers_for', '3_cases_submitted_to'],
     baseStory: baseStory,
   },
@@ -2234,37 +2200,29 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         type: 'paragraph',
         content: `As reported by the HIV Justice Network and the Global Network of People Living with HIV (GNP+), “[i]n collaboration with AIDS Healthcare Foundation, Positive Voice held a two-day workshop entitled ‘Greek Justice, Law and HIV/AIDS’ in Athens in December 2012 attended by lawyers, prosecutors and  judges, that featured a keynote speech by The Hon. Michael Kirby, a member of the Global Commission on HIV and the Law. The meeting provided education on international human rights and legal standards relating to HIV and the criminal law." `
       },
-      ],
-    externalLinks: [
-      {
-        url: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`,
-        text: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`
-      },
-    ],
-    body: [
       {
         type: 'paragraph',
         content: `In his speech, which was titled ‘Tale of Five Cities and Five Commandments’, the Honorable Michael Kirby, a former Justice of the High Court of Australia working extensively on issues around the criminalisation of HIV, referred directly to the 2012 case: “In Greece there is no needle exchange system in place. Some statistical information suggests the risks of the epidemic in Greece moving to mirror the epidemic in neighbouring countries of Eastern Europe and the former Soviet Union. In those countries the major vector for HIV is injecting drug use. There is no more efficient way to pass HIV than by direct injection into the bloodstream. The use and reuse of infected needles is highly risky in this respect. The IJUs reflect the sexuality of the majority population. It is therefore vital to nip in the bud the growth of this risky mode of transmission. Attempts to stamp out all drug use have not succeeded. Harm reduction is a much more effective and sensible option; Likewise, in Greece, sex workers are often disempowered. They are disrespected, at least in public discourse, largely because of religious and social stigma towards them. The well known event in April/May 2012, in which sex workers in Athens were arrested, photographed and had their personal data (including HIV positive findings) widely publicised, on the supposed ground of protecting public health, is a shocking and counterproductive course of conduct. It is likely to drive sex workers underground and to place them outside the reach of healthcare messages and protective strategies.” This speech was made available on the website of the Global Commission on HIV and the Law:`
       },
-      ],
-    externalLinks: [
-      {
-        url: `https://hivlawcommission.org/2012/12/11/speech-by-the-hon-michael-kirby-at-the-workshop-on-greek-justice-legislation-and-hivaids-11-december-2012/`,
-        text: `https://hivlawcommission.org/2012/12/11/speech-by-the-hon-michael-kirby-at-the-workshop-on-greek-justice-legislation-and-hivaids-11-december-2012/`
-      },
-    ],
-    body: [
       {
         type: 'paragraph',
         content: `Following the workshop, HIV Justice Network and GNP+ included the Greek case in their 2013 report ‘Advancing HIV Justice. A Progress Report on Achievements and Challenges in Global Advocacy Against HIV Criminalisation’.`
       },
       ],
-     externalLinks: [
+    externalLinks: [
       {
         url: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`,
         text: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`
       },
-      ],
+      {
+        url: `https://hivlawcommission.org/2012/12/11/speech-by-the-hon-michael-kirby-at-the-workshop-on-greek-justice-legislation-and-hivaids-11-december-2012/`,
+        text: `https://hivlawcommission.org/2012/12/11/speech-by-the-hon-michael-kirby-at-the-workshop-on-greek-justice-legislation-and-hivaids-11-december-2012/`
+      },
+      {
+        url: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`,
+        text: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`
+      },
+    ],
     sources: [
           {
         type: 'text',
@@ -2273,7 +2231,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2012/12/11',
     endDate: '2012/12/12',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.Citizenship, LOGICS.SocialJustice, LOGICS.DeCriminalisation],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation],
     linksWith: ['GNP+_Created', 'UNAIDS_Comes_into_Operation', 'Positive_Voice_Created', 'Global_Commission_on_HIV', 'HIV_Justice_Network_Created', 'UNAIDS_Guidance_Note_on', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Policy_Brief_on'],
     baseStory: baseStory,
   },
@@ -2300,7 +2258,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '1949/01/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Evidence, LOGICS.Citizenship, LOGICS.Dissent, LOGICS.SocialJustice],
+    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.dissent, LOGICS.socialJustice],
     linksWith: ['European_Convention_on_Human', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
     baseStory: baseStory,
   },
@@ -2322,40 +2280,34 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         type: 'paragraph',
         content: `Three more women were acquitted on 06 December 2016. An English translation of articles from Greek news outlets provide information about the reasons for the decision to acquit: “Lawyers for two of the three women, Kostas Farmakidis and Chara Papageorgiou, called the acquittal a great victory, emphasizing that apart from establishing the women’s innocence, the court accepted that earlier testimony by Sp. Sapounas -the doctor who performed forcible tests on behalf of the Greek Centre for Disease Control/KEELPNO- was in breach of the law, and that their arrest by police officers was based on insufficient evidence. The court also made the unprecedented judgement that the women’s mugshots must be removed from websites where they have been posted since 2012 along with names, dates of birth and other personal data following original publication on the website of the Greek police. In his closing argument, the prosecutor Ioannis Panagopoulos recommended the women’s acquittal saying that the authorities responsible for the operation exceeded the limits of proportionality in the protection of public health.”`
       },
+      {
+        type: 'paragraph',
+        content: `A group of eleven women were acquitted on Friday, 16 December 2016, although, according to reports, three of the eleven women had already died. “An Athens court on Friday exonerated 11 HIV positive women, three of whom have died, of the charge of intentionally infecting people while allegedly working as prostitutes. The prosecutor at the trial said there was no evidence to suggest the women worked as prostitutes nor that they had unprotected sex with people, with the exception of one of the defendants. The women had been arrested back in 2012 for allegedly working illegally as prostitutes and their names were publicized, causing outrage among rights groups. They were arrested after the health minister at the time, Andreas Loverdos, called for the criminalization of unprotected sex with prostitutes. The women had always maintained their innocence and people in the courtroom broke out in loud applause once the verdict was read out.”`
+      },
+      {
+        type: 'paragraph',
+        content: `The first woman to be tested and arrested in April of 2012, a migrant woman born in Russia, was the last one to be acquitted. Following her arrest, she faced criminal charges for grievous bodily harm and was subjected to pre-trial detention in Koridallos prison. She was not placed in the same ward as all of the other arrested women, and she was released after several months. She was initially convicted of attempted bodily harm in the first instance, and then later contacted the inter-organisational alliance for support. The Group of Lawyers for Undocumented Migrants and Refugees brought her case to the court of appeal where she was acquitted in 2017.`
+      },
     ],
     externalLinks: [
       {
         url: `www.ruins-documentary.com/blog/three-more-hiv-positive-women-acquitted/`,
         text: `www.ruins-documentary.com/blog/three-more-hiv-positive-women-acquitted/`
       },
-    ],
-    body: [
-      {
-        type: 'paragraph',
-        content: `A group of eleven women were acquitted on Friday, 16 December 2016, although, according to reports, three of the eleven women had already died. “An Athens court on Friday exonerated 11 HIV positive women, three of whom have died, of the charge of intentionally infecting people while allegedly working as prostitutes. The prosecutor at the trial said there was no evidence to suggest the women worked as prostitutes nor that they had unprotected sex with people, with the exception of one of the defendants. The women had been arrested back in 2012 for allegedly working illegally as prostitutes and their names were publicized, causing outrage among rights groups. They were arrested after the health minister at the time, Andreas Loverdos, called for the criminalization of unprotected sex with prostitutes. The women had always maintained their innocence and people in the courtroom broke out in loud applause once the verdict was read out.”`
-      },
-      ],
-    externalLinks: [
       {
         url: `www.ekathimerini.com/214647/article/ekathimerini/news/hiv-positive-women-finally-acquitted-of-charges `,
         text: `www.ekathimerini.com/214647/article/ekathimerini/news/hiv-positive-women-finally-acquitted-of-charges `
       },
     ],
-    body: [
+    sources: [
       {
-        type: 'paragraph',
-        content: `The first woman to be tested and arrested in April of 2012, a migrant woman born in Russia, was the last one to be acquitted. Following her arrest, she faced criminal charges for grievous bodily harm and was subjected to pre-trial detention in Koridallos prison. She was not placed in the same ward as all of the other arrested women, and she was released after several months. She was initially convicted of attempted bodily harm in the first instance, and then later contacted the inter-organisational alliance for support. The Group of Lawyers for Undocumented Migrants and Refugees brought her case to the court of appeal where she was acquitted in 2017.`
-      },
-      ],
-      sources: [
-          {
         type: 'text',
         content: 'Local/National Governing Bodies'
       },
     ],
     startDate: '2013',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.Humanitarianism, LOGICS.Dissent, LOGICS.Citizenship],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent, LOGICS.citizenship],
     linksWith: ['Group_of_Lawyers_for', 'UNAIDS_Guidance_Note_on', 'Inter-Organisational_Coalition_with_Weekly', 'Ongoing_Forced_HIV_Testing', 'Operation_Xenious_Zeus', 'PRAKSIS_Created', 'Law_Passed_Legalising_Sex', 'Change_to_Greek_Sex', 'First_Forced_Testing_and', 'Ministerial_Decree_39a', 'Inter-organisational_Coalition_with_weekly'],
     baseStory: baseStory,
   },
@@ -2383,7 +2335,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013/01/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.dissent],
     linksWith: ['ECDC_Created', 'FRA_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', '2_ECDC_Visits_to', 'Operation_Xenios_Zeus', 'Forced_Testing_and_Arrest'],
     baseStory: baseStory,
   },
@@ -2412,7 +2364,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013/03/20',
     endDate: '2013/03/22',
-    logics: [LOGICS.PublicHealth, LOGICS.BestPractice, LOGICS.Evidence],
+    logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence],
     linksWith: ['OKANA_Created', 'ECDC_Created', 'KEELPNO_Created', 'Documented_HIV_Outbreak_Among', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
@@ -2434,7 +2386,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013',
     endDate: '',
-    logics: [LOGICS.SocialJustice, LOGICS.Citizenship],
+    logics: [LOGICS.socialJustice, LOGICS.citizenship],
     linksWith: ['Group_of_Lawyers_for', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -2462,7 +2414,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
     linksWith: ['Ministerial_Decree_39a_Published', 'Protests_in_Front_of', 'Transnational_NGOs_and_Activist', 'Global_Commission_on_HIV', 'UNAIDS_Press_Statement_on', 'UN_Letter_to_Greek', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO', 'Reinstatement_of_Provision_39a', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -2490,7 +2442,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.DeCriminalisation, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.BestPractice],
+    logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
     linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Press_Statement_on', '3_Cases_Brought_to', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
@@ -2518,7 +2470,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Criminalisation, LOGICS.PublicHealth, LOGICS.Security],
+    logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
     linksWith: ['group_of_lawyers_for', '3_cases_submitted_to',],
     baseStory: baseStory,
   },
@@ -2546,11 +2498,10 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     startDate: '2013/06/01',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.PublicHealth, LOGICS.DeCriminalisation, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.deCriminalisation, LOGICS.dissent],
     linksWith: ['FRA_Created', 'ECDC_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Ombudsman_Report_to_Ministry', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe', ''],
     baseStory: baseStory,
   },
-
 
   {
     name: `Transnational NGOs and Activist Groups Call for Repeal of Provision 39a`,
@@ -2564,58 +2515,46 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         type: 'paragraph',
         content: `On 03 July 2013, at the IAS Conference, Françoise Barré-Sinoussi (President of the International AIDS Society, IAS) announced in a speech at the closing session: “As we keep repeating over the years, there will be no end to the HIV epidemic without advancing human rights in parallel…It is thus with strong disappointment then that we are receiving the news announced yesterday that the Greek Ministry of Health is re-introducing compulsory HIV testing via detainment for female sexworkers. As President of the IAS I strongly condemn this move and urge the Greek Government to re-think its position. HIV infections are already increasing in Greece due to the economic crisis and a mandatory policy of detainment and testing will only fuel the epidemic there.”`
       },
+      {
+        type: 'paragraph',
+        content: `On 03 July 2013, the Human Rights Watch published a statement urging the Greek government to repeal provision 39a. “It’s deeply worrying that it took the new health minister only one day to bring back a regulation that violated human rights and stigmatized vulnerable groups, and that proved counterproductive to protecting public health,” stated Judith Sunderland, senior Western Europe researcher at Human Rights Watch. “If the government is serious about addressing HIV and other infectious diseases, it should focus on access to health care and public information.”`
+      },
+      {
+        type: 'paragraph',
+        content: `On 04 July 2013, the European AIDS Treatment Group called on “the Greek authorities to reverse their decision of 26 June to re-introduce mandatory HIV testing for vulnerable groups under the Health Regulation No. GY/39A. This decree had just been repealed on 30 April 2013.While it is legitimate for the authorities to identify responses in the case of infectious diseases epidemics, a decree used to detain vulnerable persons such as sex workers, drug users, undocumented migrants for isolation and coerced HIV testing is under no circumstances justifiable.The decree and its use represent an abuse of human rights and a public health risk. It fails to address the causes the epidemic, which lay in the impact of the economic crisis on individuals and insufficient prevention measures. Moreover, it serves to fuel the epidemic further by nourishing misconception, stigma and fear.” `
+      },
+      {
+        type: 'paragraph',
+        content: `On the 06 November 2013, the Global Network of People Living with HIV also issued a statement “in solidarity with Greek Positive Voice, European Treatment Action Group, HIV Europe and others in  calling on the Greek government to repeal the Health Regulation No. GY/39A. This regulation would roll back the significant advances that have been made in fighting the HIV epidemic in Greece, the region, and globally. This policy will further marginalize people, including people who inject drugs, sex workers and undocumented migrants, who are already stigmatized and criminalized in many societies and have little to no access to HIV, prevention and treatment services. Health Regulation No. GY/39A contradicts its intended impact. Instead of encouraging people to come forward voluntarily for an HIV test, it will discourage them from seeking the treatment and care that people living with HIV need. Good public health measures take into account not only epidemiology but also human rights. GY30A contravenes the human rights of Greek people and will, therefore, have a negative effect on their public health. Finally, this regulation is deeply worrying as it gives the police the authority to assist in enforcing this policy, including isolation, restriction quarantine, hospitalization, and treatment. We are appalled by this measure as it violates bodily integrity and autonomy. Moreover, there is a global consensus amongst the leading international and global health institutions that firmly assert that mandatory HIV testing is incongruent with public health and human rights. The initial introduction and implementation of this regulation in April 2012 has already deterred people at risk of HIV from seeking testing and services. The reinstatement, Health Regulation No. GY39/A will fuel the HIV epidemic through the stigma and fear it will create. We urge the Greek government to respect the human rights and interests of its citizens by repealing this regulation immediately.”`
+      },
     ],
     externalLinks: [
       {
         url: `http://www.ias2013.org/WebContent/File/IAS2013_Closing_Session_Speech_Francoise_Barre-Sinoussi.pdf`,
         text: `http://www.ias2013.org/WebContent/File/IAS2013_Closing_Session_Speech_Francoise_Barre-Sinoussi.pdf`
       },
-    ],
-    body: [
-      {
-        type: 'paragraph',
-        content: `On 03 July 2013, the Human Rights Watch published a statement urging the Greek government to repeal provision 39a. “It’s deeply worrying that it took the new health minister only one day to bring back a regulation that violated human rights and stigmatized vulnerable groups, and that proved counterproductive to protecting public health,” stated Judith Sunderland, senior Western Europe researcher at Human Rights Watch. “If the government is serious about addressing HIV and other infectious diseases, it should focus on access to health care and public information.”`
-      },
-      ],
-    externalLinks: [
       {
         url: `www.hrw.org/news/2013/07/03/greece-repeal-abusive-health-regulation`,
         text: `www.hrw.org/news/2013/07/03/greece-repeal-abusive-health-regulation`
       },
-      ],
-body: [
-      {
-        type: 'paragraph',
-        content: `On 04 July 2013, the European AIDS Treatment Group called on “the Greek authorities to reverse their decision of 26 June to re-introduce mandatory HIV testing for vulnerable groups under the Health Regulation No. GY/39A. This decree had just been repealed on 30 April 2013.While it is legitimate for the authorities to identify responses in the case of infectious diseases epidemics, a decree used to detain vulnerable persons such as sex workers, drug users, undocumented migrants for isolation and coerced HIV testing is under no circumstances justifiable.The decree and its use represent an abuse of human rights and a public health risk. It fails to address the causes the epidemic, which lay in the impact of the economic crisis on individuals and insufficient prevention measures. Moreover, it serves to fuel the epidemic further by nourishing misconception, stigma and fear.” `
-      },
-      ],
-    externalLinks: [
       {
         url: `www.nswp.org/nswp-plus/topic/european-aids-treatment-group-calls-greek-authorities-not-re-introduce-manatory-hiv-`,
         text: `www.nswp.org/nswp-plus/topic/european-aids-treatment-group-calls-greek-authorities-not-re-introduce-manatory-hiv-`
       },
-      ],
-      body: [
-      {
-        type: 'paragraph',
-        content: `On the 06 November 2013, the Global Network of People Living with HIV also issued a statement “in solidarity with Greek Positive Voice, European Treatment Action Group, HIV Europe and others in  calling on the Greek government to repeal the Health Regulation No. GY/39A. This regulation would roll back the significant advances that have been made in fighting the HIV epidemic in Greece, the region, and globally. This policy will further marginalize people, including people who inject drugs, sex workers and undocumented migrants, who are already stigmatized and criminalized in many societies and have little to no access to HIV, prevention and treatment services. Health Regulation No. GY/39A contradicts its intended impact. Instead of encouraging people to come forward voluntarily for an HIV test, it will discourage them from seeking the treatment and care that people living with HIV need. Good public health measures take into account not only epidemiology but also human rights. GY30A contravenes the human rights of Greek people and will, therefore, have a negative effect on their public health. Finally, this regulation is deeply worrying as it gives the police the authority to assist in enforcing this policy, including isolation, restriction quarantine, hospitalization, and treatment. We are appalled by this measure as it violates bodily integrity and autonomy. Moreover, there is a global consensus amongst the leading international and global health institutions that firmly assert that mandatory HIV testing is incongruent with public health and human rights. The initial introduction and implementation of this regulation in April 2012 has already deterred people at risk of HIV from seeking testing and services. The reinstatement, Health Regulation No. GY39/A will fuel the HIV epidemic through the stigma and fear it will create. We urge the Greek government to respect the human rights and interests of its citizens by repealing this regulation immediately.”`
-      },
-      ],
-    externalLinks: [
       {
         url: `www.gnpplus.net/the-global-network-of-people-living-with-hiv-calls-on-greece-to-repeal-its-policy-on-mandatory-testing-for-hiv/`,
         text: `www.gnpplus.net/the-global-network-of-people-living-with-hiv-calls-on-greece-to-repeal-its-policy-on-mandatory-testing-for-hiv/`
       },
-      ],
+    ],
     sources: [
-          {
+      {
         type: 'text',
         content: 'Transnational NGOs or Activist Groups'
       },
     ],
     startDate: '2013/07/03',
     endDate: '2013/11/06',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.SocialJustice, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.PublicHealth, LOGICS.MutualHelp],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth, LOGICS.mutualHelp],
     linksWith: ['IAS_Created', 'EATG_Created', 'GNP+_Created', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
@@ -2644,7 +2583,7 @@ body: [
     ],
     startDate: '2013/07/31',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Dissent, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.PublicHealth, LOGICS.CollaborativeGovernance],
+    logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth, LOGICS.collaborativeGovernance],
     linksWith: ['Greek_Economic_Crisis', 'UNAIDS_Comes_into_Operation', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
@@ -2671,7 +2610,7 @@ body: [
     ],
     startDate: '2013',
     endDate: '2014',
-    logics: [LOGICS.HumanRights, LOGICS.Citizenship, LOGICS.Dissent, LOGICS.BestPractice, LOGICS.PublicHealth],
+    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.dissent, LOGICS.bestPractice, LOGICS.publicHealth],
     linksWith: ['Centre_for_Life_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', '39a2012', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
@@ -2698,7 +2637,7 @@ body: [
     ],
     startDate: '2013/09/08',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Citizenship, LOGICS.BestPractice, LOGICS.PublicHealth, LOGICS.Evidence, LOGICS.SocialJustice, LOGICS.Humanitarianism, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.evidence, LOGICS.socialJustice, LOGICS.humanitarianism, LOGICS.dissent],
     linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'Greek_Economic_Crisis', '2012_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Weekly_Prison_Visits_by'],
     baseStory: baseStory,
   },
@@ -2726,7 +2665,7 @@ body: [
     ],
     startDate: '2015/04/17',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.SocialJustice, LOGICS.DeCriminalisation,],
+    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation,],
     linksWith: ['Ministerial_Decree_39a_Published', 'Reinstatement_of_Provision_39a', 'Transnational_NGOs_or_Activist', 'UNAIDS_Calls_for_Repeal', 'Demonstrations_against_Provision_39a'],
     baseStory: baseStory,
   },
@@ -2754,7 +2693,7 @@ body: [
     ],
     startDate: '2015',
     endDate: '',
-    logics: [LOGICS.SocialJustice, LOGICS.BestPractice, LOGICS.Evidence, LOGICS.MutualHelp, LOGICS.PublicHealth,LOGICS.HumanRights, LOGICS.Citizenship],
+    logics: [LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.publicHealth,LOGICS.humanRights, LOGICS.citizenship],
     linksWith: ['Positive_Voice_Created', 'Conference_on_Greek_Sex', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -2782,7 +2721,7 @@ body: [
     ],
     startDate: '2016',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.PublicHealth, LOGICS.SocialJustice, LOGICS.Dissent, LOGICS.MutualHelp],
+    logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.publicHealth, LOGICS.socialJustice, LOGICS.dissent, LOGICS.mutualHelp],
     linksWith: ['Documented_HIV_Outbreak_Among', 'Ongoing_Forced_HIV_Testing',],
     baseStory: baseStory,
   },
@@ -2815,7 +2754,7 @@ body: [
     ],
     startDate: '2017/05/25',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.DeCriminalisation, LOGICS.SocialJustice, LOGICS.Citizenship, LOGICS.Dissent, LOGICS.CollaborativeGovernance],
+    logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.socialJustice, LOGICS.citizenship, LOGICS.dissent, LOGICS.collaborativeGovernance],
     linksWith: ['Law_Passed_Legalising_Sex', 'ICRSE_Created', 'SWAN_Created', 'Positive_Voice_Created', 'Centre_for_Life_Created', 'PRAKSIS_Created', 'Red_Umbrella_Athens_Created', 'Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
@@ -2842,7 +2781,7 @@ body: [
     ],
     startDate: '2017/09/29',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Humanitarianism, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.dissent],
     linksWith: ['Women_from_Earth_Performance', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Weekly_Prison_Visits_by'],
     baseStory: baseStory,
   },
@@ -2871,7 +2810,7 @@ body: [
     ],
     startDate: '2018/10/26',
     endDate: '',
-    logics: [LOGICS.HumanRights, LOGICS.Humanitarianism, LOGICS.Dissent],
+    logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.dissent],
     linksWith: ['Sanitary_Bomb_Performance_in', 'Ongoing_Forced_HIV_Testing', '18_Ano_Created', 'ACT_UP_Hellas_Created', 'Group_of_Lawyers_for'],
     baseStory: baseStory,
   },
