@@ -169,7 +169,7 @@ export const EventPage = ({ match }) => {
     <Section padding={'48px 0 12px 0'}>
       <EventSubhead>Explore Logics</EventSubhead>
 
-      <Section padding={'24px 0 0 0'}>
+      <Section padding={'16px 0 0 0'}>
         <LogicToggle event={currentEvent} storyName={storyName} />
       </Section>
     </Section>
