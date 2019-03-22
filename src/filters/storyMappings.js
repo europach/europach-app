@@ -1,3 +1,5 @@
+import { sortByDate } from './sortByDate';
+
 import {
   polandSelector,
   polandBestPracticeEvents,
@@ -192,14 +194,16 @@ export const detectPreviousEvent = (storyUrl, eventUrl) => {
       currentStory(storyUrl)
     );
 
-  const storyIndex = events.findIndex(({ url }) => url === eventUrl)
+  const sortedEvents = sortByDate(events);
+
+  const storyIndex = sortedEvents.findIndex(({ url }) => url === eventUrl)
 
   if (storyIndex === 0) {
     return undefined; // first item
   } else if (storyIndex === -1) {
     return undefined; // not found
   } else if (storyIndex > 0) {
-    return events[storyIndex - 1];
+    return sortedEvents[storyIndex - 1];
   }
 }
 
@@ -209,14 +213,16 @@ export const detectNextEvent = (storyUrl, eventUrl) => {
       currentStory(storyUrl)
     );
 
-  const storyIndex = events.findIndex(({ url }) => url === eventUrl)
+  const sortedEvents = sortByDate(events);
 
-  if (storyIndex === events.length) {
+  const storyIndex = sortedEvents.findIndex(({ url }) => url === eventUrl)
+
+  if (storyIndex === sortedEvents.length) {
     return undefined; // last item
   } else if (storyIndex === -1) {
     return undefined; // not found
-  } else if (storyIndex < events.length) {
-    return events[storyIndex + 1];
+  } else if (storyIndex < sortedEvents.length) {
+    return sortedEvents[storyIndex + 1];
   }
 }
 

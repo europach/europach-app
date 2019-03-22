@@ -37,7 +37,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: 'European Convention on Human Rights’',
-    url: 'European_Convention_on_Human',
+    url: 'European_Convention_on_Human_1950',
     body: [
       {
         type: 'paragraph',
@@ -364,7 +364,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.socialJustice, LOGICS.collaborativeGovernance, LOGICS.mutualHelp, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['Transnational_NGOs_or_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist', 'UNAIDS_Guidance_Note_on'],
+    linksWith: ['Transnational_NGOs_or_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist', 'UNAIDS_Guidance_Note_on_2012'],
     baseStory: baseStory,
   },
 {
@@ -529,7 +529,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1996/01/01',
     endDate: '',
     logics: [LOGICS.bestPractice, LOGICS.evidence, LOGICS.humanRights, LOGICS.publicHealth, LOGICS.deCriminalisation],
-    linksWith: ['UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on', 'Joint_Guide_on_HIV', 'Global_Commission_on_HIV', 'UNAIDS_Guidance_Note_on', 'UNAIDS_Press_Statement_on', 'Global_Commission_on_HIV', 'UNAIDS_Calls_for_Repeal', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
+    linksWith: ['UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'Joint_Guide_on_HIV', 'Global_Commission_on_HIV_2010', 'UNAIDS_Guidance_Note_on_2013', 'UNAIDS_Press_Statement_on', 'Global_Commission_on_HIV_2012', 'UNAIDS_Calls_for_Repeal', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
     baseStory: baseStory,
   },
 
@@ -557,7 +557,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1999',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.deCriminalisation],
-    linksWith: ['Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on', '2009_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', ' First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex', 'Conference_on_Greek_Sex'],
+    linksWith: ['Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2012', '2009_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', ' First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
 
@@ -722,7 +722,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
     {
     name: `TGEU_Created`,
-    url: `european_convention_on_human`,
+    url: `european_convention_on_human_2005`,
     body: [
       {
         type: 'paragraph',
@@ -938,7 +938,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on', 'UNAIDS_Guidance_Note_on', 'Lawsuit_Filed_Against_Public', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on', 'UNAIDS_Guidance_Note_on_2012', 'Lawsuit_Filed_Against_Public', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
     baseStory: baseStory,
   },
 
@@ -1136,7 +1136,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
 {
     name: `Global Commission on HIV and the Law Created`,
-    url: `Global_Commission_on_HIV`,
+    url: `Global_Commission_on_HIV_2010`,
     body: [
       {
         type: 'paragraph',
@@ -1162,7 +1162,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010/06/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation ],
-    linksWith: ['Global_Commission_on_HIV', 'UNAIDS_Press_Statement_on',],
+    linksWith: ['Global_Commission_on_HIV_2012', 'UNAIDS_Press_Statement_on',],
     baseStory: baseStory,
   },
 {
@@ -1225,7 +1225,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010/11/30',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Transnational_NGOs_and_Activist', 'UNAIDS_Press_Statement_on'],
+    linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Transnational_NGOs_and_Activist', 'UNAIDS_Press_Statement_on'],
     baseStory: baseStory,
   },
 
@@ -1439,7 +1439,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 {
     name: `UNAIDS Guidance Note on HIV and Sex Work`,
-    url: `UNAIDS_Guidance_Note_on`,
+    url: `UNAIDS_Guidance_Note_on_2012`,
     body: [
       {
         type: 'paragraph',
@@ -1784,7 +1784,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/05/09',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
-    linksWith: ['Positive_Voice_Created', 'EATG_Created', 'HRW_Created', 'UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with'],
+    linksWith: ['Positive_Voice_Created', 'EATG_Created', 'HRW_Created', 'UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with'],
     baseStory: baseStory,
   },
 {
@@ -1811,7 +1811,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1949/01/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
 
@@ -1927,7 +1927,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: `European Convention on Human Rights International Governing Bodies`,
-    url: `european_convention_on_human`,
+    url: `european_convention_on_human_2012`,
     body: [
       {
         type: 'paragraph',
@@ -1978,7 +1978,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: `Global Commission on HIV and the Law Criticizes Greece`,
-    url: `Global_Commission_on_HIV`,
+    url: `Global_Commission_on_HIV_2012`,
     body: [
       {
         type: 'paragraph',
@@ -2000,7 +2000,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/07/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.deCriminalisation],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'Law_Passed_Legalising_Sex', 'Global_Commission_on_HIV', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'Law_Passed_Legalising_Sex', 'Global_Commission_on_HIV_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 {
@@ -2237,7 +2237,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/12/11',
     endDate: '2012/12/12',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation],
-    linksWith: ['GNP+_Created', 'UNAIDS_Comes_into_Operation', 'Positive_Voice_Created', 'Global_Commission_on_HIV', 'HIV_Justice_Network_Created', 'UNAIDS_Guidance_Note_on', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Policy_Brief_on'],
+    linksWith: ['GNP+_Created', 'UNAIDS_Comes_into_Operation', 'Positive_Voice_Created', 'Global_Commission_on_HIV_2012', 'HIV_Justice_Network_Created', 'UNAIDS_Guidance_Note_on_2012', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Policy_Brief_on'],
     baseStory: baseStory,
   },
 {
@@ -2264,10 +2264,9 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1949/01/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.dissent, LOGICS.socialJustice],
-    linksWith: ['European_Convention_on_Human', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
+    linksWith: ['European_Convention_on_Human_1950', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
     baseStory: baseStory,
   },
-
 
   {
     name: `Lawyers Secure Acquittals and the Removal of Photos`,
@@ -2313,7 +2312,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent, LOGICS.citizenship],
-    linksWith: ['Group_of_Lawyers_for', 'UNAIDS_Guidance_Note_on', 'Inter-Organisational_Coalition_with_Weekly', 'Ongoing_Forced_HIV_Testing', 'Operation_Xenious_Zeus', 'PRAKSIS_Created', 'Law_Passed_Legalising_Sex', 'Change_to_Greek_Sex', 'First_Forced_Testing_and', 'Ministerial_Decree_39a', 'Inter-organisational_Coalition_with_weekly'],
+    linksWith: ['Group_of_Lawyers_for', 'UNAIDS_Guidance_Note_on_2012', 'Inter-Organisational_Coalition_with_Weekly', 'Ongoing_Forced_HIV_Testing', 'Operation_Xenious_Zeus', 'PRAKSIS_Created', 'Law_Passed_Legalising_Sex', 'Change_to_Greek_Sex', 'First_Forced_Testing_and', 'Ministerial_Decree_39a', 'Inter-organisational_Coalition_with_weekly'],
     baseStory: baseStory,
   },
 
@@ -2420,13 +2419,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['Ministerial_Decree_39a_Published', 'Protests_in_Front_of', 'Transnational_NGOs_and_Activist', 'Global_Commission_on_HIV', 'UNAIDS_Press_Statement_on', 'UN_Letter_to_Greek', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO', 'Reinstatement_of_Provision_39a', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['Ministerial_Decree_39a_Published', 'Protests_in_Front_of', 'Transnational_NGOs_and_Activist', 'Global_Commission_on_HIV_2012', 'UNAIDS_Press_Statement_on', 'UN_Letter_to_Greek', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO', 'Reinstatement_of_Provision_39a', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
 {
     name: `UNAIDS Guidance Note on Criminalisation of HIV`,
-    url: `UNAIDS_Guidance_Note_on`,
+    url: `UNAIDS_Guidance_Note_on_2013`,
     body: [
       {
         type: 'paragraph',
@@ -2760,7 +2759,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2017/05/25',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.socialJustice, LOGICS.citizenship, LOGICS.dissent, LOGICS.collaborativeGovernance],
-    linksWith: ['Law_Passed_Legalising_Sex', 'ICRSE_Created', 'SWAN_Created', 'Positive_Voice_Created', 'Centre_for_Life_Created', 'PRAKSIS_Created', 'Red_Umbrella_Athens_Created', 'Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['Law_Passed_Legalising_Sex', 'ICRSE_Created', 'SWAN_Created', 'Positive_Voice_Created', 'Centre_for_Life_Created', 'PRAKSIS_Created', 'Red_Umbrella_Athens_Created', 'Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2013', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 {

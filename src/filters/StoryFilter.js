@@ -1,12 +1,7 @@
 import { Events } from '../events/Events';
 import { storyMappings, STORIES } from './storyMappings';
+import { sortByDate } from './sortByDate';
 import uniqBy from 'lodash.uniqby';
-
-const sortByDate = dateArray => {
-  return dateArray.sort((a,b) => {
-    return new Date(a.startDate) - new Date(b.startDate);
-  });
-}
 
 const flatten = multiDimensionalArray => {
   return [].concat(...multiDimensionalArray);
