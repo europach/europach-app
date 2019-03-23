@@ -113,17 +113,17 @@ Here is a list of the available logics
 
 To change data of an event please update:
 
-EU events: src/events/EUEvents.js
-Germany events: src/events/GermanyEvents.js
-Poland events: src/events/PolandEvents.js
-Turkey events: src/events/TurkeyEvents.js
-Uk events: src/events/UkEvents.js
+- EU events: src/events/EUEvents.js
+- Germany events: src/events/GermanyEvents.js
+- Poland events: src/events/PolandEvents.js
+- Turkey events: src/events/TurkeyEvents.js
+- Uk events: src/events/UkEvents.js
 
 ## Story Details
 
 To change the title, author or sub text of a story please update:
 
-src/filters/storyDetails.js
+- src/filters/storyDetails.js
 
 # Developers
 
