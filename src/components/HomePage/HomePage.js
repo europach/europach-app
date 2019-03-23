@@ -4,6 +4,19 @@ import { TitleText, BodyText, Pannel, PannelInner } from '../../assets/styles/co
 import StoryCard from '../StoryCard';
 import AppNav from '../AppNav';
 import AppFooter from '../AppFooter';
+import { storyDetails } from '../../filters/storyDetails';
+
+const createStoryItem = (item) => {
+  const { title, researcher, path } = item;
+
+  return (
+    <StoryItem>
+      <StyledLink to={path}>
+        <StoryCard name={title} researcher={researcher}/>
+      </StyledLink>
+    </StoryItem>
+  );
+}
 
 export const HomePage = (props) => {
   return (
@@ -21,35 +34,11 @@ export const HomePage = (props) => {
         </Title>
 
         <StoryList>
-          <StoryItem>
-            <StyledLink to='/eu'>
-              <StoryCard name="Europe: The Intersecting Criminalisation of HIV, Sex Work, Migration and Drug Use" researcher="Agata Dziuban and Todd Sekuler"/>
-            </StyledLink>
-          </StoryItem>
-
-          <StoryItem>
-            <StyledLink to='/germany'>
-              <StoryCard name="Germany: HIV/AIDS, Prisons and Drugs" researcher="Friederike Faust" />
-            </StyledLink>
-          </StoryItem>
-
-          <StoryItem>
-            <StyledLink to='/poland'>
-              <StoryCard name="Poland: Harm Reduction and the Criminalisation of Drug Use" researcher="Justyna Struzik" />
-            </StyledLink>
-          </StoryItem>
-
-          <StoryItem>
-            <StyledLink to='/turkey'>
-              <StoryCard name="Turkey: Marriage, the State and the Criminalisation of HIV Transmission" researcher="Zülfukar Çetin" />
-            </StyledLink>
-          </StoryItem>
-
-          <StoryItem>
-            <StyledLink to='/uk'>
-              <StoryCard name="UK: Police Safety, Spit Hoods and HIV Criminalisation in England and Wales" researcher="Emily Nicholls" />
-            </StyledLink>
-          </StoryItem>
+`          {
+            storyDetails.map((item) => {
+              return createStoryItem(item)
+            })
+          }`
         </StoryList>
 
         <BodyText>
