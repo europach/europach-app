@@ -12,7 +12,7 @@ export const UkStoryDetails = {
   path: '/uk',
   title: 'UK: Police Safety, Spit Hoods and HIV Criminalisation in England and Wales',
   researcher: 'Emily Nicholls',
-  body: 'The term ‘spit hoods’ refers to mesh hoods which are used to cover the heads of those who have been arrested, and were trialled in 2016 and 2017 by a number of police forces in the UK to prevent people from spitting at or biting officers. Around this same time, a draft bill was also introduced that could have obligated perpetrators of assault against emergency workers to be asked to provide blood or saliva samples or face a significant fine. This story documents these events within the broader historical context of the criminalisation of HIV transmission in England and Wales. It presents a particular entanglement of elements that come to configure the potential for HIV transmission (but also the transmission of Hepatitis C) in the line of duty of the police officer as not only coming to articulate the particular risks of the job, but also as representing a threat to the state and its citizens.',
+  body: 'This story is concerned with the criminalisation of HIV transmission in the UK and takes as its starting point a Witness Seminar on the topic held by the UK component of EUROPACH. The story includes various attempts to review and reform the Offences Against the Person Act 1861 – the act under which HIV transmission is criminalised – as well as various interventions by civil society into the investigation and prosecution of cases. As the story follows the connections made by those participating in the meeting, it also highlights the ways in which the criminalisation of HIV transmission touches and is entangled with other policy areas.',
   image: MockImage
 }
 
