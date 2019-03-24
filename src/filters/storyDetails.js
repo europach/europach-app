@@ -2,7 +2,7 @@ import MockImage from '../assets/images/mock_image2x1.png';
 
 export const GermanyStoryDetails = {
   path: '/germany',
-  title: 'Germany: HIV/AIDS, Prisons and Drugs',
+  title: 'Germany: HIV/AIDS, Prisons and the De/Criminalisation of Harm Reduction',
   researcher: 'Friederike Faust',
   body: 'This story sheds light on the contested political domain of harm reduction in prison settings. As in many countries, prisoners are among those social groups most impacted by the HIV/AIDS epidemic in Germany, and needle sharing among people who inject drugs in prisons has been identified as the most important route of transmitting the virus. As a result, implicated activists, advocates, social workers and self-help organisations have sought to make sterile injection equipment available to prisoners since the earliest days of the epidemic. This story is centred around a specific case from 1995: After much debate, the parliament of the state of Berlin decided to initiate syringe exchange programmes in selected prisons. Prior to this decision, civil society groups, transnational governing bodies and professional associations had put pressure on the German government with acts of civil disobedience, legal pursuits, and advocacy activities. At the same time, strong opposition emerged from select politicians, and from certain authorities and employees of the prison system. The provision of harm reduction in prisons continues to provoke controversy until today.',
   image: MockImage
