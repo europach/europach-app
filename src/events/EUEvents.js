@@ -3,8 +3,8 @@ const baseStory = 'eu';
 
 export const EUEvents = [
   {
-    name: 'UN Single Convention on Narcotic Drugs',
-    url: 'un_single_convention_on',
+    name: 'WHO Europe Created',
+    url: 'who_europe_created',
     body: [
       {
         type: 'paragraph',
