@@ -523,7 +523,7 @@ export const GermanyEvents = [
       },
       {
         type: 'paragraph',
-        content: `German civil society organisations such as the Deutsche AIDS-Hilfe and AK Kommunale Drogenpolitik travel to the conference in order to network and share best practice. `
+        content: `German civil society organisations such as the Deutsche AIDS-Hilfe, JES and AK Kommunale Drogenpolitik travel to the conference in order to network and share best practice. `
       },
     ],
     externalLinks: [],
