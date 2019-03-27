@@ -212,7 +212,7 @@ export const GermanyEvents = [
   },
 
   {
-    name: `1987 UN Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment`,
+    name: `UN Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment`,
     url: `1987_un_convention_against`,
     body: [
       {
@@ -235,7 +235,7 @@ export const GermanyEvents = [
   },
 
   {
-    name: `1987 WHO Statement from the Consultation on Prevention and Control of AIDS in Prisons`,
+    name: `WHO Statement from the Consultation on Prevention and Control of AIDS in Prisons`,
     url: '1987_who_statement_from',
     body: [
       {
@@ -435,7 +435,7 @@ export const GermanyEvents = [
   },
 
   {
-    name: `1989 Reform of German Health Care Law`,
+    name: `Reform of German Health Care Law`,
     url: `1989_reform_of_german`,
     body: [
       {
@@ -457,7 +457,7 @@ export const GermanyEvents = [
   },
 
   {
-    name: `1989 COE European Convention for the Prevention of Torture and Inhuman or Degrading Treatment or Punishment`,
+    name: `COE European Convention for the Prevention of Torture and Inhuman or Degrading Treatment or Punishment`,
     url: `1989_coe_european_convention`,
     body: [
       {
@@ -769,7 +769,7 @@ export const GermanyEvents = [
   },
 
   {
-    name: `1993 WHO Guidelines on HIV Infection and AIDS in Prisons`,
+    name: `WHO Guidelines on HIV Infection and AIDS in Prisons`,
     url: `1993_who_guidelines_on`,
     body: [
       {
