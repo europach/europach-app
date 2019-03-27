@@ -120,12 +120,7 @@ export const GermanyEvents = [
         text: `http://www.un.org/documents/ga/res/37/a37r194.htm`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Frommel, Monika 2008. 40 Jahre Strafrechtsreform. Neue Kriminalpolitik 20(4):133-139.'
-      },
-    ],
+    sources: [],
     startDate: '1982',
     endDate: '',
     logics: [LOGICS.humanRights],
