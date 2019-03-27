@@ -495,7 +495,11 @@ export const GermanyEvents = [
         content: `Since many of its members have spent some time in prison, JES also advocates and protest for harm reduction inside prisons. In some prisons, local JES groups initiate counselling sessions. But after security in prison is going to tighten up during the 90s, many JES members will be denied access to the prison setting.`
       },
     ],
-    externalLinks: [],
+    externalLinks: [ 
+      { 
+      url:   `http://www.jes-bundesverband.de/` 
+      },
+    ],
     sources: [
       {
         type: 'text',
