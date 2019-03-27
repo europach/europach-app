@@ -104,7 +104,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 
   {
-    name: `EKETHEA Created`,
+    name: `KETHEA Created`,
     url: `KETHEA_Created`,
     body: [
       {
@@ -1808,7 +1808,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: 'International Governing Bodies'
       },
     ],
-    startDate: '1949/01/01',
+    startDate: '2012/05/10',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
     linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
