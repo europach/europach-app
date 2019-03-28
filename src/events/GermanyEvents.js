@@ -495,9 +495,9 @@ export const GermanyEvents = [
         content: `Since many of its members have spent some time in prison, JES also advocates and protest for harm reduction inside prisons. In some prisons, local JES groups initiate counselling sessions. But after security in prison is going to tighten up during the 90s, many JES members will be denied access to the prison setting.`
       },
     ],
-    externalLinks: [ 
-      { 
-      url:   `http://www.jes-bundesverband.de/` 
+    externalLinks: [
+      {
+      url:   `http://www.jes-bundesverband.de/`
       },
     ],
     sources: [
@@ -1081,7 +1081,7 @@ export const GermanyEvents = [
       },
       {
         type: 'paragraph',
-        content: `Karl-Heinz Keppler, prison doctor in the women´s prison is one of the driving forces behind the pilot project. At a conference on prison halth more than two decades later, he remembered how he conquered the fear of stabbing into a needle or even getting attacked with a needle: "I collected those syringes that were used and shared secretly by the women. Those syringes that were shared among many prisoners for a long time, sometimes self-made, often sharpened with the help of a matchbox, and that caused abcsesses. Together with a new sterile syringe, I went to the prison management and showed the different injection materials. I asked: 'Whould you rather be stabed with a sterile needle or with this one?`." Heino Stöver, who conducted the scientific evaluation of the project, remembers how this influenced the Minister's decision: "I think this was another point that finally convinced the Minister of Justice. It needs understanding, of course. But it also needs a personality and courage to take this decision."`
+        content: `Karl-Heinz Keppler, prison doctor in the women´s prison is one of the driving forces behind the pilot project. At a conference on prison halth more than two decades later, he remembered how he conquered the fear of stabbing into a needle or even getting attacked with a needle: "I collected those syringes that were used and shared secretly by the women. Those syringes that were shared among many prisoners for a long time, sometimes self-made, often sharpened with the help of a matchbox, and that caused abcsesses. Together with a new sterile syringe, I went to the prison management and showed the different injection materials. I asked: 'Whould you rather be stabed with a sterile needle or with this one?." Heino Stöver, who conducted the scientific evaluation of the project, remembers how this influenced the Minister's decision: "I think this was another point that finally convinced the Minister of Justice. It needs understanding, of course. But it also needs a personality and courage to take this decision."`
       },
       {
         type: 'paragraph',
