@@ -687,7 +687,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2006',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.humanRights, LOGICS.citizenship, LOGICS.evidence, LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.dissent],
-    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of', 'Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Ruins_Premiere', 'Lawyers_Secure_Acquittals_and', '“Women_from_Earth_Performance'],
+    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of', 'Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Ruins_Premiere', 'Lawyers_Secure_Acquittals_and', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
 
