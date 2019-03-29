@@ -1416,7 +1416,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: `Transnational NGOs and Activist Groups Issue Statements`,
-    url: `transnational_NGOs_and_Activist`,
+    url: `transnational_NGOs_and_Activist_statements`,
     body: [
       {
         type: 'paragraph',
