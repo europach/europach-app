@@ -2730,6 +2730,31 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     baseStory: baseStory,
   },
 
+  {
+    name: `New KEELPNO President Formally Apologizes`,
+    url: `New_KEELPNO_President`,
+    body: [
+      {
+        type: 'paragraph',
+        content: `In 2016, the new president of KEELPNO, Theofilos Rosenberg, formally acknowledged and apologised for the actions taken by KEELPNO in relation to the events presented in this story. Interviewees emphasised that, as a professor of medicine at the time, he also organised discussions on the ethics of the actions taken as the events were unfolding in 2012.`
+      },
+    ],
+    externalLinks: [
+      {
+      },
+    ],
+    sources: [
+          {
+        type: 'text',
+        content: 'Local/National Governing Bodies'
+      },
+    ],
+    startDate: '2016',
+    endDate: '',
+    logics: [LOGICS.moralizing],
+    linksWith: ['KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'Ongoing_Forced_HIV_Testing', 'KEELPNO_Internal_Letter_of', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus', 'Research_on_Public_Response', 'Lawsuit_Filed_Against_Public'],
+    baseStory: baseStory,
+  },  
 
   {
     name: `Conference on Greek Sex Work Policy`,
