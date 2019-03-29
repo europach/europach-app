@@ -779,7 +779,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       {
         type: 'paragraph',
-        content: `ITogether with the UNAIDS Guidance Note on the Criminalisation of HIV, which was published in 2013 and expanded on this brief, the group of lawyers relied on this policy brief in their defence of the women in the local courts. It was also referenced in the claims brought to the Greek justice system against the public authorities involved in the forced testing and arrests, and in the cases brought to the European Court of Human Rights against the Greek government.`
+        content: `Together with the UNAIDS Guidance Note on the Criminalisation of HIV, which was published in 2013 and expanded on this brief, the group of lawyers relied on this policy brief in their defence of the women in the local courts. It was also referenced in the claims brought to the Greek justice system against the public authorities involved in the forced testing and arrests, and in the cases brought to the European Court of Human Rights against the Greek government.`
       },
     ],
     externalLinks: [
