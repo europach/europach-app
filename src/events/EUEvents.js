@@ -365,7 +365,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation, LOGICS.deCriminalisation],
-    linksWith: ['Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe', ],
+    linksWith: ['Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
