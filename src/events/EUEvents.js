@@ -284,7 +284,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['New_KEELPNO_President_Formally', 'Research_on_Public_Response','Lawsuit_Filed_Against_Public', 'KEELPNO_Internal_Letter_of', 'UNGASS_Statement_by_Greek', 'Documented_HIV_Outbreak_Among', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan', 'European_and_Greek_Governmental'],
+    linksWith: ['New_KEELPNO_President', 'Research_on_Public_Response','Lawsuit_Filed_Against_Public', 'KEELPNO_Internal_Letter_of', 'UNGASS_Statement_by_Greek', 'Documented_HIV_Outbreak_Among', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan_for', 'European_and_Greek_Governmental'],
     baseStory: baseStory,
   },
 
