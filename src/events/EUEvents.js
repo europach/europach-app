@@ -605,7 +605,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2005',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
-    linksWith: ['ECDC_Guidance_on_HIV', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', 'European_Commission_Requests_Risk', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe', 'ECDC_Mission_in_Athens'],
+    linksWith: ['ECDC_Guidance_on_HIV', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', 'European_Commission_Requests_Risk', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC_FRA_EMCDDA', 'ECDC_Mission_in_Athens'],
     baseStory: baseStory,
   },
 
