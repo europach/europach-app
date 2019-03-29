@@ -109,7 +109,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `“KETHEA was founded in 1983 and is a legal entity of private law, supervised by the Ministry of Health & Social Solidarity. KETHEA is mainly active in therapy, offering its services to more than 3,000 people who use drugs and their family members annually, using a nation-wide network of 90 units located in Athens and across the country. All programs are offered free of charge and include counseling, immediate intervention programs, therapy, education and vocational training, social integration and employment. KETHEA is also active in the fields of primary prevention, education and research. Furthermore, it has attained special consultative status with the UN Economic and Social Council (ECOSOC) and is one of the principal organizations to implement the National Action Plan on Drugs” and was thus included in the Inter-Ministerial Plan for Combating Addictions that was developed to respond to the documented HIV outbreak among people who use drugs. . `
+        content: `“KETHEA was founded in 1983 and is a legal entity of private law, supervised by the Ministry of Health & Social Solidarity. KETHEA is mainly active in therapy, offering its services to more than 3,000 people who use drugs and their family members annually, using a nation-wide network of 90 units located in Athens and across the country. All programs are offered free of charge and include counseling, immediate intervention programs, therapy, education and vocational training, social integration and employment. KETHEA is also active in the fields of primary prevention, education and research. Furthermore, it has attained special consultative status with the UN Economic and Social Council (ECOSOC) and is one of the principal organizations to implement the National Action Plan on Drugs” and was thus included in the Inter-Ministerial Plan for Combating Addictions that was developed to respond to the documented HIV outbreak among people who use drugs.`
       },
       {
         type: 'paragraph',
@@ -125,6 +125,10 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.snf.org/en/grants/grantees/k/kethea-therapy-center-for-dependent-individuals/program-suppport/`,
         text: `www.snf.org/en/grants/grantees/k/kethea-therapy-center-for-dependent-individuals/program-suppport/`
+      },
+      {
+        url: `www.emcdda.europa.eu/html.cfm/index5174EN.html?pluginMethod=eldd.countryprofiles&country=GR`,
+        text: `www.emcdda.europa.eu/html.cfm/index5174EN.html?pluginMethod=eldd.countryprofiles&country=GR`
       },
     ],
     sources: [
