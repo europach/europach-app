@@ -660,7 +660,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2005/09/05',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent],
-    linksWith: ['EATG_Created', 'AIDS_Action_Europe', 'European_Commission_Requests_Risk', 'Situation_in_Greece_Discussed', '2_ECDC_Visits_to'],
+    linksWith: ['EATG_Created', 'AIDS_Action_Europe_Created', 'European_Commission_Requests_Risk', 'Situation_in_Greece_Discussed', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
 
