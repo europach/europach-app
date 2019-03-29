@@ -392,7 +392,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism, LOGICS.humanRights],
-    linksWith: ['EMCDDA_Created', 'Inter-Organisational_Coalition_with', 'Inter-Ministerial_National_Plan'],
+    linksWith: ['EMCDDA_Created', 'Inter-Organisational_Coalition_with_Weekly', 'Inter-Ministerial_National_Plan_for'],
     baseStory: baseStory,
   },
 
