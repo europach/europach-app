@@ -1092,7 +1092,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2011/06/01',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.securitisation],
-    linksWith: ['KEELPN_Created', 'OKANA_Created', 'Positive_Voice_Created', 'RAKSIS_Created', 'Centre_for_Life_Created', 'Greek_Economic_Crisis', 'Strategic_Plan_on_Drugs', 'Joint_Guide_on_HIV', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to_Greece', '2nd_ECDC_and_EMCDDA_Joint', 'ECDC_Mission_in_Athens', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'ARISTOTLE_Commenced', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Ruin_ Premiere', 'PeNUPS_Created'],
+    linksWith: ['KEELPNO_Created', 'OKANA_Created', 'Positive_voice_Created', 'PRAKSIS_Created', 'Centre_for_Life_Created', 'Greek_Economic_Crisis', 'Strategic_Plan_on_Drugs', 'Joint_Guide_on_HIV', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to_Greece', '2nd_ECDC_and_EMCDDA_Joint', 'ECDC_Mission_in_Athens', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'ARISTOTLE_Commenced', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Ruins_Premiere', 'PeNUPS_Created'],
     baseStory: baseStory,
   },
   {
