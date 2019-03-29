@@ -97,7 +97,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       {
         type: 'paragraph',
-        content: `KETHEA was one of the institutions that provided support for the arrested women in pre-trial detention and may also have been among first groups to meet with the women after their arrest. Several of the women implicated in this story benefited from the drug treatment services offered by KETHEA in the prison setting. Representatives of KETHEA were present at some of the weekly meetings that took place to organise a response to the ongoing testing and arrests of women at the heart of this story.`
+        content: `KETHEA was one of the institutions that provided support for the arrested women in pre-trial detention and may also have been among the first groups to meet with the women after their arrest. Several of the women implicated in this story benefited from the drug treatment services offered by KETHEA in the prison setting. Representatives of KETHEA were present at some of the weekly meetings that took place to organise a response to the ongoing testing and arrests of women at the heart of this story.`
       },
 
     ],
