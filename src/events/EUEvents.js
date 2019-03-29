@@ -1251,7 +1251,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/04/02',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth],
-    linksWith: ['Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Operation_Xenios_Zeus', ' Joint_Letter_to_UN'],
+    linksWith: ['Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus', 'Joint_Letter_to_UN'],
     baseStory: baseStory,
   },
 
