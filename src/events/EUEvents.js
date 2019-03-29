@@ -465,7 +465,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 
 {
-    name: `TAMPEP_Created`,
+    name: `TAMPEP Created`,
     url: `TAMPEP_Created`,
     body: [
       {
@@ -1331,11 +1331,11 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     sources: [
           {
         type: 'text',
-        content: 'Local/National Governing Bodies1'
+        content: 'Local/National Governing Bodies'
       },
     ],
     startDate: '2011/06/08',
-    endDate: '201/06/10',
+    endDate: '2011/06/10',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.humanitarianism],
     linksWith: ['KEELPNO_Created', 'European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing', 'Ongoing_Forced_HIV_Testing', 'Greek_Ministerial_Elections', 'Operation_Xenios_Zeus'],
     baseStory: baseStory,
