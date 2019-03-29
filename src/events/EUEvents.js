@@ -4,7 +4,7 @@ const baseStory = 'eu';
 export const EUEvents = [
   {
     name: 'WHO Europe Created',
-    url: 'who_europe_created',
+    url: 'WHO_Europe_Created',
     body: [
       {
         type: 'paragraph',
@@ -37,7 +37,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: 'European Convention on Human Rights’',
-    url: 'European_Convention_on_Human_1950',
+    url: 'European_Convention_on_Human',
     body: [
       {
         type: 'paragraph',
@@ -1817,7 +1817,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
 {
     name: `KEELPNO Internal Letter of Critique`,
-    url: `EELPNO_Internal_Letter_of`,
+    url: `KEELPNO_Internal_Letter_of`,
     body: [
       {
         type: 'paragraph',
@@ -1926,8 +1926,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
 
   {
-    name: `European Convention on Human Rights International Governing Bodies`,
-    url: `european_convention_on_human_2012`,
+    name: `5 Women Attempt Suicide in Prison`,
+    url: `Women_Attempt_Suicide`,
     body: [
       {
         type: 'paragraph',
@@ -2077,7 +2077,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
 {
     name: `UN Letter to Greek Government`,
-    url: `UN_Letter_to_Greek `,
+    url: `UN_Letter_to_Greek`,
     body: [
       {
         type: 'paragraph',
@@ -2157,7 +2157,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: `Resignation of Papandreou Government`,
-    url: `Resignation_of_Papandreou_Government `,
+    url: `Resignation_of_Papandreou_Government`,
     body: [
       {
         type: 'paragraph',
@@ -2199,7 +2199,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 {
     name: `Workshop on Greek Justice, Legislation and HIV/AIDS`,
-    url: `workshop on Greek Justice`,
+    url: `Workshop_on_Greek_Justice`,
     body: [
       {
         type: 'paragraph',
@@ -2242,7 +2242,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 {
     name: `3 Cases Submitted to ECtHR`,
-    url: `3_Cases_Submitted_to `,
+    url: `3_Cases_Submitted_to`,
     body: [
       {
         type: 'paragraph',
