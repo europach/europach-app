@@ -1273,7 +1273,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/04/11',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.deCriminalisation, LOGICS.securitisation],
-    linksWith: ['European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Joint_Letter_to_UN', 'Operation_Xenios_Zeus', 'UN_Letter_to_Greek'],
+    linksWith: ['European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Joint_Letter_to_UN', 'Operation_Xenios_Zeus', 'UN_Letter_to_Greek'],
     baseStory: baseStory,
   },
 
