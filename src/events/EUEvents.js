@@ -172,7 +172,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1987',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
-    linksWith: ['Inter-Organisational_Coalition_and', 'Inter-Ministerial National Plan', 'Women_from_Earth_Performance'],
+    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Inter-Ministerial_National_Plan_for', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
 
