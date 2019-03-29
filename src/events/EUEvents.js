@@ -79,7 +79,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
       {
         type: 'paragraph',
-        content: `CThe Human Rights Watch (HRW) sent a joint letter to the United Nations Special Rapporteur on Health and published a statement criticising the events of 2012. The organisation also published a report documenting and criticizing Operation 'Xenios Zeus' in which the Greek police detained thousands of migrants to verify their legal status. Some of the women implicated in this story were arrested during police raids conducted under the auspices of this operation.
+        content: `The Human Rights Watch (HRW) sent a joint letter to the United Nations Special Rapporteur on Health and published a statement criticising the events of 2012. The organisation also published a report documenting and criticizing Operation 'Xenios Zeus' in which the Greek police detained thousands of migrants to verify their legal status. Some of the women implicated in this story were arrested during police raids conducted under the auspices of this operation.
 `
       },
     ],
