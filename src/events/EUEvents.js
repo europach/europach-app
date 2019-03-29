@@ -1968,7 +1968,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: 'Local/National NGOs or Activist Groups; Affected Group'
       },
     ],
-    startDate: '1949/01/01',
+    startDate: '2012/07/02',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice],
     linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', ' Weekly_Prison_Visits_Begin', '3_Cases_Brought_to_', 'New_KEELPNO_President_Formally'],
@@ -2261,8 +2261,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: 'Transnational NGOs or Activist Groups; Affected Group'
       },
     ],
-    startDate: '1949/01/01',
-    endDate: '',
+    startDate: '2012',
+    endDate: '2013',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.dissent, LOGICS.socialJustice],
     linksWith: ['European_Convention_on_Human_1950', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
     baseStory: baseStory,
