@@ -21,6 +21,7 @@ export const EUEvents = [
 url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 }
 ],
+    sources: [],
     startDate: `1949/01/01`,
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -47,6 +48,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     url: 'https://www.echr.coe.int/Documents/Convention_ENG.pdf'
     }
     ],
+    sources: [],
     startDate: '1950/11/05',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.securitisation],
@@ -76,6 +78,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hrw.org/history`
       },
     ],
+    sources: [],  
     startDate: '1978',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.socialJustice, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent],
@@ -111,6 +114,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.emcdda.europa.eu/html.cfm/index5174EN.html?pluginMethod=eldd.countryprofiles&country=GR`
       },
     ],
+    sources: [],
     startDate: '1983',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism],
@@ -137,6 +141,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.gnpplus.net/who-we-are/about-us/`
       },
     ],
+    sources: [],
     startDate: '1986',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.dissent],
@@ -163,6 +168,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.18ano.gr/`
       },
     ],
+    sources: [],
     startDate: '1987',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
@@ -189,6 +195,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.iasociety.org/About-IAS/about`
       },
     ],
+    sources: [],
     startDate: '1988',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -219,6 +226,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.kentrozois.gr/en/about-us/history-purpose/`
       },
     ],
+    sources: [],
     startDate: '1991',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
@@ -245,6 +253,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.eatg.org/about-us/`
       },
     ],
+    sources: [],
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.mutualHelp, LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.socialJustice],
@@ -271,6 +280,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/en/hellenic-centre-disease-control-and-prevention-keelpno-epiet`
       },
     ],
+    sources: [],
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -297,6 +307,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.nswp.org/who-we-are and www.nswp.org/history`
       },
     ],
+    sources: [],
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.socialJustice, LOGICS.collaborativeGovernance, LOGICS.mutualHelp, LOGICS.evidence, LOGICS.bestPractice],
@@ -322,6 +333,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://dinamiprosforas.gr/archives/2850`
       },
     ],
+    sources: [],
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.dissent],
@@ -349,6 +361,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.emcdda.europa.eu/about`
       },
     ],
+    sources: [],
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation, LOGICS.deCriminalisation],
@@ -375,12 +388,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.okana.gr/2012-04-03-07-49-40/item/253-about-us`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism, LOGICS.humanRights],
@@ -407,12 +415,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.tampep.eu/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '1993/09/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent, LOGICS.citizenship],
@@ -444,12 +447,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.unaids.org/en`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '1996/01/01',
     endDate: '',
     logics: [LOGICS.bestPractice, LOGICS.evidence, LOGICS.humanRights, LOGICS.publicHealth, LOGICS.deCriminalisation],
@@ -472,12 +470,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hrw.org/news/2012/05/09/joint-letter-un-special-rapporteur-health`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '1999',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.deCriminalisation],
@@ -500,12 +493,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.keelpno.gr/Portals/0/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%B1/HIV/2014/hiv%20testing_6-2014.pdf `
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '2002',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth],
@@ -532,12 +520,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.aidsactioneurope.org/en/about-aae/who-we-are/mission`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '2004',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.socialJustice],
@@ -564,12 +547,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://www.sexworkeurope.org/about-us`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '2004',
     endDate: '',
     logics: [LOGICS.dissent, LOGICS.citizenship, LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.deCriminalisation],
@@ -598,12 +576,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.cdn.praksis.gr.s3.amazonaws.com/statutes/index.html#1/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '2004/07/23',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.bestPractice, LOGICS.evidence, LOGICS.dissent, LOGICS.publicHealth, LOGICS.mutualHelp],
@@ -631,12 +604,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/en/253-about-us`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '2005',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
@@ -663,12 +631,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.tgeu.org/about-us/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '2005',
     endDate: '',
     logics: [LOGICS.dissent, LOGICS.socialJustice, LOGICS.evidence, LOGICS.bestPractice, LOGICS.humanRights, LOGICS.deCriminalisation],
@@ -696,12 +659,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://www.aidsactioneurope.org/en/civil-society-forum`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '2005/09/05',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent],
@@ -728,12 +686,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.omadadikigorwnenglish.blogspot.com/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '2006',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.humanRights, LOGICS.citizenship, LOGICS.evidence, LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.dissent],
@@ -762,12 +715,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.swannet.org/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
+    sources: [],
     startDate: '2006',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation],
@@ -788,12 +736,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `As reported by interviewees from the Group of Lawyers for the Rights of Migrants and Refugees who reviewed the case, “there were witnesses, there was a real criminal proceedings where the rights of the defendant were respected” - unlike in the 2012 case at the heart of this story. In their legal arguments, the group of lawyers relied on this case and differentiated it from the cases involving the women presented here.`
       },
     ],
-    sources: [
-      {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
+    sources: [],
     externalLinks: [],
     startDate: '2007',
     endDate: '',
@@ -821,12 +764,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.fra.europa.eu/en`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
+    sources: [],
     startDate: '2007/02/15',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence],
@@ -853,12 +791,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.unaids.org/sites/default/files/media_asset/jc1601_policy_brief_criminalization_long_en.pdf`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Body'
-      },
-    ],
+    sources: [],
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -879,13 +812,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `The poor implementation and monitoring of this plan was identified by our interviewees as a factor contributing to the documented outbreak of HIV among people who use drugs in 2011, which provided a backdrop for the case in question.`
       },
     ],
-    sources: [
-      {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
     externalLinks: [],
+    sources: [],
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.collaborativeGovernance],
@@ -912,6 +840,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: ` www.unaids.org/sites/default/files/sub_landing/idu_target_setting_guide_en.pdf`
       },
     ],
+    sources: [],
     startDate: '2009',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.evidence],
@@ -938,6 +867,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://europa.eu/youth/volunteering/organisation/921789740_lt`
       },
     ],
+    sources: [],
     startDate: '2009',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.collaborativeGovernance, LOGICS.mutualHelp],
@@ -959,6 +889,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
     ],
     externalLinks: [],
+    sources: [],
     startDate: '2009/08/01',
     endDate: '2018/08/20',
     logics: [],
@@ -977,6 +908,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       ],
     externalLinks: [],
+    sources: [],
     startDate: '2009/10/04',
     endDate: '',
     logics: [],
@@ -998,6 +930,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
     ],
     externalLinks: [],
+    sources: [],
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.deCriminalisation],
@@ -1014,6 +947,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `In 2010, under the government of Georgios Papandreou from the Panhellenic Socialist Movement (PASOK), the legal framework criminalising sex work was modified to reduce the penalty faced for practicing sex work unlawfully. Evidencing what was described as a more “humanitarian” approach to sex work policy, one interviewee understood this shift to reflect Papandreou’s desired policy for dealing with drug use as well, even if shifts reflecting this approach never came into fruition due to his early resignation in November 2011.`
       },
           ],
+    sources: [],
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.humanitarianism],
@@ -1040,6 +974,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hivlawcommission.org/`
       },
     ],
+    sources: [],
     startDate: '2010/06/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation ],
@@ -1066,6 +1001,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hivjustice.net/site/about/`
       },
     ],
+    sources: [],
     startDate: '2010/07/18',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.dissent, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation],
@@ -1092,6 +1028,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/en/publications-data/public-health-guidance-hiv-testing-increasing-uptake-and-effectiveness-european`
       },
     ],
+    sources: [],
     startDate: '2010/11/30',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
@@ -1126,6 +1063,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.euro.who.int/__data/assets/pdf_file/0012/144012/Greece_mission_rep_2011.pdf`
       },
     ],
+    sources: [],
     startDate: '2011/03/01',
     endDate: '2011/07/31',
     logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.evidence],
@@ -1153,6 +1091,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.eurosurveillance.org/content/10.2807/ese.16.36.19962-en`
       },
     ],
+    sources: [],
     startDate: '2011/06/01',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.securitisation],
@@ -1186,6 +1125,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.youtube.com/watch?v=NQTwpF_YmaY`
       },
     ],
+    sources: [],
     startDate: '2011/06/08',
     endDate: '2011/06/10',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.humanitarianism],
@@ -1208,6 +1148,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/sites/portal/files/media/en/publications/Publications/120112_TER_Joint-EMCDDA-and-ECDC-rapid-risk-assessment-HIV-IDU.pdf`
       },
     ],
+    sources: [],
     startDate: '2011/11/29',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
@@ -1234,6 +1175,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.okana.gr/2012-02-03-13-20-56/entupo-yliko-ekdoseis`
       },
     ],
+    sources: [],
     startDate: '2011/12/01',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence],
@@ -1265,6 +1207,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/sites/portal/files/media/en/publications/Publications/MER-IDU-outbreaks.pdf`
       },
     ],
+    sources: [],
     startDate: '2012/03/29',
     endDate: '2012/03/30',
     logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.securitisation, LOGICS.evidence],
@@ -1288,6 +1231,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.unaids.org/en/resources/documents/2012/20120402_UNAIDS-guidance-note-HIV-sex-work`
       },
     ],
+    sources: [],  
     startDate: '2012/04/02',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.deCriminalisation, LOGICS.humanRights, LOGICS.evidence],
@@ -1310,6 +1254,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://isx.gr/sites/default/files/ceb1cf80-_ceb3cf8539ceb1_cebbcebfceb9cebccf8eceb4ceb7_cf86ceb5ceba_1002_2-4-2012_6.pdf`
       },
     ],
+    sources: [],
     startDate: '2012/04/02',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth],
@@ -1331,6 +1276,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `In one book, the international security scholar Nick Vaughan-Williams argues that these policy initiatives were accompanied by and supported with a particular political discourse: “In April 2012 Andreas Loverdos, then Greek Minister of Health and Social Solidarity, described ‘irregular’ migrant populations living in Athens as a ‘hygiene bomb’ and announced the introduction of mandatory health examinations for all new arrivals” (Pro Asyl 2012a, 11). Legislative change in Greece under Amendment 4075/11.04.2012 has allowed for the detention of ‘irregular’ migrants if they are deemed by immigration authorities to pose a threat to public health security for a period of up to ninety days or a maximum of 180 pending deportation (Open Access Now! 2013). Individuals may be detained on the grounds that they are suspected of suffering from an infectious disease, belonging to groups with infectious diseases, or living in conditions that do not meet the minimum standards of hygiene (Human Rights Watch 2012). On arrest, ‘irregular’ migrants are required to undergo a series of medical tests involving both a questionnaire about their medical histories and an invasive clinical examination.” (Vaughan-Williams 2015: 94)`
       },
     ],
+    sources: [],
     startDate: '2012/04/11',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.deCriminalisation, LOGICS.securitisation],
@@ -1347,6 +1293,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `Following from the “rapid” risk assessment from November 2011: “On 20 April 2012, the European Commission requested ECDC to perform a risk assessment on the HIV situation in Greece. According to the request, this assessment should focus on all priority groups affected by HIV in order to draw a complete picture of the HIV epidemic in Greece." (ECDC 2012, 2) While it is unclear what exactly provoked this request, the Greek co-chair from the Civil Society Forum on HIV/AIDS, Nikos Dedes, likely played a role: "So in April I am complaining about the situation and this meeting already happened. So this was more or less announced back in the summer of 2011, I was co-chair of the civil society forum. I provoked a country visit from ECDC and WHO. There was..., what was it, 2012, it was in 2012 and that all of these things took place – the country visits and the report which came, the CDC came in September and then again in December. But all of this, the case was also there and that exacerbated the whole thing. T: when you say you provoked the visit to? N: I asked officially to happen, there are letters that I sent to WHO and ECDC. For this outbreak, we need technical assistance, you see, this is the same spirit.”`
       },
       ],
+    sources: [],  
     startDate: '2012/04/20',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.securitisation,  LOGICS.evidence,  LOGICS.bestPractice],
@@ -1367,6 +1314,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
       },
     ],
+    sources: [],
     startDate: '2012/04/27',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
@@ -1383,6 +1331,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `After the first testings and arrest in the brothel, forced testing and arrests took place in a particular neighborhood in Athens where sex work and drug use is common. Below are excerpts from interviews with various persons familiar with the situation, including one with one of the arrested women`
       },
       ],
+    sources: [],
     startDate: '2012/04/28',
     endDate: '2012/07/31',
     logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
@@ -1399,6 +1348,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `Soon after the forced testing and arrests, activists and representatives from across organisations began to meet in the evenings at the offices of PR.A.K.S.I.S. to respond to the unfolding events. The first meetings were attended by around 35 people, mostly by representatives of civil society organisations working in the fields of HIV, drug use, harm reduction and migration. A daily report was published by the inter-organisation committee to coordinate the response and distribute responsibilities.`
       },
          ],
+    sources: [],  
     startDate: '2012/04/30',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.mutualHelp, LOGICS.citizenship],
@@ -1415,6 +1365,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `The day after the arrests, on the April 30th 2012, representatives of various organisations, including psychologist from PR.A.K.S.I.S., lawyer from the Group of Lawyers for Migrants and Refugees and two social workers from Kethea, visited the arrested women in prison to provide them with support and gather data about the arrests. Those visits continued in subsequent days.`
       },
     ],
+    sources: [],
     startDate: '2012/04/30',
     endDate: '',
     logics: [LOGICS.dissent, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.citizenship],
@@ -1437,6 +1388,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
       },
     ],
+    sources: [],
     startDate: '2012/05/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.citizenship, LOGICS.humanitarianism],
@@ -1453,6 +1405,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `In interviews, many respondents believed that the forced testing and arrests were timed by the Greek Minister of Health, Andreas Loverdos, to consolidate support leading up to the parliamentary elections that took place in the first week of May 2012. Numerous interviewees were convinced that publicity around the 2012 events helped to secure Loverdos’ success in what one person described as an “election game”. Excerpts from exemplary interviews follow.`
       },
       ],
+    sources: [],  
     startDate: '2012/05/06',
     endDate: '',
     logics: [],
@@ -1520,6 +1473,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.change.org/petitions/to-mr-lucas-papademos-prime-minister-of-greece-stop-the-forced-testing-and-outing-of-sex-workers`
       },
     ],
+    sources: [],
     startDate: '2012/05/05',
     endDate: '2012/05/17',
     logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.dissent, LOGICS.bestPractice],
@@ -1542,6 +1496,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
       },
     ],
+    sources: [],  
     startDate: '2012/05/04',
     endDate: '',
     logics: [LOGICS.mutualHelp, LOGICS.socialJustice, LOGICS.humanitarianism],
@@ -1564,6 +1519,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hrw.org/news/2012/05/09/joint-letter-un-special-rapporteur-health`
       },
     ],
+    sources: [],
     startDate: '2012/05/09',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
@@ -1586,6 +1542,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2012/may/20120510psgreece`
       },
     ],
+    sources: [],  
     startDate: '2012/05/10',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
@@ -1606,6 +1563,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `In 2013, three cases emerging from the events presented here were brought to the European Court of Human Rights (ECtHR) by a group of lawyers, and are currently awaiting decisions. The articles alleged to have been violated in these cases include: Articles 3 (Prohibition of torture, or inhuman or degrading  treatment or punishment), 5 (Right to liberty and security), 8 (Right to respect for private and family life) and 13 (Right to an effective remedy).`
       },
       ],
+    sources: [],  
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.bestPractice],
@@ -1633,6 +1591,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`
       },
     ],
+    sources: [],
     startDate: '2012/05/28',
     endDate: '2012/09/12 ',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.dissent],
@@ -1655,6 +1614,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://www.aidsactioneurope.org/en/civil-society-forum`
       },
     ],
+    sources: [],
     startDate: '2012/06/04',
     endDate: '2012/06/05',
     logics: [LOGICS.humanRights, LOGICS.collaborativeGovernance, LOGICS.dissent, LOGICS.publicHealth],
@@ -1671,6 +1631,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `Police raids also occurred in an area frequented by trans women, many of whom sell sex. According to our interviewees, one of the women arrested in the course of those raids was diagnosed with HIV. Unlike the other women, however, she was released upon receiving her diagnosis and was not charged with intentional grievous bodily harm or attempted bodily harm and illegal sex work.`
       },
       ],
+    sources: [],
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
@@ -1688,6 +1649,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `It was repeatedly reported during interviews that women implicated in this story were exposed to harsh, unhygienic and unsupportive conditions of life in the prison. Several of the informants familiar with the events that occurred in pre-trial detention reported during interviews of at least one collective attempt at suicide. The women who were hired to clean the cells were unwilling to clean up the blood that followed from this event because they, like the majority of prison guards, were ignorant about the modes of transmission of the virus. These and other forms of stigmatisation and discrimination were a result, including the use of gloves to touch the women and the plates on which they were served. This attempt at suicide might be viewed as an act of dissent under such conditions of extremely limited autonomy and agency.`
       },
       ],
+    sources: [],
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.dissent],
@@ -1710,6 +1672,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://tomov.gr/en/2014/10/16/%ce%b4%ce%b9%cf%89%ce%ba%cf%8c%ce%bc%ce%b5%ce%bd%ce%b5%cf%82-%ce%bf%cf%81%ce%bf%ce%b8%ce%b5%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b3%cf%85%ce%bd%ce%b1%ce%af%ce%ba%ce%b5%cf%82-%ce%ba%ce%b1%ce%bc/`
       },
     ],
+    sources: [],
     startDate: '2012/07/02',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice],
@@ -1733,12 +1696,14 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://hivlawcommission.org/report/`
       },
     ],
+    sources: [],
     startDate: '2012/07/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.deCriminalisation],
     linksWith: ['UNAIDS_Comes_into_Operation', 'Law_Passed_Legalising_Sex', 'Global_Commission_on_HIV_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
+  
 {
     name: `Operation 'Xenios Zeus'`,
     url: `Operation_Xenios_Zeus`,
@@ -1770,6 +1735,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://diana-n.iue.it:8080/bitstream/handle/1814/33431/MIDAS_REPORT_2014_10.pdf?sequence=1&isAllowed=y`
       },
     ],
+    sources: [],  
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.deCriminalisation, LOGICS.humanitarianism],
@@ -1792,6 +1758,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://pag.aids2014.org/Abstracts.aspx?AID=8169`
       },
     ],
+    sources: [],
     startDate: '2012',
     endDate: '',
     logics: [LOGICS.evidence, LOGICS.publicHealth],
@@ -1815,6 +1782,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.spdb.ohchr.org/hrdb/22nd/public_-_AL_Greece_21.08.12_(2.2012).pdf`
       },
     ],
+    sources: [],  
     startDate: '2012/08/21',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.deCriminalisation],
@@ -1837,6 +1805,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.emcdda.europa.eu/html.cfm/index195202EN.html`
       },
     ],
+    sources: [],
     startDate: '2012/11/12',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.evidence, LOGICS.bestPractice],
@@ -1853,6 +1822,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `"A few months later, in November 2012, the report of the Ombudsman was submitted to the Ministry of Health, in which the weaknesses of health provision 39a were listed (this was the first time that HIV was criminalized on a massive scale, through the conduction of mandatory tests at police stations and the use of a medical procedure in order to press charges against people found to be HIV-positive), together with the problems that arose by its implementation as a policy for public health protection. In his conclusions, the Ombudsman states among others that: Investigation is required as to whether the provision was preceded by reasoned opinions or recommendations by scientific bodies, which documented the risks for public health grom communicable diseases and microbial infections and indicated the application of sanitary controls in specific population groups; It is questioned whether HIV and hepatitis B and C fall into the category of infectious diseases that are dangerous to public health, given that they are mainly spread through unprotected sex or sharing needles. From the perspective of the principle of proportionality, the necessity of compulsory measures is questioned, in connection with the exhaustion of moderate measures that were implemented until then and proved ineffective in protecting public health" (Kloka 2014, 4-5). `
       },
       ],
+    sources: [],
     startDate: '2012/11/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.publicHealth],
@@ -1870,6 +1840,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `“After the resignation of Papandreou government in November 2011, the government of L Papadimos was formed (November 2011 - May 2012) and elections were conducted in May 2012, although elected parties were unable to form a government; under the provisional government of Mr. Pikramenos, runoff elections were held in June 2012. The newly-formed government which comprised three parties (New Democracy, Pan-Hellenic Socialist Movement and Democratic Left) proceeded to changes in the political leadership of the Ministry of Health. The portfolio of public health changed hands and was assigned to Foteini Skopouli. The pressure coming from abroad was intensified, when international organizations and NGOs realized that this was the ideal moment to inform the new Deputy Minister of Health for the abovementioned health provision and its impact.” (Kloka 2014, 4). The subsequent government made the abolition of the Ministerial Decree 39a possible.`
       },
       ],
+    sources: [],
     startDate: '2012/11/01',
     endDate: '',
     logics: [],
@@ -1885,6 +1856,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `Just following the arrests of the women and publication of several of their photos, KEELPNO commissioned a poll on the public perception of the decision to subject sex workers to mandatory HIV testing and publish photos of the arrested women on the website of the police department. Results of this research were published in December of 2012, a few days before the workshop on Greek Justice, Legislation and HIV/AIDS organised by the Positive Voice. According to the report, 80 % of respondents were in favour of this decision despite the obvious rights violations. At least one interviewee suggested that this research might have been planned well in advance of the initial testings and arrests. Others suggested that it designed to justify and legitimise the actions undertaken by KEELPNO in 2012.`
       },
       ],
+    sources: [],
     startDate: '2012/11/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.publicHealth],
