@@ -2113,12 +2113,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `“After the resignation of Papandreou government in November 2011, the government of L Papadimos was formed (November 2011 - May 2012) and elections were conducted in May 2012, although elected parties were unable to form a government; under the provisional government of Mr. Pikramenos, runoff elections were held in June 2012. The newly-formed government which comprised three parties (New Democracy, Pan-Hellenic Socialist Movement and Democratic Left) proceeded to changes in the political leadership of the Ministry of Health. The portfolio of public health changed hands and was assigned to Foteini Skopouli. The pressure coming from abroad was intensified, when international organizations and NGOs realized that this was the ideal moment to inform the new Deputy Minister of Health for the abovementioned health provision and its impact.” (Kloka 2014, 4). The subsequent government made the abolition of the Ministerial Decree 39a possible.`
       },
       ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Broader Context'
-      },
-    ],
     startDate: '2012/11/01',
     endDate: '',
     logics: [],
@@ -2134,12 +2128,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `Just following the arrests of the women and publication of several of their photos, KEELPNO commissioned a poll on the public perception of the decision to subject sex workers to mandatory HIV testing and publish photos of the arrested women on the website of the police department. Results of this research were published in December of 2012, a few days before the workshop on Greek Justice, Legislation and HIV/AIDS organised by the Positive Voice. According to the report, 80 % of respondents were in favour of this decision despite the obvious rights violations. At least one interviewee suggested that this research might have been planned well in advance of the initial testings and arrests. Others suggested that it designed to justify and legitimise the actions undertaken by KEELPNO in 2012.`
       },
       ],
-      sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
     startDate: '2012/11/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.publicHealth],
@@ -2177,18 +2165,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://www.hivjustice.net/wp-content/uploads/2013/05/Advancing-HIV-Justice-June-2013.pdf`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'National & Transnational Collaboration'
-      },
-    ],
     startDate: '2012/12/11',
     endDate: '2012/12/12',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation],
     linksWith: ['GNP+_Created', 'UNAIDS_Comes_into_Operation', 'Positive_Voice_Created', 'Global_Commission_on_HIV_2012', 'HIV_Justice_Network_Created', 'UNAIDS_Guidance_Note_on_2012', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Policy_Brief_on'],
     baseStory: baseStory,
   },
+  
 {
     name: `3 Cases Submitted to ECtHR`,
     url: `3_Cases_Submitted_to`,
@@ -2202,12 +2185,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
         text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups; Affected Group'
       },
     ],
     startDate: '2012',
@@ -2252,12 +2229,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ekathimerini.com/214647/article/ekathimerini/news/hiv-positive-women-finally-acquitted-of-charges `
       },
     ],
-    sources: [
-      {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent, LOGICS.citizenship],
@@ -2278,12 +2249,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.cdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`,
         text: `www.cdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
       },
     ],
     startDate: '2013/01/01',
@@ -2309,12 +2274,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.okana.gr/2012-01-12-13-29-02/anakoinoseis/item/download/117_6b5175b605a24b8abf7f32671e7f1a21`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
     startDate: '2013/03/20',
     endDate: '2013/03/22',
     logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence],
@@ -2331,12 +2290,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: `The groups of lawyers and of feminists informed the surviving women who had been arrested about the possibility that they seek financial compensation for the time that they unjustly spent in prison. Interviewees indicated that many of the women were reluctant or uninterested in further engagement with the police and courts. The few who did decide to pursue with the claim were awarded with compensations of 10 to 20 Euro per day spent in jail. The maximum legally permissible compensation would have been 30 Euro per day, which none of them were awarded.`
       },
       ],
-      sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.socialJustice, LOGICS.citizenship],
@@ -2357,12 +2310,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
         text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
       },
     ],
     startDate: '2013',
@@ -2387,12 +2334,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hivlawandpolicy.org/resources/ending-overly-broad-criminalisation-hiv-non-disclosure-exposure-and-transmission-critical`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -2415,12 +2356,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://international.radiobubble.gr/2013/07/greek-health-minister-says-he-will-not.html`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
@@ -2441,12 +2376,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.fra.europa.eu/en/publication/2013/fundamental-rights-challenges-and-achievements-2012`,
         text: `www.fra.europa.eu/en/publication/2013/fundamental-rights-challenges-and-achievements-2012`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
       },
     ],
     startDate: '2013/06/01',
@@ -2499,12 +2428,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.gnpplus.net/the-global-network-of-people-living-with-hiv-calls-on-greece-to-repeal-its-policy-on-mandatory-testing-for-hiv/`
       },
     ],
-    sources: [
-      {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
     startDate: '2013/07/03',
     endDate: '2013/11/06',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth, LOGICS.mutualHelp],
@@ -2528,18 +2451,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2013/july/20130731greece`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
-      },
-    ],
     startDate: '2013/07/31',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth, LOGICS.collaborativeGovernance],
     linksWith: ['Greek_Economic_Crisis', 'UNAIDS_Comes_into_Operation', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
+  
 {
     name: `Demonstrations against Provision 39a`,
     url: `Demonstrations_against_Provision`,
@@ -2555,18 +2473,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hivjustice.net/news/greece-scientists-and-human-rights-campaigners-condemn-the-reinstatement-of-provision-39a-allowing-forced-hiv-testing-of-suspected-sex-workers-drug-users-and-undocumented-migrants/`
       },
       ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
     startDate: '2013',
     endDate: '2014',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.dissent, LOGICS.bestPractice, LOGICS.publicHealth],
     linksWith: ['Centre_for_Life_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', '39a2012', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
+  
 {
     name: `"Ruins" Premiere`,
     url: `Ruins_Premiere`,
@@ -2580,12 +2493,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.ruins-documentary.com/en/directors-statement/`,
         text: `www.https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Artist Response'
       },
     ],
     startDate: '2013/09/08',
@@ -2610,12 +2517,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://www.hivjustice.net/greece-repeal-of-health-decree-39a-must-be-followed-by-further-initiatives-to-protect-human-rights-and-to-reverse-the-hiv-stigma-left-on-greek-society-and-political-life/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Body'
-      },
-    ],
     startDate: '2015/04/17',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation,],
@@ -2636,12 +2537,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `https://www.nswp.org/members/red-umbrella-athens`,
         text: `https://www.nswp.org/members/red-umbrella-athens`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
       },
     ],
     startDate: '2015',
@@ -2666,12 +2561,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://supportdontpunish.org/country/gr/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
     startDate: '2016',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.publicHealth, LOGICS.socialJustice, LOGICS.dissent, LOGICS.mutualHelp],
@@ -2690,12 +2579,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     externalLinks: [
       {
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
       },
     ],
     startDate: '2016',
@@ -2724,18 +2607,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'National & Transnational Collaboration'
-      },
-    ],
     startDate: '2017/05/25',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.socialJustice, LOGICS.citizenship, LOGICS.dissent, LOGICS.collaborativeGovernance],
     linksWith: ['Law_Passed_Legalising_Sex', 'ICRSE_Created', 'SWAN_Created', 'Positive_Voice_Created', 'Centre_for_Life_Created', 'PRAKSIS_Created', 'Red_Umbrella_Athens_Created', 'Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2013', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
+  
 {
     name: `"Sanitary Bomb" Performance in Omonia`,
     url: `Sanitary_Bomb_Performance_in`,
@@ -2749,12 +2627,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `https://tomov.gr/2017/10/08/%CF%85%CE%B3%CE%B5%CE%B9%CE%BF-%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%B7-%CE%B2%CE%BF%CE%BC%CE%B2%CE%B1-%CE%B4%CF%81%CF%89%CE%BC%CE%B5%CE%BD%CE%BF-%CE%BA%CE%B1%CF%84%CE%B1%CE%B3%CE%B3%CE%B5%CE%BB%CE%B9/`,
         text: `https://tomov.gr/2017/10/08/%CF%85%CE%B3%CE%B5%CE%B9%CE%BF-%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%B7-%CE%B2%CE%BF%CE%BC%CE%B2%CE%B1-%CE%B4%CF%81%CF%89%CE%BC%CE%B5%CE%BD%CE%BF-%CE%BA%CE%B1%CF%84%CE%B1%CE%B3%CE%B3%CE%B5%CE%BB%CE%B9/`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Artist Response'
       },
     ],
     startDate: '2017/09/29',
@@ -2778,12 +2650,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `https://artplay.gr/theatro/oi-orothetikes-toy-%CE%8412-o-zak-toy-18-kai-oles-oi-gynaikes-apo-choma`,
         text: `https://artplay.gr/theatro/oi-orothetikes-toy-%CE%8412-o-zak-toy-18-kai-oles-oi-gynaikes-apo-choma`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Artist Response'
       },
     ],
     startDate: '2018/10/26',
