@@ -257,7 +257,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.mutualHelp, LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.socialJustice],
-    linksWith: ['Positive_Voice_Created', 'Transnational_NGOs_and_Activist', 'Joint_Letter_to_UN', 'CSF_on_HIV_Created', 'Situation_in_Greece_Discussed'],
+    linksWith: ['Positive_voice_Created', 'Transnational_NGOs_and_Activist', 'Joint_Letter_to_UN', 'CSF_on_HIV_Created', 'Situation_in_Greece_Discussed'],
     baseStory: baseStory,
   },
 
