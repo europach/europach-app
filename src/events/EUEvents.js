@@ -2481,7 +2481,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
   {
     name: `FRA Acknowledges Rights Violation`,
-    url: `FRA_Acknowledges_Right_Violation`,
+    url: `FRA_Acknowledges_Rights_Violation`,
     body: [
       {
         type: 'paragraph',
@@ -2593,7 +2593,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 {
     name: `Demonstrations against Provision 39a`,
-    url: `european_convention_on_human`,
+    url: `Demonstrations_against_Provision`,
     body: [
       {
         type: 'paragraph',
@@ -2763,7 +2763,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     baseStory: baseStory,
   },
 {
-    name: `“Sanitary Bomb” Performance in Omonia`,
+    name: `"Sanitary Bomb" Performance in Omonia`,
     url: `Sanitary_Bomb_Performance_in`,
     body: [
       {
