@@ -230,7 +230,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1991',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
-    linksWith: ['Demonstrations_against_Provision_39a', 'Protests_in_Front_of', 'Inter-Organisational_Coalition_with', 'Inter-Ministerial_National_Plan'],
+    linksWith: ['Demonstrations_against_Provision_39a', 'Protests_in_Front_of', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public', 'Inter-Ministerial_National_Plan_for'],
     baseStory: baseStory,
   },
 
