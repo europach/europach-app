@@ -36,7 +36,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 
   {
-    name: 'European Convention on Human Rights’',
+    name: 'European Convention on Human Rights',
     url: 'European_Convention_on_Human',
     body: [
       {
