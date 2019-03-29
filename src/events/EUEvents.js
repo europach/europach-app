@@ -721,8 +721,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 
     {
-    name: `TGEU_Created`,
-    url: `european_convention_on_human_2005`,
+    name: `TGEU Created`,
+    url: `TGEU_Created`,
     body: [
       {
         type: 'paragraph',
