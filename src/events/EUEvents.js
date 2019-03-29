@@ -137,12 +137,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.gnpplus.net/who-we-are/about-us/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-    ],
     startDate: '1986',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.dissent],
@@ -169,12 +163,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.18ano.gr/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies'
-      },
-    ],
     startDate: '1987',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
@@ -199,12 +187,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.iasociety.org/About-IAS/about`,
         text: `www.iasociety.org/About-IAS/about`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
       },
     ],
     startDate: '1988',
@@ -237,12 +219,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.kentrozois.gr/en/about-us/history-purpose/`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
     startDate: '1991',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
@@ -267,12 +243,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.eatg.org/about-us/`,
         text: `www.eatg.org/about-us/`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
       },
     ],
     startDate: '1992',
@@ -301,12 +271,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.ecdc.europa.eu/en/hellenic-centre-disease-control-and-prevention-keelpno-epiet`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Body'
-      },
-    ],
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -331,12 +295,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.nswp.org/who-we-are and www.nswp.org/history`,
         text: `www.nswp.org/who-we-are and www.nswp.org/history`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
       },
     ],
     startDate: '1992',
@@ -364,12 +322,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://dinamiprosforas.gr/archives/2850`
       },
     ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National NGOs or Activist Groups'
-      },
-    ],
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.dissent],
@@ -395,12 +347,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.emcdda.europa.eu/about`,
         text: `www.emcdda.europa.eu/about`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'International Governing Bodies'
       },
     ],
     startDate: '1993',
