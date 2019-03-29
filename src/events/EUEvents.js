@@ -54,12 +54,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     url: 'https://www.echr.coe.int/Documents/Convention_ENG.pdf'
     }
     ],
-    sources: [
-    {type: 'text',
-    content: 'International Governing Bodies1'
-
-    }
-    ],
     startDate: '1950/11/05',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.securitisation],
