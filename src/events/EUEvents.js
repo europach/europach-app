@@ -474,7 +474,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1999',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.deCriminalisation],
-    linksWith: ['Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2012', '2009_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', ' First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex', 'Conference_on_Greek_Sex'],
+    linksWith: ['Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2012', '2009_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
 
