@@ -456,6 +456,25 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
   },
 
   {
+    name: `Greek HIV Testing Guidelines`,
+    url: `Greek_HIV_Testing_Guidelines`,
+    body: [
+      {
+        type: 'paragraph',
+        content: `In 1997, a document of principles were published in Greece stating that all HIV testing must be anonymous, confidential and free. These guidelines were referenced in interviews as having been violated during the forced testing of women at the heart of this story.`
+      },
+      ],
+    externalLinks: [
+    ],
+    sources: [],
+    startDate: '1997',
+    endDate: '',
+    logics: [LOGICS.humanRights, LOGICS.publicHealth],
+    linksWith: ['European_and_Greek_Governmental', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus'],
+    baseStory: baseStory,
+  },
+  
+  {
     name: `Law Passed Legalising Sex Work in Greece`,
     url: `Law_Passed_Legalising_Sex`,
     body: [
@@ -478,28 +497,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     baseStory: baseStory,
   },
 
-{
-    name: `Greek HIV Testing Guidelines`,
-    url: `Greek_HIV_Testing_Guidelines`,
-    body: [
-      {
-        type: 'paragraph',
-        content: `European websites currently refer to this document as guidelines for HIV testing in Greece: www.keelpno.gr/Portals/0/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%B1/HIV/2014/hiv%20testing_6-2014.pdf The top reference in the bibliography refers to a text from 2002 which is likely the immediately previous testing guidelines but this will need to be confirmed. These guidelines were referenced in interviews as having been violated during the forced testing of women at the heart of this story. `
-      },
-      ],
-    externalLinks: [
-      {
-        url: `www.keelpno.gr/Portals/0/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%B1/HIV/2014/hiv%20testing_6-2014.pdf `,
-        text: `www.keelpno.gr/Portals/0/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%B1/HIV/2014/hiv%20testing_6-2014.pdf `
-      },
-    ],
-    sources: [],
-    startDate: '2002',
-    endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.publicHealth],
-    linksWith: ['European_and_Greek_Governmental', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus'],
-    baseStory: baseStory,
-  },
 
 {
     name: `AIDS Action Europe Created`,
