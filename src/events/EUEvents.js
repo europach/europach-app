@@ -765,7 +765,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2007/02/15',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence],
-    linksWith: ['2_ECDC_visits_to', 'European_Commission_Requests_Risk', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe'],
+    linksWith: ['2_ECDC_Visits_to', 'European_Commission_Requests_Risk', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
