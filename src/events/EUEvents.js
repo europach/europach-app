@@ -1126,7 +1126,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2011/06/08',
     endDate: '2011/06/10',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.humanitarianism],
-    linksWith: ['KEELPNO_Created', 'European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing', 'Ongoing_Forced_HIV_Testing', 'Greek_Ministerial_Elections', 'Operation_Xenios_Zeus'],
+    linksWith: ['KEELPNO_Created', 'European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', '2012_Greek_Legislative_Election', 'Operation_Xenios_Zeus'],
     baseStory: baseStory,
   },
 
