@@ -199,7 +199,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1988',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['Transnational_NGOs_and_Activist ', 'Reinstatement_of_Provision_39a',],
+    linksWith: ['Transnational_NGOs_and_Activist', 'Reinstatement_of_Provision_39a'],
     baseStory: baseStory,
   },
 
