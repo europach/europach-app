@@ -2792,7 +2792,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
 
   {
-    name: `Women from Earth” Performance and Discussion`,
+    name: `"Women from Earth" Performance and Discussion`,
     url: `Women_from_Earth_Performance`,
     body: [
       {
