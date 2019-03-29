@@ -497,7 +497,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2002',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth],
-    linksWith: ['Introduction_of_the_Law', 'European_and_Greek_Government', 'Ministerial_Decree_39a2012_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus'],
+    linksWith: ['European_and_Greek_Governmental', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus'],
     baseStory: baseStory,
   },
 
