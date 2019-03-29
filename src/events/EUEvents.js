@@ -1549,7 +1549,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `A medical doctor who worked at KEELPNO at the time explained in an interview that an internal letter was written by KEELPNO employees criticising the involvement of KEELPNO in the events that led to the ultimate arrests, detention and charges brought against women who tested positive for HIV.`
+        content: `(exact date unknown) A medical doctor who worked at KEELPNO at the time explained in an interview that an internal letter was written by KEELPNO employees criticising the involvement of KEELPNO in the events that led to the ultimate arrests, detention and charges brought against women who tested positive for HIV.`
       },
       {
         type: 'paragraph',
@@ -1557,7 +1557,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       ],
     sources: [],  
-    startDate: '2012',
+    startDate: '2012/05/11',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.bestPractice],
     linksWith: ['KEELPNO_Created', 'First_Forced_Testing_and','Ongoing_Forced_HIV_Testing'],
@@ -1621,11 +1621,11 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `Police raids also occurred in an area frequented by trans women, many of whom sell sex. According to our interviewees, one of the women arrested in the course of those raids was diagnosed with HIV. Unlike the other women, however, she was released upon receiving her diagnosis and was not charged with intentional grievous bodily harm or attempted bodily harm and illegal sex work.`
+        content: `(exact date unknown) Police raids also occurred in an area frequented by trans women, many of whom sell sex. According to our interviewees, one of the women arrested in the course of those raids was diagnosed with HIV. Unlike the other women, however, she was released upon receiving her diagnosis and was not charged with intentional grievous bodily harm or attempted bodily harm and illegal sex work.`
       },
       ],
     sources: [],
-    startDate: '2012',
+    startDate: '2012/06/06',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
     linksWith: ['Law_Passed_Legalising_Sex', 'Ministerial_Decree_39a_Published', 'KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
@@ -1639,11 +1639,11 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `It was repeatedly reported during interviews that women implicated in this story were exposed to harsh, unhygienic and unsupportive conditions of life in the prison. Several of the informants familiar with the events that occurred in pre-trial detention reported during interviews of at least one collective attempt at suicide. The women who were hired to clean the cells were unwilling to clean up the blood that followed from this event because they, like the majority of prison guards, were ignorant about the modes of transmission of the virus. These and other forms of stigmatisation and discrimination were a result, including the use of gloves to touch the women and the plates on which they were served. This attempt at suicide might be viewed as an act of dissent under such conditions of extremely limited autonomy and agency.`
+        content: `(exact date unknown) It was repeatedly reported during interviews that women implicated in this story were exposed to harsh, unhygienic and unsupportive conditions of life in the prison. Several of the informants familiar with the events that occurred in pre-trial detention reported during interviews of at least one collective attempt at suicide. The women who were hired to clean the cells were unwilling to clean up the blood that followed from this event because they, like the majority of prison guards, were ignorant about the modes of transmission of the virus. These and other forms of stigmatisation and discrimination were a result, including the use of gloves to touch the women and the plates on which they were served. This attempt at suicide might be viewed as an act of dissent under such conditions of extremely limited autonomy and agency.`
       },
       ],
     sources: [],
-    startDate: '2012',
+    startDate: '2012/06/15',
     endDate: '',
     logics: [LOGICS.dissent],
     linksWith: ['Ongoing_Forced_HIV_Testing', 'Ministerial_Decree_39a_Published', 'Weekly_Prison_Visits_by'],
@@ -1703,7 +1703,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `“In August 2012, three months after the national elections, Nikos Dendias, then Minister of Public Order and Citizen’s Protection, launched Operation ‘Xenios Zeus’. The operation, named after ancient Greek god Zeus – king of gods, patron of the stranger and God of hospitality – aimed at controlling irregular immigration. According to the minister, the operation’s twofold purpose was to ‘restore order and security’ in the centre of Athens and to ‘close the country’s borders’ to flows of lathrometanastes (illegal immigrants) from Asia and Africa . ‘Operation Xenios Zeus’ initiated document checks in the streets of Athens (and other areas of the country), during which people were stopped on the basis of racial profiling and ethnic difference, their documents were checked, several people were taken to police stations and those without residence permits were transferred to detention centres.” (Rozakou 2017: 197). `
+        content: `(exact date unknown) “In August 2012, three months after the national elections, Nikos Dendias, then Minister of Public Order and Citizen’s Protection, launched Operation ‘Xenios Zeus’. The operation, named after ancient Greek god Zeus – king of gods, patron of the stranger and God of hospitality – aimed at controlling irregular immigration. According to the minister, the operation’s twofold purpose was to ‘restore order and security’ in the centre of Athens and to ‘close the country’s borders’ to flows of lathrometanastes (illegal immigrants) from Asia and Africa . ‘Operation Xenios Zeus’ initiated document checks in the streets of Athens (and other areas of the country), during which people were stopped on the basis of racial profiling and ethnic difference, their documents were checked, several people were taken to police stations and those without residence permits were transferred to detention centres.” (Rozakou 2017: 197). `
       },
       {
         type: 'paragraph',
@@ -1729,7 +1729,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
     ],
     sources: [],  
-    startDate: '2012',
+    startDate: '2012/08/01',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.deCriminalisation, LOGICS.humanitarianism],
     linksWith: ['HRW_created', 'European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'UN_Letter_to_Greek', 'Lawyers_Secure_Acquittals_and'],
@@ -1742,7 +1742,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `Following the documented increase in reported HIV infections among people who use drugs, a research project, under the title ARISTOTLE, was initiated to better assess, monitor and work to improve the state of the epidemic among this population. One publication introduced the programme as follows: "The ARISTOTLE programme was initiated in August 2012, in collaboration with the National and Kapodestrian University of Athens and OKANA and it enjoys the support of NGOs (PR.A.K.S.I.S., POSITIVE VOICE). The aim of the programme is to intervene in communities of injecting drug users in the centre of Athens, in order to identify IDUs, to examine and refer them to the Infectious Diseases Units in case they are found HIV-positive after consensual examination. The programme is bound to be completed in five cycles. So far, the results of the first four cycles have been published. By way of illustration, ARISTOTLE has examined 3.007 individual users so far, with 523 (17.4%) having been found HIV-positive, and half of them having been diagnosed as positive for the first time. At this point, it should be noted that all users that are found HIV-positive are granted full priority on the waiting list for admission to substitution treatment units, if they wish to do so. Equally impressive were two additional findings of the first four cycles of the programme: more than 30% of IDUs who were diagnosed as HIV-positive were homeless, whereas more than 80% are co-infected with hepatitis C." (Kloka 2014, 3) `
+        content: `(exact date unknown) Following the documented increase in reported HIV infections among people who use drugs, a research project, under the title ARISTOTLE, was initiated to better assess, monitor and work to improve the state of the epidemic among this population. One publication introduced the programme as follows: "The ARISTOTLE programme was initiated in August 2012, in collaboration with the National and Kapodestrian University of Athens and OKANA and it enjoys the support of NGOs (PR.A.K.S.I.S., POSITIVE VOICE). The aim of the programme is to intervene in communities of injecting drug users in the centre of Athens, in order to identify IDUs, to examine and refer them to the Infectious Diseases Units in case they are found HIV-positive after consensual examination. The programme is bound to be completed in five cycles. So far, the results of the first four cycles have been published. By way of illustration, ARISTOTLE has examined 3.007 individual users so far, with 523 (17.4%) having been found HIV-positive, and half of them having been diagnosed as positive for the first time. At this point, it should be noted that all users that are found HIV-positive are granted full priority on the waiting list for admission to substitution treatment units, if they wish to do so. Equally impressive were two additional findings of the first four cycles of the programme: more than 30% of IDUs who were diagnosed as HIV-positive were homeless, whereas more than 80% are co-infected with hepatitis C." (Kloka 2014, 3) `
       },
       ],
     externalLinks: [
@@ -1752,7 +1752,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
     ],
     sources: [],
-    startDate: '2012',
+    startDate: '2012/08/01',
     endDate: '',
     logics: [LOGICS.evidence, LOGICS.publicHealth],
     linksWith: ['OKANA_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Documented_HIV_Outbreak_Among', 'Greek_Economic_Crisis'],
@@ -1900,7 +1900,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `A total of 12 women were referred to the European Court of Human Rights based on 3 different applications from 2012 and 2013. These applications relied on Articles 3 and 8 of the European Convention of Human Rights with the arguments that: (1) the women were subjected to compulsory HIV testing whilst under withdrawal from drugs and on police premises, in disregard of the recommended HIV protocol, and (2) the women were denied adequate medical care and hygienic conditions while in detention by the General Police Directorate of Athens, which all amounted to humiliating and degrading treatment. Additionally, applications were based on Article 13 of the Convention, as the lawyers argued that the claimants did not have access to a lawfully effective remedy before a national authority, and on Article 5 of the Convention due to the unlawful detention of the implicated women. `
+        content: `(exact date unknown) A total of 12 women were referred to the European Court of Human Rights based on 3 different applications from 2012 and 2013. These applications relied on Articles 3 and 8 of the European Convention of Human Rights with the arguments that: (1) the women were subjected to compulsory HIV testing whilst under withdrawal from drugs and on police premises, in disregard of the recommended HIV protocol, and (2) the women were denied adequate medical care and hygienic conditions while in detention by the General Police Directorate of Athens, which all amounted to humiliating and degrading treatment. Additionally, applications were based on Article 13 of the Convention, as the lawyers argued that the claimants did not have access to a lawfully effective remedy before a national authority, and on Article 5 of the Convention due to the unlawful detention of the implicated women. `
       },
       ],
     externalLinks: [
@@ -1909,7 +1909,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
       },
     ],
-    startDate: '2012',
+    startDate: '2012/12/15',
     endDate: '2013',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.dissent, LOGICS.socialJustice],
     linksWith: ['European_Convention_on_Human_1950', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
