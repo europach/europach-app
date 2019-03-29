@@ -577,7 +577,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2004/07/23',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.bestPractice, LOGICS.evidence, LOGICS.dissent, LOGICS.publicHealth, LOGICS.mutualHelp],
-    linksWith: ['Inter-Organisational_Coalition_with', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan_for', 'Forced_Testing_and_Arrest', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision_39a', 'Ruins_Premiere'],
+    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan_for', 'Forced_Testing_and_Arrest', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Ruins_Premiere'],
     baseStory: baseStory,
   },
 
