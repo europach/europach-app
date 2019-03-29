@@ -1754,7 +1754,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         content: ''
       },
     ],
-    startDate: '1949/01/01',
+    startDate: '2012/05/04',
     endDate: '',
     logics: [LOGICS.mutualHelp, LOGICS.socialJustice, LOGICS.humanitarianism],
     linksWith: ['First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', ' Inter-Organisational_Coalition_with'],
