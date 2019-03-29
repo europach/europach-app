@@ -890,7 +890,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2009/08/01',
     endDate: '2018/08/20',
     logics: [],
-    linksWith: ['2009_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', '2012_Greek_Legislative_Election', ' Amendment_to_Greek_Immigration'],
+    linksWith: ['2009_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', '2012_Greek_Legislative_Election', 'Amendment_to_Greek_Immigration'],
     baseStory: baseStory,
   },
 
