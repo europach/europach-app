@@ -21,13 +21,6 @@ export const EUEvents = [
 url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 }
 ],
-    sources: [
-    {
-      type: 'text',
-      content: 'International Governing Bodies1'
-
-    }
-    ],
     startDate: `1949/01/01`,
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
@@ -83,13 +76,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hrw.org/history`
       },
     ],
-    sources: [
-      {
-        type: 'text',
-        content: 'Transnational NGOs or Activist Groups'
-      },
-
-    ],
     startDate: '1978',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.socialJustice, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent],
@@ -123,12 +109,6 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       {
         url: `www.emcdda.europa.eu/html.cfm/index5174EN.html?pluginMethod=eldd.countryprofiles&country=GR`,
         text: `www.emcdda.europa.eu/html.cfm/index5174EN.html?pluginMethod=eldd.countryprofiles&country=GR`
-      },
-    ],
-    sources: [
-          {
-        type: 'text',
-        content: 'Local/National Governing Bodies1'
       },
     ],
     startDate: '1983',
