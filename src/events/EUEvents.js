@@ -909,7 +909,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2009/10/04',
     endDate: '',
     logics: [],
-    linksWith: ['Greek_Economic_Crisis', 'Change_to_Greek_Sex', 'European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a'],
+    linksWith: ['Greek_Economic_Crisis', 'Change_to_Greek_Sex', 'European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published'],
     baseStory: baseStory,
   },
 
