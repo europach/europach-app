@@ -1002,7 +1002,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010/07/18',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.dissent, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation],
-    linksWith: ['Case_Study_on_Greece',],
+    linksWith: ['Workshop_on_Greek_Justice'],
     baseStory: baseStory,
   },
 
