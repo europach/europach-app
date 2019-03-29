@@ -145,7 +145,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1986',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.dissent],
-    linksWith: ['Transnational_NGOs_or_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIV/AIDS'],
+    linksWith: ['transnational_NGOs_and_Activist_statements', 'Transnational_NGOs_and_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIV/AIDS'],
     baseStory: baseStory,
   },
 
