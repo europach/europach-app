@@ -1187,11 +1187,11 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       {
         type: 'paragraph',
-        content: `Contradicting assertions made by the Minister of Health at the UNGASS meeting and somewhat anticipating the subsequent ministerial decree and forced testing and arrests of women in Greece, the report includes the following statement: “in Greece, immigrants are implicated in the outbreak, but only compromise 15% of HIV cases notified. In all settings, there may be an overlap between IDU and sex work, but this is not well documented in any setting.” (EMCDDA 2012: 8)`
+        content: `The Organisation Against Drugs, OKANA, which works closely with the Greek government on issues related to drug use, presented the following on the planned Greek response to the recorded HIV outbreak among people who use drugs: “scale up OST (opening 34 new units); expand NSP [needle and syringe programmes - A.D., T.S.], mainly through street outreach; condom distribution; and HIV testing of all IDUs in treatment and mobilising voluntary testing. Recommended next steps as developed by small working groups: expand syringe provision and OST [Opioid Substitution Treatment - A.D., T.S.], enhance HIV surveillance; increase behavioural surveillance; active participation of IDUs in prevention and response.” (EMCDDA 2012: 4-5; 9)`
       },
       {
         type: 'paragraph',
-        content: `The Organisation Against Drugs, OKANA, which works closely with the Greek government on issues related to drug use, presented the following on the planned Greek response to the recorded HIV outbreak among people who use drugs: “scale up OST (opening 34 new units); expand NSP [needle and syringe programmes - A.D., T.S.], mainly through street outreach; condom distribution; and HIV testing of all IDUs in treatment and mobilising voluntary testing. Recommended next steps as developed by small working groups: expand syringe provision and OST [Opioid Substitution Treatment - A.D., T.S.], enhance HIV surveillance; increase behavioural surveillance; active participation of IDUs in prevention and response.” (EMCDDA 2012: 4-5; 9)`
+        content: `Contradicting assertions made by the Minister of Health at the UNGASS meeting and somewhat anticipating the subsequent ministerial decree and forced testing and arrests of women in Greece, the report includes the following statement: “in Greece, immigrants are implicated in the outbreak, but only compromise 15% of HIV cases notified. In all settings, there may be an overlap between IDU and sex work, but this is not well documented in any setting.” (EMCDDA 2012: 8)`
       },
     ],
         externalLinks: [
