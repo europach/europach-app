@@ -337,7 +337,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.dissent],
-    linksWith: ['Inter-Organisational_Coalition_with', 'Protests_in_Front_of','Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', 'Demonstration_against_Provision_39a', 'Women_from_Earth_Performance'],
+    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of','Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', 'Demonstrations_against_Provision', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
 
