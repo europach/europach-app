@@ -1063,7 +1063,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
 
 
   {
-    name: `2009_Greek_Legislative_Election`,
+    name: `2009 Greek Legislative Election`,
     url: `2009_Greek_Legislative_Election`,
     body: [
       {
