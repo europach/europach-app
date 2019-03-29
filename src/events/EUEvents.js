@@ -931,7 +931,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.deCriminalisation],
-    linksWith: ['First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Research_on_Public_Response', 'Three_More_Women_Acquitted'],
+    linksWith: ['First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Research_on_Public_Response', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
