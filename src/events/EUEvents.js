@@ -1228,7 +1228,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/04/02',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.deCriminalisation, LOGICS.humanRights, LOGICS.evidence],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on', 'transnational_NGOs_and_Activist_statements'],
     baseStory: baseStory,
   },
 
