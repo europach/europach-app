@@ -1149,7 +1149,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2011/11/29',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
-    linksWith: ['EMCDDA_Created;', 'ECDC_Created', 'WHO_Europe_Created', 'Documented_HIV_Outbreak', '2_ECDC_Visits_to'],
+    linksWith: ['EMCDDA_Created', 'ECDC_Created', 'WHO_Europe_Created', 'Documented_HIV_Outbreak_Among', '2_ECDC_Visits_to'],
     baseStory: baseStory,
   },
 
