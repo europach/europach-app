@@ -311,7 +311,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.socialJustice, LOGICS.collaborativeGovernance, LOGICS.mutualHelp, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['Transnational_NGOs_or_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist', 'UNAIDS_Guidance_Note_on_2012'],
+    linksWith: ['transnational_NGOs_and_Activist_statements', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist', 'UNAIDS_Guidance_Note_on_2012'],
     baseStory: baseStory,
   },
 {
