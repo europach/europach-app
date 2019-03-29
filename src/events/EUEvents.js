@@ -1029,7 +1029,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010/11/30',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Transnational_NGOs_and_Activist', 'UNAIDS_Press_Statement_on'],
+    linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Transnational_NGOs_and_Activist', 'UNAIDS_Press_Statement_on'],
     baseStory: baseStory,
   },
 
