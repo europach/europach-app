@@ -814,7 +814,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.collaborativeGovernance],
-    linksWith: ['Documented_HIV_Outbreak_Among', 'Inter-Ministerial_National_Plan',],
+    linksWith: ['Documented_HIV_Outbreak_Among', 'Inter-Ministerial_National_Plan_for'],
     baseStory: baseStory,
   },
 
