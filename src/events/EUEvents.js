@@ -2069,7 +2069,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `The new Greek Minister of Health and Social Solidarity, Adonis Georgiadis, reinstated provision 39a within the first days of his appointment in June 2013. He explained the reinstatement of the provision in the following way: “ First of all, we respect the rights of all people. All people, however; not only drug users and female sex workers have rights; everyone has rights. The existence of the health decree is necessary in order to determine the rules based on which everyone’s rights will be respected: the rights of both those vulnerable social groups we want to protect primarily because they are [vulnerable] and the rights of the rest of the population to feel safe and to know that public health is being protected.”`
+        content: `(exact date unkown) The new Greek Minister of Health and Social Solidarity, Adonis Georgiadis, reinstated provision 39a within the first days of his appointment in June 2013. He explained the reinstatement of the provision in the following way: “ First of all, we respect the rights of all people. All people, however; not only drug users and female sex workers have rights; everyone has rights. The existence of the health decree is necessary in order to determine the rules based on which everyone’s rights will be respected: the rights of both those vulnerable social groups we want to protect primarily because they are [vulnerable] and the rights of the rest of the population to feel safe and to know that public health is being protected.”`
       },
       ],
     externalLinks: [
@@ -2078,7 +2078,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://international.radiobubble.gr/2013/07/greek-health-minister-says-he-will-not.html`
       },
     ],
-    startDate: '2013',
+    startDate: '2013/07/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
     linksWith: ['Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', 'Transnational_NGOs_and_Activist', 'UNAIDS_Calls_for_Repeal', 'Demonstrations_against_Provision', 'Provision_39a_Annulled_Second'],
