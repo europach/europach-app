@@ -2325,8 +2325,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     ],
     externalLinks: [
       {
-        url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
-        text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
+        url: `http://www.sexworkeurope.org/news/general-news/greece-icrse-joins-first-policy-conference-sex-work-athens-sex-work-reality-and`,
+        text: `http://www.sexworkeurope.org/news/general-news/greece-icrse-joins-first-policy-conference-sex-work-athens-sex-work-reality-and`
       },
     ],
     startDate: '2017/05/25',
