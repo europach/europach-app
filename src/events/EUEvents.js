@@ -2198,7 +2198,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '2014',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.dissent, LOGICS.bestPractice, LOGICS.publicHealth],
-    linksWith: ['Centre_for_Life_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', '39a2012', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
+    linksWith: ['Centre_for_Life_Created', 'PRAKSIS_Created', 'Positive_voice_Created', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', '39a2012', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
   
