@@ -2264,7 +2264,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2015',
     endDate: '',
     logics: [LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.publicHealth,LOGICS.humanRights, LOGICS.citizenship],
-    linksWith: ['Positive_Voice_Created', 'Conference_on_Greek_Sex', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['Positive_voice_Created', 'Conference_on_Greek_Sex', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 
