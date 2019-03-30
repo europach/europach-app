@@ -2103,7 +2103,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013/06/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.deCriminalisation, LOGICS.dissent],
-    linksWith: ['FRA_Created', 'ECDC_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Ombudsman_Report_to_Ministry', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe', ''],
+    linksWith: ['FRA_Created', 'ECDC_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Ombudsman_Report_to_Ministry', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
