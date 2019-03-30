@@ -1328,7 +1328,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/04/28',
     endDate: '2012/07/31',
     logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
-    linksWith: ['Law_Passed_Legalising_Sex', 'Greek_HIV_Testing_Guidelines', 'Publication_of_Photos_of', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and', 'Forced_Testing_and_Arrest', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['Law_Passed_Legalising_Sex', 'Greek_HIV_Testing_Guidelines', 'Publication_of_Photos_of', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'First_Forced_Testing_and_Arrest_in', 'Forced_Testing_and_Arrest', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
