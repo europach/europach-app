@@ -2078,7 +2078,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `http://international.radiobubble.gr/2013/07/greek-health-minister-says-he-will-not.html`
       },
     ],
-    startDate: '2013/07/01',
+    startDate: '2013/06/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
     linksWith: ['Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', 'Transnational_NGOs_and_Activist', 'UNAIDS_Calls_for_Repeal', 'Demonstrations_against_Provision', 'Provision_39a_Annulled_Second'],
