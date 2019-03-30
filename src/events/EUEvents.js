@@ -2306,7 +2306,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2016',
     endDate: '',
     logics: [LOGICS.moralizing],
-    linksWith: ['KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'Ongoing_Forced_HIV_Testing', 'KEELPNO_Internal_Letter_of', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus', 'Research_on_Public_Response', 'Lawsuit_Filed_Against_Public'],
+    linksWith: ['KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'KEELPNO_Internal_Letter_of', 'Forced_Testing_and_Arrest', 'Operation_Xenios_Zeus', 'Research_on_Public_Response', 'Lawsuit_Filed_Against_Public'],
     baseStory: baseStory,
   },  
 
