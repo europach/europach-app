@@ -2081,7 +2081,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
-    linksWith: ['group_of_lawyers_for', '3_cases_submitted_to',],
+    linksWith: ['Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', 'Transnational_NGOs_and_Activist', 'UNAIDS_Calls_for_Repeal', 'Demonstrations_against_Provision', 'Provision_39a_Annulled_Second'],
     baseStory: baseStory,
   },
 
