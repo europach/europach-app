@@ -2214,13 +2214,13 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     externalLinks: [
       {
         url: `www.ruins-documentary.com/en/directors-statement/`,
-        text: `www.https://www.echr.coe.int/Documents/Convention_ENG.pdf`
+        text: `www.ruins-documentary.com/en/directors-statement/`
       },
     ],
     startDate: '2013/09/08',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.evidence, LOGICS.socialJustice, LOGICS.humanitarianism, LOGICS.dissent],
-    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'Greek_Economic_Crisis', '2012_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Weekly_Prison_Visits_by'],
+    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'Group_of_Lawyers_for', 'Positive_voice_Created', 'Greek_Economic_Crisis', '2012_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Weekly_Prison_Visits_by'],
     baseStory: baseStory,
   },
 
