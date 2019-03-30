@@ -2354,7 +2354,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2017/09/29',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.dissent],
-    linksWith: ['Women_from_Earth_Performance', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Weekly_Prison_Visits_by'],
+    linksWith: ['Women_from_Earth_Performance', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Weekly_Prison_Visits_by'],
     baseStory: baseStory,
   },
 
