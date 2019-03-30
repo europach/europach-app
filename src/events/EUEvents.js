@@ -1283,14 +1283,14 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `Following from the “rapid” risk assessment from November 2011: “On 20 April 2012, the European Commission requested ECDC to perform a risk assessment on the HIV situation in Greece. According to the request, this assessment should focus on all priority groups affected by HIV in order to draw a complete picture of the HIV epidemic in Greece." (ECDC 2012, 2) While it is unclear what exactly provoked this request, the Greek co-chair from the Civil Society Forum on HIV/AIDS, Nikos Dedes, likely played a role: "So in April I am complaining about the situation and this meeting already happened. So this was more or less announced back in the summer of 2011, I was co-chair of the civil society forum. I provoked a country visit from ECDC and WHO. There was..., what was it, 2012, it was in 2012 and that all of these things took place – the country visits and the report which came, the CDC came in September and then again in December. But all of this, the case was also there and that exacerbated the whole thing. T: when you say you provoked the visit to? N: I asked officially to happen, there are letters that I sent to WHO and ECDC. For this outbreak, we need technical assistance, you see, this is the same spirit.”`
+        content: `Following from the “rapid” risk assessment from November 2011: “On 20 April 2012, the European Commission requested ECDC to perform a risk assessment on the HIV situation in Greece. According to the request, this assessment should focus on all priority groups affected by HIV in order to draw a complete picture of the HIV epidemic in Greece." (ECDC 2012, 2)`
       },
       ],
     sources: [],  
     startDate: '2012/04/20',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.securitisation,  LOGICS.evidence,  LOGICS.bestPractice],
-    linksWith: ['ECDC_Created', 'AIDS_Action_Europe_Created', 'CSF_Created', 'Documented_HIV_Outbreak_Among', 'Positive_Voice_Created', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA'],
+    linksWith: ['ECDC_Created', 'AIDS_Action_Europe_Created', 'CSF_on_HIV_Created', 'Documented_HIV_Outbreak_Among', 'Positive_voice_Created', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA'],
     baseStory: baseStory,
   },
 
