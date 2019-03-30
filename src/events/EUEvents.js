@@ -2195,7 +2195,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         text: `www.hivjustice.net/news/greece-scientists-and-human-rights-campaigners-condemn-the-reinstatement-of-provision-39a-allowing-forced-hiv-testing-of-suspected-sex-workers-drug-users-and-undocumented-migrants/`
       },
       ],
-    startDate: '2013',
+    startDate: '2013/07/08',
     endDate: '2014',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.dissent, LOGICS.bestPractice, LOGICS.publicHealth],
     linksWith: ['Centre_for_Life_Created', 'PRAKSIS_Created', 'Positive_voice_Created', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision', '39a2012', 'Reinstatement_of_Provision_39a', 'Provision_39a_Annulled_Second'],
