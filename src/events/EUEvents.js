@@ -2242,7 +2242,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2015/04/17',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation,],
-    linksWith: ['Ministerial_Decree_39a_Published', 'Reinstatement_of_Provision_39a', 'Transnational_NGOs_or_Activist', 'UNAIDS_Calls_for_Repeal', 'Demonstrations_against_Provision_39a'],
+    linksWith: ['Ministerial_Decree_39a_Published', 'Reinstatement_of_Provision_39a', 'Transnational_NGOs_and_Activist', 'UNAIDS_Calls_for_Repeal', 'Demonstrations_against_Provision'],
     baseStory: baseStory,
   },
 
