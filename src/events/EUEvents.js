@@ -25,7 +25,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: `1949/01/01`,
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['Joint_ECDC_FRA_EMCDDA', 'ECDC_Created', 'EMCDDA_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on_HIV', '2_ECDC_Visits_to'],
+    linksWith: ['EMCDDA_Created', 'ECDC_Created', 'European_and_Greek_Governmental', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Rapid_Risk_Assessment_on_HIV', '2_ECDC_Visits_to', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
@@ -118,7 +118,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1983',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism],
-    linksWith: ['Coalition_Members_Visit_Arrested', 'Inter-Ministerial_National_Plan_for',  'EMCDDA_Created', 'Inter-Organisational_Coalition_with_Weekly', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['EMCDDA_Created', 'Inter-Ministerial_National_Plan_for',  'Ongoing_Forced_HIV_Testing', 'Coalition_Members_Visit_Arrested', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
 
