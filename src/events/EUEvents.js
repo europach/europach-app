@@ -1669,7 +1669,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/07/02',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice],
-    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_voice_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', ' Weekly_Prison_Visits_by', '3_Cases_Submitted_to', 'New_KEELPNO_President'],
+    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_voice_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '3_Cases_Submitted_to', 'New_KEELPNO_President'],
     baseStory: baseStory,
   },
 
