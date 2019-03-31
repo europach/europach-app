@@ -25,7 +25,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: `1949/01/01`,
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['EMCDDA_Created', 'ECDC_Created', 'European_and_Greek_Governmental', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Rapid_Risk_Assessment_on_HIV', '2_ECDC_Visits_to', 'Joint_ECDC_FRA_EMCDDA'],
+    linksWith: ['EMCDDA_Created', 'ECDC_Created', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Rapid_Risk_Assessment_on_HIV', '2_ECDC_Visits_to', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
