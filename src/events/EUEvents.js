@@ -392,7 +392,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism, LOGICS.humanRights],
-    linksWith: ['EMCDDA_Created', 'Inter-Ministerial_National_Plan_for', 'Inter-Organisational_Coalition_with_Weekly'],
+    linksWith: ['EMCDDA_Created', 'Inter-Ministerial_National_Plan_for', 'Inter-Organisational_Coalition_with_Weekly', 'ARISTOTLE_Commenced'],
     baseStory: baseStory,
   },
 
@@ -577,7 +577,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2004/07/23',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.bestPractice, LOGICS.evidence, LOGICS.dissent, LOGICS.publicHealth, LOGICS.mutualHelp],
-    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan_for', 'Forced_Testing_and_Arrest', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Ruins_Premiere'],
+    linksWith: ['Inter-Ministerial_National_Plan_for', 'Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '2_ECDC_Visits_to', 'Forced_Testing_and_Arrest', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Ruins_Premiere'],
     baseStory: baseStory,
   },
 
@@ -605,7 +605,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2005',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.securitisation],
-    linksWith: ['ECDC_Guidance_on_HIV', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', 'European_Commission_Requests_Risk', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC_FRA_EMCDDA', 'ECDC_Mission_in_Athens'],
+    linksWith: ['ECDC_Guidance_on_HIV', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC_FRA_EMCDDA', 'ECDC_Mission_in_Athens'],
     baseStory: baseStory,
   },
 
@@ -660,7 +660,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2005/09/05',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent],
-    linksWith: ['EATG_Created', 'AIDS_Action_Europe_Created', 'European_Commission_Requests_Risk', 'Situation_in_Greece_Discussed', '2_ECDC_Visits_to'],
+    linksWith: ['EATG_Created', 'AIDS_Action_Europe_Created', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', 'Situation_in_Greece_Discussed'],
     baseStory: baseStory,
   },
 
@@ -687,7 +687,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2006',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.humanRights, LOGICS.citizenship, LOGICS.evidence, LOGICS.socialJustice, LOGICS.bestPractice, LOGICS.dissent],
-    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of', 'Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Ruins_Premiere', 'Lawyers_Secure_Acquittals_and', 'Women_from_Earth_Performance'],
+    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Lawyers_Secure_Acquittals_and', 'Demonstrations_against_Provision', 'Ruins_Premiere', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
 
@@ -765,7 +765,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2007/02/15',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence],
-    linksWith: ['2_ECDC_Visits_to', 'European_Commission_Requests_Risk', 'Joint_ECDC_FRA_EMCDDA'],
+    linksWith: ['European_Commission_Requests_Risk', '2_ECDC_Visits_to', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
@@ -792,7 +792,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2008',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Press_Statement_on', 'UNAIDS_Guidance_Note_on_2012', 'Lawsuit_Filed_Against_Public', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Guidance_Note_on_2012', 'UNAIDS_Press_Statement_on', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
@@ -868,7 +868,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2009',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth, LOGICS.collaborativeGovernance, LOGICS.mutualHelp],
-    linksWith: ['EATG_Created', 'CSF_on_HIV_Created', 'Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of', 'Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Demonstrations_against_Provision', 'Transnational_NGOs_and_Activist', 'Ruins_Premiere', 'Conference_on_Greek_Sex', 'Red_Umbrella_Athens_Created'],
+    linksWith: ['EATG_Created', 'CSF_on_HIV_Created', 'Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Lawsuit_Filed_Against_Public', '3_Cases_Submitted_to', 'Transnational_NGOs_and_Activist', 'Demonstrations_against_Provision', 'Ruins_Premiere', 'Red_Umbrella_Athens_Created', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
 
@@ -890,7 +890,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2009/08/01',
     endDate: '2018/08/20',
     logics: [],
-    linksWith: ['2009_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', '2012_Greek_Legislative_Election', 'Amendment_to_Greek_Immigration'],
+    linksWith: ['2009_Greek_Legislative_Election', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', '2012_Greek_Legislative_Election'],
     baseStory: baseStory,
   },
 
@@ -948,7 +948,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.humanitarianism],
-    linksWith: ['Law_Passed_Legalising_Sex', 'Conference_on_Greek_Sex', 'Ministerial_Decree_39a_Published'],
+    linksWith: ['Law_Passed_Legalising_Sex', 'Ministerial_Decree_39a_Published', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
 
@@ -975,7 +975,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010/06/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.deCriminalisation ],
-    linksWith: ['Global_Commission_on_HIV_2012', 'UNAIDS_Press_Statement_on',],
+    linksWith: ['UNAIDS_Press_Statement_on','Global_Commission_on_HIV_2012'],
     baseStory: baseStory,
   },
   
@@ -1029,7 +1029,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2010/11/30',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Transnational_NGOs_and_Activist', 'UNAIDS_Press_Statement_on'],
+    linksWith: ['Greek_HIV_Testing_Guidelines', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Press_Statement_on', 'Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
 
@@ -1064,7 +1064,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2011/03/01',
     endDate: '2011/07/31',
     logics: [LOGICS.publicHealth, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.evidence],
-    linksWith: ['WHO_Europe_Created', 'KEELPNO_Created', 'ECDC_Created', '2012_Greek_Legislative_Election', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration'],
+    linksWith: ['WHO_Europe_Created', 'KEELPNO_Created', 'ECDC_Created', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', '2012_Greek_Legislative_Election'],
     baseStory: baseStory,
   },
 
