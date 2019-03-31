@@ -2059,7 +2059,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Press_Statement_on', '3_Cases_Brought_to', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Press_Statement_on', '3_Cases_Submitted_to', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
