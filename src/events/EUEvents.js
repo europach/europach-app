@@ -284,7 +284,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Inter-Ministerial_National_Plan_for', '1st_ECDC_and_EMCDDA', 'Research_on_Public_Response','Lawsuit_Filed_Against_Public', 'KEELPNO_Internal_Letter_of', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', '2_ECDC_Visits_to', 'Forced_Testing_and_Arrest', 'New_KEELPNO_President'],
+    linksWith: ['European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Inter-Ministerial_National_Plan_for', '1st_ECDC_and_EMCDDA', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'KEELPNO_Internal_Letter_of', '2_ECDC_Visits_to', 'Forced_Testing_and_Arrest', 'Lawsuit_Filed_Against_Public', 'Research_on_Public_Response', 'New_KEELPNO_President'],
     baseStory: baseStory,
   },
 
@@ -311,7 +311,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.socialJustice, LOGICS.collaborativeGovernance, LOGICS.mutualHelp, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['transnational_NGOs_and_Activist_statements', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist', 'UNAIDS_Guidance_Note_on_2012'],
+    linksWith: ['UNAIDS_Guidance_Note_on_2012', 'transnational_NGOs_and_Activist_statements', 'Workshop_on_Greek_Justice', 'Legislation_and_HIVAIDS', 'Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
 {
@@ -337,7 +337,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.dissent],
-    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of','Coalition_Members_Visit_Arrested', 'Lawsuit_Filed_Against_Public', 'Demonstrations_against_Provision', 'Women_from_Earth_Performance'],
+    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', 'Lawsuit_Filed_Against_Public', 'Demonstrations_against_Provision', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
 
@@ -392,7 +392,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.humanitarianism, LOGICS.humanRights],
-    linksWith: ['EMCDDA_Created', 'Inter-Organisational_Coalition_with_Weekly', 'Inter-Ministerial_National_Plan_for'],
+    linksWith: ['EMCDDA_Created', 'Inter-Ministerial_National_Plan_for', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
 
@@ -419,7 +419,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1993/09/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.bestPractice, LOGICS.dissent, LOGICS.citizenship],
-    linksWith: ['Transnational_NGOs_and_Activist', '2_ECDC_Visits_to'],
+    linksWith: ['2_ECDC_Visits_to', 'Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
 
@@ -451,7 +451,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1996/01/01',
     endDate: '',
     logics: [LOGICS.bestPractice, LOGICS.evidence, LOGICS.humanRights, LOGICS.publicHealth, LOGICS.deCriminalisation],
-    linksWith: ['UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'Joint_Guide_on_HIV', 'Global_Commission_on_HIV_2010', 'UNAIDS_Guidance_Note_on_2013', 'UNAIDS_Press_Statement_on', 'Global_Commission_on_HIV_2012', 'UNAIDS_Calls_for_Repeal', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to'],
+    linksWith: ['UNAIDS_Policy_Brief_on', 'Joint_Guide_on_HIV', 'Global_Commission_on_HIV_2010', 'UNAIDS_Guidance_Note_on_2012', 'UNAIDS_Press_Statement_on', 'Global_Commission_on_HIV_2012', '3_Cases_Submitted_to', 'UNAIDS_Guidance_Note_on_2013', 'Lawyers_Secure_Acquittals_and', 'UNAIDS_Calls_for_Repeal'],
     baseStory: baseStory,
   },
 
@@ -493,7 +493,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1999',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.deCriminalisation],
-    linksWith: ['Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2012', '2009_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex'],
+    linksWith: ['2009_Greek_Legislative_Election', 'Change_to_Greek_Sex', 'UNAIDS_Guidance_Note_on_2012', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Conference_on_Greek_Sex'],
     baseStory: baseStory,
   },
 
@@ -521,7 +521,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2004',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice, LOGICS.socialJustice],
-    linksWith: ['CSF_on_HIV_Created', 'Situation_in_Greece_Discussed', '2_ECDC_Visits_to','28_May_2012-29'],
+    linksWith: ['CSF_on_HIV_Created', '2_ECDC_Visits_to', 'Situation_in_Greece_Discussed'],
     baseStory: baseStory,
   },
 
