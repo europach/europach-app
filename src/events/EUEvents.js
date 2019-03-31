@@ -1402,7 +1402,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/05/06',
     endDate: '',
     logics: [],
-    linksWith: ['Greek_Economic_Crisis', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['Greek_Economic_Crisis', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 
@@ -1467,10 +1467,10 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
     ],
     sources: [],
-    startDate: '2012/05/05',
+    startDate: '2012/05/07',
     endDate: '2012/05/17',
     logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.dissent, LOGICS.bestPractice],
-    linksWith: ['ICRSE_Created', 'SWAN_Created', 'TAMPEP_Created', 'EATG_Created', 'NSWP_Created', 'TGEU_Created', 'GNP+_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', ''],
+    linksWith: ['ICRSE_Created', 'SWAN_Created', 'TAMPEP_Created', 'EATG_Created', 'NSWP_Created', 'TGEU_Created', 'GNP+_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
   
@@ -1480,20 +1480,16 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     body: [
       {
         type: 'paragraph',
-        content: `Following the initial imprisonments, a great many organisations and activists mobilised to provide the detained women with various forms of help, including psychological and emotional support, material support and legal aid. Several of the self-identified feminists formed a collective, which secured permission to visit the women in the prison ward on a weekly basis. In addition, the detained women were visited by a psychologist and social workers from PR.A.K.S.I.S. Below are excerpts from interviews about or with several of the women who visited the prisons on behalf of the group of feminists.`
+        content: `(exact start and end dates unknown) Following the initial imprisonments, a great many organisations and activists mobilised to provide the detained women with various forms of help, including psychological and emotional support, material support and legal aid. Several of the self-identified feminists formed a collective, which secured permission to visit the women in the prison ward on a weekly basis. In addition, the detained women were visited by a psychologist and social workers from PR.A.K.S.I.S. Below are excerpts from interviews about or with several of the women who visited the prisons on behalf of the group of feminists.`
       },
       ],
     externalLinks: [
-      {
-        url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
-        text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
     ],
     sources: [],  
-    startDate: '2012/05/04',
+    startDate: '2012/05/08',
     endDate: '',
     logics: [LOGICS.mutualHelp, LOGICS.socialJustice, LOGICS.humanitarianism],
-    linksWith: ['First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', ' Inter-Organisational_Coalition_with'],
+    linksWith: ['First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
   
@@ -1516,7 +1512,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/05/09',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
-    linksWith: ['Positive_Voice_Created', 'EATG_Created', 'HRW_Created', 'UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with'],
+    linksWith: ['Positive_voice_Created', 'EATG_Created', 'HRW_Created', 'UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
   
@@ -1539,7 +1535,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/05/10',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.socialJustice],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'CSF_on_HIV_Created', 'UNAIDS_Policy_Brief_on', 'UNAIDS_Guidance_Note_on_2012', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
 
