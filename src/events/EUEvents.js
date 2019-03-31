@@ -2015,7 +2015,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.socialJustice, LOGICS.citizenship],
-    linksWith: ['Group_of_Lawyers_for', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['Group_of_Lawyers_for', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
