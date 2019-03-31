@@ -1588,7 +1588,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/05/28',
     endDate: '2012/09/12 ',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.dissent],
-    linksWith: ['KEELPNO_Created', 'OKANA_Created', 'ECDC_Created', 'WHO_Europe_Created', 'EMCDDA_Created', 'CSF_Created', 'PRAKSIS_Created', 'FRA_Created', 'TAMPEP_Created', 'Positive_Voice_Created', 'ECDC_Guidance_on_HIV', 'Documented_HIV_Outbreak_Among', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', '2nd_ECDC_Visit_to', '2nd_ECDC_and_EMCDDA', 'FRA', 'EMCDDA_and_WHO_Europe', 'ECDC_Mission_in_Athens'],
+    linksWith: ['KEELPNO_Created', 'OKANA_Created', 'ECDC_Created', 'WHO_Europe_Created', 'EMCDDA_Created', 'CSF_on_HIV_Created', 'PRAKSIS_Created', 'FRA_Created', 'TAMPEP_Created', 'Positive_voice_Created', 'ECDC_Guidance_on_HIV', 'Documented_HIV_Outbreak_Among', 'European_and_Greek_Governmental', 'Rapid_Risk_Assessment_on', '1st_ECDC_and_EMCDDA', 'European_Commission_Requests_Risk', '2nd_ECDC_Visit_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC_FRA_EMCDDA', 'ECDC_Mission_in_Athens'],
     baseStory: baseStory,
   },
 
@@ -1611,7 +1611,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/06/04',
     endDate: '2012/06/05',
     logics: [LOGICS.humanRights, LOGICS.collaborativeGovernance, LOGICS.dissent, LOGICS.publicHealth],
-    linksWith: ['CSF_on_HIV_Created', 'WHO_Europe_Created', 'EATG_Created', 'AIDS_Action_Europe', 'ECDC_Created', 'Positive_Voice_Created', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO_Europe'],
+    linksWith: ['CSF_on_HIV_Created', 'WHO_Europe_Created', 'EATG_Created', 'AIDS_Action_Europe_Created', 'ECDC_Created', 'Positive_voice_Created', 'European_Commission_Requests_Risk', '2_ECDC_Visits_to', '2nd_ECDC_and_EMCDDA', 'Joint_ECDC_FRA_EMCDDA'],
     baseStory: baseStory,
   },
 
@@ -1628,7 +1628,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/06/06',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.publicHealth, LOGICS.securitisation],
-    linksWith: ['Law_Passed_Legalising_Sex', 'Ministerial_Decree_39a_Published', 'KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['Law_Passed_Legalising_Sex', 'Ministerial_Decree_39a_Published', 'KEELPNO_Created', 'Greek_HIV_Testing_Guidelines', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 
@@ -1669,7 +1669,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/07/02',
     endDate: '',
     logics: [LOGICS.deCriminalisation, LOGICS.dissent, LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice],
-    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', ' Weekly_Prison_Visits_Begin', '3_Cases_Brought_to_', 'New_KEELPNO_President_Formally'],
+    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_voice_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Inter-Organisational_Coalition_with_Weekly', 'Coalition_Members_Visit_Arrested', 'Protests_in_Front_of', ' Weekly_Prison_Visits_by', '3_Cases_Submitted_to', 'New_KEELPNO_President'],
     baseStory: baseStory,
   },
 
@@ -1693,7 +1693,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/07/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.deCriminalisation],
-    linksWith: ['UNAIDS_Comes_into_Operation', 'Law_Passed_Legalising_Sex', 'Global_Commission_on_HIV_2012', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['UNAIDS_Comes_into_Operation', 'Law_Passed_Legalising_Sex', 'Global_Commission_on_HIV_2012', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
   
@@ -1732,7 +1732,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/08/01',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.deCriminalisation, LOGICS.humanitarianism],
-    linksWith: ['HRW_created', 'European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'UN_Letter_to_Greek', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['HRW_Created', 'European_and_Greek_Governmental', 'UNGASS_Statement_by_Greek', 'Ministerial_Decree_39a_Published', 'Amendment_to_Greek_Immigration', 'UN_Letter_to_Greek', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
@@ -1755,7 +1755,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/08/01',
     endDate: '',
     logics: [LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['OKANA_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Documented_HIV_Outbreak_Among', 'Greek_Economic_Crisis'],
+    linksWith: ['OKANA_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Documented_HIV_Outbreak_Among', 'Greek_Economic_Crisis', 'Inter-Ministerial_National_Plan_for', '1st_ECDC_and_EMCDDA'],
     baseStory: baseStory,
   },
 
