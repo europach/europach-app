@@ -1345,7 +1345,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/04/30',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.mutualHelp, LOGICS.citizenship],
-    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing', 'Ongoing_Forced_HIV_Testing', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '3_Cases_Submitted_to', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_voice_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', '3_Cases_Submitted_to', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
@@ -1362,7 +1362,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/04/30',
     endDate: '',
     logics: [LOGICS.dissent, LOGICS.humanitarianism, LOGICS.socialJustice, LOGICS.citizenship],
-    linksWith: ['KETHEA_Created', 'PRAKSIS_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to', '5_Women_Win_Compensation' ],
+    linksWith: ['KETHEA_Created', 'PRAKSIS_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Protests_in_Front_of', 'Weekly_Prison_Visits_by', 'Lawyers_Secure_Acquittals_and', '3_Cases_Submitted_to', '5_Women_Win_Compensation' ],
     baseStory: baseStory,
   },
 
@@ -1376,16 +1376,12 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
         ],
     externalLinks: [
-      {
-        url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
-        text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
     ],
     sources: [],
     startDate: '2012/05/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.citizenship, LOGICS.humanitarianism],
-    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_Voice_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['Centre_for_Life_Created', 'ACT_UP_Hellas_Created', 'PRAKSIS_Created', 'Group_of_Lawyers_for', 'Positive_voice_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 
