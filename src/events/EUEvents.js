@@ -1551,16 +1551,12 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
         type: 'paragraph',
         content: `(exact date unknown) A medical doctor who worked at KEELPNO at the time explained in an interview that an internal letter was written by KEELPNO employees criticising the involvement of KEELPNO in the events that led to the ultimate arrests, detention and charges brought against women who tested positive for HIV.`
       },
-      {
-        type: 'paragraph',
-        content: `In 2013, three cases emerging from the events presented here were brought to the European Court of Human Rights (ECtHR) by a group of lawyers, and are currently awaiting decisions. The articles alleged to have been violated in these cases include: Articles 3 (Prohibition of torture, or inhuman or degrading  treatment or punishment), 5 (Right to liberty and security), 8 (Right to respect for private and family life) and 13 (Right to an effective remedy).`
-      },
       ],
     sources: [],  
     startDate: '2012/05/11',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.dissent, LOGICS.bestPractice],
-    linksWith: ['KEELPNO_Created', 'First_Forced_Testing_and','Ongoing_Forced_HIV_Testing'],
+    linksWith: ['KEELPNO_Created', 'First_Forced_Testing_and_Arrest_in','Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 
