@@ -2029,15 +2029,11 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       ],
     externalLinks: [
-      {
-        url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
-        text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
     ],
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.bestPractice, LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['Ministerial_Decree_39a_Published', 'Protests_in_Front_of', 'Transnational_NGOs_and_Activist', 'Global_Commission_on_HIV_2012', 'UNAIDS_Press_Statement_on', 'UN_Letter_to_Greek', 'Joint_ECDC', 'FRA', 'EMCDDA_and_WHO', 'Reinstatement_of_Provision_39a', 'Lawyers_Secure_Acquittals_and'],
+    linksWith: ['Ministerial_Decree_39a_Published', 'Protests_in_Front_of', 'Transnational_NGOs_and_Activist', 'Global_Commission_on_HIV_2012', 'UNAIDS_Press_Statement_on', 'UN_Letter_to_Greek', 'Joint_ECDC_FRA_EMCDDA', 'Reinstatement_of_Provision_39a', 'Lawyers_Secure_Acquittals_and'],
     baseStory: baseStory,
   },
 
