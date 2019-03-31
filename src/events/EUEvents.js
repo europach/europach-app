@@ -1866,7 +1866,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       {
         type: 'paragraph',
-        content: `In his speech, which was titled ‘Tale of Five Cities and Five Commandments’, the Honorable Michael Kirby, a former Justice of the High Court of Australia working extensively on issues around the criminalisation of HIV, referred directly to the 2012 case: “In Greece there is no needle exchange system in place. Some statistical information suggests the risks of the epidemic in Greece moving to mirror the epidemic in neighbouring countries of Eastern Europe and the former Soviet Union. In those countries the major vector for HIV is injecting drug use. There is no more efficient way to pass HIV than by direct injection into the bloodstream. The use and reuse of infected needles is highly risky in this respect. The IJUs reflect the sexuality of the majority population. It is therefore vital to nip in the bud the growth of this risky mode of transmission. Attempts to stamp out all drug use have not succeeded. Harm reduction is a much more effective and sensible option; Likewise, in Greece, sex workers are often disempowered. They are disrespected, at least in public discourse, largely because of religious and social stigma towards them. The well known event in April/May 2012, in which sex workers in Athens were arrested, photographed and had their personal data (including HIV positive findings) widely publicised, on the supposed ground of protecting public health, is a shocking and counterproductive course of conduct. It is likely to drive sex workers underground and to place them outside the reach of healthcare messages and protective strategies.” This speech was made available on the website of the Global Commission on HIV and the Law:`
+        content: `In his speech, which was titled ‘Tale of Five Cities and Five Commandments’, the Honorable Michael Kirby, a former Justice of the High Court of Australia working extensively on issues around the criminalisation of HIV, referred directly to the 2012 case: “In Greece there is no needle exchange system in place. Some statistical information suggests the risks of the epidemic in Greece moving to mirror the epidemic in neighbouring countries of Eastern Europe and the former Soviet Union. In those countries the major vector for HIV is injecting drug use. There is no more efficient way to pass HIV than by direct injection into the bloodstream. The use and reuse of infected needles is highly risky in this respect. The IJUs reflect the sexuality of the majority population. It is therefore vital to nip in the bud the growth of this risky mode of transmission. Attempts to stamp out all drug use have not succeeded. Harm reduction is a much more effective and sensible option; Likewise, in Greece, sex workers are often disempowered. They are disrespected, at least in public discourse, largely because of religious and social stigma towards them. The well known event in April/May 2012, in which sex workers in Athens were arrested, photographed and had their personal data (including HIV positive findings) widely publicised, on the supposed ground of protecting public health, is a shocking and counterproductive course of conduct. It is likely to drive sex workers underground and to place them outside the reach of healthcare messages and protective strategies.” This speech was made available on the website of the Global Commission on HIV and the Law, which is accessible via the link below.`
       },
       {
         type: 'paragraph',
@@ -1890,7 +1890,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/12/11',
     endDate: '2012/12/12',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.bestPractice, LOGICS.evidence, LOGICS.citizenship, LOGICS.socialJustice, LOGICS.deCriminalisation],
-    linksWith: ['GNP+_Created', 'UNAIDS_Comes_into_Operation', 'Positive_Voice_Created', 'Global_Commission_on_HIV_2012', 'HIV_Justice_Network_Created', 'UNAIDS_Guidance_Note_on_2012', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Policy_Brief_on'],
+    linksWith: ['GNP+_Created', 'UNAIDS_Comes_into_Operation', 'Positive_voice_Created', 'Global_Commission_on_HIV_2012', 'HIV_Justice_Network_Created', 'UNAIDS_Guidance_Note_on_2012', 'Documented_HIV_Outbreak_Among', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'UNAIDS_Policy_Brief_on'],
     baseStory: baseStory,
   },
   
@@ -1904,15 +1904,11 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       },
       ],
     externalLinks: [
-      {
-        url: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`,
-        text: `https://www.echr.coe.int/Documents/Convention_ENG.pdf`
-      },
     ],
     startDate: '2012/12/15',
     endDate: '2013',
     logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.citizenship, LOGICS.dissent, LOGICS.socialJustice],
-    linksWith: ['European_Convention_on_Human_1950', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
+    linksWith: ['European_Convention_on_Human', 'Group_of_Lawyers_for', 'First_Documented_Greek_Conviction_of', 'Greek_HIV_Testing_Guidelines', 'UNAIDS_Policy_Brief_on', 'Ongoing_Forced_HIV_Testing', 'Weekly_Prison_Visits_by', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public'],
     baseStory: baseStory,
   },
 
@@ -1954,7 +1950,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2013',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.humanitarianism, LOGICS.dissent, LOGICS.citizenship],
-    linksWith: ['Group_of_Lawyers_for', 'UNAIDS_Guidance_Note_on_2012', 'Inter-Organisational_Coalition_with_Weekly', 'Ongoing_Forced_HIV_Testing', 'Operation_Xenious_Zeus', 'PRAKSIS_Created', 'Law_Passed_Legalising_Sex', 'Change_to_Greek_Sex', 'First_Forced_Testing_and', 'Ministerial_Decree_39a', 'Inter-organisational_Coalition_with_weekly'],
+    linksWith: ['Group_of_Lawyers_for', 'UNAIDS_Guidance_Note_on_2012', 'Inter-Organisational_Coalition_with_Weekly', 'Ongoing_Forced_HIV_Testing', 'Operation_Xenios_Zeus', 'PRAKSIS_Created', 'Law_Passed_Legalising_Sex', 'Change_to_Greek_Sex', 'First_Forced_Testing_and_Arrest_in', 'Ministerial_Decree_39a_Published', 'Inter-Organisational_Coalition_with_Weekly'],
     baseStory: baseStory,
   },
 
@@ -1969,14 +1965,14 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
       ],
     externalLinks: [
       {
-        url: `www.cdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`,
-        text: `www.cdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`
+        url: `www.ecdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`,
+        text: `www.ecdc.europa.eu/sites/portal/files/media/en/publications/Publications/hiv-joint-technical%20mission-HIV-in-Greece.pdf`
       },
     ],
     startDate: '2013/01/01',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.dissent],
-    linksWith: ['ECDC_Created', 'FRA_Created', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', '2_ECDC_Visits_to', 'Operation_Xenios_Zeus', 'Forced_Testing_and_Arrest'],
+    linksWith: ['ECDC_Created', 'FRA_Created', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', '2_ECDC_Visits_to', 'Operation_Xenios_Zeus', 'Forced_Testing_and_Arrest'],
     baseStory: baseStory,
   },
 
