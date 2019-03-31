@@ -145,7 +145,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1986',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.publicHealth, LOGICS.evidence, LOGICS.mutualHelp, LOGICS.dissent],
-    linksWith: ['transnational_NGOs_and_Activist_statements', 'Transnational_NGOs_and_Activist', 'Workshop_on_Greek_Justice', 'Legislation_and_HIV/AIDS'],
+    linksWith: ['transnational_NGOs_and_Activist_statements', 'Workshop_on_Greek_Justice','Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
 
@@ -172,7 +172,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1987',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
-    linksWith: ['Inter-Organisational_Coalition_with_Weekly', 'Inter-Ministerial_National_Plan_for', 'Women_from_Earth_Performance'],
+    linksWith: ['Inter-Ministerial_National_Plan_for', 'Inter-Organisational_Coalition_with_Weekly', 'Women_from_Earth_Performance'],
     baseStory: baseStory,
   },
 
@@ -199,7 +199,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1988',
     endDate: '',
     logics: [LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['Transnational_NGOs_and_Activist', 'Reinstatement_of_Provision_39a'],
+    linksWith: ['Reinstatement_of_Provision_39a', 'Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
 
@@ -230,7 +230,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1991',
     endDate: '',
     logics: [LOGICS.humanitarianism, LOGICS.publicHealth],
-    linksWith: ['Demonstrations_against_Provision', 'Protests_in_Front_of', 'Inter-Organisational_Coalition_with_Weekly', 'Lawsuit_Filed_Against_Public', 'Inter-Ministerial_National_Plan_for'],
+    linksWith: ['Inter-Ministerial_National_Plan_for', 'Inter-Organisational_Coalition_with_Weekly', 'Protests_in_Front_of', 'Lawsuit_Filed_Against_Public', 'Demonstrations_against_Provision'],
     baseStory: baseStory,
   },
 
@@ -257,7 +257,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.mutualHelp, LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.bestPractice, LOGICS.publicHealth, LOGICS.socialJustice],
-    linksWith: ['Positive_voice_Created', 'Transnational_NGOs_and_Activist', 'Joint_Letter_to_UN', 'CSF_on_HIV_Created', 'Situation_in_Greece_Discussed'],
+    linksWith: ['CSF_on_HIV_Created', 'Positive_voice_Created', 'Joint_Letter_to_UN', 'Situation_in_Greece_Discussed', 'Transnational_NGOs_and_Activist'],
     baseStory: baseStory,
   },
 
@@ -284,7 +284,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '1992',
     endDate: '',
     logics: [LOGICS.securitisation, LOGICS.publicHealth, LOGICS.evidence, LOGICS.bestPractice],
-    linksWith: ['New_KEELPNO_President', 'Research_on_Public_Response','Lawsuit_Filed_Against_Public', 'KEELPNO_Internal_Letter_of', 'UNGASS_Statement_by_Greek', 'Documented_HIV_Outbreak_Among', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', '1st_ECDC_and_EMCDDA', '2_ECDC_Visits_to', 'Inter-Ministerial_National_Plan_for', 'European_and_Greek_Governmental'],
+    linksWith: ['European_and_Greek_Governmental', 'Documented_HIV_Outbreak_Among', 'UNGASS_Statement_by_Greek', 'Inter-Ministerial_National_Plan_for', '1st_ECDC_and_EMCDDA', 'Research_on_Public_Response','Lawsuit_Filed_Against_Public', 'KEELPNO_Internal_Letter_of', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', '2_ECDC_Visits_to', 'Forced_Testing_and_Arrest', 'New_KEELPNO_President'],
     baseStory: baseStory,
   },
 
