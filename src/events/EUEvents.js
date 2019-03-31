@@ -1755,7 +1755,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/08/01',
     endDate: '',
     logics: [LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['OKANA_Created', 'PRAKSIS_Created', 'Positive_Voice_Created', 'Documented_HIV_Outbreak_Among', 'Greek_Economic_Crisis', 'Inter-Ministerial_National_Plan_for', '1st_ECDC_and_EMCDDA'],
+    linksWith: ['OKANA_Created', 'PRAKSIS_Created', 'Positive_voice_Created', 'Documented_HIV_Outbreak_Among', 'Greek_Economic_Crisis', 'Inter-Ministerial_National_Plan_for', '1st_ECDC_and_EMCDDA'],
     baseStory: baseStory,
   },
 
