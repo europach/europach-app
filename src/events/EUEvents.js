@@ -1779,7 +1779,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/08/21',
     endDate: '',
     logics: [LOGICS.humanRights, LOGICS.socialJustice, LOGICS.deCriminalisation],
-    linksWith: ['Joint_Letter_to_UN', 'Amendment_to_Greek_Immigration', 'European_and_Greek_Governmental', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing'],
+    linksWith: ['Joint_Letter_to_UN', 'Amendment_to_Greek_Immigration', 'European_and_Greek_Governmental', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing'],
     baseStory: baseStory,
   },
 
@@ -1818,8 +1818,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     sources: [],
     startDate: '2012/11/01',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.publicHealth],
-    linksWith: ['Ministerial_Decree_39a_Published', 'First_Forced_Testing_and', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'FRA_Acknowledges_Rights_Violation'],
+    logics: [LOGICS.evidence, LOGICS.publicHealth],
+    linksWith: ['Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'Forced_Testing_and_Arrest', 'FRA_Acknowledges_Rights_Violation'],
     baseStory: baseStory,
   },
 
@@ -1837,7 +1837,7 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     startDate: '2012/11/01',
     endDate: '',
     logics: [],
-    linksWith: ['Greek_Legislative_Election_in', 'Greek_Legislative_Election_in', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision'],
+    linksWith: ['2009_Greek_Legislative_Election', '2012_Greek_Legislative_Election', 'Ministerial_Decree_39a_Published', 'Abolition_of_Health_Provision'],
     baseStory: baseStory,
   },
 {
@@ -1852,8 +1852,8 @@ url: 'www.euro.who.int/__data/assets/pdf_file/0004/98437/E93312.pdf'
     sources: [],
     startDate: '2012/11/01',
     endDate: '',
-    logics: [LOGICS.humanRights, LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.publicHealth],
-    linksWith: ['group_of_lawyers_for', '3_cases_submitted_to'],
+    logics: [LOGICS.evidence, LOGICS.securitisation, LOGICS.bestPractice, LOGICS.publicHealth],
+    linksWith: ['KEELPNO_Created', 'Ministerial_Decree_39a_Published', 'First_Forced_Testing_and_Arrest_in', 'Ongoing_Forced_HIV_Testing', 'KEELPNO_Internal_Letter_of', 'Lawsuit_Filed_Against_Public'],
     baseStory: baseStory,
   },
 {
