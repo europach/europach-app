@@ -7,10 +7,6 @@ const flatten = multiDimensionalArray => {
   return [].concat(...multiDimensionalArray);
 }
 
-const storiesForFilter = (storyUrl) => {
-  return STORIES.filter(story => story !== storyUrl);
-};
-
 const filteredLogicsForStory = (storyUrl, filters) => {
   let logicFilter;
 
@@ -27,9 +23,9 @@ const baseStoryEvents = (storyUrl) => {
   return storyMappings[storyUrl].base(Events)
 }
 
-// this will return selected logics for other stories
-const filteredLogicsForOtherStories = (storyUrl, filters) => {
-  const storiesWithFilter = storiesForFilter(storyUrl).map(story => {
+// this will return selected logics for all stories
+const filteredLogicsWithOtherStories = (filters) => {
+  const storiesWithFilter = STORIES.map(story => {
     return filteredLogicsForStory(story, filters);
   });
 
@@ -44,14 +40,12 @@ export const storyFilter = (storyUrl, filters, showOtherStories) => {
   if (zeroFilters) { return baseEvents }; // nothing selected
 
   if (showOtherStories) {
-    relatedLogics = filteredLogicsForOtherStories(storyUrl, filters); //  show other story logics
-    return sortByDate(
-      uniqBy([...relatedLogics, ...baseEvents], 'url')
-    );
+    relatedLogics = filteredLogicsWithOtherStories(filters); // show all stories logics
   } else {
-    relatedLogics = filteredLogicsForStory(storyUrl, filters);
-    return sortByDate(
-      uniqBy([...relatedLogics], 'url')
-    );
+    relatedLogics = filteredLogicsForStory(storyUrl, filters); // show logics per story
   }
+
+  return sortByDate(
+    uniqBy([...relatedLogics], 'url')
+  );
 }
