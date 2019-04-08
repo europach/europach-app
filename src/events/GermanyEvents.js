@@ -1195,7 +1195,7 @@ export const GermanyEvents = [
 
   {
     name: `Berlin: End of one syringe programme`,
-    url: 'berlin_end_of_onee',
+    url: 'berlin_end_of_one',
     body: [
       {
         type: 'paragraph',
