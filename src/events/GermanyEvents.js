@@ -1222,34 +1222,4 @@ export const GermanyEvents = [
     linksWith: ['1994_survey_among_prison', '1990_1st_münchner_aids', '6_jun_1996_berlin'],
     baseStory: baseStory,
   },
-  {
-    name: `Berlin: End of one syringe programme`,
-    url: 'berlin_end_of_onee',
-    sdbvkjsdbvkjsbdfvkjbsdkj
-    body: [
-      {
-        type: 'paragraph',
-        content: `The Senate of Justice decides to end the syringe exchange in the men's prison on February 28.`
-      },
-      {
-        type: 'paragraph',
-        content: `Before deciding on the closure of the exchange programme, the ministry consults different experts, and evaluates the scientific and subjective reports.`
-      },
-      {
-        type: 'paragraph',
-        content: `Berliner AIDS-Hilfe, who carried out the exchange manually, urgently demands to continue and institutionalise the project, and even expand it to another prison. They point to the high risk of HIV and HVC transmission through the increasing number of prisoners from Eastern Europe – a region with an "alarming" growth of HIV infections among drug users. At the same time, they criticise the prison authorities' lack of openness to the project. Besides the AIDS service organisation, the Justizvollzugsbeirat, Deutsche AIDS-Hilfe, as well as the Green Party advocate for prolonging the project. The scientific report also evaluates the project as effectively displaying the decrease of risk behaviour, and a very low rate of new infections. Furthermore, the two prison administrations report about their experiences. The report from the women's prison is short and positive. The report from the men's prison points to several difficulties related to the specific implementation: Since this prison had formerly been nearly drug free, the staff was not prepared to deal with the new prisoners who inject drugs, neither was the architecture of the building prepared to prevent drug trafficking. The report opts against the prolonging of the project.`
-      },
-      {
-        type: 'paragraph',
-        content: `The programme in the women's prison is carried on, and still exists today as the only syringe exchange programme in Germany.`
-      },
-    ],
-    externalLinks: [],
-    sources: [],
-    startDate: '2004/02/28',
-    endDate: '',
-    logics: [LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.publicHealth, LOGICS.securitisation],
-    linksWith: ['1994_survey_among_prison', '1990_1st_münchner_aids', '6_jun_1996_berlin'],
-    baseStory: baseStory,
-  },
 ]
