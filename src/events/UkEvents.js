@@ -416,7 +416,13 @@ export const UkEvents = [
       },
 
     ],
-    externalLinks: [],
+    externalLinks: [
+      {
+        url: `http://www.unaids.org/en/resources/documents/2008/20081110_jc1601_policy_brief_criminalization_long_en.pdf`,
+        text: `Read the UNAIDS Policy Brief`
+      },
+
+    ],
     sources: [],
     startDate: '2008',
     endDate: '',
