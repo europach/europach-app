@@ -690,11 +690,11 @@ export const UkEvents = [
     externalLinks: [
       {
         url: `https://www.tht.org.uk/news/terrence-higgins-trust-statement-spit-hoods`,
-        text: `THT: https://www.tht.org.uk/news/terrence-higgins-trust-statement-spit-hoods`
+        text: `Terrence Higgins Trust statement on spit hoods`
       },
         {
         url: `https://www.nat.org.uk/press-release/hepatitis-c-trust-and-nat-respond-police-spit-hoods-debate`,
-        text: `National AIDS Trust and Hepatitis C Trust https://www.nat.org.uk/press-release/hepatitis-c-trust-and-nat-respond-police-spit-hoods-debate`
+        text: `National AIDS Trust and Hepatitis C Trust statement on spit hoods`
       },
     ],
     sources: [],
