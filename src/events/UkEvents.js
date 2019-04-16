@@ -370,7 +370,7 @@ export const UkEvents = [
     body: [
       {
         type: 'paragraph',
-        content: 'The Use of Phylogenetic Analysis as Evidence in Criminal Investigation of HIV Transmission, a briefing paper published by National AIDS Trust and NAM presents advice on the use of phylogenetic testing in criminal cases and argues that transmission cannot be proven on the basis of scientific evidence alone.'
+        content: 'The Use of Phylogenetic Analysis as Evidence in Criminal Investigation of HIV Transmission, a briefing paper published by National AIDS Trust and NAM, presents advice on the use of phylogenetic testing in criminal cases and argues that transmission cannot be proven on the basis of scientific evidence alone.'
       },
     ],
     externalLinks: [
