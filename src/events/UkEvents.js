@@ -44,7 +44,7 @@ export const UkEvents = [
     body: [
       {
         type: 'paragraph',
-        content: 'After considering whether AIDS should become classified as a notifiable disease, it is decided that - in consultation with the government Expert Advisory Group on AIDS and after seeking the opinions of medical specialists - that this is not necessary. Instead, regulations from the Public Health (Control of Disease) Act 1984 are extended to include AIDS. The Public Health (Infectious Disease) Regulations 1985 thus introduce powers to detain a patient who is thought to be a risk to others and in a ‘dangerously infectious state’. This legislation is only used once, in September 1985 in Manchester.'
+        content: 'After considering whether AIDS should become classified as a notifiable disease, it is decided - in consultation with the government Expert Advisory Group on AIDS and after seeking the opinions of medical specialists - that this is not necessary. Instead, regulations from the Public Health (Control of Disease) Act 1984 are extended to include AIDS. The Public Health (Infectious Disease) Regulations 1985 thus introduce powers to detain a patient who is thought to be a risk to others and in a ‘dangerously infectious state’. This legislation is only used once, in September 1985 in Manchester.'
       },
     ],
     externalLinks: [],
