@@ -188,13 +188,10 @@ export const UkEvents = [
     ],
     externalLinks: [
       {
-        url: `https://webarchive.nationalarchives.gov.uk/20100303144945/`,
-        text: `https://webarchive.nationalarchives.gov.uk/20100303144945/`
+        url: `https://webarchive.nationalarchives.gov.uk/20100303144945/http://www.homeoffice.gov.uk/documents/cons-1998-violence-reforming-law/index.html`,
+        text: `Read 'Violence: Reforming the Offences Against the Person Act 1861'`
       },
-      {
-        url: `http://www.homeoffice.gov.uk/documents/cons-1998-violence-reforming-law/index.html`,
-        text: `http://www.homeoffice.gov.uk/documents/cons-1998-violence-reforming-law/index.html`
-      },
+
     ],
     sources: [],
     startDate: '1998',
