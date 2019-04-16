@@ -580,19 +580,13 @@ export const UkEvents = [
         type: 'paragraph',
         content: 'It acknowledges that in, ‘most situations, the appropriate use of antiretroviral treatment is at least as effective as condoms in preventing sexual transmission of HIV’ (pg. 10) and, although this has not yet been tested in court, if a defendant is able to demonstrate that they have been taking antiretroviral medications this is likely to be an appropriate defence against a charge of reckless transmission.'
       },
-      {
-        type: 'paragraph',
-        content: 'It acknowledges that in, ‘most situations, the appropriate use of antiretroviral treatment is at least as effective as condoms in preventing sexual transmission of HIV’ (pg. 10) and, although this has not yet been tested in court, if a defendant is able to demonstrate that they have been taking antiretroviral medications this is likely to be an appropriate defence against a charge of reckless transmission.'
-      },
-      {
-        type: 'paragraph',
-        content: '*And later, it would become clear that those with an undetectable viral load are unable to transmit the virus (Undetectable equals Untransmittable, or ‘U=U’).'
-      },
+  
+    
     ],
     externalLinks: [
       {
         url: `https://journals.sagepub.com/doi/full/10.1177/0956462413498338`,
-        text: `https://journals.sagepub.com/doi/full/10.1177/0956462413498338`
+        text: `Read the BHIVA Position Paper`
       },
     ],
     sources: [],
