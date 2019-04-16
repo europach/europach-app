@@ -655,7 +655,7 @@ export const UkEvents = [
     externalLinks: [
       {
         url: `https://www.nat.org.uk/sites/default/files/publications/new_regulations_on_charging_migrants_2017.pdf`,
-        text: `https://www.nat.org.uk/sites/default/files/publications/new_regulations_on_charging_migrants_2017.pdf`
+        text: `Read the NAT briefing`
       },
     ],
     sources: [],
