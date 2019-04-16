@@ -500,7 +500,12 @@ export const UkEvents = [
         content: 'Investigation Guidance relating to the Criminal Transmission of HIV is published by the Association of the Chief Police Officers (ACPO) and National AIDS Trust (NAT) in order to advise police officers when conducting investigations. It states that it was produced in order to put an end to inappropriate investigations and ensure that future investigations are in-line with Crown Prosecution Service (CPS) policy, respectful of human rights and confidentiality, and appropriate.'
       },
     ],
-    externalLinks: [],
+    externalLinks: [
+      {
+        url: `https://www.nat.org.uk/sites/default/files/publications/ACPO_Guidance.pdf`,
+        text: `Read the ACPO Guidance`
+      },
+    ],
     sources: [],
     startDate: '2010',
     endDate: '',
