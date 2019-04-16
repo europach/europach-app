@@ -271,7 +271,7 @@ export const UkEvents = [
     externalLinks: [
       {
         url: `http://europach.phils.uj.edu.pl/assets/Witness-Seminars/criminalisation-WS-Published.pdf`,
-        text: `Read 'The Criminalisation of HIV Transmission in the UK Witness Seminar'`
+        text: `Read 'The Criminalisation of HIV Transmission in the UK' Witness Seminar`
       },
 
     ],
@@ -307,7 +307,7 @@ export const UkEvents = [
     body: [
       {
         type: 'paragraph',
-        content: 'National AIDS Trust (NAT) calls for clarification on a number of issues regarding the criminal prosecution of HIV transmission and outlines its concerns. These include the potential for sexual health interventions to be undermined including testing, an increase in stigma and a shift from shared to individual responsibility with regards to HIV transmission. Further, the policy briefing draws on the Governments’ own argumentation in its 1998 White Paper:'
+        content: 'National AIDS Trust (NAT) calls for clarification on a number of issues regarding the criminal prosecution of HIV transmission and outlines its concerns. These concerns include the potential for sexual health interventions such as HIV testing to be undermined, an increase in stigma and a shift from shared to individual responsibility with regards to HIV transmission. Further, the policy briefing draws on the Governments own argumentation in its 1998 White Paper:'
       },
       {
         type: 'paragraph',
