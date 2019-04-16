@@ -380,12 +380,7 @@ export const UkEvents = [
       },
 
     ],
-    sources: [
-      {
-        type: 'http://www.aidsmap.com/files/file1001199.pdf',
-        content: 'http://www.aidsmap.com/files/file1001199.pdf'
-      },
-    ],
+    sources: [],
     startDate: '2007',
     endDate: '',
     logics: [LOGICS.evidence],
