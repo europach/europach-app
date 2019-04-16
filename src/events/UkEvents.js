@@ -365,7 +365,7 @@ export const UkEvents = [
   },
 
   {
-    name: 'ENAT and NAM Briefing Paper on Phylogenetic Testing',
+    name: 'NAT and NAM Briefing Paper on Phylogenetic Testing',
     url: 'nat_and_nam_briefing',
     body: [
       {
@@ -373,7 +373,13 @@ export const UkEvents = [
         content: 'The Use of Phylogenetic Analysis as Evidence in Criminal Investigation of HIV Transmission, a briefing paper published by National AIDS Trust and NAM presents advice on the use of phylogenetic testing in criminal cases and argues that transmission cannot be proven on the basis of scientific evidence alone.'
       },
     ],
-    externalLinks: [],
+    externalLinks: [
+      {
+        url: `http://www.aidsmap.com/files/file1001199.pdf`,
+        text: `Read 'The use of phylogenetic analysis as evidence in criminal investigation of HIV transmission'`
+      },
+
+    ],
     sources: [
       {
         type: 'http://www.aidsmap.com/files/file1001199.pdf',
