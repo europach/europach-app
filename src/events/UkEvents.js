@@ -268,7 +268,13 @@ export const UkEvents = [
         content: 'Extends the protections under the 1995 Act, such that, for the purposes of the Act, all people living with HIV, cancer or multiple sclerosis are considered to be disabled from the moment they are diagnosed. In The Criminalisation of the Transmission of HIV [witness seminar] held by the UK EUROPACH researchers, links were made with the requirement that employers make accommodations in the workplace and its effects on wellbeing, access to treatment and risk-taking behaviour. As such, as well as speaking to the broader legal context for people living with HIV, it was felt by some in the Witness Seminar that any barriers to testing and accessing treatment could come to be implicated in the potentiality of criminal liability.'
       },
     ],
-    externalLinks: [],
+    externalLinks: [
+      {
+        url: `http://europach.phils.uj.edu.pl/assets/Witness-Seminars/criminalisation-WS-Published.pdf`,
+        text: `Read 'The Criminalisation of HIV Transmission in the UK Witness Seminar'`
+      },
+
+    ],
     sources: [],
     startDate: '2005',
     endDate: '',
