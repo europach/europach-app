@@ -718,7 +718,12 @@ export const UkEvents = [
         content: 'At the Committee Stage, the author of the Bill, Chris Bryant – in response to concerns raised by HIV civil society organisations – acknowledges that the Bill could contribute to the stigmatisation of people living with HIV. He suggests that although he would like to keep these clauses in the Bill, he is open to finding ways to navigate the issue, by introducing provisions for the actual risk of particular communicable diseases to be made clear. Following the Committee sitting, Bryant tables amendments to the Bill which would remove the clauses regarding bodily samples due to the practical difficulties these clauses would raise.'
       },
     ],
-    externalLinks: [],
+    externalLinks: [
+      {
+        url: `https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-8113#fullreport`,
+        text: `Read the Assaults on Emergency Workers (Offences) Bill 2017-19 Briefing`
+      },
+    ],
     sources: [],
     startDate: '2017',
     endDate: '',
