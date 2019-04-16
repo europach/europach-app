@@ -474,13 +474,13 @@ export const UkEvents = [
     body: [
       {
         type: 'paragraph',
-        content: 'A document produced by NAT and THT which explains the law and how it operates in cases of HIV transmission in straightforward language aimed at people living with HIV. It includes advice on what to do if you are accused of transmitting HIV, and what to do if you want to make a complaint about someone transmitting HIV to you. (url: https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf)' //fix
+        content: 'A document produced by NAT and THT which explains the law and how it operates in cases of HIV transmission in straightforward language aimed at people living with HIV. It includes advice on what to do if you are accused of transmitting HIV, and what to do if you want to make a complaint about someone transmitting HIV to you.' //fix
       },
     ],
     externalLinks: [
       {
-        url: `https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf)`,
-        text: `https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf)`
+        url: `https://www.nat.org.uk/sites/default/files/online-guides/May_2010_Prosecutions_for_HIV_Transmission.pdf`,
+        text: `Read 'Prosecutions for HIV Transmission'`
       },
     ],
     sources: [],
