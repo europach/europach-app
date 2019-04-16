@@ -557,7 +557,7 @@ export const UkEvents = [
     externalLinks: [
       {
         url: `https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/212952/DH-Guidance-HIV-and-NHS-Charging-fORMATED.pdf`,
-        text: `https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/212952/DH-Guidance-HIV-and-NHS-Charging-fORMATED.pdf`
+        text: `Read the HIV treatment for overseas visitors guidance`
       },
     ],
     sources: [],
