@@ -453,7 +453,13 @@ export const UkEvents = [
       },
 
     ],
-    externalLinks: [],
+        externalLinks: [
+      {
+        url: `https://www.tht.org.uk/sites/default/files/2018-02/Policing%20Transmissions.pdf`,
+        text: `Read 'Policing Transmission'`
+      },
+
+    ],
     sources: [],
     startDate: '2009',
     endDate: '',
