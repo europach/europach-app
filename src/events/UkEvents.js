@@ -225,7 +225,7 @@ export const UkEvents = [
     body: [
       {
         type: 'paragraph',
-        content: 'Convicted of two counts of reckless transmission in 2003, which is the first conviction in an English court. An appeal is launched and won in 2004, then subsequently retrialled three times before being convicted on one count of recklessly inflicting grievous bodily harm in 2005.'
+        content: 'Dica is convicted of two counts of reckless transmission in 2003, which is the first conviction in an English court. An appeal is launched and won in 2004, then subsequently retrialled three times before being convicted on one count of recklessly inflicting grievous bodily harm in 2005.'
       },
       {
         type: 'paragraph',
