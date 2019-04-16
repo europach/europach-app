@@ -526,11 +526,11 @@ export const UkEvents = [
     externalLinks: [
       {
         url: `https://vimeo.com/37232529`,
-        text: `HIV Justice Network video on the Oslo Declaration: https://vimeo.com/37232529`
+        text: `HIV Justice Network video on the Oslo Declaration`
       },
       {
         url: `http://www.hivjustice.net/oslo/oslo-declaration/`,
-        text: `Oslo Declaration: http://www.hivjustice.net/oslo/oslo-declaration/`
+        text: `Read the Oslo Declaration`
       },
     ],
     sources: [],
