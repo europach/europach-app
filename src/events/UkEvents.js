@@ -346,7 +346,7 @@ export const UkEvents = [
   },
 
   {
-    name: 'Expert Witness Testimony on Phylogentic Testing /Acquittal on the grounds of phylo',
+    name: 'Expert Witness Testimony on Phylogentic Testing',
     url: 'expert_witness_testimony_on',
     body: [
       {
