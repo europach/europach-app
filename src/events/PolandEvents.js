@@ -122,7 +122,7 @@ export const PolandEvents = [
     body: [
       {
         type: 'paragraph',
-        content: 'In response to the HIV epidemic MONAR decided to open the shelter and treatment centers for people living with HIV in 1988. Additionally, MONAR organized charity events, concerts and protests expressing their solidarity with this group. Over the next few years MONAR activists, however, expressed a skeptical attitude toward harm reduction services. '
+        content: 'In response to the HIV epidemic MONAR decided to open shelters and treatment centers for people living with HIV in 1988. Additionally, MONAR organized charity events, concerts and protests expressing their solidarity with this group. Over the next few years MONAR activists, however, expressed a skeptical attitude toward harm reduction services. '
       },
     ],
     externalLinks: [],
