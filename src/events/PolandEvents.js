@@ -35,7 +35,7 @@ export const PolandEvents = [
     body: [
       {
         type: 'paragraph',
-        content: '‘Polish heroin’ also known as ‘kompot’ dominated the drug scene in the 1980s. It was a home-brewed drug, produced from poppy straw or juice of poppy head and used in injections. Kompot became highly popular in Central and Eastern Europe because of the fact that poppies were rather easily available and relatively inexpensive. As Kasia Malinowska-Sempruch (2013) states, in the end of the 1970s 90% of patients, hospitalized for drug dependency, were using kompot. At that time “drug abusers” were treated primarily in psychiatric facilities, what helped to shape a perception of drug issue as a medical problem. This way of framing drug use was later radically changed (in the 1990s) due to introduction of criminal law to drug regulations.'
+        content: '‘Polish heroin’ also known as ‘kompot’ dominated the drug scene in the 1980s. It was a home-brewed drug, produced from poppy straw or juice of poppy head and used in injections. Kompot became highly popular in Central and Eastern Europe because of the fact that poppies were rather easily available and relatively inexpensive. As Kasia Malinowska-Sempruch (2013) states, in the end of the 1970s 90% of patients in Poland, hospitalized for drug dependency, were using kompot. At that time “drug abusers” were treated primarily in psychiatric facilities, what helped to shape a perception of drug issue as a medical problem. This way of framing drug use was later radically changed (in the 1990s) due to introduction of criminal law to drug regulations.'
       },
     ],
     externalLinks: [],
