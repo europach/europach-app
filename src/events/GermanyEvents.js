@@ -512,7 +512,7 @@ export const GermanyEvents = [
     sources: [
       {
         type: 'text',
-        content: 'Interview with Dirk Schäffer (DAH, JES)'
+        content: 'Interviews conducted within the framework of EUROPACH project'
       },
     ],
     startDate: '1989',
