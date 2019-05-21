@@ -8,7 +8,7 @@ export const GermanyEvents = [
     body: [
       {
         type: 'paragraph',
-        content: `The United Nations release the Standard Minimum Rules for the Treatment of Prisoners as the first international policy formulating basic principles for the treatment of prisoners and the management of prisons. The rules also address health care in prison settings.`
+        content: `The United Nations release the Standard Minimum Rules for the Treatment of Prisoners as the first international human rights policy formulating basic principles for the treatment of prisoners and the management of prisons. The rules also address health care in prison settings.`
       },
       {
         type: 'paragraph',
