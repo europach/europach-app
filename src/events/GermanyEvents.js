@@ -63,7 +63,7 @@ export const GermanyEvents = [
     sources: [
           {
         type: 'text',
-        content: 'Bundesarbeitsgemeinschaft Straffälligenhilfe 2013. "Gesundheitsfürsorge in Haft sollte mindestens so gut wie in Freiheit sein". Interview mit Stefan Enggist. In: Informationsdienst Straffälligenhilfe 21(1), 18-19. URL: http://www.bag-s.de/fileadmin/user_upload/PDF/Infodienst/1_2013_BAG-S_Infodienst_Webseite_Archiv.pdf'
+        content: 'Bundesarbeitsgemeinschaft Straffälligenhilfe 2013. "Gesundheitsfürsorge in Haft sollte mindestens so gut wie in Freiheit sein". Interview mit Stefan Enggist. Informationsdienst Straffälligenhilfe 21(1):18-19. URL: http://www.bag-s.de/fileadmin/user_upload/PDF/Infodienst/1_2013_BAG-S_Infodienst_Webseite_Archiv.pdf'
       },
     ],
     startDate: '1973',
