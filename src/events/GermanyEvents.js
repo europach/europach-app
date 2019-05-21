@@ -506,7 +506,7 @@ export const GermanyEvents = [
     ],
     externalLinks: [
       {
-      url:   `http://www.jes-bundesverband.de/`
+      url: `http://www.jes-bundesverband.de/`
       },
     ],
     sources: [
