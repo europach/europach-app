@@ -170,7 +170,11 @@ export const GermanyEvents = [
       },
       {
         type: 'text',
-        content: 'Paas, Susanne 1987. AIDS-Bekämpfung mit Spritzen-Automaten. Die Tageszeitung, 29.8.1987. Berlin. Interview with Dirk Schäffer'
+        content: 'Paas, Susanne 1987. AIDS-Bekämpfung mit Spritzen-Automaten. Die Tageszeitung, 29.8.1987. Berlin.'
+      },
+       {
+        type: 'text',
+        content: 'Interviews conducted within the framework of EUROPACH project.'
       },
     ],
     startDate: '1984',
