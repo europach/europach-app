@@ -405,7 +405,7 @@ export const GermanyEvents = [
     sources: [
       {
         type: 'text',
-        content: 'Interview with Heino Stöver'
+        content: 'Interviews conducted within the framework of EUROPACH project'
       },
     ],
     startDate: '1988',
