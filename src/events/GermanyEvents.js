@@ -573,7 +573,7 @@ export const GermanyEvents = [
       },
       {
         type: 'text',
-        content: 'Interviews with prison social workers from local AIDS service organisations'
+        content: 'Interviews conducted within the framework of EUROPACH project'
       },
     ],
     startDate: '1990',
