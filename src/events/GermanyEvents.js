@@ -879,7 +879,16 @@ export const GermanyEvents = [
       },
     ],
     externalLinks: [],
-    sources: [],
+    sources: [
+     {
+        type: 'text',
+        content: 'Gaserow, Vera 1994. Starre Grundsätze. Musterprozeß eines Strafgefangenen um die Ausgabe von Spritzen in Gefängnissen. Die Zeit, 21.10.1994.'
+      },
+      {
+        type: 'text',
+        content: 'Desselberger, Alex 1994. Mit höchstem Risiko. Focus Magazin, 26.9.1994.'
+      },
+    ],
     startDate: '1994',
     endDate: '',
     logics: [LOGICS.citizenship, LOGICS.evidence],
