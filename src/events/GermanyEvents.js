@@ -814,11 +814,7 @@ export const GermanyEvents = [
       },
       {
         type: 'text',
-        content: 'Interview with Ingo Michels'
-      },
-      {
-        type: 'text',
-        content: 'Interview with Heino Stöver'
+        content: 'Interviews conducted within the EUROPACH framework'
       },
     ],
     startDate: '1993',
