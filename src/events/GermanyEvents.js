@@ -1250,7 +1250,12 @@ export const GermanyEvents = [
       },
     ],
     externalLinks: [],
-    sources: [],
+    sources: [
+      {
+        type: 'text',
+        content: 'Interviews conducted and policy documents gatheres within the framework of EUROPACH project.'
+      },
+    ],
     startDate: '2004/02/28',
     endDate: '',
     logics: [LOGICS.collaborativeGovernance, LOGICS.evidence, LOGICS.publicHealth, LOGICS.securitisation],
