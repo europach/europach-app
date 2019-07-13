@@ -452,16 +452,7 @@ export const GermanyEvents = [
       },
     ],
     externalLinks: [],
-    sources: [
-     {
-        type: 'text',
-        content: 'Deutscher Bundestag 1988. Entwurf eines Gesetzes zur Strukturreform im Gesundheitswesen, 3.5.1988. Drucksache 11/2237.'
-      },
-     {
-        type: 'text',
-        content: 'Bundesgesetzblatt 1988. Gesetz zur Strukturreform im Gesundheitswesen, Nr. 62, 29.12.1988. URL https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl188s2477.pdf#__bgbl__%2F%2F*%5B%40attr_id%3D%27bgbl188s2477.pdf%27%5D__1558443233764'
-      },
-    ],
+    sources: [],
     startDate: '1989',
     endDate: '',
     logics: [LOGICS.publicHealth],
