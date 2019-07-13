@@ -102,6 +102,18 @@ export const GermanyEvents = [
         type: 'text',
         content: 'Frommel, Monika 2008. 40 Jahre Strafrechtsreform. Neue Kriminalpolitik 20(4):133-139.'
       },
+      {
+        type: 'text',
+        content: 'Michels, Ingo Ilja 1989. Thesen zur Situation von Menschen mit HIV und Menschen mit AIDS im Strafvollzug und in der Psychiatrie. In Deutsche AIDS-Hilde (eds.), Chancen und Risiken aktueller Präventions- und Behandlungsansätze am Faktor AIDS bei Drogengebrauch und Abhängigkeit. Berlin. '
+      },
+      {
+        type: 'text',
+        content: 'Stöver, Heino 2015. Gesundheit und Gesundheitsversorgung Gefangener. In: B. Badura et al. (eds.), Fehlzeiten-Report 2015. Berlin, pp. 259-269.'      
+      },
+      {
+        type: 'text',
+        content: 'Deutsche AIDS-Hilfe 1999. Fachtagung "Spritzenvergabe im Justizvollzug", Dokumentation. Berlin, pp.12-13.'      
+      },
     ],
     startDate: '1977',
     endDate: '',
@@ -452,7 +464,16 @@ export const GermanyEvents = [
       },
     ],
     externalLinks: [],
-    sources: [],
+    sources: [
+     {
+        type: 'text',
+        content: 'Deutscher Bundestag 1988. Entwurf eines Gesetzes zur Strukturreform im Gesundheitswesen, 3.5.1988. Drucksache 11/2237.'
+      },
+     {
+        type: 'text',
+        content: 'Bundesgesetzblatt 1988. Gesetz zur Strukturreform im Gesundheitswesen, Nr. 62, 29.12.1988. URL https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl188s2477.pdf#__bgbl__%2F%2F*%5B%40attr_id%3D%27bgbl188s2477.pdf%27%5D__1558443233764'
+      },
+    ],	
     startDate: '1989',
     endDate: '',
     logics: [LOGICS.publicHealth],
