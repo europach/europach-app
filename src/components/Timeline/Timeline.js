@@ -8,7 +8,7 @@ import {
   FilterContainer,
   FilterContainerInner,
 } from './styles'
-import { Section, ModalTitle, ResponsiveImg } from '../../assets/styles/common'
+import { ModalTitle, ResponsiveImg } from '../../assets/styles/common'
 import Modal from '../Modal'
 import CardList from '../CardList'
 import EventCard from '../EventCard'
