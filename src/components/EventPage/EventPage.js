@@ -5,6 +5,7 @@ import {
   detectPreviousEvent,
   detectNextEvent,
 } from '../../filters/storyMappings'
+import ExternalLink from '../ExternalLink'
 import BasicCard from '../BasicCard'
 import {
   ResponsiveImg,
@@ -129,7 +130,7 @@ export const EventPage = ({ match }) => {
             return (
               <TextListItem lastItem={isLastItem} key={index}>
                 <EventSources>
-                  <a href={url}>{text}</a>
+                  <ExternalLink url={url}>{text}</ExternalLink>
                 </EventSources>
               </TextListItem>
             )
