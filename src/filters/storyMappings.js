@@ -1,4 +1,4 @@
-import { sortByDate } from './sortByDate';
+import { sortByDate } from './sortByDate'
 
 import {
   polandSelector,
@@ -14,7 +14,7 @@ import {
   polandMutualHelpEvents,
   polandPublicHealthEvents,
   polandSecuritisationEvents,
-  polandSocialJusticeEvents
+  polandSocialJusticeEvents,
 } from '../selectors/polandSelectors'
 
 import {
@@ -31,7 +31,7 @@ import {
   germanyMutualHelpEvents,
   germanyPublicHealthEvents,
   germanySecuritisationEvents,
-  germanySocialJusticeEvents
+  germanySocialJusticeEvents,
 } from '../selectors/germanySelectors'
 
 import {
@@ -48,7 +48,7 @@ import {
   ukMutualHelpEvents,
   ukPublicHealthEvents,
   ukSecuritisationEvents,
-  ukSocialJusticeEvents
+  ukSocialJusticeEvents,
 } from '../selectors/ukSelectors'
 
 import {
@@ -65,7 +65,7 @@ import {
   turkeyMutualHelpEvents,
   turkeyPublicHealthEvents,
   turkeySecuritisationEvents,
-  turkeySocialJusticeEvents
+  turkeySocialJusticeEvents,
 } from '../selectors/turkeySelectors'
 
 import {
@@ -82,14 +82,20 @@ import {
   euMutualHelpEvents,
   euPublicHealthEvents,
   euSecuritisationEvents,
-  euSocialJusticeEvents
+  euSocialJusticeEvents,
 } from '../selectors/euSelectors'
 
-import { Events } from '../events/Events';
+import { Events } from '../events/Events'
 
-import { GermanyStoryDetails, UkStoryDetails, PolandStoryDetails, EUStoryDetails, TurkeyStoryDetails } from './storyDetails';
+import {
+  GermanyStoryDetails,
+  UkStoryDetails,
+  PolandStoryDetails,
+  EUStoryDetails,
+  TurkeyStoryDetails,
+} from './storyDetails'
 
-export const STORIES = [ '/uk', '/poland', '/germany', '/turkey', '/eu' ];
+export const STORIES = ['/uk', '/poland', '/germany', '/turkey', '/eu']
 
 export const storyMappings = {
   '/germany': {
@@ -106,7 +112,7 @@ export const storyMappings = {
     mutualHelp: germanyMutualHelpEvents,
     publicHealth: germanyPublicHealthEvents,
     securitisation: germanySecuritisationEvents,
-    socialJustice: germanySocialJusticeEvents
+    socialJustice: germanySocialJusticeEvents,
   },
   '/uk': {
     base: ukSelector,
@@ -122,7 +128,7 @@ export const storyMappings = {
     mutualHelp: ukMutualHelpEvents,
     publicHealth: ukPublicHealthEvents,
     securitisation: ukSecuritisationEvents,
-    socialJustice: ukSocialJusticeEvents
+    socialJustice: ukSocialJusticeEvents,
   },
   '/turkey': {
     base: turkeySelector,
@@ -138,7 +144,7 @@ export const storyMappings = {
     mutualHelp: turkeyMutualHelpEvents,
     publicHealth: turkeyPublicHealthEvents,
     securitisation: turkeySecuritisationEvents,
-    socialJustice: turkeySocialJusticeEvents
+    socialJustice: turkeySocialJusticeEvents,
   },
   '/poland': {
     base: polandSelector,
@@ -154,7 +160,7 @@ export const storyMappings = {
     mutualHelp: polandMutualHelpEvents,
     publicHealth: polandPublicHealthEvents,
     securitisation: polandSecuritisationEvents,
-    socialJustice: polandSocialJusticeEvents
+    socialJustice: polandSocialJusticeEvents,
   },
   '/eu': {
     base: euSelector,
@@ -170,59 +176,51 @@ export const storyMappings = {
     mutualHelp: euMutualHelpEvents,
     publicHealth: euPublicHealthEvents,
     securitisation: euSecuritisationEvents,
-    socialJustice: euSocialJusticeEvents
+    socialJustice: euSocialJusticeEvents,
   },
 }
 
-const currentStory = (storyUrl) => storyUrl.split('/')[1];
-const storyEvents = (currentStory) => storyMappings[`/${currentStory}`].base(Events);
+const currentStory = storyUrl => storyUrl.split('/')[1]
+const storyEvents = currentStory =>
+  storyMappings[`/${currentStory}`].base(Events)
 
 export const detectEvent = (storyUrl, eventUrl) => {
-  const events =
-    storyEvents(
-      currentStory(storyUrl)
-    );
+  const events = storyEvents(currentStory(storyUrl))
 
   const story = events.find(({ url }) => url === eventUrl)
 
-  return story;
+  return story
 }
 
 export const detectPreviousEvent = (storyUrl, eventUrl) => {
-  const events =
-    storyEvents(
-      currentStory(storyUrl)
-    );
+  const events = storyEvents(currentStory(storyUrl))
 
-  const sortedEvents = sortByDate(events);
+  const sortedEvents = sortByDate(events)
 
   const storyIndex = sortedEvents.findIndex(({ url }) => url === eventUrl)
 
   if (storyIndex === 0) {
-    return undefined; // first item
+    return undefined // first item
   } else if (storyIndex === -1) {
-    return undefined; // not found
+    return undefined // not found
   } else if (storyIndex > 0) {
-    return sortedEvents[storyIndex - 1];
+    return sortedEvents[storyIndex - 1]
   }
 }
 
 export const detectNextEvent = (storyUrl, eventUrl) => {
-  const events =
-    storyEvents(
-      currentStory(storyUrl)
-    );
+  const events = storyEvents(currentStory(storyUrl))
 
-  const sortedEvents = sortByDate(events);
+  const sortedEvents = sortByDate(events)
 
   const storyIndex = sortedEvents.findIndex(({ url }) => url === eventUrl)
 
   if (storyIndex === sortedEvents.length) {
-    return undefined; // last item
+    return undefined // last item
   } else if (storyIndex === -1) {
-    return undefined; // not found
+    return undefined // not found
   } else if (storyIndex < sortedEvents.length) {
-    return sortedEvents[storyIndex + 1];
+    return sortedEvents[storyIndex + 1]
   }
 }
 

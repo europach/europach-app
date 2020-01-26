@@ -1,5 +1,5 @@
-import React from "react";
-import { StyledCheckbox, HiddenCheckbox } from "./styles";
+import React from 'react'
+import { StyledCheckbox, HiddenCheckbox } from './styles'
 
 export const FakeCheckbox = ({ label, isSelected, onCheckboxChange }) => (
   <div>
@@ -10,14 +10,17 @@ export const FakeCheckbox = ({ label, isSelected, onCheckboxChange }) => (
         onChange={onCheckboxChange}
       />
 
-      <StyledCheckbox isSelected={isSelected}>
-        { label }
-      </StyledCheckbox>
+      <StyledCheckbox isSelected={isSelected}>{label}</StyledCheckbox>
     </label>
   </div>
-);
+)
 
-export const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
+export const BasicCheckbox = ({
+  label,
+  isSelected,
+  onCheckboxChange,
+  name,
+}) => (
   <label>
     <input
       type="checkbox"
@@ -26,6 +29,6 @@ export const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => 
       onChange={onCheckboxChange}
     />
 
-    { label }
+    {label}
   </label>
 )

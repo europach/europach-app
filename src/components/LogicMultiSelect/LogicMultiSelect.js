@@ -1,8 +1,16 @@
-import React, { Component } from "react";
-import { Button, Section, BodySubHead } from '../../assets/styles/common';
-import { CheckboxList, CheckboxItem, CancelButton, CheckboxListTitle, ButtonContainer, ButtonWrapper, CheckboxText } from './styles';
-import { LOGICS } from '../../logics/logics';
-import LogicDefinitions from '../LogicDefinitions';
+import React, { Component } from 'react'
+import { Button, Section, BodySubHead } from '../../assets/styles/common'
+import {
+  CheckboxList,
+  CheckboxItem,
+  CancelButton,
+  CheckboxListTitle,
+  ButtonContainer,
+  ButtonWrapper,
+  CheckboxText,
+} from './styles'
+import { LOGICS } from '../../logics/logics'
+import LogicDefinitions from '../LogicDefinitions'
 
 const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
   <label>
@@ -13,51 +21,53 @@ const BasicCheckbox = ({ label, isSelected, onCheckboxChange, name }) => (
       onChange={onCheckboxChange}
     />
 
-    <CheckboxText>{ label }</CheckboxText>
+    <CheckboxText>{label}</CheckboxText>
   </label>
 )
 
 export class LogicMultiSelect extends Component {
   state = {
     checkboxes: Object.keys(LOGICS).reduce(
-      (logics, {filter}) => ({
+      (logics, { filter }) => ({
         ...logics,
-        [filter]: false
+        [filter]: false,
       }),
-      {}
+      {},
     ),
-    showEventsAcrossStories: false
-  };
+    showEventsAcrossStories: false,
+  }
 
   handleCheckboxChange = changeEvent => {
-    const { name } = changeEvent.target;
+    const { name } = changeEvent.target
 
     this.setState(prevState => ({
       checkboxes: {
         ...prevState.checkboxes,
-        [name]: !prevState.checkboxes[name]
-      }
-    }));
-  };
+        [name]: !prevState.checkboxes[name],
+      },
+    }))
+  }
 
   handleEventsAcrossStoriesChange = () => {
     this.setState(prevState => ({
-      showEventsAcrossStories: !prevState.showEventsAcrossStories
-    }));
+      showEventsAcrossStories: !prevState.showEventsAcrossStories,
+    }))
   }
 
   handleFormSubmit = formSubmitEvent => {
-    formSubmitEvent.preventDefault();
+    formSubmitEvent.preventDefault()
 
     this.props.onSubmit(
-      Object.keys(this.state.checkboxes).filter(checkbox => this.state.checkboxes[checkbox]),
-      this.state.showEventsAcrossStories
+      Object.keys(this.state.checkboxes).filter(
+        checkbox => this.state.checkboxes[checkbox],
+      ),
+      this.state.showEventsAcrossStories,
     )
 
-    this.props.onClose();
-  };
+    this.props.onClose()
+  }
 
-  createCheckbox = ({title, filter}, key) => (
+  createCheckbox = ({ title, filter }, key) => (
     <CheckboxItem key={key}>
       <BasicCheckbox
         label={title}
@@ -67,26 +77,27 @@ export class LogicMultiSelect extends Component {
         name={filter}
       />
     </CheckboxItem>
-  );
+  )
 
-  createCheckboxes = () => Object.keys(LOGICS).map((logicKey, index) => this.createCheckbox(LOGICS[logicKey], index));
+  createCheckboxes = () =>
+    Object.keys(LOGICS).map((logicKey, index) =>
+      this.createCheckbox(LOGICS[logicKey], index),
+    )
 
   render() {
-    const { onClose } = this.props;
+    const { onClose } = this.props
 
     return (
       <div>
         <BodySubHead>
-          See how events connect across borders and topics
-          for a better understanding of how the past has
-          influenced the present
+          See how events connect across borders and topics for a better
+          understanding of how the past has influenced the present
         </BodySubHead>
 
         <form onSubmit={this.handleFormSubmit}>
-
           <CheckboxList>
             <CheckboxListTitle>Include:</CheckboxListTitle>
-            { this.createCheckboxes() }
+            {this.createCheckboxes()}
           </CheckboxList>
 
           <div>
@@ -114,6 +125,6 @@ export class LogicMultiSelect extends Component {
           </Section>
         </form>
       </div>
-    );
+    )
   }
 }

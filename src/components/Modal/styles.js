@@ -4,17 +4,19 @@ export const ModalContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
   background: #fbe9e7;
   display: none;
   z-index: 3;
   overflow-y: scroll;
 
-  ${props => props.show && css`
-    display: block;
-  `}
-`;
+  ${props =>
+    props.show &&
+    css`
+      display: block;
+    `}
+`
 
 export const ModalMain = styled.section`
   background: #fbe9e7;

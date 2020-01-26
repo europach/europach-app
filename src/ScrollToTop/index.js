@@ -1,4 +1,4 @@
-import { withRouter } from "react-router";
-import { ScrollToTop } from './ScrollToTop';
+import { withRouter } from 'react-router'
+import { ScrollToTop } from './ScrollToTop'
 
-export default withRouter(ScrollToTop);
+export default withRouter(ScrollToTop)

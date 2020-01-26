@@ -1,3 +1,3 @@
 import { Story } from './StoryPage'
 
-export default Story;
+export default Story

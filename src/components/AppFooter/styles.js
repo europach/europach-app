@@ -11,8 +11,8 @@ export const AppFooterInner = styled.div`
   @media (max-width: 468px) {
     max-width: 85%;
   }
-`;
+`
 
 export const FooterItem = styled.div`
-  padding-top: 20px
-`;
+  padding-top: 20px;
+`

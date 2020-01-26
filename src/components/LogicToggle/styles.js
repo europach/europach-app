@@ -13,8 +13,10 @@ export const FilterBtn = styled.div`
     color: #e30613;
   }
 
-  ${({ active }) => active && `
+  ${({ active }) =>
+    active &&
+    `
     color: #e30613;
     border-bottom: 2px solid #e30613;
   `}
-`;
+`

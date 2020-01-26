@@ -1,3 +1,3 @@
-import { LogicDefinitions } from './LogicDefinitions';
+import { LogicDefinitions } from './LogicDefinitions'
 
-export default LogicDefinitions;
+export default LogicDefinitions

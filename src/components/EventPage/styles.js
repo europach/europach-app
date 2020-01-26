@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const BackArrow = styled.div`
   padding: 0 0 16px;
-`;
+`
 
 export const CenteredWrapper = styled.div`
   display: flex;
   align-items: center;
-`;
+`
 
 export const EventWrapper = styled.div`
   display: flex;
@@ -33,7 +33,7 @@ export const EventNavTitle = styled.div`
 export const EventNavName = styled.div`
   font-size: 14px;
   padding-top: 2px;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 `
 
@@ -56,7 +56,9 @@ export const TextItems = styled.ul`
 export const TextListItem = styled.li`
   margin-bottom: 8px;
 
-  ${({ lastItem }) => lastItem && `
+  ${({ lastItem }) =>
+    lastItem &&
+    `
     margin-bottom: 0px;
   `}
 `

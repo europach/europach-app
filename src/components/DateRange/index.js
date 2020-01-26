@@ -1,3 +1,3 @@
-import { DateRange } from './DateRange';
+import { DateRange } from './DateRange'
 
-export default DateRange;
+export default DateRange

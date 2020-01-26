@@ -1,3 +1,3 @@
-import { LogicToggle } from './LogicToggle';
+import { LogicToggle } from './LogicToggle'
 
-export default LogicToggle;
+export default LogicToggle

@@ -7,7 +7,7 @@ export const AppContainer = styled.div`
   margin: 0;
   justify-content: center;
   align-items: center;
-`;
+`
 
 export const AppNav = styled.header`
   width: 100%;
@@ -15,7 +15,7 @@ export const AppNav = styled.header`
   justify-content: center;
   align-items: center;
   padding: 40px 0;
-`;
+`
 
 export const AppNavInner = styled.div`
   max-width: 660px;
@@ -24,7 +24,7 @@ export const AppNavInner = styled.div`
   @media (max-width: 468px) {
     max-width: 85%;
   }
-`;
+`
 
 export const AppMain = styled.div`
   display: flex;
@@ -34,7 +34,7 @@ export const AppMain = styled.div`
   @media (max-width: 468px) {
     max-width: 85%;
   }
-`;
+`
 
 export const AppFooter = styled.div`
   padding: 1em;
@@ -44,4 +44,4 @@ export const AppFooter = styled.div`
   margin: 0;
   justify-content: center;
   align-items: center;
-`;
+`

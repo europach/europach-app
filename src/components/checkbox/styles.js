@@ -8,12 +8,14 @@ export const StyledCheckbox = styled.span`
   margin: 0.5em 1em;
   padding: 0.25em 1em;
 
-  ${props => props.isSelected && css`
-    background: #5892DD;
-    border: 1px solid #5892DD;
-    color: white;
-  `}
-`;
+  ${props =>
+    props.isSelected &&
+    css`
+      background: #5892dd;
+      border: 1px solid #5892dd;
+      color: white;
+    `}
+`
 
 export const HiddenCheckbox = styled.input.attrs({ type: 'checkbox' })`
   border: 0;

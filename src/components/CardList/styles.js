@@ -9,16 +9,18 @@ export const EventList = styled.ul`
   box-sizing: border-box;
 
   @media (max-width: 468px) {
-    max-width: ${props => (props.mobileMaxWidth || '348px')};
+    max-width: ${props => props.mobileMaxWidth || '348px'};
   }
-`;
+`
 
 export const EventItem = styled.li`
   list-style-type: none;
   padding-bottom: 16px;
   width: 100%;
 
-  ${({ lastItem }) => lastItem && `
+  ${({ lastItem }) =>
+    lastItem &&
+    `
     padding-bottom: 0px;
   `}
-`;
+`

@@ -1,3 +1,3 @@
-import { BasicCard } from './BasicCard';
+import { BasicCard } from './BasicCard'
 
-export default BasicCard;
+export default BasicCard

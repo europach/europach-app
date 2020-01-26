@@ -1,3 +1,3 @@
-import { LogicMultiSelect } from './LogicMultiSelect';
+import { LogicMultiSelect } from './LogicMultiSelect'
 
-export default LogicMultiSelect;
+export default LogicMultiSelect
