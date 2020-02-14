@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppFooterInner, FooterItem } from './styles'
-import { ResponsiveImg, DateRedThin, Pannel } from '../../assets/styles/common'
+import { ResponsiveImg, DateRedThin, Panel } from '../../assets/styles/common'
 import husiegelImg from '../../assets/images/footer_husiegel.jpg'
 import goldsmithsImg from '../../assets/images/footer_goldsmiths.png'
 import basImg from '../../assets/images/footer_uni_bas.jpg'
@@ -10,7 +10,7 @@ import horizonImg from '../../assets/images/footer_horizon.jpg'
 
 export const AppFooter = () => {
   return (
-    <Pannel padding="48px 0 16px" background="white">
+    <Panel padding="48px 0 16px" background="white">
       <AppFooterInner>
         <DateRedThin>copyright 2019 Europach</DateRedThin>
         <FooterItem>
@@ -32,6 +32,6 @@ export const AppFooter = () => {
           <ResponsiveImg width="200px" src={horizonImg} />
         </FooterItem>
       </AppFooterInner>
-    </Pannel>
+    </Panel>
   )
 }

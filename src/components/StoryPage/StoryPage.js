@@ -8,8 +8,8 @@ import {
   Paragraph,
   ImageWrapper,
   Section,
-  Pannel,
-  PannelInner,
+  Panel,
+  PanelInner,
 } from '../../assets/styles/common'
 import { StoryDetailMapping } from '../../filters/storyMappings'
 import AppNav from '../AppNav'
@@ -19,9 +19,9 @@ export const Story = ({ match }) => {
   const currentStory = StoryDetailMapping[match.url]
 
   return (
-    <Pannel>
+    <Panel>
       <AppNav />
-      <PannelInner>
+      <PanelInner>
         <ImageWrapper>
           <ResponsiveImg width={'100%'} src={currentStory.image} />
         </ImageWrapper>
@@ -35,9 +35,9 @@ export const Story = ({ match }) => {
         </Section>
 
         <Route exact path={match.path} component={Timeline} />
-      </PannelInner>
+      </PanelInner>
 
       <AppFooter />
-    </Pannel>
+    </Panel>
   )
 }

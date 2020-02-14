@@ -3,8 +3,8 @@ import { StoryList, StoryItem, StyledLink, Title } from './styles'
 import {
   TitleText,
   BodyText,
-  Pannel,
-  PannelInner,
+  Panel,
+  PanelInner,
 } from '../../assets/styles/common'
 import StoryCard from '../StoryCard'
 import AppNav from '../AppNav'
@@ -25,9 +25,9 @@ const createStoryItem = item => {
 
 export const HomePage = props => {
   return (
-    <Pannel>
+    <Panel>
       <AppNav />
-      <PannelInner>
+      <PanelInner>
         <Title>
           <TitleText>
             Disentangling European HIV/AIDS Policies: Activism, Citizenship and
@@ -69,8 +69,8 @@ export const HomePage = props => {
           partial and may not be up to date or accurate for the purposes of
           legal action or defence.
         </BodyText>
-      </PannelInner>
+      </PanelInner>
       <AppFooter />
-    </Pannel>
+    </Panel>
   )
 }

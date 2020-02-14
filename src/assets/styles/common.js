@@ -176,7 +176,7 @@ export const ModalTitle = styled.h1`
   margin: 0;
 `
 
-export const Pannel = styled.div`
+export const Panel = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -188,7 +188,7 @@ export const Pannel = styled.div`
   background: ${props => props.background || '#fafafa'};
 `
 
-export const PannelInner = styled.div`
+export const PanelInner = styled.div`
   max-width: 660px;
   width: 100%;
   padding: ${props => props.padding || '0'};

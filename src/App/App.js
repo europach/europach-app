@@ -6,7 +6,7 @@ import Home from '../components/HomePage'
 import Error from '../components/pages/Error'
 import EventPage from '../components/EventPage'
 import { AppContainer } from './styles'
-import { Pannel } from '../assets/styles/common'
+import { Panel } from '../assets/styles/common'
 
 export class App extends Component {
   render() {
@@ -14,7 +14,7 @@ export class App extends Component {
       <Router>
         <ScrollToTop>
           <AppContainer>
-            <Pannel>
+            <Panel>
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/germany" component={StoryPage} />
@@ -33,7 +33,7 @@ export class App extends Component {
                 <Route path={`/eu/:eventId`} component={EventPage} />
                 <Route component={Error} />
               </Switch>
-            </Pannel>
+            </Panel>
           </AppContainer>
         </ScrollToTop>
       </Router>

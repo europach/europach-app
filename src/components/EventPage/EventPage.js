@@ -18,8 +18,8 @@ import {
   DateRedThin,
   EventQuote,
   EventSources,
-  Pannel,
-  PannelInner,
+  Panel,
+  PanelInner,
 } from '../../assets/styles/common'
 import {
   CenteredWrapper,
@@ -198,14 +198,14 @@ export const EventPage = ({ match }) => {
     !empty(currentEvent.logics) && exploreLogics()
 
   return (
-    <Pannel>
+    <Panel>
       <link
         rel="stylesheet"
         href="https://video-react.github.io/assets/video-react.css"
       />
-      <Pannel background="white" padding="0 0 32px">
+      <Panel background="white" padding="0 0 32px">
         <AppNav background="white" />
-        <PannelInner padding="12px 0 0">
+        <PanelInner padding="12px 0 0">
           <CenteredWrapper>
             <ResponsiveImg
               src={getIcon(currentEvent)}
@@ -246,15 +246,15 @@ export const EventPage = ({ match }) => {
               )}
             </EventWrapper>
           </Section>
-        </PannelInner>
-      </Pannel>
+        </PanelInner>
+      </Panel>
 
-      <Pannel padding="0 0 48px">
-        <PannelInner>
+      <Panel padding="0 0 48px">
+        <PanelInner>
           {buildInContext()}
           {buildExploreLogics()}
-        </PannelInner>
-      </Pannel>
-    </Pannel>
+        </PanelInner>
+      </Panel>
+    </Panel>
   )
 }
