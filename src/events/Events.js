@@ -11,3 +11,12 @@ export const Events = {
   PolandEvents,
   EUEvents,
 }
+
+const allEvents = [
+  ...Events.GermanyEvents,
+  ...Events.UkEvents,
+  ...Events.TurkeyEvents,
+  ...Events.PolandEvents,
+  ...Events.EUEvents,
+]
+export default allEvents
