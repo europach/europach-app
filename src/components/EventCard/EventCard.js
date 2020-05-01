@@ -5,7 +5,7 @@ import {
   Section,
   EventCardTitle,
 } from '../../assets/styles/common'
-import { ImageIconMapping } from '../../filters/eventMappings'
+import { ImageIconMapping } from '../../utils/imageIconMapping'
 import DateRange from '../DateRange'
 
 export const EventCard = props => {

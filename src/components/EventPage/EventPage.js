@@ -33,7 +33,7 @@ import {
   TextListItem,
 } from './styles'
 import DateRange from '../DateRange'
-import { ImageIconMapping } from '../../filters/eventMappings'
+import { ImageIconMapping } from '../../utils/imageIconMapping'
 import CardList from '../CardList'
 import LogicToggle from '../LogicToggle'
 import { RedLineWrapper } from '../../assets/styles/common'
