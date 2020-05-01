@@ -56,11 +56,10 @@ export const HomePage = props => {
         </Title>
 
         <StoryList>
-          `{' '}
+          {' '}
           {storyDetails.map(item => {
             return createStoryItem(item)
           })}
-          `
         </StoryList>
 
         <BodyText>
