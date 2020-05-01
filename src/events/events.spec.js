@@ -4,16 +4,21 @@ import { LOGICS } from '../logics/logics'
 
 const eventsSchema = Joi.array().items(
   Joi.object({
-    name: Joi.string(),
-    url: Joi.string(),
-    body: Joi.array().items(
-      Joi.object({
-        type: 'paragraph',
-        content: Joi.string(),
-      }),
-    ),
+    name: Joi.string().required(),
+    url: Joi.string().required(),
+    body: Joi.array()
+      .items(
+        Joi.object({
+          type: 'paragraph',
+          content: Joi.string(),
+        }),
+      )
+      .min(1),
     externalLinks: Joi.array().items(
-      Joi.object({ url: Joi.string(), text: Joi.string() }),
+      Joi.object({
+        url: Joi.string().required(),
+        text: Joi.string(),
+      }),
     ),
     sources: Joi.array().items(
       Joi.alternatives().try(
@@ -21,8 +26,10 @@ const eventsSchema = Joi.array().items(
         Joi.object({ type: 'link', content: Joi.string(), url: Joi.string() }),
       ),
     ),
-    startDate: Joi.string(),
-    endDate: Joi.string().allow(''),
+    startDate: Joi.string().required(),
+    endDate: Joi.string()
+      .allow('')
+      .required(),
     logics: Joi.array().items(Joi.alternatives().try(...Object.values(LOGICS))),
     linksWith: Joi.array().items(Joi.string()),
     baseStory: Joi.string().valid('eu', 'germany', 'poland', 'turkey', 'uk'),
