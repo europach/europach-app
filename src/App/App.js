@@ -5,6 +5,7 @@ import StoryPage from '../components/StoryPage'
 import Home from '../components/HomePage'
 import Error from '../components/pages/Error'
 import EventPage from '../components/EventPage'
+import PreviewEventPage from '../components/PreviewEventPage'
 import { AppContainer } from './styles'
 import { Panel } from '../assets/styles/common'
 
@@ -31,6 +32,11 @@ export class App extends Component {
 
                 <Route exact path="/eu" component={StoryPage} />
                 <Route path={`/eu/:eventId`} component={EventPage} />
+
+                <Route
+                  path={`/preview/:entryId`}
+                  component={PreviewEventPage}
+                />
                 <Route component={Error} />
               </Switch>
             </Panel>

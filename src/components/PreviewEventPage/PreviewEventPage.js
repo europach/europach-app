@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import * as contentful from 'contentful'
 import ReactAudioPlayer from 'react-audio-player'
 import {
   detectEvent,
@@ -39,13 +40,14 @@ import LogicToggle from '../LogicToggle'
 import { RedLineWrapper } from '../../assets/styles/common'
 import AppNav from '../AppNav'
 import { Player } from 'video-react'
+import { LOGICS } from '../../logics/logics'
 
 const NavCard = ({ title, event }) => {
-  const { startDate, name, url } = event
+  const { startDate, name, url, baseStory } = event
 
   return (
     <EventNav>
-      <StyledLink to={url}>
+      <StyledLink to={`/${baseStory}/${url}`}>
         <EventContainer>
           <EventNavTitle>{title}</EventNavTitle>
           <DateRedThin>{startDate}</DateRedThin>
@@ -94,12 +96,40 @@ const getIcon = event => {
   }
 }
 
-export const EventPage = ({ match }) => {
-  // eventId should be eventUrl
-  const storyUrl = match.url
+export const PreviewEventPage = ({ match }) => {
+  const entryId = match.params.entryId
+  const [event, setEvent] = useState()
+
+  useEffect(() => {
+    const client = contentful.createClient({
+      space: 'c5hh5jx0dh59',
+      accessToken: 'pt6cVsCIJqWUcND7M8Xa2ylxQvo0lSh9ffipDbiZs7U',
+      host: 'preview.contentful.com',
+    })
+
+    client
+      .getEntry(entryId)
+      .then(entry => {
+        const event = {
+          ...entry.fields,
+          logics: entry.fields.logics.map(logic => LOGICS[logic]),
+        }
+        setEvent(event)
+      })
+      .catch(err => {
+        //do nothing
+      })
+  }, [entryId])
+
+  if (!event) {
+    return null
+  }
+
+  // // eventId should be eventUrl
+  const storyUrl = `/${event.baseStory}/${event.url}`
   const storyName = storyUrl.split('/')[1]
-  const eventUrl = match.params.eventId
-  const currentEvent = detectEvent(storyUrl, eventUrl)
+  const eventUrl = event.url
+  const currentEvent = event
   const previousEvent = detectPreviousEvent(storyUrl, eventUrl)
   const nextEvent = detectNextEvent(storyUrl, eventUrl)
   const LinkedEvents = getLinkedEvents(currentEvent.linksWith, storyUrl)
@@ -113,18 +143,18 @@ export const EventPage = ({ match }) => {
   }
 
   const buildJsxElements = () => {
-    return currentEvent.body.map(({ type, content }, index) => {
+    return event.body.map(({ type, content }, index) => {
       return elementMapping[type](content, index)
     })
   }
 
   const externalLinks = () => {
-    const externalLinksCount = currentEvent.externalLinks.length
+    const externalLinksCount = event.externalLinks.length
 
     return (
       <Section padding={'0 0 12px 0'}>
         <TextItems>
-          {currentEvent.externalLinks.map(({ url, text }, index) => {
+          {event.externalLinks.map(({ url, text }, index) => {
             const isLastItem = externalLinksCount === index + 1
 
             return (
@@ -141,12 +171,12 @@ export const EventPage = ({ match }) => {
   }
 
   const sources = () => {
-    const sourcesCount = currentEvent.sources.length
+    const sourcesCount = event.sources.length
 
     return (
       <Section>
         <TextItems>
-          {currentEvent.sources.map(({ type, url, content }, index) => {
+          {event.sources.map(({ type, url, content }, index) => {
             const isLastItem = sourcesCount === index + 1
 
             return (
@@ -183,44 +213,51 @@ export const EventPage = ({ match }) => {
       <EventSubhead>Explore Logics</EventSubhead>
 
       <Section padding={'16px 0 0 0'}>
-        <LogicToggle event={currentEvent} storyName={storyName} />
+        <LogicToggle event={event} storyName={storyName} />
       </Section>
     </Section>
   )
 
   const empty = element => element == null || element.length === 0
 
-  const buildSources = () => !empty(currentEvent.sources) && sources()
+  const buildSources = () => !empty(event.sources) && sources()
   const buildExternalLinks = () =>
-    !empty(currentEvent.externalLinks) && externalLinks()
+    !empty(event.externalLinks) && externalLinks()
   const buildInContext = () => !empty(currentEvent.linksWith) && inContext()
-  const buildExploreLogics = () =>
-    !empty(currentEvent.logics) && exploreLogics()
+  const buildExploreLogics = () => !empty(event.logics) && exploreLogics()
 
   return (
     <Panel>
-      <link
-        rel="stylesheet"
-        href="https://video-react.github.io/assets/video-react.css"
-      />
+      <div style={{ height: 48 }}></div>
+      <div
+        style={{
+          backgroundColor: 'red',
+          width: '100%',
+          textAlign: 'center',
+          fontWeight: 'bold',
+          fontSize: 20,
+          padding: 14,
+          position: 'fixed',
+          top: 0,
+        }}
+      >
+        THIS IS A PREVIEW
+      </div>
       <Panel background="white" padding="0 0 32px">
         <AppNav background="white" />
         <PanelInner padding="12px 0 0">
           <CenteredWrapper>
             <ResponsiveImg
-              src={getIcon(currentEvent)}
+              src={getIcon(event)}
               width={'24px'}
               padding={'0 8px 0 0'}
               opacity=".4"
             />
-            <DateRange
-              startDate={currentEvent.startDate}
-              endDate={currentEvent.endDate}
-            />
+            <DateRange startDate={event.startDate} endDate={event.endDate} />
           </CenteredWrapper>
 
           <Section padding={'24px 0 32px 0'}>
-            <EventTitle>{currentEvent.name}</EventTitle>
+            <EventTitle>{event.name}</EventTitle>
           </Section>
 
           <Section padding={'0 0 24px 0'}>
