@@ -85,7 +85,7 @@ import {
   euSocialJusticeEvents,
 } from '../selectors/euSelectors'
 
-import { Events } from '../events/Events'
+import events from '../events/Events'
 
 import {
   GermanyStoryDetails,
@@ -182,7 +182,7 @@ export const storyMappings = {
 
 const currentStory = storyUrl => storyUrl.split('/')[1]
 const storyEvents = currentStory =>
-  storyMappings[`/${currentStory}`].base(Events)
+  storyMappings[`/${currentStory}`].base(events)
 
 export const detectEvent = (storyUrl, eventUrl) => {
   const events = storyEvents(currentStory(storyUrl))

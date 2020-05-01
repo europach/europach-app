@@ -1,4 +1,4 @@
-import { Events } from '../events/Events'
+import events from '../events/Events'
 import { storyMappings, STORIES } from './storyMappings'
 import { sortByDate } from './sortByDate'
 import uniqBy from 'lodash.uniqby'
@@ -12,7 +12,7 @@ const filteredLogicsForStory = (storyUrl, filters) => {
 
   const filteredEvents = filters.reduce(function(result, filter) {
     logicFilter = storyMappings[storyUrl][filter]
-    logicFilter && result.push(logicFilter(Events))
+    logicFilter && result.push(logicFilter(events))
     return result
   }, [])
 
@@ -20,7 +20,7 @@ const filteredLogicsForStory = (storyUrl, filters) => {
 }
 
 const baseStoryEvents = storyUrl => {
-  return storyMappings[storyUrl].base(Events)
+  return storyMappings[storyUrl].base(events)
 }
 
 // this will return selected logics for all stories

@@ -1,6 +1,7 @@
 import { createSelector } from 'reselect'
 
-export const germanySelector = state => state.GermanyEvents
+export const germanySelector = events =>
+  events.filter(event => event.baseStory === 'germany')
 
 const getFilters = logics => logics.map(logic => logic.filter)
 

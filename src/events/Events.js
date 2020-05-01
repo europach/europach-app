@@ -4,19 +4,11 @@ import { TurkeyEvents } from './TurkeyEvents'
 import { PolandEvents } from './PolandEvents'
 import { EUEvents } from './EUEvents'
 
-export const Events = {
-  GermanyEvents,
-  UkEvents,
-  TurkeyEvents,
-  PolandEvents,
-  EUEvents,
-}
-
-const allEvents = [
-  ...Events.GermanyEvents,
-  ...Events.UkEvents,
-  ...Events.TurkeyEvents,
-  ...Events.PolandEvents,
-  ...Events.EUEvents,
+const events = [
+  ...GermanyEvents,
+  ...UkEvents,
+  ...TurkeyEvents,
+  ...PolandEvents,
+  ...EUEvents,
 ]
-export default allEvents
+export default events
