@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import * as contentful from 'contentful'
 import ReactAudioPlayer from 'react-audio-player'
 import {
@@ -39,6 +39,7 @@ import CardList from '../CardList'
 import LogicToggle from '../LogicToggle'
 import { RedLineWrapper } from '../../assets/styles/common'
 import AppNav from '../AppNav'
+import { EventsContext } from '../EventsContext'
 import { Player } from 'video-react'
 import { LOGICS } from '../../logics/logics'
 
@@ -86,8 +87,10 @@ const Video = (content, key) => (
 
 const Quote = (content, key) => <EventQuote key={key}>{content}</EventQuote>
 
-const getLinkedEvents = (eventsInContext, storyUrl) => {
-  return eventsInContext.map(eventUrl => detectEvent(storyUrl, eventUrl))
+const getLinkedEvents = (events, eventsInContext, storyUrl) => {
+  return eventsInContext.map(eventUrl =>
+    detectEvent(events, storyUrl, eventUrl),
+  )
 }
 
 const getIcon = event => {
@@ -97,6 +100,8 @@ const getIcon = event => {
 }
 
 export const PreviewEventPage = ({ match }) => {
+  const events = useContext(EventsContext)
+
   const entryId = match.params.entryId
   const [event, setEvent] = useState()
 
@@ -130,9 +135,9 @@ export const PreviewEventPage = ({ match }) => {
   const storyName = storyUrl.split('/')[1]
   const eventUrl = event.url
   const currentEvent = event
-  const previousEvent = detectPreviousEvent(storyUrl, eventUrl)
-  const nextEvent = detectNextEvent(storyUrl, eventUrl)
-  const LinkedEvents = getLinkedEvents(currentEvent.linksWith, storyUrl)
+  const previousEvent = detectPreviousEvent(events, storyUrl, eventUrl)
+  const nextEvent = detectNextEvent(events, storyUrl, eventUrl)
+  const LinkedEvents = getLinkedEvents(events, currentEvent.linksWith, storyUrl)
 
   const elementMapping = {
     paragraph: Paragraph,
@@ -213,7 +218,7 @@ export const PreviewEventPage = ({ match }) => {
       <EventSubhead>Explore Logics</EventSubhead>
 
       <Section padding={'16px 0 0 0'}>
-        <LogicToggle event={event} storyName={storyName} />
+        <LogicToggle events={events} event={event} storyName={storyName} />
       </Section>
     </Section>
   )

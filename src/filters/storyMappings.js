@@ -85,8 +85,6 @@ import {
   euSocialJusticeEvents,
 } from '../selectors/euSelectors'
 
-import events from '../events/Events'
-
 import {
   GermanyStoryDetails,
   UkStoryDetails,
@@ -181,19 +179,19 @@ export const storyMappings = {
 }
 
 const currentStory = storyUrl => storyUrl.split('/')[1]
-const storyEvents = currentStory =>
-  storyMappings[`/${currentStory}`].base(events)
+const storyEvents = (allEvents, currentStory) =>
+  storyMappings[`/${currentStory}`].base(allEvents)
 
-export const detectEvent = (storyUrl, eventUrl) => {
-  const events = storyEvents(currentStory(storyUrl))
+export const detectEvent = (allEvents, storyUrl, eventUrl) => {
+  const events = storyEvents(allEvents, currentStory(storyUrl))
 
   const story = events.find(({ url }) => url === eventUrl)
 
   return story
 }
 
-export const detectPreviousEvent = (storyUrl, eventUrl) => {
-  const events = storyEvents(currentStory(storyUrl))
+export const detectPreviousEvent = (allEvents, storyUrl, eventUrl) => {
+  const events = storyEvents(allEvents, currentStory(storyUrl))
 
   const sortedEvents = sortByDate(events)
 
@@ -208,8 +206,8 @@ export const detectPreviousEvent = (storyUrl, eventUrl) => {
   }
 }
 
-export const detectNextEvent = (storyUrl, eventUrl) => {
-  const events = storyEvents(currentStory(storyUrl))
+export const detectNextEvent = (allEvents, storyUrl, eventUrl) => {
+  const events = storyEvents(allEvents, currentStory(storyUrl))
 
   const sortedEvents = sortByDate(events)
 

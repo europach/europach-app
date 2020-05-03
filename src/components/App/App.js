@@ -8,35 +8,41 @@ import EventPage from '../EventPage'
 import PreviewEventPage from '../PreviewEventPage'
 import { AppContainer } from './styles'
 import { Panel } from '../../assets/styles/common'
+import { EventsProvider } from '../EventsContext'
 
 export const App = () => {
   return (
     <Router>
       <ScrollToTop>
-        <AppContainer>
-          <Panel>
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/germany" component={StoryPage} />
-              <Route path={`/germany/:eventId`} component={EventPage} />
+        <EventsProvider>
+          <AppContainer>
+            <Panel>
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/germany" component={StoryPage} />
+                <Route path={`/germany/:eventId`} component={EventPage} />
 
-              <Route exact path="/uk" component={StoryPage} />
-              <Route path={`/uk/:eventId`} component={EventPage} />
+                <Route exact path="/uk" component={StoryPage} />
+                <Route path={`/uk/:eventId`} component={EventPage} />
 
-              <Route exact path="/poland" component={StoryPage} />
-              <Route path={`/poland/:eventId`} component={EventPage} />
+                <Route exact path="/poland" component={StoryPage} />
+                <Route path={`/poland/:eventId`} component={EventPage} />
 
-              <Route exact path="/turkey" component={StoryPage} />
-              <Route path={`/turkey/:eventId`} component={EventPage} />
+                <Route exact path="/turkey" component={StoryPage} />
+                <Route path={`/turkey/:eventId`} component={EventPage} />
 
-              <Route exact path="/eu" component={StoryPage} />
-              <Route path={`/eu/:eventId`} component={EventPage} />
+                <Route exact path="/eu" component={StoryPage} />
+                <Route path={`/eu/:eventId`} component={EventPage} />
 
-              <Route path={`/preview/:entryId`} component={PreviewEventPage} />
-              <Route component={Error} />
-            </Switch>
-          </Panel>
-        </AppContainer>
+                <Route
+                  path={`/preview/:entryId`}
+                  component={PreviewEventPage}
+                />
+                <Route component={Error} />
+              </Switch>
+            </Panel>
+          </AppContainer>
+        </EventsProvider>
       </ScrollToTop>
     </Router>
   )

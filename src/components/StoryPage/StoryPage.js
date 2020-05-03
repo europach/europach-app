@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Route } from 'react-router-dom'
 import Timeline from '../Timeline'
 import {
@@ -14,8 +14,10 @@ import {
 import { StoryDetailMapping } from '../../filters/storyMappings'
 import AppNav from '../AppNav'
 import AppFooter from '../AppFooter'
+import { EventsContext } from '../EventsContext'
 
 export const Story = ({ match }) => {
+  const events = useContext(EventsContext)
   const currentStory = StoryDetailMapping[match.url]
 
   return (
@@ -34,7 +36,12 @@ export const Story = ({ match }) => {
           <Paragraph>{currentStory.body}</Paragraph>
         </Section>
 
-        <Route exact path={match.path} component={Timeline} />
+        <Route
+          exact
+          path={match.path}
+          render={props => <Timeline {...props} events={events} />}
+          events={events}
+        />
       </PanelInner>
 
       <AppFooter />

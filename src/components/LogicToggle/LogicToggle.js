@@ -45,6 +45,7 @@ export class LogicToggle extends React.Component {
     const defaultFilters = this.defaultLogics()
     const defaultFilter = defaultFilters[0]
     const baseStoryEvents = storyFilter(
+      this.props.events,
       this.currentStory,
       defaultFilters,
       this.filterOtherStories,
@@ -61,6 +62,7 @@ export class LogicToggle extends React.Component {
       const defaultFilters = this.defaultLogics()
       const defaultFilter = defaultFilters[0]
       const baseStoryEvents = storyFilter(
+        this.props.events,
         this.currentStory,
         defaultFilters,
         this.filterOtherStories,
@@ -78,6 +80,7 @@ export class LogicToggle extends React.Component {
 
     this.setState({
       selectedEvents: storyFilter(
+        this.props.events,
         this.currentStory,
         [filterEventsBy],
         this.filterOtherStories,

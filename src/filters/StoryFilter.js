@@ -1,4 +1,3 @@
-import events from '../events/Events'
 import { storyMappings, STORIES } from './storyMappings'
 import { sortByDate } from './sortByDate'
 import uniqBy from 'lodash.uniqby'
@@ -7,7 +6,7 @@ const flatten = multiDimensionalArray => {
   return [].concat(...multiDimensionalArray)
 }
 
-const filteredLogicsForStory = (storyUrl, filters) => {
+const filteredLogicsForStory = (events, storyUrl, filters) => {
   let logicFilter
 
   const filteredEvents = filters.reduce(function(result, filter) {
@@ -19,22 +18,22 @@ const filteredLogicsForStory = (storyUrl, filters) => {
   return flatten(filteredEvents)
 }
 
-const baseStoryEvents = storyUrl => {
+const baseStoryEvents = (events, storyUrl) => {
   return storyMappings[storyUrl].base(events)
 }
 
 // this will return selected logics for all stories
-const filteredLogicsWithOtherStories = filters => {
+const filteredLogicsWithOtherStories = (events, filters) => {
   const storiesWithFilter = STORIES.map(story => {
-    return filteredLogicsForStory(story, filters)
+    return filteredLogicsForStory(events, story, filters)
   })
 
   return flatten(storiesWithFilter)
 }
 
-export const storyFilter = (storyUrl, filters, showOtherStories) => {
+export const storyFilter = (events, storyUrl, filters, showOtherStories) => {
   let relatedLogics
-  const baseEvents = baseStoryEvents(storyUrl)
+  const baseEvents = baseStoryEvents(events, storyUrl)
   const zeroFilters = filters.length < 1
 
   if (zeroFilters) {
@@ -42,9 +41,9 @@ export const storyFilter = (storyUrl, filters, showOtherStories) => {
   } // nothing selected
 
   if (showOtherStories) {
-    relatedLogics = filteredLogicsWithOtherStories(filters) // show all stories logics
+    relatedLogics = filteredLogicsWithOtherStories(events, filters) // show all stories logics
   } else {
-    relatedLogics = filteredLogicsForStory(storyUrl, filters) // show logics per story
+    relatedLogics = filteredLogicsForStory(events, storyUrl, filters) // show logics per story
   }
 
   return sortByDate(uniqBy([...relatedLogics], 'url'))

@@ -17,30 +17,23 @@ import rhizomeIcon from '../../assets/images/rhizome_icon_Rhizome_icon.svg'
 export class Timeline extends React.Component {
   constructor(props) {
     super(props)
+
+    const currentStory = props.match.url
+
     this.state = {
-      selectedEvents: null,
-      currentStory: null,
+      currentStory,
       showModal: false,
+      selectedValues: [],
+      showOtherStories: false,
     }
   }
 
-  componentWillMount() {
-    const currentStory = this.props.match.url
-    const baseStoryEvents = storyFilter(currentStory, [])
-
-    this.setState({
-      selectedEvents: baseStoryEvents,
-      currentStory: currentStory,
-    })
-  }
+  static getDerivedStateFromProps
 
   handleOnSubmit = (selectedValues, showOtherStories) => {
     this.setState({
-      selectedEvents: storyFilter(
-        this.state.currentStory,
-        selectedValues,
-        showOtherStories,
-      ),
+      selectedValues,
+      showOtherStories,
     })
   }
 
@@ -95,8 +88,14 @@ export class Timeline extends React.Component {
   }
 
   render() {
-    let itemsByDate = this.splitByDate(this.state.selectedEvents)
-    let availableDates = this.availableDates(itemsByDate)
+    const filteredEvents = storyFilter(
+      this.props.events,
+      this.state.currentStory,
+      this.state.selectedValues,
+      this.state.showOtherStories,
+    )
+    const itemsByDate = this.splitByDate(filteredEvents)
+    const availableDates = this.availableDates(itemsByDate)
 
     return (
       <div>
