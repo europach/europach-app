@@ -4,6 +4,7 @@ import {
   detectPreviousEvent,
   detectNextEvent,
 } from '../../filters/storyMappings'
+import { sortByDate } from '../../filters/sortByDate'
 import ExternalLink from '../ExternalLink'
 import BasicCard from '../BasicCard'
 import {
@@ -62,8 +63,8 @@ const NavBlank = props => {
 }
 
 const getLinkedEvents = (events, eventsInContext, storyUrl) => {
-  return eventsInContext.map(eventUrl =>
-    detectEvent(events, storyUrl, eventUrl),
+  return sortByDate(
+    eventsInContext.map(eventUrl => detectEvent(events, storyUrl, eventUrl)),
   )
 }
 
