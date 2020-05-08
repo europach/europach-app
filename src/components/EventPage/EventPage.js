@@ -100,7 +100,9 @@ export const EventPage = ({ match }) => {
     const externalLinksCount = currentEvent.externalLinks.length
 
     return (
-      <Section padding={'0 0 12px 0'}>
+      <Section>
+        <EventSubhead>Links</EventSubhead>
+        <br></br>
         <TextItems>
           {currentEvent.externalLinks.map(({ url, text }, index) => {
             const isLastItem = externalLinksCount === index + 1
@@ -123,6 +125,8 @@ export const EventPage = ({ match }) => {
 
     return (
       <Section>
+        <EventSubhead>Sources</EventSubhead>
+        <br></br>
         <TextItems>
           {currentEvent.sources.map(({ type, url, content }, index) => {
             const isLastItem = sourcesCount === index + 1
