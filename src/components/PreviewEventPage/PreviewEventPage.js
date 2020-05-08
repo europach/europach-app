@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
 import * as contentful from 'contentful'
+import sanitizeContentfulEntry from '../../utils/sanitizeContentfulEntry'
 import {
   detectEvent,
   detectPreviousEvent,
@@ -36,7 +37,6 @@ import LogicToggle from '../LogicToggle'
 import { RedLineWrapper } from '../../assets/styles/common'
 import AppNav from '../AppNav'
 import { EventsContext } from '../EventsContext'
-import { LOGICS } from '../../logics/logics'
 import { elementMapping } from '../EventPage/ContentTypes'
 
 const NavCard = ({ title, event }) => {
@@ -90,13 +90,8 @@ export const PreviewEventPage = ({ match }) => {
 
     client
       .getEntry(entryId)
-      .then(entry => {
-        const event = {
-          ...entry.fields,
-          logics: entry.fields.logics.map(logic => LOGICS[logic]),
-        }
-        setEvent(event)
-      })
+      .then(sanitizeContentfulEntry)
+      .then(setEvent)
       .catch(err => {
         //do nothing
       })

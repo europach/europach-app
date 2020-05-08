@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext } from 'react'
-import { LOGICS } from '../logics/logics'
+import sanitizeContentfulEntry from '../utils/sanitizeContentfulEntry'
 import * as contentful from 'contentful'
 
 const EventsContext = createContext([])
@@ -16,18 +16,7 @@ const EventsProvider = props => {
     client
       .getEntries({ limit: 1000, content_type: 'event' })
       .then(response => {
-        const events = response.items.map(entry => ({
-          name: entry.fields.name || '',
-          url: entry.fields.url || '',
-          body: entry.fields.body || [],
-          externalLinks: entry.fields.externalLinks || [],
-          sources: entry.fields.sources || [],
-          startDate: entry.fields.startDate || '',
-          endDate: entry.fields.endDate || '',
-          logics: (entry.fields.logics || []).map(logic => LOGICS[logic]),
-          linksWith: entry.fields.linksWith || [],
-          baseStory: entry.fields.baseStory || '',
-        }))
+        const events = response.items.map(sanitizeContentfulEntry)
         setState(events)
       })
       .catch(err => {
