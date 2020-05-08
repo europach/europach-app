@@ -9,7 +9,7 @@ export const ModalContainer = styled.div`
   background: #fbe9e7;
   display: none;
   z-index: 3;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   ${props =>
     props.show &&
@@ -23,7 +23,6 @@ export const ModalMain = styled.section`
   margin: 72px auto;
   max-width: 660px;
   width: 100%;
-  overflow-y: scroll;
 
   @media (max-width: 468px) {
     max-width: 348px;
