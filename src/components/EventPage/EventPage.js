@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import ReactAudioPlayer from 'react-audio-player'
 import {
   detectEvent,
   detectPreviousEvent,
@@ -9,14 +8,11 @@ import ExternalLink from '../ExternalLink'
 import BasicCard from '../BasicCard'
 import {
   ResponsiveImg,
-  ImageWrapper,
   StyledLink,
   Section,
   EventTitle,
-  EventBody,
   EventSubhead,
   DateRedThin,
-  EventQuote,
   EventSources,
   Panel,
   PanelInner,
@@ -39,7 +35,7 @@ import LogicToggle from '../LogicToggle'
 import { RedLineWrapper } from '../../assets/styles/common'
 import AppNav from '../AppNav'
 import { EventsContext } from '../EventsContext'
-import { Player } from 'video-react'
+import { elementMapping } from './ContentTypes'
 
 const NavCard = ({ title, event }) => {
   const { startDate, name, url } = event
@@ -64,26 +60,6 @@ const NavBlank = props => {
     </EventNav>
   )
 }
-
-const Image = (content, key) => (
-  <ImageWrapper key={key}>
-    <ResponsiveImg width={'100%'} src={content} alt={''} />
-  </ImageWrapper>
-)
-
-const Paragraph = (content, key) => <EventBody key={key}>{content}</EventBody>
-
-const Audio = (content, key) => (
-  <ReactAudioPlayer src={content} autoPlay={false} controls key={key} />
-)
-
-const Video = (content, key) => (
-  <Player key={key}>
-    <source src={content} />
-  </Player>
-)
-
-const Quote = (content, key) => <EventQuote key={key}>{content}</EventQuote>
 
 const getLinkedEvents = (events, eventsInContext, storyUrl) => {
   return eventsInContext.map(eventUrl =>
@@ -113,14 +89,6 @@ export const EventPage = ({ match }) => {
   const previousEvent = detectPreviousEvent(events, storyUrl, eventUrl)
   const nextEvent = detectNextEvent(events, storyUrl, eventUrl)
   const LinkedEvents = getLinkedEvents(events, currentEvent.linksWith, storyUrl)
-
-  const elementMapping = {
-    paragraph: Paragraph,
-    image: Image,
-    audio: Audio,
-    quote: Quote,
-    video: Video,
-  }
 
   const buildJsxElements = () => {
     return currentEvent.body.map(({ type, content }, index) => {
